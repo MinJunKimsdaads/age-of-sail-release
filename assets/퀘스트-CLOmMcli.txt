@@ -1,0 +1,15 @@
+아이디	이름	종류	순서	주는사람	목표	대상	개수	보상	보상규칙	보고	가져감	맡김	떨굼	여는것	슬라이스	설명
+main1	표류자	메인	1	(시작)	지역도착	lisbon	1	경험치 150	경험치=150	(바로)				lisbon, sintra_hills	들어감	해안 동굴을 뚫고 마을에 들어감
+main2	부서진 조각	메인	2	pedro	대화	astrologer	1	체력 물약 3, 경험치 200	아이템=hp_small×3 · 경험치=200	astrologer				moorish_crypt	들어감	신트라 언덕의 점성술사에게 조각을 보임
+main3	항구의 그림자	메인	3	astrologer	아이템회수	secret_letter	1	스킬 포인트 1	스킬포인트=1	astrologer	예		one_eyed_joao@moorish_crypt:3	galleon	들어감	무어인 지하묘지 3층의 외눈 주앙이 가진 밀약 문서를 찾아 점성술사에게 가져감
+main4	검은 수염	메인	4	pedro	처치	blackbeard	1	북극성 조각, 능력치 5	아이템=northstar_shard · 능력치=5	pedro				seville, (슬라이스 끝)	들어감	산타 루치아를 타고 해적왕의 갤리온에 올라 검은 수염을 쓰러뜨리고 페드루에게 알림
+side1	잃어버린 양 떼	서브	1	isabel	처치	boar	10	마법 장비 1개 (ilvl 6), 금화 120	굴림=quest_gear/마법/6 · 금화=120	isabel					들어감	신트라 언덕의 멧돼지를 사냥
+side2	점성술사의 렌즈	서브	2	astrologer	아이템회수	spider_eye	1	소켓 뚫기 1회 (문장 각인사 루이스), 경험치 120	소켓=1 · 경험치=120	astrologer	예		spider_queen		들어감	해안 동굴 거미 여왕의 눈을 점성술사에게 가져감
+side3	밀수꾼의 창고	서브	3	isabel	열기	smuggler_stash	1	마법 반지 1개, 금화 60	굴림=ring/마법/5 · 금화=60	isabel			pirate_scout@shore_cave:1		들어감	해적 척후가 가진 열쇠로 해안 동굴 1층의 밀수꾼 창고를 엶
+a2_main1	은의 길	메인	5	alonso	지역도착	andalusia_mine	1	스킬 포인트 1	스킬포인트=1	alonso					들어감	[설계서 Act 2 메인 ① — A2-3: 1층 도착으로 끝] 카스티야 평원 남동쪽 안달루시아 광산의 갱도 1층까지 들어간 뒤 세비야의 알론소에게 알림
+a2_side1	투우사의 명예	서브	4	juan	웨이브	bullring	5	금화 300, 경험치 3000	금화=300 · 경험치=3000	juan					들어감	[설계서 Act 2 서브 — 웨이브마다 보상, 5웨이브는 희귀 확정] 평원 북동쪽 투우장에서 다섯 웨이브를 버티고 정예 황소 엘 네그로를 쓰러뜨린 뒤 투우사 후안에게 알림
+a2_side2	은 상인의 의뢰	서브	5	alonso	배달	benito	1	금화 250, 마법 반지 1개	금화=250 · 굴림=ring/마법/12	alonso		silver_crate			들어감	[설계서 Act 2 서브 — 무역 퀘스트를 배달로] 알론소의 은 상자를 평원 야영지의 노새꾼 베니토에게 건네고 돌아와 알림
+a2_main2	돌이 걷는다	메인	6	alonso	처치	golem_forge	3	능력치 5, 경험치 4000	능력치=5 · 경험치=4000	alonso				alhambra	들어감	[설계서 Act 2 메인 ② — 디에고 처치 + 공장 파괴, 알함브라 열림 (A2-4)] 광산 3층 골렘 공장의 화로 핵 셋을 부수고 알론소에게 알림. 철의 디에고가 살아 있는 동안은 핵이 부서지지 않는다
+a2_main3	알함브라의 유언	메인	7	alonso	대화	king_ghost	1	스킬 포인트 1, 경험치 6000	스킬포인트=1 · 경험치=6000	alonso				hernan_camp	들어감	[설계서 Act 2 메인 ③ — 정복자의 진영 열림 (A2-5)] 알함브라 지하 3층 왕의 홀에서 무어의 마지막 왕을 쓰러뜨리고, 나타난 왕의 유령에게서 남십자 조각이 있는 곳을 들은 뒤 알론소에게 알림
+a2_main4	정복자	메인	8	alonso	아이템회수	southern_cross_shard	1	능력치 5, 경험치 9000	능력치=5 · 경험치=9000	alonso			hernan	bordeaux, (슬라이스 끝)	들어감	[설계서 Act 2 메인 ④ — 2막 끝] 세비야 남서쪽 문 밖 강가의 정복자 진영에서 에르난을 쓰러뜨리고 남십자 조각을 되찾아 알론소에게 가져감
+a2_side3	고해	서브	9	fray_tomas	아이템회수	inquisition_record	1	심문소 열쇠, 경험치 5000	아이템=inquisition_key · 경험치=5000	fray_tomas	예		inquisitor@alhambra	inquisition	들어감	[설계서 Act 2 서브 — 히든 던전: 대성당 동쪽 철문] 알함브라 지하의 종교재판관이 지닌 심문 기록을 세비야 대성당의 프라이 토마스에게 가져감

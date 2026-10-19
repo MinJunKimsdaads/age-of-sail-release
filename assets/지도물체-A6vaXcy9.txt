@@ -1,0 +1,1274 @@
+지도	종류	아이디	x	y	반지름	값	설명
+lisbon_shore	입구	start	7.5	33.5			시작 자리 — 난파선 옆 물가
+lisbon_shore	입구	from_cave	74.5	27.5			동굴에서 나온 자리
+lisbon_shore	출구	to_cave	80	27.5	1.6	shore_cave:1:from_shore	동굴 입구 → 해안 동굴 1층
+lisbon_shore	소품	큰난파	3.2	29.6			시작 자리 옆 얕은 물의 큰 난파선
+lisbon_shore	소품	동굴입구	81.4	27.5			해안 동굴 입구 (벼랑에 뚫린 굴)
+lisbon_shore	빛	횃불	10.5	32			길잡이 횃불
+lisbon_shore	빛	횃불	20.5	34			길잡이 횃불
+lisbon_shore	빛	횃불	31.5	32.1			길잡이 횃불
+lisbon_shore	빛	횃불	42.5	32.1			길잡이 횃불
+lisbon_shore	빛	횃불	52.5	30.1			길잡이 횃불
+lisbon_shore	빛	횃불	62.5	30.1			길잡이 횃불
+lisbon_shore	빛	횃불	71.5	27.1			길잡이 횃불
+lisbon_shore	빛	횃불	76.5	24.8			동굴 입구 왼쪽
+lisbon_shore	빛	횃불	77	30.6			동굴 입구 오른쪽
+lisbon_shore	빛	횃불	9.2	36.4			시작 자리 옆
+lisbon_shore	무리	z1	24.5	22.5	4	무리=1	
+lisbon_shore	무리	z2	36.5	40.5	4	무리=1	
+lisbon_shore	무리	z3	46.5	22.5	4	무리=1	
+lisbon_shore	무리	z4	18.5	47.5	4	무리=1	
+lisbon_shore	무리	z5	56.5	42.5	4	무리=1	
+lisbon_shore	무리	z6	64.5	20.5	4	무리=1	
+lisbon_shore	무리	z7	30.5	26.5	3	무리=1	
+lisbon_shore	무리	z8	70.5	36.5	4	무리=1	
+lisbon_shore	무리	z9	44.5	50.5	4	무리=1	
+lisbon_shore	무리	z10	60.5	50.5	4	무리=1	
+lisbon_shore	무리	z11	52.5	14.5	3	무리=1	
+lisbon_shore	무리	z12	74.5	44.5	3	무리=1	
+lisbon_shore	무리	z13	25.5	50.5	3	무리=1	
+lisbon_shore	무리	z14	38.5	12.5	3	무리=1	
+shore_cave_1	입구	from_shore	6.5	29.5			해안에서 들어온 자리
+shore_cave_1	입구	from_below	66	31.5			2층에서 올라온 자리
+shore_cave_1	출구	to_shore	2.6	29.5	1.5	lisbon_shore::from_cave	동굴 입구 → 리스본 해안
+shore_cave_1	출구	to_floor2	72.2	31	1.6	shore_cave:2:from_above	아래로 → 해안 동굴 2층
+shore_cave_1	웨이포인트	shore_cave_1	10.5	27	1.1		해안 동굴 1층 웨이포인트
+shore_cave_1	상자	smuggler_stash	50.5	6.2	1.2	열쇠=smuggler_key · 드랍=smuggler_stash	밀수꾼의 창고 — 잠긴 상자
+shore_cave_1	소품	동굴입구_안	2	29.5			바깥 달빛이 들어오는 굴 입구
+shore_cave_1	소품	동굴계단	73	31			아래층으로 내려가는 바위 비탈
+shore_cave_1	소품	밀수품	47	5.8		변형=0	밀수꾼의 통 · 상자
+shore_cave_1	소품	밀수품	52.8	8.4		변형=1	
+shore_cave_1	빛	이끼	9.5	26			
+shore_cave_1	빛	버섯	22.5	26			
+shore_cave_1	빛	이끼	16.5	44.5			
+shore_cave_1	빛	이끼	33.5	35			
+shore_cave_1	빛	버섯	38.5	26.5			
+shore_cave_1	빛	등불	31.5	11.5			
+shore_cave_1	빛	등불	37.5	8.5			
+shore_cave_1	빛	등불	50.5	9.8			
+shore_cave_1	빛	이끼	52.5	43.5			
+shore_cave_1	빛	버섯	57.5	26			
+shore_cave_1	빛	이끼	67.5	28.5			
+shore_cave_1	빛	버섯	70.5	34.5			
+shore_cave_1	무리	z1	20.5	22.5	3	무리=1	
+shore_cave_1	무리	z2	19.5	40.5	3	무리=1	
+shore_cave_1	무리	z3	35.5	30.5	4	무리=1	
+shore_cave_1	무리	z4	51.5	40.5	3	무리=1	
+shore_cave_1	무리	z5	58.5	22.5	3	무리=1	
+shore_cave_1	무리	z6	66.5	32.5	2.5	무리=1	
+shore_cave_1	무리	z7	28.5	35.5	2	무리=1	
+shore_cave_1	무리	scouts	34.5	10.5	3.5	무리=1 · 몬스터=pirate_scout · 수=3~4	밀수꾼 창고를 지키는 해적 척후 (잠복)
+shore_cave_1	무리	scouts2	43.5	8	2	무리=1 · 몬스터=pirate_scout · 수=2	
+shore_cave_2	입구	from_above	8.5	30.5			1층에서 내려온 자리
+shore_cave_2	입구	from_town	71	15			리스본에서 들어온 자리 (뒤쪽 틈)
+shore_cave_2	출구	to_floor1	3.6	30	1.5	shore_cave:1:from_below	위로 → 해안 동굴 1층
+shore_cave_2	출구	to_town	73	9.6	1.6	lisbon::from_cave	바깥으로 → 리스본
+shore_cave_2	웨이포인트	shore_cave_2	11	27	1.1		해안 동굴 2층 웨이포인트
+shore_cave_2	정예	spider_queen	66.5	31.5			동굴 거미 여왕 + 박쥐 4~6
+shore_cave_2	소품	동굴계단_위	3	30			위층으로 오르는 바위 비탈
+shore_cave_2	소품	동굴틈	73.6	9			달빛이 새는 바위 틈 — 리스본으로
+shore_cave_2	소품	거미줄	58.5	25.5		변형=0	여왕의 방 거미줄
+shore_cave_2	소품	거미줄	70.5	25.5		변형=1	여왕의 방 거미줄
+shore_cave_2	소품	거미줄	60.5	37.5		변형=2	여왕의 방 거미줄
+shore_cave_2	소품	거미줄	72.5	35.5		변형=0	여왕의 방 거미줄
+shore_cave_2	소품	거미줄	64.5	23.5		변형=1	여왕의 방 거미줄
+shore_cave_2	소품	거미줄	56.5	31.5		변형=2	여왕의 방 거미줄
+shore_cave_2	소품	거미알	68.5	33.5		변형=0	알주머니 · 뼈
+shore_cave_2	소품	거미알	61.5	33.5		변형=1	알주머니 · 뼈
+shore_cave_2	소품	거미알	67.5	26.5		변형=0	알주머니 · 뼈
+shore_cave_2	빛	이끼	11.5	33.5			
+shore_cave_2	빛	버섯	20.5	15.5			
+shore_cave_2	빛	이끼	25.5	45.5			
+shore_cave_2	빛	이끼	38.5	32.5			
+shore_cave_2	빛	버섯	45.5	49.5			
+shore_cave_2	빛	이끼	49.5	16.5			
+shore_cave_2	빛	버섯	59.5	28.5			
+shore_cave_2	빛	이끼	69.5	29.5			
+shore_cave_2	빛	이끼	62.5	36.5			
+shore_cave_2	빛	달빛	71.5	13.5			
+shore_cave_2	무리	z1	21.5	18.5	3	무리=1	
+shore_cave_2	무리	z2	22.5	40.5	3.5	무리=1	
+shore_cave_2	무리	z3	37.5	29.5	3.5	무리=1	
+shore_cave_2	무리	z4	46.5	47.5	3	무리=1	
+shore_cave_2	무리	z5	47.5	13.5	3	무리=1	
+shore_cave_2	무리	z6	30.5	34.5	2	무리=1	
+shore_cave_2	무리	z7	53.5	39.5	2	무리=1	
+lisbon	입구	from_cave	2.5	27.5			동굴에서 나온 자리 (서쪽 문)
+lisbon	입구	from_sintra	33.5	54			신트라에서 돌아온 자리 (남쪽 문)
+lisbon	입구	dock	32.5	13.5			선착장 — 웨이포인트 · 다시 일어나는 자리
+lisbon	출구	to_cave	0.6	27.5	1.4	shore_cave:2:from_town	서쪽 문 → 해안 동굴 2층 (뒤쪽 틈)
+lisbon	출구	to_sintra	33.5	57.2	1.6	sintra_hills::from_town	남쪽 문 → 신트라 언덕
+lisbon	출구	to_galleon	47.5	3.6	1.4	galleon::from_lisbon	산타 루치아 — 해적왕의 갤리온으로 (메인 ③ 뒤, M3-3)
+lisbon	입구	from_galleon	47.5	7.5			갤리온에서 돌아온 자리 (북쪽 부두)
+lisbon	소품	산타루치아	51.5	4.2		변형=1	페드루의 산타 루치아 — 북쪽 부두 끝에 대 둔 옛 배 (갤리온으로 감)
+lisbon	출구	to_santa_maria	19.5	4.6	1.4	santa_maria:1:from_lisbon	침몰선 산타 마리아로 가는 작은 배 (녹슨 열쇠 — M3-4)
+lisbon	입구	from_santa_maria	19.5	7.5			산타 마리아에서 돌아온 자리 (서쪽 부두)
+lisbon	웨이포인트	lisbon_dock	32.5	11.6	1.1		리스본 선착장 웨이포인트
+lisbon	인물	pedro	30	11.8		방향=남동	늙은 선원 페드루 — 선착장
+lisbon	인물	isabel	27.2	25.6		방향=남	상인 이사벨 — 광장 노점
+lisbon	인물	manuel	55	25.6		방향=남서	대장장이 마누엘 — 동쪽 대장간
+lisbon	인물	luis	42	21		방향=남	문장 각인사 루이스 — 광장 북쪽
+lisbon	상자	stash	36.5	12.4	1.2	창고	창고 — 선착장 옆 큰 궤
+lisbon	상자	captains_chest	44.8	20.7	1.2	궤	선장의 궤 — 루이스 곁, 같은 문장석 3개 → 다음 번호 (M3-1)
+lisbon	소품	집	5.5	19.5		변형=0	흰 회벽 · 붉은 기와집
+lisbon	소품	집	15.5	19.5		변형=1	흰 회벽 · 붉은 기와집
+lisbon	소품	집	24.5	20.5		변형=2	흰 회벽 · 붉은 기와집
+lisbon	소품	집	42.5	19.5		변형=1	흰 회벽 · 붉은 기와집
+lisbon	소품	집	52.5	19.5		변형=0	흰 회벽 · 붉은 기와집
+lisbon	소품	집	62.5	20.5		변형=2	흰 회벽 · 붉은 기와집
+lisbon	소품	집	5.5	40.5		변형=1	흰 회벽 · 붉은 기와집
+lisbon	소품	집	6	50.5		변형=0	흰 회벽 · 붉은 기와집
+lisbon	소품	집	17	54.5		변형=2	흰 회벽 · 붉은 기와집
+lisbon	소품	집	25.5	47.5		변형=1	흰 회벽 · 붉은 기와집
+lisbon	소품	집	42	47.5		변형=0	흰 회벽 · 붉은 기와집
+lisbon	소품	집	51	54.5		변형=1	흰 회벽 · 붉은 기와집
+lisbon	소품	집	61.5	41.5		변형=2	흰 회벽 · 붉은 기와집
+lisbon	소품	집	62	52.5		변형=0	흰 회벽 · 붉은 기와집
+lisbon	소품	집	15	37.5		변형=2	흰 회벽 · 붉은 기와집
+lisbon	소품	노점	27.5	24.5			이사벨의 노점 (천막 · 저울)
+lisbon	소품	대장간	55.5	24.6			마누엘의 대장간 (화덕 · 모루)
+lisbon	소품	우물	36.5	32.5			광장 우물
+lisbon	소품	창고궤	36.5	12.4			
+lisbon	소품	배	47.6	1.6		변형=0	갤리온으로 가는 배
+lisbon	소품	배	19.6	2.6		변형=1	작은 배
+lisbon	소품	배	25.5	6		변형=1	
+lisbon	소품	배	40.5	5		변형=0	
+lisbon	소품	잡동사니	29.2	11		변형=0	통 · 상자
+lisbon	소품	잡동사니	35.5	10.9		변형=1	통 · 상자
+lisbon	소품	잡동사니	22	11		변형=2	통 · 상자
+lisbon	소품	잡동사니	44.5	11		변형=0	통 · 상자
+lisbon	소품	잡동사니	48	25		변형=1	통 · 상자
+lisbon	소품	잡동사니	20	30.5		변형=2	통 · 상자
+lisbon	소품	잡동사니	40.5	37		변형=0	통 · 상자
+lisbon	빛	등불	29.5	10.8			
+lisbon	빛	등불	35.5	10.8			
+lisbon	빛	등불	21	10.8			
+lisbon	빛	등불	45.5	10.8			
+lisbon	빛	등불	24.5	25			
+lisbon	빛	등불	41	25			
+lisbon	빛	등불	24.5	34.5			
+lisbon	빛	등불	41.5	34.5			
+lisbon	빛	등불	30	44			
+lisbon	빛	등불	37	44			
+lisbon	빛	등불	30.2	53.5			
+lisbon	빛	등불	36.8	53.5			
+lisbon	빛	등불	5	25			
+lisbon	빛	등불	12	30.5			
+lisbon	빛	등불	60	30.5			
+lisbon	빛	등불	52	31			
+lisbon	빛	화덕	56.5	24.8			대장간 화덕
+sintra_hills	입구	from_town	50.5	4.5			마을에서 들어온 자리 (북쪽 길)
+sintra_hills	출구	to_town	50.5	0.8	1.6	lisbon::from_sintra	북쪽 길 → 리스본
+sintra_hills	출구	to_crypt	24	71	1.5	moorish_crypt:1:from_sintra	무어인 지하묘지 문 → 1층 (메인 ② 뒤, M3-2)
+sintra_hills	웨이포인트	sintra_entrance	53.5	7.5	1.1		신트라 언덕 입구 웨이포인트
+sintra_hills	인물	astrologer	87.5	67.5		방향=남	점성술사 가브리엘 — 오두막 앞
+sintra_hills	소품	오두막	91.5	66.5			점성술사의 오두막
+sintra_hills	소품	망원경	86	64.6			놋쇠 망원경
+sintra_hills	소품	천막	63.5	35.5		변형=0	산적 천막
+sintra_hills	소품	천막	70.5	35.5		변형=1	
+sintra_hills	소품	천막	68.5	42.5		변형=0	
+sintra_hills	소품	모닥불	66.5	38.5			산적 야영지 모닥불
+sintra_hills	입구	from_crypt	24.5	73.5			지하묘지에서 나온 자리 (무어 성벽 문 앞)
+sintra_hills	소품	묘지입구	24.5	70.5			무어 성벽의 말굽 아치 문 — 열린 문 · 언덕 속으로 내려가는 돌계단 (M3-2)
+sintra_hills	소품	무어성벽	13	65.5		변형=1	무너진 성벽
+sintra_hills	소품	무어성벽	19	64.5		변형=2	무너진 성벽
+sintra_hills	소품	무어성벽	30	66		변형=1	무너진 성벽
+sintra_hills	소품	무어성벽	33	67.5		변형=2	무너진 성벽
+sintra_hills	빛	모닥불	66.5	38.5			
+sintra_hills	빛	등불	89	63			오두막 등불
+sintra_hills	빛	횃불	21.6	72			지하묘지 문 왼쪽
+sintra_hills	빛	횃불	27	71.6			지하묘지 문 오른쪽
+sintra_hills	빛	횃불	48.6	6			입구 횃불
+sintra_hills	무리	z1	66.5	38.5	4.5	몬스터=bandit · 무리=2	
+sintra_hills	무리	z2	58.5	30.5	3	무리=1 · 몬스터=bandit	
+sintra_hills	무리	z3	76.5	46.5	3	무리=1 · 몬스터=bandit	
+sintra_hills	무리	z4	46.5	40.5	3	무리=1 · 몬스터=bandit	
+sintra_hills	무리	z5	80.5	58.5	3	무리=1 · 몬스터=bandit	
+sintra_hills	무리	z6	24.5	28.5	4	무리=1 · 몬스터=boar	
+sintra_hills	무리	z7	16.5	40.5	4	무리=1 · 몬스터=boar	
+sintra_hills	무리	z8	34.5	54.5	4	무리=1 · 몬스터=boar	
+sintra_hills	무리	z9	58.5	66.5	4	무리=1 · 몬스터=boar	
+sintra_hills	무리	z10	78.5	22.5	4	무리=1 · 몬스터=boar	
+sintra_hills	무리	z11	40.5	18.5	3	무리=1	
+sintra_hills	무리	z12	90.5	34.5	3	무리=1	
+sintra_hills	무리	z13	20.5	56.5	3	무리=1 · 몬스터=boar	
+sintra_hills	무리	z14	68.5	54.5	3	무리=1	
+arena	입구	start	4.5	24.5			
+arena	정예	(지역)	58.5	24.5			지역.txt 마지막층
+arena	무리	z1	20.5	12.5	4	무리=2	
+arena	무리	z2	20.5	36.5	4	무리=2	
+arena	무리	z3	34.5	24.5	4	무리=2	
+arena	무리	z4	44.5	10.5	4	무리=2	
+arena	무리	z5	44.5	38.5	4	무리=2	
+arena	무리	z6	52.5	24.5	4	무리=2	
+moorish_crypt_1	입구	from_sintra	6.5	26.5			신트라 언덕에서 내려온 자리
+moorish_crypt_1	입구	from_below	66.5	27.5			2층에서 올라온 자리
+moorish_crypt_1	출구	to_sintra	2.8	26.5	1.5	sintra_hills::from_crypt	돌계단 → 신트라 언덕
+moorish_crypt_1	출구	to_floor2	70.6	27.5	1.6	moorish_crypt:2:from_above	아래로 → 지하묘지 2층
+moorish_crypt_1	웨이포인트	moorish_crypt_1	8.5	23	1.1		무어인 지하묘지 1층 웨이포인트
+moorish_crypt_1	소품	묘지계단_위	1.4	26.5		변형=0	신트라로 오르는 돌계단 (달빛)
+moorish_crypt_1	소품	묘지계단	71	27.5		변형=1	아래층으로 내려가는 돌계단
+moorish_crypt_1	소품	말굽아치	31	26.2		변형=0	말굽 아치 문
+moorish_crypt_1	소품	말굽아치	57	26.6		변형=0	말굽 아치 문
+moorish_crypt_1	소품	말굽아치	19.5	17.4		변형=1	말굽 아치 문
+moorish_crypt_1	소품	말굽아치	40.5	35.4		변형=1	말굽 아치 문
+moorish_crypt_1	소품	말굽아치	62.5	17.4		변형=1	말굽 아치 문
+moorish_crypt_1	소품	말굽아치	62.5	6.4		변형=1	말굽 아치 문
+moorish_crypt_1	소품	말굽아치	59.5	37.4		변형=1	말굽 아치 문
+moorish_crypt_1	소품	석관	35	22.5		변형=0	석관
+moorish_crypt_1	소품	석관	39	22.5		변형=1	석관
+moorish_crypt_1	소품	석관	43	22.5		변형=2	석관
+moorish_crypt_1	소품	석관	35	32.5		변형=1	석관
+moorish_crypt_1	소품	석관	39	32.5		변형=2	석관
+moorish_crypt_1	소품	석관	43	32.5		변형=0	석관
+moorish_crypt_1	소품	유골	12.2	9.5		변형=0	뼈 무더기
+moorish_crypt_1	소품	유골	26.5	14.6		변형=1	
+moorish_crypt_1	소품	유골	49.5	45.6		변형=2	
+moorish_crypt_1	소품	제단	59.5	2.6		변형=1	촛불 사당의 작은 제단 (벽감 · 타일)
+moorish_crypt_1	빛	촛불	4.5	22.2			
+moorish_crypt_1	빛	촛불	9.6	30.6			
+moorish_crypt_1	빛	촛불	12.2	7.2			
+moorish_crypt_1	빛	촛불	27.6	7.2			
+moorish_crypt_1	빛	촛불	12.2	16.6			
+moorish_crypt_1	빛	촛불	27.6	16.6			
+moorish_crypt_1	빛	촛불	32.2	39.2			
+moorish_crypt_1	빛	촛불	50.6	39.2			
+moorish_crypt_1	빛	촛불	32.2	46.6			
+moorish_crypt_1	빛	촛불	50.6	46.6			
+moorish_crypt_1	빛	촛불	52.4	2.6			
+moorish_crypt_1	빛	촛불	56	2.4			
+moorish_crypt_1	빛	촛불	63	2.4			
+moorish_crypt_1	빛	촛불	67.4	2.6			
+moorish_crypt_1	빛	촛불	24.6	24.6			
+moorish_crypt_1	빛	촛불	14.6	27.6			
+moorish_crypt_1	빛	화로	32.4	20.4			
+moorish_crypt_1	빛	화로	46.4	20.4			
+moorish_crypt_1	빛	화로	32.4	34.4			
+moorish_crypt_1	빛	화로	46.4	34.4			
+moorish_crypt_1	빛	화로	58.4	18.4			
+moorish_crypt_1	빛	화로	70.4	18.4			
+moorish_crypt_1	빛	화로	58.4	36.4			
+moorish_crypt_1	빛	화로	70.4	36.4			
+moorish_crypt_1	빛	달빛	51.5	26.8			무너진 천장으로 드는 달빛
+moorish_crypt_1	빛	달빛	2.6	26.5			계단 위 문으로 드는 달빛
+moorish_crypt_1	무리	z1	20	11	3	무리=1	
+moorish_crypt_1	무리	z2	25	26	2.5	무리=1	
+moorish_crypt_1	무리	z3	39	27	4	무리=2	
+moorish_crypt_1	무리	z4	36	43	3	무리=1	
+moorish_crypt_1	무리	z5	46	42	3	무리=1	
+moorish_crypt_1	무리	z6	64	22	3.5	무리=1	
+moorish_crypt_1	무리	z7	64	32	3	무리=1	
+moorish_crypt_1	무리	z8	58	4	3	무리=1 · 몬스터=moor_wraith	
+moorish_crypt_1	무리	z9	53.5	27	1.5	무리=1 · 몬스터=cave_bat · 수=3~5	
+moorish_crypt_2	입구	from_above	66.5	28			1층에서 내려온 자리
+moorish_crypt_2	입구	from_below	8.5	37.5			3층에서 올라온 자리
+moorish_crypt_2	출구	to_floor1	71.6	28	1.5	moorish_crypt:1:from_below	위로 → 지하묘지 1층
+moorish_crypt_2	출구	to_floor3	3.6	37.5	1.6	moorish_crypt:3:from_above	아래로 → 지하묘지 3층
+moorish_crypt_2	소품	묘지계단_위	71.4	28		변형=1	위층으로 오르는 돌계단
+moorish_crypt_2	소품	묘지계단	2.4	37.5		변형=0	아래층으로 내려가는 돌계단
+moorish_crypt_2	소품	말굽아치	52.4	27.6		변형=0	말굽 아치 문
+moorish_crypt_2	소품	말굽아치	28	27.6		변형=0	말굽 아치 문
+moorish_crypt_2	소품	말굽아치	34.5	13.4		변형=1	말굽 아치 문
+moorish_crypt_2	소품	말굽아치	40.5	40.4		변형=1	말굽 아치 문
+moorish_crypt_2	소품	말굽아치	34.5	6.4		변형=1	말굽 아치 문
+moorish_crypt_2	소품	제단	34.5	1.6		변형=0	예배당 제단 — 말굽 아치 벽감 · 빛바랜 타일
+moorish_crypt_2	소품	석관	23	46.5		변형=0	석관
+moorish_crypt_2	소품	석관	23	50.5		변형=1	석관
+moorish_crypt_2	소품	석관	28	46.5		변형=2	석관
+moorish_crypt_2	소품	석관	28	50.5		변형=0	석관
+moorish_crypt_2	소품	석관	33	46.5		변형=1	석관
+moorish_crypt_2	소품	석관	33	50.5		변형=2	석관
+moorish_crypt_2	소품	석관	45	46.5		변형=1	석관
+moorish_crypt_2	소품	석관	45	50.5		변형=2	석관
+moorish_crypt_2	소품	석관	50	46.5		변형=0	석관
+moorish_crypt_2	소품	석관	50	50.5		변형=1	석관
+moorish_crypt_2	소품	유골	24.5	43.8		변형=0	
+moorish_crypt_2	소품	유골	13.5	31.2		변형=2	
+moorish_crypt_2	빛	촛불	30.6	1.6			
+moorish_crypt_2	빛	촛불	38.4	1.6			
+moorish_crypt_2	빛	촛불	23.2	1.6			
+moorish_crypt_2	빛	촛불	43.6	1.6			
+moorish_crypt_2	빛	촛불	61.2	22.6			
+moorish_crypt_2	빛	촛불	71.6	33.6			
+moorish_crypt_2	빛	촛불	4.2	31.2			
+moorish_crypt_2	빛	촛불	16.4	43.6			
+moorish_crypt_2	빛	화로	29	15			
+moorish_crypt_2	빛	화로	51	15			
+moorish_crypt_2	빛	화로	29	39			
+moorish_crypt_2	빛	화로	51	39			
+moorish_crypt_2	빛	화로	19.4	44.6			
+moorish_crypt_2	빛	화로	51.4	44.6			
+moorish_crypt_2	빛	달빛	37	50			무너진 천장으로 드는 달빛
+moorish_crypt_2	빛	달빛	41	27			수조 위 환기 구멍
+moorish_crypt_2	빛	화로	33.6	20.6			수조 모서리 화로 (물에 비침)
+moorish_crypt_2	빛	화로	48.4	33.4			수조 모서리 화로 (물에 비침)
+moorish_crypt_2	무리	z1	64	25	3	무리=1	
+moorish_crypt_2	무리	z2	34	18	3	무리=1	
+moorish_crypt_2	무리	z3	47	35	3	무리=1	
+moorish_crypt_2	무리	z4	31	30	3	무리=1	
+moorish_crypt_2	무리	z5	35	4	3	무리=1 · 몬스터=moor_wraith · 수=3~4	
+moorish_crypt_2	무리	z6	10	40	3	무리=1	
+moorish_crypt_2	무리	z7	25	48.5	3	무리=1	
+moorish_crypt_2	무리	z8	46	48.5	3	무리=1	
+moorish_crypt_2	무리	z9	49	21	2	무리=1 · 몬스터=drowned	
+moorish_crypt_3	입구	from_above	8.5	27.5			2층에서 내려온 자리
+moorish_crypt_3	출구	to_floor2	3.6	27.5	1.5	moorish_crypt:2:from_below	위로 → 지하묘지 2층
+moorish_crypt_3	웨이포인트	moorish_crypt_3	10.5	23.5	1.1		무어인 지하묘지 3층 웨이포인트
+moorish_crypt_3	정예	one_eyed_joao	70.5	28.5			외눈 주앙 + 산적 3~4 — 밀약 문서를 가짐 (메인 ③)
+moorish_crypt_3	상자	joao_chest	64.5	12.6	1.2	드랍=smuggler_stash	외눈 주앙의 궤짝 — 밀수품 (잠기지 않음)
+moorish_crypt_3	소품	묘지계단_위	2.4	27.5		변형=0	위층으로 오르는 돌계단
+moorish_crypt_3	소품	말굽아치	30	27.6		변형=0	말굽 아치 문
+moorish_crypt_3	소품	말굽아치	46.4	27.6		변형=0	말굽 아치 문
+moorish_crypt_3	소품	말굽아치	57	27.6		변형=0	말굽 아치 문
+moorish_crypt_3	소품	말굽아치	37.5	15.4		변형=1	말굽 아치 문
+moorish_crypt_3	소품	말굽아치	21.5	43.4		변형=1	말굽 아치 문
+moorish_crypt_3	소품	말굽아치	37.5	8.4		변형=1	말굽 아치 문
+moorish_crypt_3	소품	석관	34	19.5		변형=2	석관
+moorish_crypt_3	소품	석관	34	35.5		변형=0	석관
+moorish_crypt_3	소품	석관	38	19.5		변형=0	석관
+moorish_crypt_3	소품	석관	38	35.5		변형=1	석관
+moorish_crypt_3	소품	석관	42	19.5		변형=1	석관
+moorish_crypt_3	소품	석관	42	35.5		변형=2	석관
+moorish_crypt_3	소품	상자더미	59	13		변형=0	밀수품 상자 더미
+moorish_crypt_3	소품	럼통	76	13		변형=0	럼통 더미
+moorish_crypt_3	소품	럼통	59	44		변형=1	럼통 더미
+moorish_crypt_3	소품	상자더미	76	44		변형=1	밀수품 상자 더미
+moorish_crypt_3	소품	지도탁자	70.5	17			외눈 주앙의 탁자 — 해도 · 등잔 · 단검이 꽂힌 지도
+moorish_crypt_3	소품	밀수품	50.5	25.5		변형=0	
+moorish_crypt_3	소품	밀수품	54.2	29.4		변형=1	
+moorish_crypt_3	소품	무기걸이	66.5	44.4			커틀러스 · 석궁이 걸린 나무 걸이
+moorish_crypt_3	소품	유골	16	49.6		변형=0	납골당 뼈 무더기
+moorish_crypt_3	소품	유골	31	44.2		변형=1	
+moorish_crypt_3	소품	유골	24.5	50.2		변형=2	
+moorish_crypt_3	소품	제단	40	3.6		변형=1	망가진 예배실 제단
+moorish_crypt_3	빛	촛불	4.2	21.6			
+moorish_crypt_3	빛	촛불	15.6	33.6			
+moorish_crypt_3	빛	촛불	14.6	43.6			
+moorish_crypt_3	빛	촛불	33.4	43.6			
+moorish_crypt_3	빛	촛불	33.4	3.6			
+moorish_crypt_3	빛	촛불	31	16			
+moorish_crypt_3	빛	촛불	45.6	16			
+moorish_crypt_3	빛	촛불	31	38.4			
+moorish_crypt_3	빛	촛불	45.6	38.4			
+moorish_crypt_3	빛	화로	60	20			
+moorish_crypt_3	빛	화로	69.8	35.6			
+moorish_crypt_3	빛	화로	51	25.6			
+moorish_crypt_3	빛	화로	66.5	12.4			
+moorish_crypt_3	빛	불빛	70.5	16.6			탁자 위 등잔
+moorish_crypt_3	빛	달빛	45.5	4.5			무너진 천장
+moorish_crypt_3	무리	z1	23	27	2	무리=1 · 몬스터=moor_wraith · 수=2~3	
+moorish_crypt_3	무리	z2	34	23	3	무리=1	
+moorish_crypt_3	무리	z3	42	33	3	무리=1	
+moorish_crypt_3	무리	z4	24	47	3.5	무리=1	
+moorish_crypt_3	무리	z5	40	5.5	3	무리=1	
+moorish_crypt_3	무리	z6	51	27	2	무리=1 · 몬스터=bandit · 수=2~3	
+moorish_crypt_1	빛	화로	69.6	25.4			계단 곁 화로 (출구 표시)
+moorish_crypt_1	빛	화로	69.6	29.6			계단 곁 화로 (출구 표시)
+moorish_crypt_2	빛	화로	70.4	25.8			계단 곁 화로 (출구 표시)
+moorish_crypt_2	빛	화로	70.4	30.2			계단 곁 화로 (출구 표시)
+moorish_crypt_2	빛	화로	4.6	35.4			계단 곁 화로 (출구 표시)
+moorish_crypt_2	빛	화로	4.6	39.6			계단 곁 화로 (출구 표시)
+moorish_crypt_3	빛	화로	4.6	25.4			계단 곁 화로 (출구 표시)
+moorish_crypt_3	빛	화로	4.6	29.6			계단 곁 화로 (출구 표시)
+moorish_crypt_3	빛	화로	68.6	22.6			주앙의 자리 화로
+moorish_crypt_3	빛	화로	74	28.5			계단 곁 화로 (출구 표시)
+moorish_crypt_3	소품	상자더미	63.5	24		변형=1	
+moorish_crypt_3	소품	럼통	63.5	33.5		변형=0	
+moorish_crypt_3	소품	밀수품	73.5	23.6		변형=0	
+moorish_crypt_3	소품	밀수품	73.8	33.4		변형=1	
+moorish_crypt_3	빛	불빛	70.5	28.5			주앙 둘레
+galleon	입구	from_lisbon	33	23.8			산타 루치아 갑판 — 리스본에서 온 자리
+galleon	출구	to_lisbon	33	27.4	1	lisbon::from_galleon	산타 루치아 — 리스본으로 돌아감
+galleon	웨이포인트	galleon_deck	36.5	18.5	1.1		해적왕의 갤리온 갑판 웨이포인트
+galleon	정예	blackbeard	15.5	15.5			검은 수염 해적왕 — 뒷갑판
+galleon	소품	돛대	13.5	15.5		변형=0	돛대 · 밧줄
+galleon	소품	돛대	32.5	15.5		변형=1	돛대 · 밧줄
+galleon	소품	돛대	48.5	15.5		변형=0	돛대 · 밧줄
+galleon	소품	대포	24.5	8.5		변형=0	북쪽 뱃전 대포
+galleon	소품	대포	24.5	21.5		변형=1	남쪽 뱃전 대포
+galleon	소품	대포	30.5	8.5		변형=0	북쪽 뱃전 대포
+galleon	소품	대포	30.5	21.5		변형=1	남쪽 뱃전 대포
+galleon	소품	대포	36.5	8.5		변형=0	북쪽 뱃전 대포
+galleon	소품	대포	36.5	21.5		변형=1	남쪽 뱃전 대포
+galleon	소품	대포	42.5	8.5		변형=0	북쪽 뱃전 대포
+galleon	소품	대포	42.5	21.5		변형=1	남쪽 뱃전 대포
+galleon	소품	대포	48.5	8.5		변형=0	북쪽 뱃전 대포
+galleon	소품	대포	48.5	21.5		변형=1	남쪽 뱃전 대포
+galleon	소품	승강구	40	15			아래 포갑판으로 내려가는 승강구 (닫힘)
+galleon	소품	타륜	9.5	15.5			타륜
+galleon	소품	상자더미	57	11		변형=0	
+galleon	소품	럼통	57	19.5		변형=0	
+galleon	소품	럼통	23.5	10		변형=1	
+galleon	소품	밧줄더미	44.5	10.2		변형=0	
+galleon	소품	밧줄더미	27	20		변형=1	
+galleon	소품	상자더미	17.5	9.5		변형=1	
+galleon	소품	럼통	17.5	21		변형=0	
+galleon	소품	밧줄더미	60.5	15		변형=0	
+galleon	소품	산타루치아	36.2	28.8		변형=1	페드루의 산타 루치아 (돛대 · 돛)
+galleon	빛	선등	8	10			
+galleon	빛	선등	12	12.6			타륜 곁 — 해적왕을 비추는 등
+galleon	빛	선등	8	20.5			
+galleon	빛	선등	19.5	10.5			
+galleon	빛	선등	19.5	20			
+galleon	빛	선등	28	9.6			
+galleon	빛	선등	28	20.6			
+galleon	빛	선등	44	9.6			
+galleon	빛	선등	44	20.6			
+galleon	빛	선등	58	9.8			
+galleon	빛	선등	58	20.2			
+galleon	빛	불빛	15.5	15.5			해적왕 둘레
+galleon	무리	z1	25	14	2.5	무리=1 · 수=4~6	
+galleon	무리	z2	45	12	3	무리=1 · 수=2~3	
+galleon	무리	z3	52	18	3	무리=1 · 수=2~3	
+galleon	무리	z4	56	14	2	무리=1 · 수=2	
+santa_maria_1	입구	from_lisbon	13.5	33			작은 배에서 널빤지를 건너 들어온 자리 (뚫린 선체)
+santa_maria_1	입구	from_below	69.5	20.5			2층에서 올라온 자리
+santa_maria_1	출구	to_lisbon	13.5	37.2	1.2	lisbon::from_santa_maria	작은 배 → 리스본 서쪽 부두
+santa_maria_1	출구	to_floor2	73.5	20.5	1.4	santa_maria:2:from_above	승강구 → 포갑판
+santa_maria_1	웨이포인트	santa_maria_1	17.5	24.5	1.1		산타 마리아 아랫갑판 웨이포인트
+santa_maria_1	무리	z1	17	14	3	무리=1	
+santa_maria_1	무리	z2	30	8	3	무리=1	
+santa_maria_1	무리	z3	44	8	3	무리=1	
+santa_maria_1	무리	z4	30	21	3.5	무리=2	
+santa_maria_1	무리	z5	44	27	3	무리=1	
+santa_maria_1	무리	z6	58	12	3	무리=1	
+santa_maria_1	무리	z7	60	26	3	무리=1	
+santa_maria_1	무리	z8	68	12	2	무리=1 · 몬스터=pirate_scout · 수=2~3	
+santa_maria_1	빛	이끼	9	20			
+santa_maria_1	빛	이끼	22	30			
+santa_maria_1	빛	이끼	37	27			
+santa_maria_1	빛	이끼	47	14			
+santa_maria_1	빛	이끼	63	30			
+santa_maria_1	빛	이끼	70	16			
+santa_maria_1	빛	달빛	36	31			침수 구멍 위로 드는 달빛 (갑판이 뚫림)
+santa_maria_1	빛	달빛	13.5	34			뚫린 선체로 드는 달빛
+santa_maria_1	빛	선등	27	13			
+santa_maria_1	빛	선등	54	21			
+santa_maria_2	입구	from_above	69.5	20.5			1층에서 내려온 자리
+santa_maria_2	출구	to_floor1	73.5	20.5	1.4	santa_maria:1:from_below	승강구 → 아랫갑판
+santa_maria_2	정예	drowned_captain	10.5	20.5			산타 마리아의 익사한 선장 — 선장실
+santa_maria_2	무리	z1	62	10	3	무리=1	
+santa_maria_2	무리	z2	50	14	3	무리=1	
+santa_maria_2	무리	z3	50	27	3	무리=1	
+santa_maria_2	무리	z4	36	9	3	무리=1	
+santa_maria_2	무리	z5	36	22	3.5	무리=2	
+santa_maria_2	무리	z6	24	28	3	무리=1	
+santa_maria_2	무리	z7	24	12	2.5	무리=1 · 몬스터=pirate_scout · 수=2	
+santa_maria_2	빛	이끼	30	31			
+santa_maria_2	빛	이끼	46	31			
+santa_maria_2	빛	이끼	56	6			
+santa_maria_2	빛	이끼	66	30			
+santa_maria_2	빛	선등	21	17			선장실 문 곁
+santa_maria_2	빛	선등	21	24			선장실 문 곁
+santa_maria_2	빛	화로	12	17			선장실의 꺼지지 않는 화로 (차가운 푸른 불)
+santa_maria_2	빛	달빛	40	20			갑판 틈으로 드는 달빛
+santa_maria_2	소품	지도탁자	10.5	14.5			선장의 해도 탁자
+santa_maria_2	소품	럼통	8	27		변형=0	선장의 럼통
+santa_maria_2	소품	상자더미	15	9		변형=1	선장의 궤짝 더미
+santa_maria_1	소품	상자더미	10	10		변형=0	화물칸
+santa_maria_1	소품	럼통	16	9		변형=1	화물칸
+santa_maria_1	소품	상자더미	10	28		변형=0	화물칸
+santa_maria_1	소품	럼통	17	29		변형=1	화물칸
+santa_maria_1	소품	상자더미	14	19		변형=0	화물칸
+santa_maria_1	소품	럼통	20	16		변형=1	화물칸
+santa_maria_1	소품	상자더미	13	23		변형=0	화물칸
+santa_maria_2	소품	대포	22.5	7.5		변형=0	녹슨 대포
+santa_maria_2	소품	대포	22.5	33.5		변형=1	녹슨 대포
+santa_maria_2	소품	대포	28.5	7.5		변형=0	녹슨 대포
+santa_maria_2	소품	대포	28.5	33.5		변형=1	녹슨 대포
+santa_maria_2	소품	대포	34.5	7.5		변형=0	녹슨 대포
+santa_maria_2	소품	대포	34.5	33.5		변형=1	녹슨 대포
+santa_maria_2	소품	대포	40.5	7.5		변형=0	녹슨 대포
+santa_maria_2	소품	대포	40.5	33.5		변형=1	녹슨 대포
+santa_maria_2	소품	대포	46.5	7.5		변형=0	녹슨 대포
+santa_maria_2	소품	대포	46.5	33.5		변형=1	녹슨 대포
+santa_maria_2	소품	대포	52.5	7.5		변형=0	녹슨 대포
+santa_maria_2	소품	대포	52.5	33.5		변형=1	녹슨 대포
+seville	입구	dock	32.5	10.5			선착장 — 웨이포인트 · 다시 일어나는 자리 (Act 2)
+seville	입구	from_lisbon	47.5	10.2			리스본에서 온 상선이 닿는 부두
+seville	출구	to_lisbon	47.5	2.6	1.4	lisbon::from_seville	상선 라 피에다드 — 리스본으로 (A2-1)
+seville	입구	from_plains	65.5	28.5			카스티야 평원에서 돌아온 자리 (동쪽 문)
+seville	출구	to_plains	67.4	28.5	1.6	castile_plains::from_seville	동쪽 문 → 카스티야 평원 (A2-2)
+seville	입구	from_mine	33	49.8			안달루시아 광산 길에서 돌아온 자리 (남쪽 문)
+seville	출구	to_mine	33	51.4	1.6	castile_plains::from_seville_south	남쪽 문 → 광산 길 (카스티야 평원 남서쪽 — 광산 입구는 평원 남동쪽, A2-2)
+seville	웨이포인트	seville_dock	31.2	11.2	1.1		세비야 선착장 웨이포인트
+seville	인물	mateo	29.2	11.0		방향=남	선착장 감독 마테오 — 선착장
+seville	인물	carmen	22.2	26.2		방향=남	상인 카르멘 — 광장 서쪽 노점
+seville	인물	rafael	54.5	26.2		방향=남서	대장장이 라파엘 — 동쪽 대장간
+seville	인물	ines	40.0	27.2		방향=남	문장 각인사 이네스 — 대성당 앞
+seville	인물	alonso	28.0	32.5		방향=동	은 상인 돈 알론소 — 광장 남쪽
+seville	상자	stash	36.5	10.6	1.2	창고	창고 — 선착장 옆 큰 궤 (리스본 창고와 같은 짐)
+seville	상자	captains_chest	43.6	27.4	1.2	궤	선장의 궤 — 이네스 곁, 같은 문장석 3개 → 다음 번호
+seville	소품	배	51	3.4		변형=0	상선 라 피에다드 — 리스본으로 가는 배
+seville	소품	배	17.5	2.6		변형=1	작은 배
+seville	소품	배	36	3.6		변형=1	
+seville	소품	창고궤	36.5	10.6			
+seville	소품	노점	22	24.2			카르멘의 노점 (줄무늬 차양 · 과일 · 도기)
+seville	소품	대장간	54.5	24.4			라파엘의 대장간
+seville	소품	대성당탑	40	25.4			대성당과 히랄다 탑 — 무어인의 첨탑 위에 종탑을 올린 것
+seville	소품	분수	33	25.6			광장 분수 (푸른 타일)
+seville	소품	세비야집	5.5	19.5		변형=0	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	14.5	19.5		변형=1	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	23.5	18.5		변형=2	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	43.5	18.5		변형=0	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	54.5	19.5		변형=1	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	63.5	19.5		변형=2	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	5.5	39.5		변형=0	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	14.5	38.5		변형=1	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	5.5	49.5		변형=2	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	14.5	49.5		변형=0	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	53.5	39.5		변형=1	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	62.5	39.5		변형=2	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	53.5	49.5		변형=0	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	62.5	49.5		변형=1	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	23.5	48.5		변형=2	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	세비야집	43.5	48.5		변형=0	흰 회벽 · 붉은 기와 · 쇠 발코니 · 푸른 타일 (안달루시아 집)
+seville	소품	잡동사니	30	10.6		변형=0	통 · 상자 · 도기 항아리
+seville	소품	잡동사니	38	10.6		변형=1	통 · 상자 · 도기 항아리
+seville	소품	잡동사니	19	10.6		변형=2	통 · 상자 · 도기 항아리
+seville	소품	잡동사니	45	10.6		변형=0	통 · 상자 · 도기 항아리
+seville	소품	잡동사니	26	31.6		변형=1	통 · 상자 · 도기 항아리
+seville	소품	잡동사니	44	31.6		변형=2	통 · 상자 · 도기 항아리
+seville	소품	잡동사니	36.5	38.4		변형=0	통 · 상자 · 도기 항아리
+seville	빛	등불	30	9.6			
+seville	빛	등불	35.5	9.6			
+seville	빛	등불	22	9.6			
+seville	빛	등불	44	9.6			
+seville	빛	등불	26	20.5			
+seville	빛	등불	42	20.5			
+seville	빛	등불	26	37.5			
+seville	빛	등불	42	37.5			
+seville	빛	등불	31	44			
+seville	빛	등불	36	44			
+seville	빛	등불	31	50			
+seville	빛	등불	36	50			
+seville	빛	등불	10	30			
+seville	빛	등불	58	30			
+seville	빛	등불	64	26			
+seville	빛	화덕	55.5	24.4			대장간 화덕
+lisbon	출구	to_seville	32.5	2.8	1.4	seville::from_lisbon	상선 라 피에다드 — 세비야로 (메인 ④ 검은 수염 뒤, A2-1)
+lisbon	입구	from_seville	32.5	7.6			세비야에서 돌아온 자리 (선착장 부두 끝)
+lisbon	소품	배	36.2	2.6		변형=0	상선 라 피에다드 — 세비야로 가는 배
+castile_plains	입구	from_seville	3.5	40			세비야 동쪽 문에서 온 자리
+castile_plains	출구	to_seville	0.8	40	1.6	seville::from_plains	서쪽 길 → 세비야 (동쪽 문)
+castile_plains	입구	from_seville_south	10	68.5			세비야 남쪽 문(광산 길)에서 온 자리
+castile_plains	출구	to_seville_south	10	71.2	1.6	seville::from_mine	남서쪽 길 → 세비야 (남쪽 문)
+castile_plains	입구	from_bullring	82.5	20			투우장에서 나온 자리
+castile_plains	출구	to_bullring	82.5	16.6	1.6	bullring::from_plains	투우장 문 (A2-2 서브 투우사의 명예 · 5웨이브)
+castile_plains	입구	from_mine	86	52.5			광산에서 나온 자리
+castile_plains	출구	to_mine	87	55.6	1.6	andalusia_mine:1:from_plains	안달루시아 광산 입구 — 메인 ① 은의 길 (A2-3)
+castile_plains	웨이포인트	plains_camp	24.5	39	1.1		카스티야 평원 야영지 웨이포인트
+castile_plains	인물	benito	26	36.5		방향=남	노새꾼 베니토 — 야영지 (서브 은 상인의 의뢰 배달 받는 사람)
+castile_plains	빛	모닥불	23	38.5			야영지 모닥불
+castile_plains	빛	횃불	80.6	17			투우장 문 왼쪽
+castile_plains	빛	횃불	84.4	17			투우장 문 오른쪽
+castile_plains	빛	횃불	85.6	55.8			광산 입구
+castile_plains	무리	p1	44	36	4	무리=1 · 몬스터=fighting_bull	
+castile_plains	무리	p2	56	46	4	무리=1 · 몬스터=spanish_officer	
+castile_plains	무리	p3	36	22	4	무리=1 · 몬스터=fighting_bull	
+castile_plains	무리	p4	64	26	4	무리=1 · 몬스터=spanish_officer	
+castile_plains	무리	p5	50	58	4	무리=1 · 몬스터=fighting_bull	
+castile_plains	무리	p6	70	56	4	무리=1 · 몬스터=spanish_officer	
+castile_plains	무리	p7	30	56	4	무리=1	
+castile_plains	무리	p8	76	40	4	무리=1 · 몬스터=fighting_bull	
+castile_plains	무리	p9	62	12	4	무리=1	
+castile_plains	무리	p10	16	22	4	무리=1 · 몬스터=fighting_bull	
+castile_plains	무리	p11	88	30	4	무리=1 · 몬스터=spanish_officer	
+castile_plains	무리	p12	40	66	3	무리=1	
+castile_plains	소품	투우장	82	12			투우장 바깥 (흰 회벽 · 붉은 문 · 깃발) — 문은 남쪽
+castile_plains	소품	광산입구	87	59			안달루시아 광산 입구 (나무 버팀목 · 막힌 문)
+castile_plains	소품	천막	20	35.5		변형=1	야영지 천막
+castile_plains	소품	수레	28.5	41		변형=0	베니토의 노새 수레 (은 상자)
+castile_plains	소품	밀단	22	12		변형=0	
+castile_plains	소품	밀단	27	17		변형=1	
+castile_plains	소품	밀단	58	50		변형=0	
+castile_plains	소품	밀단	64	55		변형=1	
+castile_plains	소품	밀단	42	61		변형=0	
+castile_plains	소품	풍차	12	10			라만차 풍차 (돌 몸통 · 나무 날개)
+bullring	입구	from_plains	17.5	32.5			투우장 남쪽 문 — 평원에서 들어온 자리
+bullring	출구	to_plains	17.5	34.6	1.4	castile_plains::from_bullring	남쪽 문 → 카스티야 평원
+bullring	출현	toril	17.5	6			토릴 (북쪽 황소 우리 문)
+bullring	출현	east	27	17.5			동쪽 울타리 문
+bullring	출현	west	8	17.5			서쪽 울타리 문
+bullring	빛	횃불	15.4	31			남쪽 문 왼쪽
+bullring	빛	횃불	19.6	31			남쪽 문 오른쪽
+bullring	빛	횃불	15.4	4			토릴 왼쪽
+bullring	빛	횃불	19.6	4			토릴 오른쪽
+bullring	소품	관중석	17.5	1.5		변형=0	북쪽 관중석
+bullring	소품	관중석	3	17.5		변형=1	서쪽 관중석
+bullring	소품	관중석	32	17.5		변형=1	동쪽 관중석 · 뒤집기=1
+bullring	소품	관중석	8	30		변형=2	남서쪽 관중석
+bullring	소품	관중석	27	30		변형=2	남동쪽 관중석 · 뒤집기=1
+seville	인물	juan	60.5	31		방향=남서	투우사 후안 — 동쪽 문 곁 (평원 투우장 길)
+andalusia_mine_1	입구	from_plains	6.5	28.5			카스티야 평원 광산 입구에서 내려온 자리
+andalusia_mine_1	출구	to_plains	2.6	28.5	1.5	castile_plains::from_mine	갱도 입구 → 카스티야 평원
+andalusia_mine_1	입구	from_below	68.5	29.5			2층에서 올라온 자리 (승강기)
+andalusia_mine_1	출구	to_floor2	72.4	29.5	1.6	andalusia_mine:2:from_above	수직갱 승강기 → 광산 2층
+andalusia_mine_1	웨이포인트	andalusia_mine_1	10.5	24.5	1.1		안달루시아 광산 1층 웨이포인트 — 갱도 입구 (메인 ① 은의 길)
+andalusia_mine_1	무리	z1	24	28	2.5	무리=1	
+andalusia_mine_1	무리	z2	27	11	3	무리=1	
+andalusia_mine_1	무리	z3	36	28	2.5	무리=1	
+andalusia_mine_1	무리	z4	44	44	3	무리=1 · 몬스터=desert_scorpion · 수=3~4	
+andalusia_mine_1	무리	z5	55	12	3	무리=1	
+andalusia_mine_1	무리	z6	52	28	2.5	무리=1	
+andalusia_mine_1	무리	z7	8	46	2.5	무리=1 · 몬스터=desert_scorpion · 수=2~3	
+andalusia_mine_1	무리	z8	66	27	3	무리=1 · 몬스터=miner_wraith · 수=4~5	
+andalusia_mine_1	상자	mine1_chest	62.5	7.6	1.2	드랍=smuggler_stash	갱부 숙소의 궤짝
+andalusia_mine_1	소품	갱도입구	3.6	28.5		변형=0	
+andalusia_mine_1	소품	승강기	72.8	29.5		변형=0	
+andalusia_mine_1	소품	광차	30	27.2		변형=0	
+andalusia_mine_1	소품	광차	48	29.2		변형=1	
+andalusia_mine_1	소품	광차	44	40		변형=0	
+andalusia_mine_1	소품	광차	40	47		변형=2	
+andalusia_mine_1	소품	광차	46	48		변형=1	
+andalusia_mine_1	소품	광차	9	26		변형=0	
+andalusia_mine_1	소품	광석더미	22	8		변형=0	
+andalusia_mine_1	소품	광석더미	33	15		변형=1	
+andalusia_mine_1	소품	광석더미	50	45		변형=0	
+andalusia_mine_1	소품	광석더미	59	9		변형=0	
+andalusia_mine_1	소품	광석더미	6	42		변형=1	
+andalusia_mine_1	소품	갱부침상	49	8		변형=0	
+andalusia_mine_1	소품	갱부침상	61	15		변형=1	
+andalusia_mine_1	소품	갱부침상	52	16		변형=0	
+andalusia_mine_1	소품	나무통	12	22.5		변형=0	
+andalusia_mine_1	소품	나무통	38	50		변형=1	
+andalusia_mine_1	소품	나무통	65	35		변형=0	
+andalusia_mine_1	빛	광산등	4.6	25.5			
+andalusia_mine_1	빛	광산등	4.6	31.5			
+andalusia_mine_1	빛	광산등	13	22			
+andalusia_mine_1	빛	광산등	20	25.6			
+andalusia_mine_1	빛	광산등	34	25.6			
+andalusia_mine_1	빛	광산등	48	25.6			
+andalusia_mine_1	빛	광산등	58	30.4			
+andalusia_mine_1	빛	광산등	27	6			
+andalusia_mine_1	빛	광산등	32	18			
+andalusia_mine_1	빛	광산등	44	38.5			
+andalusia_mine_1	빛	광산등	52	49			
+andalusia_mine_1	빛	광산등	55	8			
+andalusia_mine_1	빛	광산등	62	22			
+andalusia_mine_1	빛	광산등	70	25			
+andalusia_mine_1	빛	광산등	70	33			
+andalusia_mine_1	빛	광산등	10	49			
+andalusia_mine_2	입구	from_above	68.5	28.5			1층에서 내려온 자리 (승강기)
+andalusia_mine_2	출구	to_floor1	72.4	28.5	1.6	andalusia_mine:1:from_below	수직갱 승강기 → 광산 1층
+andalusia_mine_2	입구	from_below	10.5	46.5			3층에서 올라온 자리
+andalusia_mine_2	출구	to_floor3	5.2	48.5	1.6	andalusia_mine:3:from_above	기울어진 굴 → 광산 3층 (골렘 공장)
+andalusia_mine_2	무리	z1	52	28	2.5	무리=1	
+andalusia_mine_2	무리	z2	40	20	2.5	무리=1	
+andalusia_mine_2	무리	z3	32	8	3	무리=1 · 몬스터=miner_wraith · 수=3~5	
+andalusia_mine_2	무리	z4	46	9	3	무리=1	
+andalusia_mine_2	무리	z5	10	12	3	무리=1 · 몬스터=desert_scorpion · 수=3~4	
+andalusia_mine_2	무리	z6	10	32	2	무리=1	
+andalusia_mine_2	무리	z7	38	46	3	무리=1 · 몬스터=ore_golem · 수=1~2 · 등급=일반	
+andalusia_mine_2	무리	z8	50	47	3	무리=1	
+andalusia_mine_2	무리	z9	67	46	3	무리=1 · 몬스터=desert_scorpion · 수=3~4	
+andalusia_mine_2	무리	z10	14	46	3	무리=1	
+andalusia_mine_2	상자	mine2_chest	70.5	50.4	1.2	드랍=smuggler_stash	버려진 갱부의 궤짝
+andalusia_mine_2	소품	승강기	72.8	28.5		변형=0	
+andalusia_mine_2	소품	굴입구	4.2	48.5		변형=0	
+andalusia_mine_2	소품	광차	55	27.2		변형=1	
+andalusia_mine_2	소품	광차	40	36		변형=0	
+andalusia_mine_2	소품	광차	41	6		변형=2	
+andalusia_mine_2	소품	광차	46	50		변형=1	
+andalusia_mine_2	소품	광차	66	43		변형=0	
+andalusia_mine_2	소품	광석더미	28	6		변형=0	
+andalusia_mine_2	소품	광석더미	48	12		변형=1	
+andalusia_mine_2	소품	광석더미	33	50		변형=0	
+andalusia_mine_2	소품	광석더미	71	42		변형=1	
+andalusia_mine_2	소품	광석더미	5	8		변형=0	
+andalusia_mine_2	소품	무너진대들보	34	42		변형=0	
+andalusia_mine_2	소품	무너진대들보	52	42		변형=1	
+andalusia_mine_2	소품	무너진대들보	44	51		변형=2	
+andalusia_mine_2	빛	광산등	70	24			
+andalusia_mine_2	빛	광산등	70	33			
+andalusia_mine_2	빛	광산등	58	30.4			
+andalusia_mine_2	빛	광산등	46	25.6			
+andalusia_mine_2	빛	광산등	42	16			
+andalusia_mine_2	빛	광산등	30	5			
+andalusia_mine_2	빛	광산등	48	5			
+andalusia_mine_2	빛	광산등	14	8			
+andalusia_mine_2	빛	광산등	8	30			
+andalusia_mine_2	빛	광산등	6	41			
+andalusia_mine_2	빛	광산등	20	50			
+andalusia_mine_2	빛	광산등	42	41			
+andalusia_mine_2	빛	광산등	54	51			
+andalusia_mine_2	빛	광산등	68	49			
+andalusia_mine_2	빛	광산등	64	41			
+andalusia_mine_3	입구	from_above	6.5	28.5			2층에서 내려온 자리
+andalusia_mine_3	출구	to_floor2	2.6	28.5	1.5	andalusia_mine:2:from_below	기울어진 굴 → 광산 2층
+andalusia_mine_3	웨이포인트	andalusia_mine_3	10.5	24.5	1.1		안달루시아 광산 3층 웨이포인트
+andalusia_mine_3	정예	iron_diego	66.5	28.5			철의 디에고 + 광석 골렘 2 — 골렘 공장의 감독관 (메인 ② 돌이 걷는다)
+andalusia_mine_3	무리	z1	22	28	2.5	무리=1	
+andalusia_mine_3	무리	z2	36	12	3	무리=1 · 몬스터=ore_golem · 수=1~2 · 등급=일반	
+andalusia_mine_3	무리	z3	40	16	2.5	무리=1	
+andalusia_mine_3	무리	z4	36	44	3	무리=1	
+andalusia_mine_3	무리	z5	31	40	2	무리=1 · 몬스터=desert_scorpion · 수=3~4	
+andalusia_mine_3	무리	z6	44	28	2.5	무리=1 · 몬스터=ore_golem · 수=1~2 · 등급=일반	
+andalusia_mine_3	무리	z7	54	14	3	무리=1	
+andalusia_mine_3	무리	z8	54	42	3	무리=1 · 몬스터=ore_golem · 수=1~2 · 등급=일반	
+andalusia_mine_3	무리	forge1	60.5	15.5	0.1	무리=1 · 몬스터=golem_forge · 수=1~1	골렘 화로의 핵 (메인 ② — 셋을 부숨)
+andalusia_mine_3	무리	forge2	71.5	28.5	0.1	무리=1 · 몬스터=golem_forge · 수=1~1	골렘 화로의 핵 (메인 ② — 셋을 부숨)
+andalusia_mine_3	무리	forge3	60.5	41.5	0.1	무리=1 · 몬스터=golem_forge · 수=1~1	골렘 화로의 핵 (메인 ② — 셋을 부숨)
+andalusia_mine_3	상자	forge_chest	72.5	44.5	1.2	드랍=smuggler_stash	디에고의 장부 궤짝
+andalusia_mine_3	소품	굴입구	2.2	28.5		변형=0	
+andalusia_mine_3	소품	용광로	60.5	13		변형=0	
+andalusia_mine_3	소품	용광로	73.2	28.5		변형=1	
+andalusia_mine_3	소품	용광로	60.5	44		변형=2	
+andalusia_mine_3	소품	모루	56	22		변형=0	
+andalusia_mine_3	소품	모루	56	35		변형=1	
+andalusia_mine_3	소품	모루	66	20		변형=0	
+andalusia_mine_3	소품	모루	66	37		변형=1	
+andalusia_mine_3	소품	골렘틀	50	12		변형=0	
+andalusia_mine_3	소품	골렘틀	70	12		변형=1	
+andalusia_mine_3	소품	골렘틀	50	45		변형=2	
+andalusia_mine_3	소품	골렘틀	70	45		변형=0	
+andalusia_mine_3	소품	골렘틀	30	8		변형=1	
+andalusia_mine_3	소품	골렘틀	42	48		변형=2	
+andalusia_mine_3	소품	광차	25	27.2		변형=0	
+andalusia_mine_3	소품	광차	36	38		변형=1	
+andalusia_mine_3	소품	광차	36	8		변형=2	
+andalusia_mine_3	소품	광석더미	30	18		변형=0	
+andalusia_mine_3	소품	광석더미	42	8		변형=1	
+andalusia_mine_3	소품	광석더미	30	48		변형=1	
+andalusia_mine_3	빛	광산등	4.6	25.5			
+andalusia_mine_3	빛	광산등	4.6	31.5			
+andalusia_mine_3	빛	광산등	13	22			
+andalusia_mine_3	빛	광산등	22	25.6			
+andalusia_mine_3	빛	광산등	30	7			
+andalusia_mine_3	빛	광산등	42	19			
+andalusia_mine_3	빛	광산등	30	49			
+andalusia_mine_3	빛	광산등	42	37			
+andalusia_mine_3	빛	용광로	60.5	13			
+andalusia_mine_3	빛	용광로	73.2	28.5			
+andalusia_mine_3	빛	용광로	60.5	44			
+andalusia_mine_3	빛	용광로	48	28.5			
+andalusia_mine_3	빛	불빛	66.5	28.5			디에고의 자리 — 쇳물 빛
+seville	출구	to_alhambra	0.8	30.5	1.6	alhambra:1:from_seville	서쪽 문 → 알함브라 지하 (메인 ② 뒤, A2-4)
+alhambra_1	입구	from_seville	6.5	28.5			세비야 서쪽 문에서 내려온 자리
+alhambra_1	출구	to_seville	2.6	28.5	1.5	seville::from_alhambra	돌계단 → 세비야 (서쪽 문)
+alhambra_1	입구	from_below	68.5	28.5			2층에서 올라온 자리
+alhambra_1	출구	to_floor2	72.4	28.5	1.6	alhambra:2:from_above	아래로 → 알함브라 지하 2층
+alhambra_1	웨이포인트	alhambra_1	10.5	24.5	1.1		알함브라 지하 1층 웨이포인트
+alhambra_1	무리	z1	22	28	2.5	무리=1	
+alhambra_1	무리	z2	28	10	3	무리=1	
+alhambra_1	무리	z3	41	16	3	무리=1	
+alhambra_1	무리	z4	40	28	2.5	무리=1 · 몬스터=inquisitor · 수=1~2	
+alhambra_1	무리	z5	30	44	3	무리=1	
+alhambra_1	무리	z6	56	43	3	무리=1	
+alhambra_1	무리	z7	52	28	2.5	무리=1	
+alhambra_1	무리	z8	66	25	3	무리=1 · 몬스터=moor_wraith · 수=2~3	
+alhambra_1	상자	alhambra1_chest	62.5	47.5	1.2	드랍=palace_chest	무카르나스 방의 상아 상자
+alhambra_1	소품	묘지계단_위	2.4	28.5		변형=0	
+alhambra_1	소품	묘지계단	73	28.5		변형=1	
+alhambra_1	소품	사자분수	34.5	13.5		변형=0	
+alhambra_1	소품	말굽아치	20	28.4		변형=0	
+alhambra_1	소품	말굽아치	48	28.4		변형=0	
+alhambra_1	소품	말굽아치	33	22		변형=1	
+alhambra_1	소품	말굽아치	33	34		변형=1	
+alhambra_1	소품	말굽아치	56	34		변형=1	
+alhambra_1	소품	무카르나스	50	37		변형=0	
+alhambra_1	소품	무카르나스	62	37		변형=1	
+alhambra_1	소품	무카르나스	56	49.6		변형=2	
+alhambra_1	빛	촛불	4.6	25.5			
+alhambra_1	빛	촛불	4.6	31.5			
+alhambra_1	빛	촛불	12	23			
+alhambra_1	빛	촛불	18	25.6			
+alhambra_1	빛	촛불	30	25.6			
+alhambra_1	빛	촛불	42	25.6			
+alhambra_1	빛	촛불	54	25.6			
+alhambra_1	빛	화로	25	7			
+alhambra_1	빛	촛불	44	7			
+alhambra_1	빛	화로	25	19			
+alhambra_1	빛	촛불	44	19			
+alhambra_1	빛	화로	26	38			
+alhambra_1	빛	화로	40	38			
+alhambra_1	빛	촛불	49	40			
+alhambra_1	빛	촛불	63	40			
+alhambra_1	빛	화로	60	22			
+alhambra_1	빛	화로	72	34			
+alhambra_2	입구	from_above	68.5	28.5			1층에서 내려온 자리
+alhambra_2	출구	to_floor1	72.4	28.5	1.6	alhambra:1:from_below	위로 → 알함브라 지하 1층
+alhambra_2	입구	from_below	10.5	48.5			3층에서 올라온 자리
+alhambra_2	출구	to_floor3	5.2	48.5	1.6	alhambra:3:from_above	아래로 → 알함브라 지하 3층 (왕의 홀)
+alhambra_2	무리	z1	54	28	2.5	무리=1	
+alhambra_2	무리	z2	50	15	3	무리=1 · 몬스터=moor_wraith · 수=2~3	
+alhambra_2	무리	z3	60	10	2.5	무리=1	
+alhambra_2	무리	z4	24	12	3	무리=1 · 몬스터=inquisitor · 수=1~2	
+alhambra_2	무리	z5	18	18	2.5	무리=1	
+alhambra_2	무리	z6	12	36	2	무리=1	
+alhambra_2	무리	z7	36	45	3	무리=1 · 몬스터=inquisitor · 수=1~2	
+alhambra_2	무리	z8	46	46	3	무리=1	
+alhambra_2	무리	z9	14	46	3	무리=1	
+alhambra_2	상자	alhambra2_chest	48.5	50.5	1.2	드랍=palace_chest	기록 보관소의 철 궤
+alhambra_2	소품	묘지계단_위	73	28.5		변형=1	
+alhambra_2	소품	묘지계단	4.2	48.5		변형=0	
+alhambra_2	소품	말굽아치	40	28.4		변형=0	
+alhambra_2	소품	말굽아치	26	28.4		변형=0	
+alhambra_2	소품	말굽아치	24	23		변형=1	
+alhambra_2	소품	말굽아치	52	20		변형=1	
+alhambra_2	소품	말굽아치	40	33		변형=1	
+alhambra_2	소품	무카르나스	15	7		변형=0	
+alhambra_2	소품	무카르나스	33	7		변형=1	
+alhambra_2	소품	무카르나스	41	5		변형=2	
+alhambra_2	소품	석관	31	40		변형=0	
+alhambra_2	소품	석관	50	40		변형=1	
+alhambra_2	소품	석관	31	50		변형=1	
+alhambra_2	빛	촛불	70	24			
+alhambra_2	빛	촛불	70	33			
+alhambra_2	빛	촛불	58	25.6			
+alhambra_2	빛	촛불	46	25.6			
+alhambra_2	빛	촛불	34	25.6			
+alhambra_2	빛	화로	42	6			
+alhambra_2	빛	촛불	62	6			
+alhambra_2	빛	촛불	42	16			
+alhambra_2	빛	화로	62	16			
+alhambra_2	빛	화로	16	8			
+alhambra_2	빛	촛불	32	8			
+alhambra_2	빛	화로	16	20			
+alhambra_2	빛	촛불	32	20			
+alhambra_2	빛	화로	6	42			
+alhambra_2	빛	촛불	20	42			
+alhambra_2	빛	촛불	32	39			
+alhambra_2	빛	촛불	50	39			
+alhambra_2	빛	촛불	32	51			
+alhambra_2	빛	촛불	50	51			
+alhambra_3	입구	from_above	6.5	28.5			2층에서 내려온 자리
+alhambra_3	출구	to_floor2	2.6	28.5	1.5	alhambra:2:from_below	위로 → 알함브라 지하 2층
+alhambra_3	웨이포인트	alhambra_3	10.5	24.5	1.1		알함브라 지하 3층 웨이포인트
+alhambra_3	정예	moorish_king	64.5	28.5			무어의 마지막 왕 — 왕의 홀 (메인 ③ 알함브라의 유언)
+alhambra_3	인물	king_ghost	66.5	28.5		방향=남서 · 나타남=moorish_king	왕이 쓰러진 뒤 나타나는 유령 — 에르난의 진영을 알려 줌
+alhambra_3	무리	z1	22	28	2.5	무리=1	
+alhambra_3	무리	z2	29	10	3	무리=1	
+alhambra_3	무리	z3	29	46	3	무리=1 · 몬스터=inquisitor · 수=1~2	
+alhambra_3	무리	z4	40	28	2.5	무리=1	
+alhambra_3	무리	z5	52	14	3	무리=1 · 몬스터=moor_wraith · 수=2~3	
+alhambra_3	무리	z6	52	42	3	무리=1 · 몬스터=moor_wraith · 수=2~3	
+alhambra_3	상자	king_chest	72.5	45.5	1.2	드랍=palace_chest	왕의 보물 궤
+alhambra_3	소품	묘지계단_위	2.4	28.5		변형=0	
+alhambra_3	소품	왕좌	71.5	28.5		변형=0	
+alhambra_3	소품	말굽아치	20	28.4		변형=0	
+alhambra_3	소품	말굽아치	43	28.4		변형=0	
+alhambra_3	소품	말굽아치	29	22		변형=1	
+alhambra_3	소품	말굽아치	29	34		변형=1	
+alhambra_3	소품	무카르나스	48	9		변형=0	
+alhambra_3	소품	무카르나스	60	9		변형=1	
+alhambra_3	소품	무카르나스	72	9		변형=2	
+alhambra_3	소품	무카르나스	48	47.6		변형=1	
+alhambra_3	소품	무카르나스	60	47.6		변형=2	
+alhambra_3	소품	무카르나스	72	47.6		변형=0	
+alhambra_3	빛	촛불	4.6	25.5			
+alhambra_3	빛	촛불	4.6	31.5			
+alhambra_3	빛	촛불	13	22			
+alhambra_3	빛	촛불	24	25.6			
+alhambra_3	빛	촛불	36	25.6			
+alhambra_3	빛	촛불	23	7			
+alhambra_3	빛	촛불	35	7			
+alhambra_3	빛	촛불	23	49			
+alhambra_3	빛	촛불	35	49			
+alhambra_3	빛	화로	47.5	12			
+alhambra_3	빛	화로	47.5	44			
+alhambra_3	빛	화로	69	24			
+alhambra_3	빛	화로	69	33			
+alhambra_3	빛	화로	58	9.5			
+alhambra_3	빛	화로	58	47			
+alhambra_3	빛	달빛	60	28			무너진 천장
+seville	입구	from_alhambra	2.6	30.5			알함브라에서 올라온 자리 (서쪽 문)
+seville	출구	to_hernan	9	51.6	1.6	hernan_camp::from_seville	남서쪽 강가 길 → 정복자의 진영 (메인 ③ 뒤, A2-5)
+seville	입구	from_hernan	9.5	50.2			정복자의 진영에서 돌아온 자리 (남서쪽 문)
+seville	출구	to_bordeaux	30.5	2.4	1.4	bordeaux::from_seville	보르도로 가는 배 — 3막 (다음 이야기, A2-5)
+hernan_camp	입구	from_seville	10.5	3.5			세비야 남쪽 강가 길에서 들어온 자리
+hernan_camp	출구	to_seville	10.5	0.6	1.5	seville::from_hernan	강가 길 → 세비야 (남서쪽 문)
+hernan_camp	웨이포인트	hernan_camp_gate	13.5	4.5	1.1		정복자의 진영 입구 웨이포인트
+hernan_camp	정예	hernan	66.5	40.5			정복자 에르난 — 강가 부두의 결투장 (메인 ④ 정복자)
+hernan_camp	무리	c1	14.5	10.5	3	무리=1	
+hernan_camp	무리	c2	26.5	18.5	3	무리=1 · 몬스터=spanish_officer	
+hernan_camp	무리	c3	44.5	10.5	3	무리=1 · 몬스터=spanish_officer	
+hernan_camp	무리	c4	56.5	15.5	3	무리=1	
+hernan_camp	무리	c5	69.5	15.5	2.5	무리=1 · 몬스터=ore_golem · 등급=일반 · 수=2~2	
+hernan_camp	무리	c6	12.5	38.5	3	무리=1 · 몬스터=spanish_officer	
+hernan_camp	무리	c7	32.5	41.5	3	무리=1	
+hernan_camp	무리	c8	40.5	28.5	3	무리=1 · 몬스터=fighting_bull	
+hernan_camp	무리	c9	72.5	24.5	3	무리=1 · 몬스터=spanish_officer	
+hernan_camp	소품	천막	6.0	6.5		변형=0	
+hernan_camp	소품	천막	17.0	6.5		변형=1	
+hernan_camp	소품	천막	6.0	14.5		변형=1	
+hernan_camp	소품	천막	17.0	14.5		변형=0	
+hernan_camp	소품	천막	26.0	9.5		변형=0	
+hernan_camp	소품	보루	35.5	7.0		변형=0	
+hernan_camp	소품	보루	41.5	7.0		변형=1	
+hernan_camp	소품	보루	47.5	7.0		변형=0	
+hernan_camp	소품	보루	53.5	7.0		변형=1	
+hernan_camp	소품	공성포	39.5	13.0		변형=0	
+hernan_camp	소품	공성포	49.5	13.0		변형=0	
+hernan_camp	소품	용광로	67.5	7.5		변형=0	
+hernan_camp	소품	골렘틀	73.0	7.0		변형=0	
+hernan_camp	소품	골렘틀	73.0	13.0		변형=1	
+hernan_camp	소품	모루	63.8	9.6		변형=0	
+hernan_camp	소품	나무통	70.6	10.6		변형=0	
+hernan_camp	소품	상자더미	8.0	33.5		변형=0	
+hernan_camp	소품	상자더미	16.0	33.5		변형=1	
+hernan_camp	소품	수레	25.5	39.0		변형=0	
+hernan_camp	소품	상자더미	22.5	45.2		변형=1	
+hernan_camp	소품	나무통	29.8	45.4		변형=1	
+hernan_camp	소품	정복자깃발	12.5	3.2		변형=0	
+hernan_camp	소품	정복자깃발	58.6	30.2		변형=1	
+hernan_camp	소품	정복자깃발	64.4	30.2		변형=1	
+hernan_camp	소품	정복자깃발	53.0	33.2		변형=0	
+hernan_camp	소품	정복자깃발	74.0	33.2		변형=0	
+hernan_camp	소품	배	57.5	54.0		변형=0	
+hernan_camp	소품	배	69.5	54.0		변형=1	
+hernan_camp	소품	배	25.5	53.0		변형=1	
+hernan_camp	소품	모닥불	21.5	11.0			
+hernan_camp	소품	모닥불	36.5	36.5			
+hernan_camp	소품	보루	53.0	46.0		변형=1	
+hernan_camp	소품	보루	74.0	46.0		변형=0	
+hernan_camp	빛	모닥불	21.5	11.0			
+hernan_camp	빛	모닥불	36.5	36.5			
+hernan_camp	빛	용광로	67.5	8.5			
+hernan_camp	빛	횃불	8.6	4.4			
+hernan_camp	빛	횃불	12.6	19.6			
+hernan_camp	빛	횃불	30.5	19.6			
+hernan_camp	빛	횃불	50.5	19.6			
+hernan_camp	빛	횃불	59.2	29.4			
+hernan_camp	빛	횃불	63.8	29.4			
+hernan_camp	빛	횃불	52.6	33.6			
+hernan_camp	빛	횃불	74.4	33.6			
+hernan_camp	빛	횃불	52.6	45.4			
+hernan_camp	빛	횃불	74.4	45.4			
+hernan_camp	빛	횃불	18.5	32.6			
+hernan_camp	빛	횃불	44.5	24.6			
+inquisition_1	소품	철창	18.5	9.5		변형=0	
+inquisition_1	소품	철창	19.5	9.5		변형=0	
+inquisition_1	소품	철창	20.5	9.5		변형=0	
+inquisition_1	소품	철창	21.5	9.5		변형=0	
+inquisition_1	소품	철창	23.5	9.5		변형=0	
+inquisition_1	소품	철창	24.5	9.5		변형=2	열린 감방 문
+inquisition_1	소품	철창	25.5	9.5		변형=0	
+inquisition_1	소품	철창	26.5	9.5		변형=0	
+inquisition_1	소품	철창	28.5	9.5		변형=0	
+inquisition_1	소품	철창	29.5	9.5		변형=0	
+inquisition_1	소품	철창	30.5	9.5		변형=0	
+inquisition_1	소품	철창	31.5	9.5		변형=1	
+inquisition_1	소품	철창	33.5	9.5		변형=0	
+inquisition_1	소품	철창	34.5	9.5		변형=2	열린 감방 문
+inquisition_1	소품	철창	35.5	9.5		변형=0	
+inquisition_1	소품	철창	36.5	9.5		변형=0	
+inquisition_1	소품	철창	38.5	9.5		변형=0	
+inquisition_1	소품	철창	39.5	9.5		변형=0	
+inquisition_1	소품	철창	40.5	9.5		변형=0	
+inquisition_1	소품	철창	41.5	9.5		변형=0	
+inquisition_1	소품	철창	43.5	9.5		변형=0	
+inquisition_1	소품	철창	44.5	9.5		변형=2	열린 감방 문
+inquisition_1	소품	철창	45.5	9.5		변형=0	
+inquisition_1	소품	철창	46.5	9.5		변형=0	
+inquisition_1	소품	철창	48.5	9.5		변형=0	
+inquisition_1	소품	철창	49.5	9.5		변형=0	
+inquisition_1	소품	철창	50.5	9.5		변형=0	
+inquisition_1	소품	철창	51.5	9.5		변형=1	
+inquisition_1	소품	철창	53.5	9.5		변형=0	
+inquisition_1	소품	철창	54.5	9.5		변형=2	열린 감방 문
+inquisition_1	소품	철창	55.5	9.5		변형=0	
+inquisition_1	소품	철창	56.5	9.5		변형=0	
+inquisition_1	소품	철창	58.5	9.5		변형=0	
+inquisition_1	소품	철창	59.5	9.5		변형=0	
+inquisition_1	소품	철창	60.5	9.5		변형=0	
+inquisition_1	소품	철창	61.5	9.5		변형=0	
+inquisition_1	소품	철창	63.5	9.5		변형=0	
+inquisition_1	소품	철창	64.5	9.5		변형=2	열린 감방 문
+inquisition_1	소품	철창	65.5	9.5		변형=0	
+inquisition_1	소품	철창	66.5	9.5		변형=0	
+inquisition_1	소품	철창	14.5	33.5		변형=0	
+inquisition_1	소품	철창	15.5	33.5		변형=0	
+inquisition_1	소품	철창	16.5	33.5		변형=0	
+inquisition_1	소품	철창	17.5	33.5		변형=0	
+inquisition_1	소품	철창	19.5	33.5		변형=0	
+inquisition_1	소품	철창	20.5	33.5		변형=2	열린 감방 문
+inquisition_1	소품	철창	21.5	33.5		변형=0	
+inquisition_1	소품	철창	22.5	33.5		변형=0	
+inquisition_1	소품	철창	24.5	33.5		변형=0	
+inquisition_1	소품	철창	25.5	33.5		변형=0	
+inquisition_1	소품	철창	26.5	33.5		변형=0	
+inquisition_1	소품	철창	27.5	33.5		변형=1	
+inquisition_1	소품	철창	29.5	33.5		변형=0	
+inquisition_1	소품	철창	30.5	33.5		변형=0	
+inquisition_1	소품	철창	31.5	33.5		변형=0	
+inquisition_1	소품	철창	32.5	33.5		변형=0	
+inquisition_1	소품	철창	34.5	33.5		변형=0	
+inquisition_1	소품	철창	35.5	33.5		변형=2	열린 감방 문
+inquisition_1	소품	철창	36.5	33.5		변형=0	
+inquisition_1	소품	철창	37.5	33.5		변형=0	
+inquisition_1	소품	철창	39.5	33.5		변형=0	
+inquisition_1	소품	철창	40.5	33.5		변형=0	
+inquisition_1	소품	철창	41.5	33.5		변형=0	
+inquisition_1	소품	철창	42.5	33.5		변형=0	
+inquisition_1	소품	철창	44.5	33.5		변형=0	
+inquisition_1	소품	철창	45.5	33.5		변형=0	
+inquisition_1	소품	철창	46.5	33.5		변형=0	
+inquisition_1	소품	철창	47.5	33.5		변형=1	
+inquisition_1	소품	철창	49.5	33.5		변형=0	
+inquisition_1	소품	철창	50.5	33.5		변형=2	열린 감방 문
+inquisition_1	소품	철창	51.5	33.5		변형=0	
+inquisition_1	소품	철창	52.5	33.5		변형=0	
+inquisition_1	소품	철창	54.5	33.5		변형=0	
+inquisition_1	소품	철창	55.5	33.5		변형=0	
+inquisition_1	소품	철창	56.5	33.5		변형=0	
+inquisition_1	소품	철창	57.5	33.5		변형=0	
+inquisition_1	소품	철창	59.5	33.5		변형=0	
+inquisition_1	소품	철창	60.5	33.5		변형=0	
+inquisition_1	소품	철창	61.5	33.5		변형=0	
+inquisition_1	소품	철창	62.5	33.5		변형=0	
+inquisition_1	소품	철창	64.5	33.5		변형=0	
+inquisition_1	소품	철창	65.5	33.5		변형=2	열린 감방 문
+inquisition_1	소품	철창	66.5	33.5		변형=0	
+inquisition_1	소품	철창	67.5	33.5		변형=1	
+inquisition_1	입구	from_seville	8.5	6.5			세비야 대성당 뒤 철문으로 내려온 자리
+inquisition_1	출구	to_seville	5.5	3.4	1.4	seville::from_inquisition	돌계단 → 세비야 (대성당 철문)
+inquisition_1	입구	from_below	70.5	44.5			2층에서 올라온 자리
+inquisition_1	출구	to_floor2	70.5	47.6	1.5	inquisition:2:from_above	아래로 → 심문소 2층
+inquisition_1	웨이포인트	inquisition_1	11.5	9.5	1.1		이단 심문소 1층 웨이포인트
+inquisition_1	무리	z1	26	11	3	무리=1	
+inquisition_1	무리	z2	40	11	3	무리=1 · 몬스터=jailer · 수=2~3	
+inquisition_1	무리	z3	60	11	3	무리=1	
+inquisition_1	무리	z4	27	21	3	무리=1 · 몬스터=jailer · 수=2	
+inquisition_1	무리	z5	50	21	3	무리=1 · 몬스터=heretic_inquisitor · 수=1~2	
+inquisition_1	무리	z6	67	20	3	무리=1	
+inquisition_1	무리	z7	18	31	3	무리=1	
+inquisition_1	무리	z8	40	31	3	무리=1 · 몬스터=prisoner_wraith · 수=3~4	
+inquisition_1	무리	z9	60	31	3	무리=1	
+inquisition_1	무리	z10	70	42	3	무리=1	
+inquisition_1	무리	cell25_6	25	6.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
+inquisition_1	무리	cell35_6	35	6.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
+inquisition_1	무리	cell21_36	21	36.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
+inquisition_1	무리	cell36_36	36	36.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
+inquisition_1	상자	inquisition1_chest	56.5	26.2	1.2	드랍=inquisition_chest	기록실의 압수품 궤
+inquisition_1	소품	묘지계단_위	5.5	3.2		변형=0	
+inquisition_1	소품	묘지계단	70.5	48.2		변형=1	
+inquisition_1	소품	고문대	30	17.5		변형=0	빈 고문대 (밧줄 · 굴대)
+inquisition_1	소품	형틀	22	25.5		변형=0	빈 형틀 (손목 · 목 구멍 판)
+inquisition_1	소품	지도탁자	47	21		변형=0	심문관의 책상 (서류 더미)
+inquisition_1	소품	지도탁자	54	21		변형=0	
+inquisition_1	소품	쇠사슬	20.5	16.3		변형=0	벽의 쇠사슬
+inquisition_1	소품	쇠사슬	33.5	16.3		변형=1	
+inquisition_1	소품	쇠사슬	63.5	14.3		변형=1	
+inquisition_1	소품	화로	6.5	5.5		변형=0	
+inquisition_1	빛	화로	6.5	5.5			
+inquisition_1	소품	화로	13.5	5.5		변형=0	
+inquisition_1	빛	화로	13.5	5.5			
+inquisition_1	소품	화로	24.5	17.5		변형=0	
+inquisition_1	빛	화로	24.5	17.5			
+inquisition_1	소품	화로	33.5	25.5		변형=0	
+inquisition_1	빛	화로	33.5	25.5			
+inquisition_1	소품	화로	43.5	16.5		변형=0	
+inquisition_1	빛	화로	43.5	16.5			
+inquisition_1	소품	화로	57.5	26.5		변형=0	
+inquisition_1	빛	화로	57.5	26.5			
+inquisition_1	소품	화로	63.5	26.5		변형=0	
+inquisition_1	빛	화로	63.5	26.5			
+inquisition_1	소품	화로	71.5	15.5		변형=0	
+inquisition_1	빛	화로	71.5	15.5			
+inquisition_1	소품	화로	67.5	47.5		변형=0	
+inquisition_1	빛	화로	67.5	47.5			
+inquisition_1	소품	화로	72.5	39.5		변형=0	
+inquisition_1	빛	화로	72.5	39.5			
+inquisition_1	빛	횃불	16.5	10.2			
+inquisition_1	빛	횃불	16.5	30.2			
+inquisition_1	빛	횃불	24.5	10.2			
+inquisition_1	빛	횃불	24.5	30.2			
+inquisition_1	빛	횃불	32.5	10.2			
+inquisition_1	빛	횃불	32.5	30.2			
+inquisition_1	빛	횃불	40.5	10.2			
+inquisition_1	빛	횃불	40.5	30.2			
+inquisition_1	빛	횃불	48.5	10.2			
+inquisition_1	빛	횃불	48.5	30.2			
+inquisition_1	빛	횃불	56.5	10.2			
+inquisition_1	빛	횃불	56.5	30.2			
+inquisition_1	빛	횃불	64.5	10.2			
+inquisition_1	빛	횃불	64.5	30.2			
+inquisition_2	소품	철창	12.5	12.5		변형=0	
+inquisition_2	소품	철창	13.5	12.5		변형=0	
+inquisition_2	소품	철창	14.5	12.5		변형=0	
+inquisition_2	소품	철창	15.5	12.5		변형=0	
+inquisition_2	소품	철창	17.5	12.5		변형=0	
+inquisition_2	소품	철창	18.5	12.5		변형=2	열린 감방 문
+inquisition_2	소품	철창	19.5	12.5		변형=0	
+inquisition_2	소품	철창	20.5	12.5		변형=0	
+inquisition_2	소품	철창	22.5	12.5		변형=0	
+inquisition_2	소품	철창	23.5	12.5		변형=0	
+inquisition_2	소품	철창	24.5	12.5		변형=0	
+inquisition_2	소품	철창	25.5	12.5		변형=1	
+inquisition_2	소품	철창	27.5	12.5		변형=0	
+inquisition_2	소품	철창	28.5	12.5		변형=2	열린 감방 문
+inquisition_2	소품	철창	29.5	12.5		변형=0	
+inquisition_2	소품	철창	30.5	12.5		변형=0	
+inquisition_2	소품	철창	32.5	12.5		변형=0	
+inquisition_2	소품	철창	33.5	12.5		변형=0	
+inquisition_2	소품	철창	34.5	12.5		변형=0	
+inquisition_2	소품	철창	35.5	12.5		변형=0	
+inquisition_2	소품	철창	37.5	12.5		변형=0	
+inquisition_2	소품	철창	38.5	12.5		변형=2	열린 감방 문
+inquisition_2	소품	철창	39.5	12.5		변형=0	
+inquisition_2	소품	철창	40.5	12.5		변형=0	
+inquisition_2	소품	철창	42.5	12.5		변형=0	
+inquisition_2	소품	철창	43.5	12.5		변형=0	
+inquisition_2	소품	철창	44.5	12.5		변형=0	
+inquisition_2	소품	철창	45.5	12.5		변형=1	
+inquisition_2	소품	철창	47.5	12.5		변형=0	
+inquisition_2	소품	철창	48.5	12.5		변형=2	열린 감방 문
+inquisition_2	소품	철창	49.5	12.5		변형=0	
+inquisition_2	소품	철창	50.5	12.5		변형=0	
+inquisition_2	소품	철창	52.5	12.5		변형=0	
+inquisition_2	소품	철창	53.5	12.5		변형=0	
+inquisition_2	소품	철창	54.5	12.5		변형=0	
+inquisition_2	소품	철창	55.5	12.5		변형=0	
+inquisition_2	소품	철창	20.5	41.5		변형=0	
+inquisition_2	소품	철창	21.5	41.5		변형=0	
+inquisition_2	소품	철창	22.5	41.5		변형=0	
+inquisition_2	소품	철창	23.5	41.5		변형=0	
+inquisition_2	소품	철창	25.5	41.5		변형=0	
+inquisition_2	소품	철창	26.5	41.5		변형=2	열린 감방 문
+inquisition_2	소품	철창	27.5	41.5		변형=0	
+inquisition_2	소품	철창	28.5	41.5		변형=0	
+inquisition_2	소품	철창	30.5	41.5		변형=0	
+inquisition_2	소품	철창	31.5	41.5		변형=0	
+inquisition_2	소품	철창	32.5	41.5		변형=0	
+inquisition_2	소품	철창	33.5	41.5		변형=1	
+inquisition_2	소품	철창	35.5	41.5		변형=0	
+inquisition_2	소품	철창	36.5	41.5		변형=2	열린 감방 문
+inquisition_2	소품	철창	37.5	41.5		변형=0	
+inquisition_2	소품	철창	38.5	41.5		변형=0	
+inquisition_2	소품	철창	40.5	41.5		변형=0	
+inquisition_2	소품	철창	41.5	41.5		변형=0	
+inquisition_2	소품	철창	42.5	41.5		변형=0	
+inquisition_2	소품	철창	43.5	41.5		변형=0	
+inquisition_2	소품	철창	45.5	41.5		변형=0	
+inquisition_2	소품	철창	46.5	41.5		변형=2	열린 감방 문
+inquisition_2	소품	철창	47.5	41.5		변형=0	
+inquisition_2	소품	철창	48.5	41.5		변형=0	
+inquisition_2	소품	철창	50.5	41.5		변형=0	
+inquisition_2	소품	철창	51.5	41.5		변형=0	
+inquisition_2	소품	철창	52.5	41.5		변형=0	
+inquisition_2	소품	철창	53.5	41.5		변형=1	
+inquisition_2	소품	철창	55.5	41.5		변형=0	
+inquisition_2	소품	철창	56.5	41.5		변형=2	열린 감방 문
+inquisition_2	소품	철창	57.5	41.5		변형=0	
+inquisition_2	소품	철창	58.5	41.5		변형=0	
+inquisition_2	소품	철창	60.5	41.5		변형=0	
+inquisition_2	소품	철창	61.5	41.5		변형=0	
+inquisition_2	소품	철창	62.5	41.5		변형=0	
+inquisition_2	소품	철창	63.5	41.5		변형=0	
+inquisition_2	입구	from_above	66.5	6.5			1층에서 내려온 자리
+inquisition_2	출구	to_floor1	66.5	3.4	1.4	inquisition:1:from_below	위로 → 심문소 1층
+inquisition_2	입구	from_below	7.5	46.5			3층에서 올라온 자리
+inquisition_2	출구	to_floor3	4.4	47.5	1.5	inquisition:3:from_above	아래로 → 심문소 3층 (화형의 뜰)
+inquisition_2	무리	z1	56	14	3	무리=1	
+inquisition_2	무리	z2	30	14	3	무리=1 · 몬스터=jailer · 수=2~3	
+inquisition_2	무리	z3	9	22	3	무리=1	
+inquisition_2	무리	z4	21	22	3	무리=1 · 몬스터=heretic_inquisitor · 수=1~2	
+inquisition_2	무리	z5	40	22	3	무리=1	
+inquisition_2	무리	z6	60	22	3	무리=1 · 몬스터=prisoner_wraith · 수=3~4	
+inquisition_2	무리	z7	66	31	3	무리=1	
+inquisition_2	무리	z8	50	39	3	무리=1	
+inquisition_2	무리	z9	30	39	3	무리=1 · 몬스터=jailer · 수=2	
+inquisition_2	무리	z10	16	39	3	무리=1	
+inquisition_2	무리	cell19_9	19	9.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
+inquisition_2	무리	cell29_9	29	9.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
+inquisition_2	무리	cell27_44	27	44.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
+inquisition_2	무리	cell37_44	37	44.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
+inquisition_2	상자	inquisition2_chest	68.5	32.2	1.2	드랍=inquisition_chest	물에 잠긴 감옥 끝의 녹슨 궤
+inquisition_2	소품	묘지계단_위	66.5	3.2		변형=0	
+inquisition_2	소품	묘지계단	4.0	47.5		변형=1	
+inquisition_2	소품	고문대	23	25		변형=1	
+inquisition_2	소품	형틀	41	25		변형=1	
+inquisition_2	소품	형틀	17	29.5		변형=0	
+inquisition_2	소품	쇠사슬	14.5	19.3		변형=0	
+inquisition_2	소품	쇠사슬	27.5	19.3		변형=1	
+inquisition_2	소품	쇠사슬	33	19.3		변형=0	
+inquisition_2	소품	쇠사슬	47	19.3		변형=1	
+inquisition_2	소품	쇠사슬	53	19.3		변형=0	
+inquisition_2	소품	쇠사슬	69	19.3		변형=1	
+inquisition_2	소품	화로	63.5	4.5		변형=0	
+inquisition_2	빛	화로	63.5	4.5			
+inquisition_2	소품	화로	71.5	11.5		변형=0	
+inquisition_2	빛	화로	71.5	11.5			
+inquisition_2	소품	화로	15.5	20.5		변형=0	
+inquisition_2	빛	화로	15.5	20.5			
+inquisition_2	소품	화로	27.5	29.5		변형=0	
+inquisition_2	빛	화로	27.5	29.5			
+inquisition_2	소품	화로	33.5	30.5		변형=0	
+inquisition_2	빛	화로	33.5	30.5			
+inquisition_2	소품	화로	47.5	20.5		변형=0	
+inquisition_2	빛	화로	47.5	20.5			
+inquisition_2	소품	화로	53.5	32.5		변형=0	
+inquisition_2	빛	화로	53.5	32.5			
+inquisition_2	소품	화로	69.5	20.5		변형=0	
+inquisition_2	빛	화로	69.5	20.5			
+inquisition_2	소품	화로	4.5	45.5		변형=0	
+inquisition_2	빛	화로	4.5	45.5			
+inquisition_2	소품	화로	11.5	49.5		변형=0	
+inquisition_2	빛	화로	11.5	49.5			
+inquisition_2	빛	횃불	12.5	13.2			
+inquisition_2	빛	횃불	12.5	38.2			
+inquisition_2	빛	횃불	20.5	13.2			
+inquisition_2	빛	횃불	20.5	38.2			
+inquisition_2	빛	횃불	28.5	13.2			
+inquisition_2	빛	횃불	28.5	38.2			
+inquisition_2	빛	횃불	36.5	13.2			
+inquisition_2	빛	횃불	36.5	38.2			
+inquisition_2	빛	횃불	44.5	13.2			
+inquisition_2	빛	횃불	44.5	38.2			
+inquisition_2	빛	횃불	52.5	13.2			
+inquisition_2	빛	횃불	52.5	38.2			
+inquisition_2	빛	횃불	60.5	13.2			
+inquisition_2	빛	횃불	60.5	38.2			
+inquisition_2	빛	횃불	68.5	13.2			
+inquisition_2	빛	횃불	68.5	38.2			
+inquisition_3	입구	from_above	7.5	6.5			2층에서 내려온 자리
+inquisition_3	출구	to_floor2	4.4	3.4	1.4	inquisition:2:from_below	위로 → 심문소 2층
+inquisition_3	정예	shadow_inquisitor	57.5	33.5			대심문관의 그림자 — 화형의 뜰 (서브 고해 뒤의 히든 보스)
+inquisition_3	무리	z1	22	8	3	무리=1	
+inquisition_3	무리	z2	29	16	3	무리=1 · 몬스터=heretic_inquisitor · 수=2	
+inquisition_3	무리	z3	20	23	3	무리=1 · 몬스터=prisoner_wraith · 수=3~4	
+inquisition_3	무리	z4	40	12	3	무리=1 · 몬스터=jailer · 수=3	
+inquisition_3	무리	z5	37	25	3	무리=1	
+inquisition_3	상자	shadow_chest	66.5	23.5	1.2	드랍=inquisition_chest	대심문관의 몰수품 궤
+inquisition_3	소품	묘지계단_위	4.4	3.2		변형=0	
+inquisition_3	소품	화형대	65.5	36.5		변형=0	화형대 (장작 · 쇠고리 — 불은 꺼져 있음)
+inquisition_3	소품	화형대	60.5	41.5		변형=0	화형대 (장작 · 쇠고리 — 불은 꺼져 있음)
+inquisition_3	소품	화형대	54.5	41.5		변형=0	화형대 (장작 · 쇠고리 — 불은 꺼져 있음)
+inquisition_3	소품	화형대	49.5	36.5		변형=0	화형대 (장작 · 쇠고리 — 불은 꺼져 있음)
+inquisition_3	소품	화형대	49.5	30.5		변형=0	화형대 (장작 · 쇠고리 — 불은 꺼져 있음)
+inquisition_3	소품	화형대	54.5	25.5		변형=0	화형대 (장작 · 쇠고리 — 불은 꺼져 있음)
+inquisition_3	소품	화형대	60.5	25.5		변형=0	화형대 (장작 · 쇠고리 — 불은 꺼져 있음)
+inquisition_3	소품	화형대	65.5	30.5		변형=0	화형대 (장작 · 쇠고리 — 불은 꺼져 있음)
+inquisition_3	소품	쇠사슬	14.5	16.3		변형=0	
+inquisition_3	소품	쇠사슬	26	16.3		변형=1	
+inquisition_3	소품	촛대	20.5	17		변형=0	기도실 촛대
+inquisition_3	소품	화로	4.5	4.5		변형=0	
+inquisition_3	빛	화로	4.5	4.5			
+inquisition_3	소품	화로	11.5	11.5		변형=0	
+inquisition_3	빛	화로	11.5	11.5			
+inquisition_3	소품	화로	15.5	29.5		변형=0	
+inquisition_3	빛	화로	15.5	29.5			
+inquisition_3	소품	화로	25.5	17.5		변형=0	
+inquisition_3	빛	화로	25.5	17.5			
+inquisition_3	소품	화로	35.5	7.5		변형=0	
+inquisition_3	빛	화로	35.5	7.5			
+inquisition_3	소품	화로	45.5	17.5		변형=0	
+inquisition_3	빛	화로	45.5	17.5			
+inquisition_3	소품	화로	45.5	23.5		변형=0	
+inquisition_3	빛	화로	45.5	23.5			
+inquisition_3	빛	화로	69.5	33.5			뜰 둘레 화로
+inquisition_3	빛	화로	65.5	41.5			뜰 둘레 화로
+inquisition_3	빛	화로	57.5	45.5			뜰 둘레 화로
+inquisition_3	빛	화로	49.5	41.5			뜰 둘레 화로
+inquisition_3	빛	화로	45.5	33.5			뜰 둘레 화로
+inquisition_3	빛	화로	49.5	25.5			뜰 둘레 화로
+inquisition_3	빛	화로	57.5	21.5			뜰 둘레 화로
+inquisition_3	빛	화로	65.5	25.5			뜰 둘레 화로
+inquisition_3	빛	횃불	14.5	7.2			
+inquisition_3	빛	횃불	20.5	7.2			
+inquisition_3	빛	횃불	26.5	7.2			
+seville	출구	to_inquisition	42.7	23.5	1.0	inquisition:1:from_seville	대성당 동쪽 벽의 철문 → 이단 심문소 지하 감옥 (심문소 열쇠, 히든 — A2-6)
+seville	입구	from_inquisition	45.2	24.6			심문소에서 올라온 자리 (대성당 철문 앞)
+seville	인물	fray_tomas	45.8	21.8		방향=남서	고해 신부 프라이 토마스 — 대성당 동쪽 철문 곁
+seville	소품	심문소철문	42.0	23.6		변형=0	대성당 동쪽 벽의 낮은 철문 (쇠 띠 · 큰 자물쇠)

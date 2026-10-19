@@ -1,0 +1,56 @@
+이름	뽑기	꽝	항목1	비중1	항목2	비중2	항목3	비중3	항목4	비중4	항목5	비중5	항목6	비중6	항목7	비중7	항목8	비중8	설명
+potions	1	0	hp_small	3	mp_small	2	hp_medium	2	mp_medium	1									물약들 (중간 물약은 드랍레벨 12부터 — A2-3)
+weapons	1	0	cutlass	9	rapier	9	round_shield	6	flintlock	3	musket	1	hand_cannon	1					무기 (Q8) + 총기 (A2-1: 총사가 Act 1도 할 수 있게 — 낮은 비중, 베이스 드랍레벨부터: 플린트록 2 · 머스킷 5 · 휴대 대포 8). 검 · 방패 비중 ×3. A2-7: 플린트록 1 → 3 (처음부터 끝까지 흉내에서 총사가 마법 총을 한 번도 못 주웠음) → 검 · 방패 몫 89% (Lv 2~4) · 86% (5~7) · 83% (8~)
+armors	1	0	leather_cap	2	sailor_clothes	2	chainmail	1	leather_gloves	2	leather_boots	2	rope_belt	2	worn_cape	1			방어구
+jewelry	1	0	ring	2	amulet	1	charm_small	2											장신구·부적
+sigils_low	1	0	sigil_anchor	8	sigil_sail	8	sigil_oar	8	sigil_lantern	4									문장석 1~4
+sigils_act1	1	0	sigil_anchor	8	sigil_sail	8	sigil_oar	8	sigil_lantern	4	sigil_wave	3	sigil_bolt	2	sigil_coral	2	sigil_pearl	1	문장석 1~8
+humanoid	1	4	potions	3	gold	4	weapons	2	armors	2	jewelry	1	sigils_low	1					인간형: 장비 많음 · 문장석 가끔 (M3-1)
+beast	1	7	potions	2	gold	1	jewelry	1											동물: 적게
+undead	1	5	potions	2	gold	3	armors	1	sigils_low	1									망령: 문장석 많음 (1/12 — M3-1에서 2 → 1)
+elite	3	0	potions	2	gold	2	weapons	2	armors	2	jewelry	1	sigils_act1	1					정예
+champion_pack	1	0	potions	2	gold	2	armors	1	jewelry	2	sigils_low	1							챔피언 무리 (꽝 없음 — 드랍 수 1) · 문장석 (M3-1). 부적 ×2는 다음 슬라이스
+rare_pack	1	0	potions	2	gold	2	weapons	2	armors	2	jewelry	2	sigils_low	1					희귀 몬스터 (꽝 없음 — 드랍 수는 몬스터등급 2~3)
+boss_blackbeard	6	0	weapons	3	armors	3	jewelry	2	sigils_act1	2	gold	2							+ 확정: northstar_shard. 유니크 표: u_blackbeard_fang
+boss_drowned_captain	-2	0	captain_loot	1	abyss_key	1													익사한 선장 (M3-4): 보물 (등급의 드랍 수만큼) + 심연의 열쇠 확정. 유니크 표: u_drowned_chain
+captain_loot	7	0	weapons	2	armors	3	jewelry	4	sigils_act1	4	gold	1							익사한 선장의 보물 — 장신구 · 문장석 많이
+rusty_key_queen	1	95	rusty_key	5															녹슨 열쇠 5% (Q10)
+rusty_key_cave	1	995	rusty_key	5															녹슨 열쇠 0.5% (Q10) — 지역 "추가드랍"으로 씀
+shore_potions	1	3	hp_small	1															해안 동굴 체력 물약 1/4 (지역 추가드랍, A2-7 — 리스본 상점 전에는 살 곳이 없음)
+beach_potions	1	1	hp_small	1															리스본 해안 체력 물약 1/2 (지역 추가드랍, A2-7 — 처음 지역: 시작 물약 4개 + 이것으로 Lv 1~3을 버팀)
+elite_spider_queen	-2	0	elite	1	rusty_key_queen	1													동굴 거미 여왕: 정예 드랍 + 녹슨 열쇠 5% (Q10)
+smuggler_stash	4	0	gold	4	weapons	2	armors	2	jewelry	2	potions	2							밀수꾼의 창고 (잠긴 상자, 밀수꾼의 열쇠로 엶)
+quest_gear	1	0	weapons	1	armors	2													퀘스트 보상 장비 (등급 · ilvl은 퀘스트.txt 보상규칙)
+cave_sigils	1	10	sigils_low	1															해안 동굴 문장석 (1/11 — 지역 추가드랍, M3-1)
+cave_extra	-3	0	rusty_key_cave	1	cave_sigils	1	shore_potions	1											해안 동굴 추가드랍: 녹슨 열쇠 0.5% + 문장석 1/11 (M3-1) + 체력 물약 1/4 (A2-7 — 첫 마을 전 물약이 모자랐음)
+crypt_sigils	1	10	sigils_act1	1															무어인 지하묘지 문장석 (1/11 — 지역 추가드랍, 5~8번도 가끔, M3-2)
+crypt_extra	-2	0	crypt_sigils	1															무어인 지하묘지 추가드랍: 문장석 1/11 (M3-2)
+boss_bullring	1	0	weapons	3	armors	3	jewelry	2											투우장 5웨이브 보상 (등급은 웨이브.txt 굴림)
+plains_charms	1	24	charm_small	1															카스티야 평원 부적(소) (1/25 — 지역 추가드랍, A2-2 [설계서 파밍 대상])
+plains_extra	-1	0	plains_charms	1															카스티야 평원 추가드랍: 부적(소) 1/25 (A2-2)
+sigils_mine	1	0	sigil_oar	6	sigil_lantern	8	sigil_wave	6	sigil_bolt	4									문장석 3~6 (광산 — [설계서 던전 시트] 광산 3층 파밍 대상 "보석 · 문장석 3~6", 보석 = 문장석 3~6으로 — A2-3)
+structure	1	3	potions	2	gold	3	sigils_mine	3	armors	1									구조물 (광석 골렘 — 몸에 박힌 원석 = 문장석 3~6이 자주, A2-3)
+forge_core	-2	0	forge_loot	1	forge_loot	1													골렘 화로의 핵: 부술 때 늘 둘 (forge_loot 두 번 — 일반 등급 드랍 수 1과 상관없이, QA A2-3 #2)
+forge_loot	1	0	sigils_mine	2	gold	2	potions	1											화로의 핵 전리품 하나
+mine_sigils	1	10	sigils_mine	1															안달루시아 광산 문장석 3~6 (1/11 — 지역 추가드랍)
+mine_extra	-2	0	mine_sigils	1															안달루시아 광산 추가드랍: 문장석 3~6 1/11 (A2-3)
+elite_diego	-2	0	elite	1	sigils_mine	1													철의 디에고: 정예 드랍 + 문장석 3~6 확정
+palace_rare	1	0	weapons	3	armors	4	jewelry	3											알함브라 희귀 장비 (등급은 굴림 — 지역 추가드랍 · 상자에서 희귀 몫)
+alhambra_rares	1	30	palace_rare	1															알함브라 추가 장비 1/31 (A2-4 [설계서 파밍 대상 "희귀 장비"] — 마법 발견 보너스 alhambra_extra)
+sigils_palace	1	0	sigil_lantern	4	sigil_wave	6	sigil_bolt	6	sigil_coral	4	sigil_pearl	2							문장석 4~8 (알함브라 Lv 14~17 — Act 2 위 단계 쪽: 파도 · 번개가 많고 진주는 드묾, QA A2-4 #5)
+alhambra_sigils	1	10	sigils_palace	1															알함브라 문장석 4~8 (1/11 — 지역 추가드랍)
+alhambra_extra	-2	0	alhambra_rares	1	alhambra_sigils	1													알함브라 추가드랍: 장비 1/31 · 문장석 4~8 1/11 (A2-4)
+palace_chest	4	0	weapons	2	armors	3	jewelry	3	gold	3	potions	1							알함브라 궁전 상자 (장신구 · 방어구 많이)
+elite_king	-2	0	elite	1	palace_rare	1	palace_rare	1											무어의 마지막 왕: 정예 드랍 + 장비 둘 (A2-4 — 희귀 장비 파밍처)
+sigils_hernan	1	0	sigil_oar	6	sigil_lantern	6	sigil_wave	4											문장석 3~5 ([설계서 보스] 정복자 에르난 확정 드랍)
+hernan_gear	1	0	plate_cuirass	1															에르난의 판금 흉갑 (유니크 에르난의 야심의 베이스 — 이 표에서만)
+boss_hernan	7	0	weapons	3	armors	3	jewelry	2	hernan_gear	1	gold	2							+ 확정: sigils_hernan(문장석 3~5) — boss_hernan_all. 유니크 표: u_hernan_ambition. 세트: 정복자의 갑주
+boss_hernan_all	-2	0	boss_hernan	1	sigils_hernan	1													정복자 에르난: 보스 드랍 + 문장석 3~5 확정 (A2-5)
+camp_extra	-2	0	camp_rares	1	mine_sigils	1													정복자의 진영 추가드랍: 무기 1/26 · 문장석 3~6 1/11 (A2-5 — [설계서 던전 시트] 에르난 = 희귀 무기)
+camp_rares	1	25	weapons	1															정복자의 진영 무기 1/26
+abyss_key2	1	0	abyss_key_2	1															심연의 열쇠 ② (A2-6 — 대심문관의 그림자 확정)
+shadow_loot	7	0	weapons	3	armors	3	jewelry	3	sigils_palace	2	gold	1							대심문관의 그림자의 보물 (장비 · 장신구 · 문장석 4~8)
+boss_shadow_all	-2	0	shadow_loot	1	abyss_key2	1													대심문관의 그림자 (A2-6): 보물 + 심연의 열쇠 ② 확정. 유니크 표 없음 → 가보 보정은 "어디서나" 유니크
+inquisition_chest	4	0	weapons	2	armors	3	jewelry	3	gold	3	potions	1	sigils_palace	1					심문소 압수품 궤 (A2-6)
+inquisition_rares	1	30	weapons	3	armors	4	jewelry	3											심문소 장비 1/31
+inquisition_extra	-2	0	inquisition_rares	1	alhambra_sigils	1													이단 심문소 추가드랍: 장비 1/31 · 문장석 4~8 1/11 (A2-6)
