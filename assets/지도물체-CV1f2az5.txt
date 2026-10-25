@@ -33,7 +33,7 @@ shore_cave_1	입구	from_below	66	31.5			2층에서 올라온 자리
 shore_cave_1	출구	to_shore	2.6	29.5	1.5	lisbon_shore::from_cave	동굴 입구 → 리스본 해안
 shore_cave_1	출구	to_floor2	72.2	31	1.6	shore_cave:2:from_above	아래로 → 해안 동굴 2층
 shore_cave_1	웨이포인트	shore_cave_1	10.5	27	1.1		해안 동굴 1층 웨이포인트
-shore_cave_1	상자	smuggler_stash	50.5	6.2	1.2	열쇠=smuggler_key · 드랍=smuggler_stash	밀수꾼의 창고 — 잠긴 상자
+shore_cave_1	상자	smuggler_stash	50.5	6.2	1.2	열쇠=smuggler_key · 드랍=smuggler_stash · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	밀수꾼의 창고 — 잠긴 상자
 shore_cave_1	소품	동굴입구_안	2	29.5			바깥 달빛이 들어오는 굴 입구
 shore_cave_1	소품	동굴계단	73	31			아래층으로 내려가는 바위 비탈
 shore_cave_1	소품	밀수품	47	5.8		변형=0	밀수꾼의 통 · 상자
@@ -315,7 +315,7 @@ moorish_crypt_3	입구	from_above	8.5	27.5			2층에서 내려온 자리
 moorish_crypt_3	출구	to_floor2	3.6	27.5	1.5	moorish_crypt:2:from_below	위로 → 지하묘지 2층
 moorish_crypt_3	웨이포인트	moorish_crypt_3	10.5	23.5	1.1		무어인 지하묘지 3층 웨이포인트
 moorish_crypt_3	정예	one_eyed_joao	70.5	28.5			외눈 주앙 + 산적 3~4 — 밀약 문서를 가짐 (메인 ③)
-moorish_crypt_3	상자	joao_chest	64.5	12.6	1.2	드랍=smuggler_stash	외눈 주앙의 궤짝 — 밀수품 (잠기지 않음)
+moorish_crypt_3	상자	joao_chest	64.5	12.6	1.2	드랍=smuggler_stash · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	외눈 주앙의 궤짝 — 밀수품 (잠기지 않음)
 moorish_crypt_3	소품	묘지계단_위	2.4	27.5		변형=0	위층으로 오르는 돌계단
 moorish_crypt_3	소품	말굽아치	30	27.6		변형=0	말굽 아치 문
 moorish_crypt_3	소품	말굽아치	46.4	27.6		변형=0	말굽 아치 문
@@ -613,7 +613,7 @@ andalusia_mine_1	무리	z5	55	12	3	무리=1
 andalusia_mine_1	무리	z6	52	28	2.5	무리=1	
 andalusia_mine_1	무리	z7	8	46	2.5	무리=1 · 몬스터=desert_scorpion · 수=2~3	
 andalusia_mine_1	무리	z8	66	27	3	무리=1 · 몬스터=miner_wraith · 수=4~5	
-andalusia_mine_1	상자	mine1_chest	62.5	7.6	1.2	드랍=smuggler_stash	갱부 숙소의 궤짝
+andalusia_mine_1	상자	mine1_chest	62.5	7.6	1.2	드랍=smuggler_stash · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	갱부 숙소의 궤짝
 andalusia_mine_1	소품	갱도입구	3.6	28.5		변형=0	
 andalusia_mine_1	소품	승강기	72.8	29.5		변형=0	
 andalusia_mine_1	소품	광차	30	27.2		변형=0	
@@ -663,7 +663,7 @@ andalusia_mine_2	무리	z7	38	46	3	무리=1 · 몬스터=ore_golem · 수=1~2 ·
 andalusia_mine_2	무리	z8	50	47	3	무리=1	
 andalusia_mine_2	무리	z9	67	46	3	무리=1 · 몬스터=desert_scorpion · 수=3~4	
 andalusia_mine_2	무리	z10	14	46	3	무리=1	
-andalusia_mine_2	상자	mine2_chest	70.5	50.4	1.2	드랍=smuggler_stash	버려진 갱부의 궤짝
+andalusia_mine_2	상자	mine2_chest	70.5	50.4	1.2	드랍=smuggler_stash · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	버려진 갱부의 궤짝
 andalusia_mine_2	소품	승강기	72.8	28.5		변형=0	
 andalusia_mine_2	소품	굴입구	4.2	48.5		변형=0	
 andalusia_mine_2	소품	광차	55	27.2		변형=1	
@@ -709,7 +709,7 @@ andalusia_mine_3	무리	z8	54	42	3	무리=1 · 몬스터=ore_golem · 수=1~2 ·
 andalusia_mine_3	무리	forge1	60.5	15.5	0.1	무리=1 · 몬스터=golem_forge · 수=1~1	골렘 화로의 핵 (메인 ② — 셋을 부숨)
 andalusia_mine_3	무리	forge2	71.5	28.5	0.1	무리=1 · 몬스터=golem_forge · 수=1~1	골렘 화로의 핵 (메인 ② — 셋을 부숨)
 andalusia_mine_3	무리	forge3	60.5	41.5	0.1	무리=1 · 몬스터=golem_forge · 수=1~1	골렘 화로의 핵 (메인 ② — 셋을 부숨)
-andalusia_mine_3	상자	forge_chest	72.5	44.5	1.2	드랍=smuggler_stash	디에고의 장부 궤짝
+andalusia_mine_3	상자	forge_chest	72.5	44.5	1.2	드랍=smuggler_stash · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	디에고의 장부 궤짝
 andalusia_mine_3	소품	굴입구	2.2	28.5		변형=0	
 andalusia_mine_3	소품	용광로	60.5	13		변형=0	
 andalusia_mine_3	소품	용광로	73.2	28.5		변형=1	
@@ -757,7 +757,7 @@ alhambra_1	무리	z5	30	44	3	무리=1
 alhambra_1	무리	z6	56	43	3	무리=1	
 alhambra_1	무리	z7	52	28	2.5	무리=1	
 alhambra_1	무리	z8	66	25	3	무리=1 · 몬스터=moor_wraith · 수=2~3	
-alhambra_1	상자	alhambra1_chest	62.5	47.5	1.2	드랍=palace_chest	무카르나스 방의 상아 상자
+alhambra_1	상자	alhambra1_chest	62.5	47.5	1.2	드랍=palace_chest · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	무카르나스 방의 상아 상자
 alhambra_1	소품	묘지계단_위	2.4	28.5		변형=0	
 alhambra_1	소품	묘지계단	73	28.5		변형=1	
 alhambra_1	소품	사자분수	34.5	13.5		변형=0	
@@ -799,7 +799,7 @@ alhambra_2	무리	z6	12	36	2	무리=1
 alhambra_2	무리	z7	36	45	3	무리=1 · 몬스터=inquisitor · 수=1~2	
 alhambra_2	무리	z8	46	46	3	무리=1	
 alhambra_2	무리	z9	14	46	3	무리=1	
-alhambra_2	상자	alhambra2_chest	48.5	50.5	1.2	드랍=palace_chest	기록 보관소의 철 궤
+alhambra_2	상자	alhambra2_chest	48.5	50.5	1.2	드랍=palace_chest · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	기록 보관소의 철 궤
 alhambra_2	소품	묘지계단_위	73	28.5		변형=1	
 alhambra_2	소품	묘지계단	4.2	48.5		변형=0	
 alhambra_2	소품	말굽아치	40	28.4		변형=0	
@@ -843,7 +843,7 @@ alhambra_3	무리	z3	29	46	3	무리=1 · 몬스터=inquisitor · 수=1~2
 alhambra_3	무리	z4	40	28	2.5	무리=1	
 alhambra_3	무리	z5	52	14	3	무리=1 · 몬스터=moor_wraith · 수=2~3	
 alhambra_3	무리	z6	52	42	3	무리=1 · 몬스터=moor_wraith · 수=2~3	
-alhambra_3	상자	king_chest	72.5	45.5	1.2	드랍=palace_chest	왕의 보물 궤
+alhambra_3	상자	king_chest	72.5	45.5	1.2	드랍=palace_chest · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	왕의 보물 궤
 alhambra_3	소품	묘지계단_위	2.4	28.5		변형=0	
 alhambra_3	소품	왕좌	71.5	28.5		변형=0	
 alhambra_3	소품	말굽아치	20	28.4		변형=0	
@@ -1040,7 +1040,7 @@ inquisition_1	무리	cell25_6	25	6.5	1.2	무리=1 · 몬스터=prisoner_wraith �
 inquisition_1	무리	cell35_6	35	6.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
 inquisition_1	무리	cell21_36	21	36.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
 inquisition_1	무리	cell36_36	36	36.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
-inquisition_1	상자	inquisition1_chest	56.5	26.2	1.2	드랍=inquisition_chest	기록실의 압수품 궤
+inquisition_1	상자	inquisition1_chest	56.5	26.2	1.2	드랍=inquisition_chest · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	기록실의 압수품 궤
 inquisition_1	소품	묘지계단_위	5.5	3.2		변형=0	
 inquisition_1	소품	묘지계단	70.5	48.2		변형=1	
 inquisition_1	소품	고문대	30	17.5		변형=0	빈 고문대 (밧줄 · 굴대)
@@ -1174,7 +1174,7 @@ inquisition_2	무리	cell19_9	19	9.5	1.2	무리=1 · 몬스터=prisoner_wraith �
 inquisition_2	무리	cell29_9	29	9.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
 inquisition_2	무리	cell27_44	27	44.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
 inquisition_2	무리	cell37_44	37	44.5	1.2	무리=1 · 몬스터=prisoner_wraith · 수=1~2	열린 감방
-inquisition_2	상자	inquisition2_chest	68.5	32.2	1.2	드랍=inquisition_chest	물에 잠긴 감옥 끝의 녹슨 궤
+inquisition_2	상자	inquisition2_chest	68.5	32.2	1.2	드랍=inquisition_chest · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	물에 잠긴 감옥 끝의 녹슨 궤
 inquisition_2	소품	묘지계단_위	66.5	3.2		변형=0	
 inquisition_2	소품	묘지계단	4.0	47.5		변형=1	
 inquisition_2	소품	고문대	23	25		변형=1	
@@ -1230,7 +1230,7 @@ inquisition_3	무리	z2	29	16	3	무리=1 · 몬스터=heretic_inquisitor · 수=
 inquisition_3	무리	z3	20	23	3	무리=1 · 몬스터=prisoner_wraith · 수=3~4	
 inquisition_3	무리	z4	40	12	3	무리=1 · 몬스터=jailer · 수=3	
 inquisition_3	무리	z5	37	25	3	무리=1	
-inquisition_3	상자	shadow_chest	66.5	23.5	1.2	드랍=inquisition_chest	대심문관의 몰수품 궤
+inquisition_3	상자	shadow_chest	66.5	23.5	1.2	드랍=inquisition_chest · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	대심문관의 몰수품 궤
 inquisition_3	소품	묘지계단_위	4.4	3.2		변형=0	
 inquisition_3	소품	화형대	65.5	36.5		변형=0	화형대 (장작 · 쇠고리 — 불은 꺼져 있음)
 inquisition_3	소품	화형대	60.5	41.5		변형=0	화형대 (장작 · 쇠고리 — 불은 꺼져 있음)
