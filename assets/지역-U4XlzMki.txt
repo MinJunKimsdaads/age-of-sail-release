@@ -1,0 +1,22 @@
+아이디	이름	종류	Act	층수	레벨	지형	몬스터1	비중1	몬스터2	비중2	몬스터3	비중3	챔피언확률	희귀확률	마지막층	웨이포인트	해금	추가드랍	슬라이스	설명	시간
+lisbon_shore	리스본 해안	야외	1	1	2	tiles_shore	drowned	1					5	3				beach_potions	들어감	시작 지점. 튜토리얼 (Q12)	
+shore_cave	리스본 해안 동굴	던전	1	2	3~5	tiles_sea_cave	cave_bat	3	drowned	2			5	3	spider_queen	1층·2층		cave_extra	들어감	메인 ① 통로. 문장석 1~4	
+lisbon	리스본	마을	1			tiles_port_town										선착장	quest:main1		들어감	안전지대	
+sintra_hills	신트라 언덕	야외	1	1	4~6	tiles_hills	bandit	3	boar	3			12	3		입구	quest:main1		들어감	레벨 1~4 → 4~6 (Q12). 점성술사가 있음. 챔피언 무리가 자주 나옴	
+moorish_crypt	무어인 지하묘지	던전	1	3	6~9	tiles_crypt	moor_wraith	3	drowned	2	cave_bat	1	5	3	one_eyed_joao	1층·3층	quest:main2	crypt_extra	들어감	메인 ② 뒤 (M3-2). 층마다 레벨: 1층 6~7 · 2층 7~8 · 3층 8~9 (지도.txt 레벨). 입구는 신트라 언덕의 무어 성벽. 3층 끝 외눈 주앙의 소굴	
+galleon	해적왕의 갤리온	보스 방	1	1	10	tiles_galleon_deck	pirate_scout	1					5	3	blackbeard	갑판	quest:main3		들어감	배 갑판 (M3-3). 리스본 북쪽 부두의 산타 루치아로 감 · 뒷갑판에 검은 수염 해적왕	
+santa_maria	침몰선 산타 마리아	히든	1	2	11~12	tiles_sunken_ship	drowned	4	pirate_scout	1			15	5	drowned_captain	1층	item:rusty_key		들어감	익사자 강화판. 챔피언·희귀가 자주 나옴	
+seville	세비야	마을	2			tiles_seville										선착장	quest:main4		들어감	Act 2 안전지대 (A2-1). 리스본 선착장의 상선으로 감 — 메인 ④ 검은 수염 뒤 [설계서 진행 게이트]	
+castile_plains	카스티야 평원	야외	2	1	10~13	tiles_plains	fighting_bull	3	spanish_officer	2			15	4		야영지	quest:main4	plains_extra	들어감	[설계서] 열린 지형 · 투우 황소 · 화승총병 (스페인 정규군 부대) · 챔피언 무리 · 부적(소) (A2-2). 북동쪽 투우장 · 남동쪽 광산 입구	
+bullring	투우장	투기장	2	1	12~13	tiles_bullring							0	0			quest:main4		들어감	평원 북동쪽 투우장 (A2-2) — 서브 투우사의 명예: 웨이브.txt bullring 5웨이브 (웨이브 지휘)	
+andalusia_mine	안달루시아 광산	던전	2	3	12~16	tiles_mine	miner_wraith	4	desert_scorpion	3			8	4	iron_diego	1층·3층	quest:main4	mine_extra	들어감	[설계서] 광부 망령 · 사막 전갈 · 광석 골렘 · 철의 디에고 (A2-3). 층마다 레벨: 1층 12~13 · 2층 14 · 3층 15~16 (지도.txt 레벨). 입구는 평원 남동쪽 벼랑. 3층 동쪽 끝 골렘 공장 (메인 ② 돌이 걷는다) — 보석 · 문장석 3~6 파밍처	
+alhambra	알함브라 지하	던전	2	3	14~17	tiles_alhambra	moor_wraith	3	inquisitor	2			8	5	moorish_king	1층·3층	quest:a2_main2	alhambra_extra	들어감	[설계서] 종교재판관 · 망령 · 무어의 마지막 왕 (A2-4). 층마다 레벨: 1층 14 · 2층 15~16 · 3층 16~17. 세비야 서쪽 문 아래 무어 궁전 지하 — 사자의 뜰 · 목욕탕 · 왕의 홀. 파밍 대상 = 희귀 장비	
+hernan_camp	정복자의 진영	보스 방	2	1	17~18	tiles_camp	spanish_officer	3	fighting_bull	1			10	5	hernan	진영 입구	quest:a2_main3	camp_extra	들어감	[설계서 Act 2 보스 방] 세비야 남쪽 강가 — 천막 진지 · 공성 진지 · 골렘 화로를 지나 강가 부두의 결투장에 정복자 에르난 (A2-5)	
+inquisition	이단 심문소 지하 감옥	히든	2	3	19~20	tiles_prison	jailer	3	prisoner_wraith	3	heretic_inquisitor	2	10	6	shadow_inquisitor	1층	item:inquisition_key	inquisition_extra	들어감	[설계서 Act 2 히든 던전] 세비야 대성당 뒤 철문 아래의 이단 심문소 감옥 (A2-6). 층마다 레벨: 1층 19 · 2층 19~20 · 3층 20. 서브 고해의 심문소 열쇠로 열림. 감방 복도 · 고문실 · 물에 잠긴 감옥 · 화형의 뜰 (대심문관의 그림자). 파밍 대상 = 심연의 열쇠 ②	
+bordeaux	보르도	마을	3			tiles_bordeaux										선착장	quest:a2_main4		들어감	Act 3 안전지대 (A3-0). 세비야 부두의 배 — 메인 ④ 정복자 뒤 [설계서 진행 게이트]. 가론 강의 항구 · 포도주 창고 · 수도원	
+bordeaux_vineyard	보르도 포도원	야외	3	1	18~21	tiles_vineyard	werewolf	3	rebel_musketeer	2			15	5		포도원 길	quest:a2_main4	vineyard_extra	들어감	[설계서] 열린 지형 · 늑대인간 · 반역 총사 · 챔피언 무리 · 부적(중) (A3-0). 보르도 남쪽 문 밖. 낮(늑대인간 밤 강화 없음). 동쪽 샤토 서쪽 지하 문 = 저장고 (A3-1), 남쪽 숲길 = 브로셀리앙드 (A3-2)	낮
+bordeaux_cellar	보르도 지하 저장고	던전	3	2	19~22	tiles_cellar	vampire_bat	4	witch	2			8	5		1층	quest:a2_main4	cellar_extra	들어감	[설계서] 흡혈 박쥐 · 마녀 · 저주 받은 술통 (A3-1). 포도원 샤토 서쪽 지하 문. 층마다 레벨: 1층 19~20 · 2층 21~22 (지도.txt 레벨). 2층 동쪽 끝 마녀의 제단 (메인 ① 시든 포도) — 물약 재료(물약) 파밍처	
+broceliande	브로셀리앙드 숲	던전	3	3	21~25	tiles_forest	werewolf	3	fairy_archer	2	tree_spirit	2	12	5	wolf_lord	1층·3층	quest:a3_main1	forest_extra	들어감	[설계서] 늘 밤 · 안개 · 가시덤불 벽 · 늑대인간(밤 강화) · 요정 궁수(은신) · 나무 정령(뿌리 속박) · 정예 늑대 군주 (A3-2). 포도원 남쪽 숲길. 층마다 레벨: 1층 21~22 · 2층 22~24 · 3층 24~25 (지도.txt 레벨). 3층 남쪽 끝 요정의 문 앞에 늑대 군주 (메인 ② 숲의 경계) — 부적 파밍처 (챔피언 무리 12%)	밤
+fairy_court	요정의 궁정	던전	3	2	24~26	tiles_court	fairy_archer	3	tree_spirit	1			10	5	black_knight	1층	quest:a3_main2	court_extra	들어감	[설계서] 차가운 달빛 · 꽃 · 순간이동 꽃 · 흑기사 · 사이렌 (A3-3). 브로셀리앙드 3층 남쪽 요정의 문. 층마다 레벨: 1층 24~25 · 2층 25~26 (지도.txt 레벨). 1층 달빛 호숫가(사이렌) · 2층 여왕의 정원(물길을 꽃으로 건넘) → 흑기사의 뜰 → 옥좌 단의 요정 여왕 (메인 ③ 요정의 거래) — 장신구 파밍처	밤
+melusine_hall	멜뤼진의 달빛 홀	보스 방	3	1	26	tiles_court	fairy_archer	1					0	0	melusine	입구	quest:a3_main3	court_extra	들어감	[설계서 Act 3 보스 방] 요정 여왕 멜뤼진 (A3-4). 궁정 2층 옥좌 단 뒤 남쪽 달빛 문. 둥근 홀 · 기둥 고리 · 가운데 얼어붙은 달빛 못 — 홀 끝 옥좌 앞에 멜뤼진, 기둥 사이에 요정 궁수 무리 둘. 메인 ④ 멜뤼진 (새벽별 조각)	밤
+paris_catacomb	파리 카타콤	히든	3	3	27~28	tiles_catacomb	catacomb_wraith	3	royal_musketeer	2			10	6	iron_mask	1층	item:catacomb_key	catacomb_extra	들어감	[설계서 Act 3 히든 던전] 보르도 부두의 밤배로 가는 파리 지하 납골당 (A3-6). 층마다 레벨: 1층 27 · 2층 27~28 · 3층 28. 서브 수도사의 편지의 카타콤 열쇠로 열림. 지하 선착장 · 납골 굴 · 해골 원형 홀 · 둥근 결투장 (철가면의 총사대장). 파밍 대상 = 심연의 열쇠 ③	

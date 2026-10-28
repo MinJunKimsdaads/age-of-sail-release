@@ -1,0 +1,24 @@
+아이디	이름	베이스	요구레벨	드랍레벨	효과1	값1	효과2	값2	효과3	값3	효과4	값4	외형	외형효과	드랍
+u_blackbeard_fang	검은 수염의 이빨	cutlass	8	10	피해 %	60	타격 시 출혈 %	15	생명력 흡수 %	4			look_u_blackbeard_fang	fx_glow_red	boss_blackbeard
+u_astrologer_eye	점성술사의 눈	leather_cap	10	8	모든 스킬 +	1	마법 발견 %	20	조명 반경 +	2			look_u_astrologer_eye	fx_glow_starlight	어디서나 (Act 1~2)
+u_drowned_chain	가라앉은 닻사슬	amulet	12	12	냉기 저항 %	40	생명력 +	35	냉기 피해 +	8			look_u_drowned_chain	fx_glow_starlight	boss_drowned_captain
+u_hernan_ambition	에르난의 야심	plate_cuirass	16	18	방어력 %	150	힘 +	10	피해 감소 +	4	갑주 강화 (초)	6	look_u_hernan_ambition	fx_glow_gold	boss_hernan_all
+u_st_elmo_fire	성 엘모의 불	sailor_staff	6	6	폭풍술 스킬 +	1	번개 피해 +	6	마나 +	25	시전 속도 %	15	look_u_st_elmo_fire	fx_glow_stelmo	어디서나 (Act 1~2)
+u_tempest_astrolabe	폭풍잡이 아스트롤라베	navigator_staff	13	13	피해 %	70	폭풍술 스킬 +	2	번개 저항 %	30	이동 속도 %	10	look_u_tempest_astrolabe	fx_glow_tempest	어디서나 (Act 1~2)
+u_moon_tide	달의 밀물	navigator_staff	10	10	조류술 스킬 +	2	냉기 피해 +	8	마나 재생 +/초	2	냉기 저항 %	25	look_u_moon_tide	fx_glow_moontide	어디서나 (Act 1~2)
+u_santiago_shield	산티아고의 방패	round_shield	9	9	수호술 스킬 +	1	막기 확률 %	15	모든 저항 %	15	근접 피해 반사 +	6	look_u_santiago_shield	fx_glow_santiago	어디서나 (Act 1~2)
+u_santa_maria_deck	산타 마리아의 갑판	deck_shield	14	14	방어력 %	80	수호술 스킬 +	2	생명력 +	30	피해 감소 +	3	look_u_santa_maria_deck	fx_glow_santamaria	어디서나 (Act 1~2)
+u_paracelsus	파라켈수스의 시약	apothecary_flask	7	7	연금술 스킬 +	1	독 피해(초당)	5	물약 효과 %	30			look_u_paracelsus	fx_glow_paracelsus	어디서나 (Act 1~2)
+u_burning_lisbon	불타는 리스본	alembic_flask	14	14	연금술 스킬 +	2	화염 피해 +	8	함정 +	1	화염 저항 %	25	look_u_burning_lisbon	fx_glow_burninglisbon	어디서나 (Act 1~2)
+u_vasco_baton	바스쿠 다 가마의 지휘봉	captain_baton	13	13	선장술 스킬 +	2	소환수 생명 %	25	마법 발견 %	15			look_u_vasco_baton	fx_glow_vasco	어디서나 (Act 1~2)
+u_blackbeard_whistle	검은 수염의 호각	bosun_whistle	8	8	선장술 스킬 +	1	소환수 피해 %	20	공격 속도 %	10			look_u_blackbeard_whistle	fx_glow_bbwhistle	어디서나 (Act 1~2)
+u_santa_bell	산타 마리아의 종	coral_wand	8	8	망령술 스킬 +	1	소환수 피해 %	20	마나 +	20			look_u_santa_bell	fx_glow_santabell	어디서나 (Act 1~2)
+u_abyss_ledger	심연의 장부	bone_wand	14	14	망령술 스킬 +	2	저주 반경 +	1	처치 시 마나 +	3			look_u_abyss_ledger	fx_glow_ledger	어디서나 (Act 1~2)
+u_gascon_rapier	가스코뉴의 레이피어	rapier	21	21	피해 %	120	공격 속도 %	20	검술 스킬 +	2	타격 시 출혈 %	10			어디서나 (Act 3 — 드랍레벨 21)
+u_wolf_lord_pelt	늑대 군주의 가죽	worn_cape	22	22	생명력 +	45	이동 속도 %	15	냉기 저항 %	25	생명력 흡수 %	3			elite_wolf_lord
+u_witch_lantern	마녀의 등불	navigator_staff	20	21	조류술 스킬 +	2	독 피해(초당)	10	시전 속도 %	15	마나 +	40			어디서나 (Act 3 — 드랍레벨 21)
+u_vintage_alembic	백 년 묵은 증류기	alembic_flask	21	21	연금술 스킬 +	2	물약 효과 %	40	화염 피해 +	14	생명력 +	25			어디서나 (Act 3 — 드랍레벨 21)
+u_black_knight_plate	흑기사의 판금	plate_cuirass	25	25	방어력 %	130	피해 감소 +	6	받는 물리 피해 %	-8	수호술 스킬 +	1			elite_black_knight
+u_siren_song	사이렌의 노래	ring	24	24	모든 스킬 +	1	마나 흡수 %	4	냉기 피해 +	10	시전 속도 %	10			어디서나 (Act 3 — 드랍레벨 24)
+u_iron_mask_pistol	철가면의 단총	flintlock	27	27	사격 스킬 +	2	피해 %	100	공격 속도 %	20	치명타 확률 %	10			boss_mask_all
+u_melusine_tear	멜뤼진의 눈물	amulet	24	24	냉기 피해 +	40	냉기 저항 %	30	마나 +	40					boss_melusine_all

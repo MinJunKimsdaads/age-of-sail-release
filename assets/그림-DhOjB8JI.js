@@ -1725,4 +1725,136 @@ fx_corpse_consume	px_fx_corpse_consume.png	8	1	17	30	14			1	빛
 주인공여_look_bone_wand_방패_죽음	px_herof_bone_wand_shield_death.png	12	8	18	39	10	44,44,43,42,38,32,28,28,26,19,8,3,30,29,29,28,23,16,12,12,10,2,-9,-14,-6,-7,-7,-11,-22,-35,-42,-45,-53,-65,-75,-80,-12,-13,-13,-19,-39,-60,-70,-76,-90,-105,-115,-118,-3,-3,-4,-10,-31,-54,-65,-71,-86,-101,-110,-113,12,11,11,4,-16,-38,-49,-55,-69,-84,-93,-95,48,47,47,43,29,13,5,2,-7,-17,-26,-30,54,54,53,51,46,38,33,33,30,23,13,8		1	주인공
 주인공여_look_u_santa_bell_방패_죽음	px_herof_u_santa_bell_shield_death.png	12	8	18	40	10	43,43,42,41,37,31,27,28,27,20,10,5,29,29,28,27,22,16,12,12,10,3,-7,-12,-5,-5,-6,-9,-21,-34,-41,-44,-52,-63,-73,-77,-9,-9,-10,-16,-35,-57,-67,-73,-88,-103,-112,-116,1,1,0,-6,-27,-50,-61,-68,-83,-98,-108,-111,16,15,15,8,-12,-35,-46,-52,-66,-81,-91,-94,50,49,49,44,31,15,7,4,-4,-15,-24,-28,53,53,52,51,46,38,34,34,32,25,15,10		1	주인공
 주인공여_look_u_abyss_ledger_방패_죽음	px_herof_u_abyss_ledger_shield_death.png	12	8	18	40	10	44,43,43,42,37,31,27,28,26,19,10,5,29,29,28,27,22,16,12,12,10,2,-7,-12,-5,-6,-6,-10,-21,-34,-41,-44,-52,-63,-73,-78,-9,-10,-10,-17,-36,-58,-68,-74,-88,-103,-113,-116,1,0,0,-7,-28,-51,-62,-68,-83,-99,-109,-112,15,15,14,7,-13,-35,-46,-52,-67,-82,-92,-95,49,49,48,44,30,15,7,4,-5,-16,-25,-29,53,53,52,51,46,38,34,34,31,24,15,10		1	주인공
+바닥_bordeaux_dry	px_ground_bordeaux_dry.png	1	1	0	0	1			1	바닥
+바닥_bordeaux_wet	px_ground_bordeaux_wet.png	1	1	0	0	1			1	바닥
+바닥_bordeaux_pebble	px_ground_bordeaux_pebble.png	1	1	0	0	1			1	바닥
+바닥_vineyard_dry	px_ground_vineyard_dry.png	1	1	0	0	1			1	바닥
+바닥_vineyard_wet	px_ground_vineyard_wet.png	1	1	0	0	1			1	바닥
+바닥_vineyard_pebble	px_ground_vineyard_pebble.png	1	1	0	0	1			1	바닥
+늑대인간_서기	px_werewolf_idle.png	8	8	17	50	5			1.125	캐릭터
+반역총사_서기	px_rebel_musketeer_idle.png	8	8	19	46	5			1	캐릭터
+늑대인간_걷기	px_werewolf_walk.png	12	8	18	49	30		2.438	1.125	캐릭터
+반역총사_걷기	px_rebel_musketeer_walk.png	12	8	16	45	30		2.438	1	캐릭터
+늑대인간_공격	px_werewolf_attack.png	10	8	24	55	14			1.125	캐릭터
+반역총사_공격	px_rebel_musketeer_attack.png	10	8	36	56	16			1	캐릭터
+늑대인간_죽음	px_werewolf_death.png	12	8	31	50	12			1.125	캐릭터
+반역총사_죽음	px_rebel_musketeer_death.png	12	8	28	46	12			1	캐릭터
+항구관리인가스통_서기	px_npc_gaston_idle.png	8	8	16	45	4			1	캐릭터
+상인마르고_서기	px_npc_margot_idle.png	8	8	12	42	4			1	캐릭터
+대장장이뤼시앵_서기	px_npc_lucien_idle.png	8	8	18	43	4			1	캐릭터
+포도원주인바티스트_서기	px_npc_baptiste_idle.png	8	8	14	46	4			1	캐릭터
+수도원장안셀름_서기	px_npc_anselme_idle.png	8	8	20	63	4			1	캐릭터
+늑대사냥꾼르나르_서기	px_npc_renard_idle.png	8	8	14	44	4			1	캐릭터
+부적중	px_item_charm_medium.png	1	1	9	22	1			1	조작판
+부적중_땅	px_item_charm_medium_ground.png	1	1	4	5	10			1	세계
+보르도집	px_bordeaux_house.png	3	1	107	204	1			1	세계
+포도주창고	px_wine_store.png	1	1	183	169	1			1	세계
+수도원	px_abbey.png	1	1	202	300	1			1	세계
+샤토	px_chateau.png	1	1	201	259	1			1	세계
+포도압착장	px_wine_press.png	1	1	118	99	1			1	세계
+포도나무	px_vine.png	4	1	16	33	1			1	세계
+바닥_cellar_dry	px_ground_cellar_dry.png	1	1	0	0	1			1	바닥
+바닥_cellar_wet	px_ground_cellar_wet.png	1	1	0	0	1			1	바닥
+바닥_cellar_pebble	px_ground_cellar_pebble.png	1	1	0	0	1			1	바닥
+마녀_서기	px_witch_idle.png	8	8	20	67	5			1	캐릭터
+마녀_걷기	px_witch_walk.png	12	8	34	67	30		2.132	1	캐릭터
+마녀_공격	px_witch_attack.png	8	8	39	72	12			1	캐릭터
+마녀_시전	px_witch_cast.png	8	8	39	72	12			1	캐릭터
+마녀_죽음	px_witch_death.png	12	8	49	68	12			1	캐릭터
+저주술통_서기	px_cursed_cask_idle.png	8	8	20	28	8			1	캐릭터
+저주술통_걷기	px_cursed_cask_walk.png	8	8	20	28	12			1	캐릭터
+저주술통_공격	px_cursed_cask_attack.png	8	8	20	32	12			1	캐릭터
+저주술통_죽음	px_cursed_cask_death.png	8	8	20	28	10			1	캐릭터
+마녀제단_서기	px_witch_altar_idle.png	8	8	34	34	8			1	캐릭터
+마녀제단_걷기	px_witch_altar_walk.png	8	8	34	34	12			1	캐릭터
+마녀제단_공격	px_witch_altar_attack.png	8	8	34	34	12			1	캐릭터
+마녀제단_죽음	px_witch_altar_death.png	8	8	34	34	10			1	캐릭터
+저장고벽	px_cellar_wall.png	5	1	28	56	1			1	세계
+포도주선반	px_wine_rack.png	1	1	18	43	1			1	세계
+바닥_forest_dry	px_ground_forest_dry.png	1	1	0	0	1			1	바닥
+바닥_forest_wet	px_ground_forest_wet.png	1	1	0	0	1			1	바닥
+바닥_forest_pebble	px_ground_forest_pebble.png	1	1	0	0	1			1	바닥
+요정궁수_서기	px_fairy_archer_idle.png	8	8	15	41	5			1	캐릭터
+요정궁수_걷기	px_fairy_archer_walk.png	12	8	16	41	30		2.132	1	캐릭터
+요정궁수_공격	px_fairy_archer_attack.png	10	8	18	50	16			1	캐릭터
+요정궁수_죽음	px_fairy_archer_death.png	12	8	28	41	12			1	캐릭터
+숲늑대_서기	px_forest_wolf_idle.png	8	8	21	29	8			1	캐릭터
+숲늑대_걷기	px_forest_wolf_walk.png	8	8	22	28	12			1	캐릭터
+숲늑대_공격	px_forest_wolf_attack.png	8	8	33	40	12			1	캐릭터
+숲늑대_죽음	px_forest_wolf_death.png	8	8	21	28	10			1	캐릭터
+나무정령_서기	px_tree_spirit_idle.png	8	8	21	62	8			1	캐릭터
+나무정령_걷기	px_tree_spirit_walk.png	8	8	22	63	12			1	캐릭터
+나무정령_공격	px_tree_spirit_attack.png	8	8	26	74	12			1	캐릭터
+나무정령_죽음	px_tree_spirit_death.png	8	8	50	62	10			1	캐릭터
+고목	px_ancient_oak.png	4	1	67	112	1			1	세계
+가시덤불	px_bramble.png	4	1	28	40	1			1	세계
+선돌	px_menhir.png	3	1	11	52	1			1	세계
+바닥_court_dry	px_ground_court_dry.png	1	1	0	0	1			1	바닥
+바닥_court_wet	px_ground_court_wet.png	1	1	0	0	1			1	바닥
+바닥_court_pebble	px_ground_court_pebble.png	1	1	0	0	1			1	바닥
+흑기사_서기	px_black_knight_idle.png	8	8	30	86	5			1.375	캐릭터
+흑기사_걷기	px_black_knight_walk.png	12	8	38	83	30		1.865	1.375	캐릭터
+흑기사_공격	px_black_knight_attack.png	10	8	63	88	16			1.375	캐릭터
+흑기사_죽음	px_black_knight_death.png	12	8	38	84	12			1.375	캐릭터
+사이렌_서기	px_siren_idle.png	8	8	13	41	5			1	캐릭터
+사이렌_걷기	px_siren_walk.png	12	8	14	41	30		2.132	1	캐릭터
+사이렌_공격	px_siren_attack.png	8	8	16	43	12			1	캐릭터
+사이렌_시전	px_siren_cast.png	8	8	16	43	12			1	캐릭터
+사이렌_죽음	px_siren_death.png	12	8	26	41	12			1	캐릭터
+요정여왕_서기	px_npc_fairy_queen_idle.png	8	8	22	46	5			1	캐릭터
+꽃울타리	px_flower_hedge.png	4	1	28	41	1			1	세계
+순간이동꽃	px_warp_flower.png	1	1	18	10	1			1	세계
+여왕의옥좌	px_queen_throne.png	1	1	34	63	1			1	세계
+멜뤼진_서기	px_melusine_idle.png	8	8	30	63	5			1.375	캐릭터
+멜뤼진_걷기	px_melusine_walk.png	12	8	32	60	30		2.132	1.375	캐릭터
+멜뤼진_공격	px_melusine_attack.png	8	8	30	63	12			1.375	캐릭터
+멜뤼진_시전	px_melusine_cast.png	8	8	30	63	12			1.375	캐릭터
+멜뤼진_죽음	px_melusine_death.png	12	8	43	63	12			1.375	캐릭터
+새벽별조각	px_item_dawnstar_shard.png	1	1	11	11	1			1	조작판
+새벽별조각_땅	px_item_dawnstar_shard_ground.png	1	1	5	5	1			1	세계
+클레르_서기	px_claire_idle.png	8	8	13	41	5			1	캐릭터
+클레르_걷기	px_claire_walk.png	12	8	14	41	30		2.132	1	캐릭터
+클레르_죽음	px_claire_death.png	12	8	26	42	12			1	캐릭터
+수도사편지	px_item_monk_letter.png	1	1	8	22	1			1	조작판
+수도사편지_땅	px_item_monk_letter_ground.png	1	1	7	6	1			1	세계
+늑대이빨	px_item_wolf_fang.png	1	1	8	11	1			1	조작판
+늑대이빨_땅	px_item_wolf_fang_ground.png	1	1	9	24	1			1	세계
+카타콤열쇠	px_item_catacomb_key.png	1	1	9	12	1			1	조작판
+카타콤열쇠_땅	px_item_catacomb_key_ground.png	1	1	4	4	1			1	세계
+바닥_catacomb_dry	px_ground_catacomb_dry.png	1	1	0	0	1			1	바닥
+바닥_catacomb_wet	px_ground_catacomb_wet.png	1	1	0	0	1			1	바닥
+바닥_catacomb_pebble	px_ground_catacomb_pebble.png	1	1	0	0	1			1	바닥
+철가면_서기	px_iron_mask_idle.png	8	8	28	82	5			1.375	캐릭터
+철가면_걷기	px_iron_mask_walk.png	12	8	36	79	30		2.438	1.375	캐릭터
+철가면_공격	px_iron_mask_attack.png	10	8	59	85	16			1.375	캐릭터
+철가면_권총	px_iron_mask_pistol.png	12	8	40	82	14			1.375	캐릭터
+철가면_던지기	px_iron_mask_throw.png	12	8	39	83	14			1.375	캐릭터
+철가면_시전	px_iron_mask_cast.png	14	8	33	82	12			1.375	캐릭터
+철가면_죽음	px_iron_mask_death.png	12	8	41	81	12			1.375	캐릭터
+심연의열쇠3	px_item_abyss_key_3.png	1	1	9	12	1			1	조작판
+심연의열쇠3_땅	px_item_abyss_key_3_ground.png	1	1	4	5	1			1	세계
+납골벽	px_catacomb_wall.png	5	1	24	57	1			1	세계
+해골더미	px_catacomb_skulls.png	2	1	13	26	1			1	세계
+가스코뉴레이피어	px_item_u_gascon_rapier.png	1	1	6	32	1			1	조작판
+가스코뉴레이피어_땅	px_item_u_gascon_rapier_ground.png	1	1	13	4	1			1	세계
+늑대군주가죽	px_item_u_wolf_lord_pelt.png	1	1	18	22	1			1	조작판
+늑대군주가죽_땅	px_item_u_wolf_lord_pelt_ground.png	1	1	12	8	1			1	세계
+마녀등불	px_item_u_witch_lantern.png	1	1	7	44	1			1	조작판
+마녀등불_땅	px_item_u_witch_lantern_ground.png	1	1	12	14	1			1	세계
+묵은증류기	px_item_u_vintage_alembic.png	1	1	12	14	1			1	조작판
+묵은증류기_땅	px_item_u_vintage_alembic_ground.png	1	1	5	5	1			1	세계
+흑기사판금	px_item_u_black_knight_plate.png	1	1	22	23	1			1	조작판
+흑기사판금_땅	px_item_u_black_knight_plate_ground.png	1	1	7	6	1			1	세계
+사이렌반지	px_item_u_siren_song.png	1	1	9	11	1			1	조작판
+사이렌반지_땅	px_item_u_siren_song_ground.png	1	1	6	6	1			1	세계
+철가면단총	px_item_u_iron_mask_pistol.png	1	1	10	22	1			1	조작판
+철가면단총_땅	px_item_u_iron_mask_pistol_ground.png	1	1	9	5	1			1	세계
+멜뤼진의눈물	px_item_u_melusine_tear.png	1	1	7	11	1			1	조작판
+멜뤼진의눈물_땅	px_item_u_melusine_tear_ground.png	1	1	5	5	1			1	세계
+총사모자	px_item_s_musk_hat.png	1	1	21	13	1			1	조작판
+총사모자_땅	px_item_s_musk_hat_ground.png	1	1	4	5	1			1	세계
+총사카사크	px_item_s_musk_cassock.png	1	1	21	26	1			1	조작판
+총사카사크_땅	px_item_s_musk_cassock_ground.png	1	1	6	6	1			1	세계
+총사머스킷	px_item_s_musk_musket.png	1	1	21	39	1			1	조작판
+총사머스킷_땅	px_item_s_musk_musket_ground.png	1	1	4	11	1			1	세계
 `;export{t as default};

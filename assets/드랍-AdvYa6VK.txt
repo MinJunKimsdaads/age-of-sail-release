@@ -64,3 +64,21 @@ batons	1	0	bosun_whistle	2	captain_baton	1													지휘봉 (M-5 선장술)
 chest_baton	1	4	batons	1															상자의 덤 지휘봉 1/5 (M-5 — 지도물체.txt 덤 넷째). 덤마다 떼어 낸 난수 — 원래 보물 · 앞의 덤 · 그 뒤의 판이 그대로
 wands	1	0	coral_wand	2	bone_wand	1													주술봉 (M-6 망령술): 산호 주술봉 2 (드랍레벨 3부터) · 익사자의 뼈 주술봉 1 (9부터). 상자의 덤(chest_wand)에서만 — 망령술을 처음 고르면 산호 주술봉을 받음. 유니크 산타 마리아의 종 · 심연의 장부도 이 표에서
 chest_wand	1	4	wands	1															상자의 덤 주술봉 1/5 (M-6 — 지도물체.txt 덤 다섯째). 덤마다 떼어 낸 난수 — 원래 보물 · 앞의 덤 · 그 뒤의 판이 그대로
+vineyard_charms	1	15	charm_medium	1															보르도 포도원 부적(중) (1/16 — 지역 추가드랍, A3-0 [설계서 파밍 대상])
+vineyard_extra	-1	0	vineyard_charms	1															보르도 포도원 추가드랍: 부적(중) 1/16 (A3-0)
+cellar_potions	1	3	potions	1															보르도 저장고 물약 1/4 (물약 재료 — 지역 추가드랍, A3-1 [설계서 파밍 대상])
+cellar_extra	-1	0	cellar_potions	1															보르도 지하 저장고 추가드랍: 물약 1/4 (A3-1)
+forest_charms	1	21	charm_small	1	charm_medium	2													브로셀리앙드 숲 부적 (1/8 — 소 1 : 중 2, 지역 추가드랍, A3-2 [설계서 파밍 대상 "부적 (챔피언 많음)"])
+forest_extra	-1	0	forest_charms	1															브로셀리앙드 숲 추가드랍: 부적 1/8 (A3-2)
+elite_wolf_lord	-2	0	elite	1	forest_charms	1													늑대 군주: 정예 드랍 + 부적 굴림 (A3-2)
+court_jewels	1	9	ring	2	amulet	1													요정의 궁정 장신구 (1/10 — 반지 2 : 목걸이 1, 지역 추가드랍, A3-3 [설계서 파밍 대상 "유니크 장신구" — 유니크는 A3-7])
+court_extra	-1	0	court_jewels	1															요정의 궁정 추가드랍: 장신구 1/10 (A3-3)
+elite_black_knight	-2	0	elite	1	court_jewels	1													흑기사: 정예 드랍 + 장신구 굴림 (A3-3)
+boss_melusine	7	0	weapons	3	armors	3	jewelry	2	gold	2									요정 여왕 멜뤼진: 장비 7번 굴림 (A3-4 — 유니크 표는 A3-7)
+boss_melusine_all	-2	0	boss_melusine	1	court_jewels	1													요정 여왕 멜뤼진: 보스 드랍 + 궁정 장신구 (A3-4)
+abyss_key3	1	0	abyss_key_3	1															심연의 열쇠 ③ (A3-6 — 철가면의 총사대장 확정)
+mask_loot	7	0	weapons	3	armors	3	jewelry	3	sigils_palace	2	gold	1							철가면의 총사대장의 보물 (장비 · 장신구 · 문장석 4~8)
+boss_mask_all	-2	0	mask_loot	1	abyss_key3	1													철가면의 총사대장 (A3-6): 보물 + 심연의 열쇠 ③ 확정 (유니크는 A3-7)
+catacomb_chest	4	0	weapons	2	armors	3	jewelry	3	gold	3	potions	1	sigils_palace	1					총사대의 무기고 궤 (A3-6)
+catacomb_rares	1	30	weapons	3	armors	4	jewelry	3											카타콤 장비 1/31
+catacomb_extra	-2	0	catacomb_rares	1	forest_charms	1													파리 카타콤 추가드랍: 장비 1/31 · 부적 1/8 (A3-6)

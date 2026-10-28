@@ -501,6 +501,7 @@ seville	상자	stash	36.5	10.6	1.2	창고	창고 — 선착장 옆 큰 궤 (리�
 seville	상자	captains_chest	43.6	27.4	1.2	궤	선장의 궤 — 이네스 곁, 같은 문장석 3개 → 다음 번호
 seville	소품	배	51	3.4		변형=0	상선 라 피에다드 — 리스본으로 가는 배
 seville	소품	배	17.5	2.6		변형=1	작은 배
+seville	소품	배	30	3.2		변형=0	상선 생트 카트린 — 보르도로 가는 배 (A3-0)
 seville	소품	배	36	3.6		변형=1	
 seville	소품	창고궤	36.5	10.6			
 seville	소품	노점	22	24.2			카르멘의 노점 (줄무늬 차양 · 과일 · 도기)
@@ -875,7 +876,8 @@ alhambra_3	빛	달빛	60	28			무너진 천장
 seville	입구	from_alhambra	2.6	30.5			알함브라에서 올라온 자리 (서쪽 문)
 seville	출구	to_hernan	9	51.6	1.6	hernan_camp::from_seville	남서쪽 강가 길 → 정복자의 진영 (메인 ③ 뒤, A2-5)
 seville	입구	from_hernan	9.5	50.2			정복자의 진영에서 돌아온 자리 (남서쪽 문)
-seville	출구	to_bordeaux	30.5	2.4	1.4	bordeaux::from_seville	보르도로 가는 배 — 3막 (다음 이야기, A2-5)
+seville	입구	from_bordeaux	30.5	9.6			보르도에서 온 배가 닿는 부두 (A3-0)
+seville	출구	to_bordeaux	30.5	2.4	1.4	bordeaux::from_seville	상선 생트 카트린 — 보르도로 (3막, A3-0 — 메인 ④ 정복자 뒤)
 hernan_camp	입구	from_seville	10.5	3.5			세비야 남쪽 강가 길에서 들어온 자리
 hernan_camp	출구	to_seville	10.5	0.6	1.5	seville::from_hernan	강가 길 → 세비야 (남서쪽 문)
 hernan_camp	웨이포인트	hernan_camp_gate	13.5	4.5	1.1		정복자의 진영 입구 웨이포인트
@@ -1272,3 +1274,404 @@ seville	출구	to_inquisition	42.7	23.5	1.0	inquisition:1:from_seville	대성당
 seville	입구	from_inquisition	45.2	24.6			심문소에서 올라온 자리 (대성당 철문 앞)
 seville	인물	fray_tomas	45.8	21.8		방향=남서	고해 신부 프라이 토마스 — 대성당 동쪽 철문 곁
 seville	소품	심문소철문	42.0	23.6		변형=0	대성당 동쪽 벽의 낮은 철문 (쇠 띠 · 큰 자물쇠)
+bordeaux	입구	dock	24.5	10.2			선창 — 웨이포인트 · 다시 일어나는 자리 (Act 3)
+bordeaux	입구	from_seville	28	8.6			세비야에서 온 배가 닿는 부두
+bordeaux	출구	to_seville	28	2.4	1.4	seville::from_bordeaux	상선 생트 카트린 — 세비야로 (A3-0)
+bordeaux	입구	from_vineyard	31.5	45.6			포도원에서 돌아온 자리 (남쪽 문)
+bordeaux	출구	to_vineyard	31.5	47.4	1.6	bordeaux_vineyard::from_bordeaux	남쪽 문 → 보르도 포도원 (A3-0)
+bordeaux	웨이포인트	bordeaux_dock	22.5	9.8	1.1		보르도 선창 웨이포인트
+bordeaux	인물	gaston	26.2	10.4		방향=남	항구 관리인 가스통 — 선창
+bordeaux	인물	margot	22	24.6		방향=남	상인 마르고 — 광장 서쪽 노점
+bordeaux	인물	lucien	44.5	24.4		방향=남서	대장장이 뤼시앵 — 광장 동쪽 대장간
+bordeaux	인물	baptiste	16.4	34.5		방향=동	포도원 주인 바티스트 — 포도주 창고 앞
+bordeaux	인물	anselme	52.5	43.4		방향=남	수도원장 안셀름 — 수도원 앞
+bordeaux	인물	renard	35.6	45		방향=서	늑대 사냥꾼 르나르 — 남쪽 문 곁
+bordeaux	상자	stash	34.6	9.8	1.2	창고	창고 — 선창의 큰 궤 (리스본 · 세비야 창고와 같은 짐)
+bordeaux	소품	배	28	3.4		변형=0	상선 생트 카트린 — 세비야로 가는 배
+bordeaux	소품	배	45.5	3.6		변형=1	작은 배
+bordeaux	소품	배	12	3.2		변형=1	
+bordeaux	소품	창고궤	34.6	9.8			
+bordeaux	소품	보르도집	5.5	15		변형=2	흰 석회암 벽 · 푸른 슬레이트 지붕 · 덧창 (보르도 집)
+bordeaux	소품	보르도집	13.5	15		변형=1	흰 석회암 벽 · 푸른 슬레이트 지붕 · 덧창 (보르도 집)
+bordeaux	소품	보르도집	21.5	15		변형=0	흰 석회암 벽 · 푸른 슬레이트 지붕 · 덧창 (보르도 집)
+bordeaux	소품	보르도집	41.5	15		변형=2	흰 석회암 벽 · 푸른 슬레이트 지붕 · 덧창 (보르도 집)
+bordeaux	소품	보르도집	49.5	15		변형=1	흰 석회암 벽 · 푸른 슬레이트 지붕 · 덧창 (보르도 집)
+bordeaux	소품	보르도집	57.5	15		변형=0	흰 석회암 벽 · 푸른 슬레이트 지붕 · 덧창 (보르도 집)
+bordeaux	소품	보르도집	21.5	35.5		변형=0	
+bordeaux	소품	보르도집	39.5	35.5		변형=1	
+bordeaux	소품	보르도집	6.5	44		변형=2	
+bordeaux	소품	보르도집	21.5	43.5		변형=0	
+bordeaux	소품	보르도집	39.5	43.5		변형=1	
+bordeaux	소품	포도주창고	8.5	36			포도주 창고 — 긴 석조 창고 · 큰 문 · 술통 (저장고는 A3-1)
+bordeaux	소품	수도원	53	37			생트 크루아 수도원 — 종탑 · 둥근 창
+bordeaux	소품	노점	22	21.5			마르고의 노점
+bordeaux	소품	대장간	44.5	21.5			뤼시앵의 대장간
+bordeaux	소품	분수	32	22			광장 분수
+bordeaux	소품	나무통	19	9.8		변형=0	포도주 통 더미
+bordeaux	소품	나무통	31	9.8		변형=1	포도주 통 더미
+bordeaux	소품	나무통	40	9.8		변형=0	포도주 통 더미
+bordeaux	소품	나무통	50	9.8		변형=0	포도주 통 더미
+bordeaux	소품	나무통	12	30.8		변형=1	포도주 통 더미
+bordeaux	소품	나무통	26	25.5		변형=0	포도주 통 더미
+bordeaux	소품	나무통	16	40.5		변형=0	포도주 통 더미
+bordeaux	빛	등불	20	9			
+bordeaux	빛	등불	30	9			
+bordeaux	빛	등불	38	9			
+bordeaux	빛	등불	48	9			
+bordeaux	빛	등불	26	19.5			
+bordeaux	빛	등불	38	19.5			
+bordeaux	빛	등불	26	26			
+bordeaux	빛	등불	38	26			
+bordeaux	빛	등불	29	31			
+bordeaux	빛	등불	35	31			
+bordeaux	빛	등불	29	45			
+bordeaux	빛	등불	35	45			
+bordeaux	빛	등불	16	31			
+bordeaux	빛	등불	50	31			
+bordeaux	입구	from_paris	45.5	8.5			파리에서 돌아온 밤배가 닿는 자리 (A3-6)
+bordeaux	밤배	gaston	45.5	3.6		paris_catacomb:1:from_bordeaux	밤배 — 가스통에게 "밤배를 타기" (카타콤 열쇠가 있으면, A3-6)
+bordeaux_vineyard	입구	from_bordeaux	47.5	4.6			보르도 남쪽 문에서 온 자리
+bordeaux_vineyard	출구	to_bordeaux	47.5	1.2	1.6	bordeaux::from_vineyard	북쪽 길 → 보르도 (남쪽 문)
+bordeaux_vineyard	웨이포인트	vineyard_road	51	6.5	1.1		포도원 길 웨이포인트
+bordeaux_vineyard	입구	from_cellar	67.5	21			저장고에서 나온 자리
+bordeaux_vineyard	출구	to_cellar	69.3	21	1.4	bordeaux_cellar:1:from_vineyard	샤토 서쪽 지하 문 → 보르도 지하 저장고 (A3-1)
+bordeaux_vineyard	입구	from_forest	50	68.4			숲길에서 돌아온 자리
+bordeaux_vineyard	출구	to_forest	50	71.2	1.6	broceliande:1:from_vineyard	남쪽 숲길 → 브로셀리앙드 숲 (A3-2)
+bordeaux_vineyard	소품	샤토	75	21			샤토 — 포도원 주인의 석조 저택 (지하에 저장고)
+bordeaux_vineyard	소품	포도압착장	85	26.5			포도 압착장 — 지붕 아래 큰 나무 압착기 · 통
+bordeaux_vineyard	소품	나무통	66	24.5		변형=0	
+bordeaux_vineyard	소품	나무통	81	23.4		변형=1	
+bordeaux_vineyard	소품	나무통	44	16		변형=0	
+bordeaux_vineyard	소품	나무통	38	30.5		변형=0	
+bordeaux_vineyard	무리	v1	20	13	4	무리=1 · 몬스터=werewolf	
+bordeaux_vineyard	무리	v2	70	13	4	무리=1 · 몬스터=rebel_musketeer	
+bordeaux_vineyard	무리	v3	26	24	4	무리=1 · 몬스터=werewolf	
+bordeaux_vineyard	무리	v4	60	20	4	무리=1 · 몬스터=rebel_musketeer	
+bordeaux_vineyard	무리	v5	20	44	4	무리=1 · 몬스터=werewolf	
+bordeaux_vineyard	무리	v6	74	38	4	무리=1	
+bordeaux_vineyard	무리	v7	64	46	4	무리=1 · 몬스터=werewolf	
+bordeaux_vineyard	무리	v8	28	56	4	무리=1 · 몬스터=rebel_musketeer	
+bordeaux_vineyard	무리	v9	76	58	4	무리=1 · 몬스터=werewolf	
+bordeaux_vineyard	무리	v10	56	64	4	무리=1	
+bordeaux_vineyard	무리	v11	10	50	4	무리=1 · 몬스터=rebel_musketeer	
+bordeaux_vineyard	무리	v12	86	46	4	무리=1	
+bordeaux_vineyard	호위	claire	62.5	66.5		퀘스트=a3_side3	포도원 남쪽 끝 — 길 잃은 클레르 (A3-5 호위: 다가가면 따라옴)
+bordeaux_cellar_1	입구	from_vineyard	5	28.5			샤토 지하 계단으로 내려온 자리
+bordeaux_cellar_1	출구	to_vineyard	1.8	28.5	1.4	bordeaux_vineyard::from_cellar	서쪽 계단 → 포도원 (샤토)
+bordeaux_cellar_1	웨이포인트	bordeaux_cellar_1	8	25	1.1		보르도 지하 저장고 1층 웨이포인트
+bordeaux_cellar_1	입구	from_floor2	71.5	28.5			2층에서 올라온 자리
+bordeaux_cellar_1	출구	to_floor2	74.2	28.5	1.4	bordeaux_cellar:2:from_floor1	동쪽 계단 → 저장고 2층
+bordeaux_cellar_1	무리	cask1	19.5	28.5	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_1	무리	cask2	31.5	10.5	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_1	무리	cask3	50	27.5	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_1	무리	cask4	35.5	45	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_1	무리	cask5	65.5	44	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_1	무리	c1	30	20	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_1	무리	c2	40	34	3	무리=1	
+bordeaux_cellar_1	무리	c3	28	38	3	무리=1 · 몬스터=witch	
+bordeaux_cellar_1	무리	c4	30	7	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_1	무리	c5	60	22	3	무리=1	
+bordeaux_cellar_1	무리	c6	68	34	3	무리=1 · 몬스터=witch	
+bordeaux_cellar_1	무리	c7	62	30	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_1	무리	c8	44	49	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_1	무리	c9	56	49	3	무리=1	
+bordeaux_cellar_1	무리	c10	10	31	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_1	소품	나무통	6	22.5		변형=0	포도주 통
+bordeaux_cellar_1	소품	나무통	12	33.5		변형=1	포도주 통
+bordeaux_cellar_1	소품	나무통	25.5	15.5		변형=0	포도주 통
+bordeaux_cellar_1	소품	나무통	43	15.5		변형=1	포도주 통
+bordeaux_cellar_1	소품	나무통	25.5	41.5		변형=0	포도주 통
+bordeaux_cellar_1	소품	나무통	43	41.5		변형=1	포도주 통
+bordeaux_cellar_1	소품	나무통	22.5	4.5		변형=0	포도주 통
+bordeaux_cellar_1	소품	나무통	39.5	10.5		변형=1	포도주 통
+bordeaux_cellar_1	소품	나무통	56.5	18.5		변형=0	포도주 통
+bordeaux_cellar_1	소품	나무통	71.5	37.5		변형=1	포도주 통
+bordeaux_cellar_1	소품	포도주선반	27	47.5		변형=0	병 선반
+bordeaux_cellar_1	소품	포도주선반	33	47.5		변형=0	병 선반
+bordeaux_cellar_1	소품	포도주선반	40	47.5		변형=0	병 선반
+bordeaux_cellar_1	소품	포도주선반	47	47.5		변형=0	병 선반
+bordeaux_cellar_1	소품	포도주선반	54	47.5		변형=0	병 선반
+bordeaux_cellar_1	소품	포도주선반	61	47.5		변형=0	병 선반
+bordeaux_cellar_1	소품	포도주선반	27	51.5		변형=0	병 선반
+bordeaux_cellar_1	소품	포도주선반	40	51.5		변형=0	병 선반
+bordeaux_cellar_1	소품	포도주선반	54	51.5		변형=0	병 선반
+bordeaux_cellar_1	빛	촛불	5	22			
+bordeaux_cellar_1	빛	촛불	14	34			
+bordeaux_cellar_1	빛	촛불	25	15			
+bordeaux_cellar_1	빛	촛불	44	15			
+bordeaux_cellar_1	빛	촛불	25	42			
+bordeaux_cellar_1	빛	촛불	44	42			
+bordeaux_cellar_1	빛	촛불	22	4			
+bordeaux_cellar_1	빛	촛불	40	4			
+bordeaux_cellar_1	빛	촛불	56	18			
+bordeaux_cellar_1	빛	촛불	72	18			
+bordeaux_cellar_1	빛	촛불	56	38			
+bordeaux_cellar_1	빛	촛불	72	38			
+bordeaux_cellar_1	빛	촛불	30	50			
+bordeaux_cellar_1	빛	촛불	60	50			
+bordeaux_cellar_2	입구	from_floor1	5	28.5			1층에서 내려온 자리
+bordeaux_cellar_2	출구	to_floor1	1.8	28.5	1.4	bordeaux_cellar:1:from_floor2	서쪽 계단 → 저장고 1층
+bordeaux_cellar_2	무리	cask1	17	28.5	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_2	무리	cask2	28.5	28	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_2	무리	cask3	43	15.5	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_2	무리	cask4	43	41.5	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_2	무리	cask5	58	28	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_2	무리	cask6	62	18	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_2	무리	cask7	62	38	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_2	무리	altar	67	28.5	0.1	무리=1 · 몬스터=witch_altar · 수=1~1 · 등급=일반	마녀의 제단 (메인 ① — 부숨)
+bordeaux_cellar_2	무리	d1	26	12	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_2	무리	d2	34	20	3	무리=1 · 몬스터=witch	
+bordeaux_cellar_2	무리	d3	25	40	3	무리=1 · 몬스터=witch	
+bordeaux_cellar_2	무리	d4	33	46	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_2	무리	d5	52	14	3	무리=1	
+bordeaux_cellar_2	무리	d6	52	40	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_2	무리	d7	52	27	3	무리=1 · 몬스터=witch	
+bordeaux_cellar_2	무리	d8	64	22	3	무리=1 · 몬스터=witch	
+bordeaux_cellar_2	무리	d9	70	34	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_2	무리	d10	10	24	3	무리=1	
+bordeaux_cellar_2	소품	나무통	21.5	9.5		변형=0	포도주 통
+bordeaux_cellar_2	소품	나무통	36.5	9.5		변형=1	포도주 통
+bordeaux_cellar_2	소품	나무통	21.5	47.5		변형=0	포도주 통
+bordeaux_cellar_2	소품	나무통	36.5	47.5		변형=1	포도주 통
+bordeaux_cellar_2	소품	나무통	49.5	11.5		변형=0	포도주 통
+bordeaux_cellar_2	소품	나무통	54.5	44.5		변형=1	포도주 통
+bordeaux_cellar_2	소품	나무통	61.5	16.5		변형=0	포도주 통
+bordeaux_cellar_2	소품	나무통	72.5	39.5		변형=1	포도주 통
+bordeaux_cellar_2	빛	촛불	5	21			
+bordeaux_cellar_2	빛	촛불	13	35			
+bordeaux_cellar_2	빛	촛불	21	9			
+bordeaux_cellar_2	빛	촛불	37	9			
+bordeaux_cellar_2	빛	촛불	21	48			
+bordeaux_cellar_2	빛	촛불	37	48			
+bordeaux_cellar_2	빛	촛불	49	11			
+bordeaux_cellar_2	빛	촛불	55	45			
+bordeaux_cellar_2	빛	촛불	61	16			
+bordeaux_cellar_2	빛	촛불	73	16			
+bordeaux_cellar_2	빛	촛불	61	40			
+bordeaux_cellar_2	빛	촛불	73	40			
+bordeaux_cellar_2	빛	촛불	66	26			
+bordeaux_cellar_2	빛	촛불	68	26			
+broceliande_1	입구	from_vineyard	45.5	4.6			포도원 숲길에서 온 자리
+broceliande_1	출구	to_vineyard	45.5	1.2	1.6	bordeaux_vineyard::from_forest	북쪽 숲길 → 보르도 포도원
+broceliande_1	웨이포인트	broceliande_1	51.5	9.5	1.1		브로셀리앙드 숲 1층 웨이포인트
+broceliande_1	입구	from_floor2	85.5	60.5			2층에서 올라온 자리
+broceliande_1	출구	to_floor2	88.6	60.5	1.4	broceliande:2:from_floor1	동쪽 오솔길 → 숲 2층
+broceliande_1	무리	d1	16.5	27.5	3	무리=1 · 몬스터=tree_spirit	
+broceliande_1	무리	d2	40.5	33.5	3	무리=1	
+broceliande_1	무리	d3	52.5	34.5	3	무리=1 · 몬스터=werewolf	
+broceliande_1	무리	d4	46.5	28.5	3	무리=1 · 몬스터=fairy_archer	
+broceliande_1	무리	d5	30.5	53.5	3	무리=1	
+broceliande_1	무리	d6	25.5	48.5	3	무리=1 · 몬스터=werewolf	
+broceliande_1	무리	d7	72.5	26.5	3	무리=1 · 몬스터=fairy_archer	
+broceliande_1	무리	d8	75.5	30.5	3	무리=1	
+broceliande_1	무리	d9	70.5	56.5	3	무리=1 · 몬스터=tree_spirit	
+broceliande_1	무리	d10	60.5	57.5	3	무리=1 · 몬스터=werewolf	
+broceliande_1	무리	d11	34.5	13.5	3	무리=1	
+broceliande_1	무리	d12	75.5	44.5	3	무리=1 · 몬스터=fairy_archer	
+broceliande_1	빛	달빛	45.5	10.5			
+broceliande_1	빛	버섯	16.5	27.5			
+broceliande_1	빛	달빛	46.5	33.5			
+broceliande_1	빛	이끼	30.5	53.5			
+broceliande_1	빛	버섯	72.5	26.5			
+broceliande_1	빛	달빛	68.5	56.5			
+broceliande_1	빛	이끼	56.5	57.5			
+broceliande_2	입구	from_floor1	4.5	32.5			1층에서 온 자리
+broceliande_2	출구	to_floor1	1.4	32.5	1.4	broceliande:1:from_floor2	서쪽 오솔길 → 숲 1층
+broceliande_2	입구	from_floor3	45.5	61.5			3층에서 올라온 자리
+broceliande_2	출구	to_floor3	45.5	64.6	1.4	broceliande:3:from_floor2	남쪽 오솔길 → 숲 3층
+broceliande_2	무리	d1	28.5	18.5	3	무리=1 · 몬스터=fairy_archer	
+broceliande_2	무리	d2	25.5	14.5	3	무리=1	
+broceliande_2	무리	d3	28.5	46.5	3	무리=1 · 몬스터=tree_spirit	
+broceliande_2	무리	d4	32.5	50.5	3	무리=1 · 몬스터=werewolf	
+broceliande_2	무리	d5	40.5	26.5	3	무리=1	
+broceliande_2	무리	d6	58.5	36.5	3	무리=1 · 몬스터=tree_spirit	
+broceliande_2	무리	d7	71.5	16.5	3	무리=1 · 몬스터=fairy_archer	
+broceliande_2	무리	d8	76.5	20.5	3	무리=1 · 몬스터=werewolf	
+broceliande_2	무리	d9	73.5	46.5	3	무리=1	
+broceliande_2	무리	d10	78.5	50.5	3	무리=1 · 몬스터=tree_spirit	
+broceliande_2	무리	d11	63.5	56.5	3	무리=1 · 몬스터=werewolf	
+broceliande_2	무리	d12	45.5	60.5	3	무리=1 · 몬스터=fairy_archer	
+broceliande_2	빛	이끼	10.5	32.5			
+broceliande_2	빛	달빛	28.5	18.5			
+broceliande_2	빛	이끼	28.5	46.5			
+broceliande_2	빛	달빛	48.5	24.5			
+broceliande_2	빛	버섯	71.5	16.5			
+broceliande_2	빛	버섯	70.5	12.5			
+broceliande_2	빛	버섯	74.5	19.5			
+broceliande_2	빛	달빛	73.5	46.5			
+broceliande_2	빛	이끼	45.5	60.5			
+broceliande_3	입구	from_floor2	45.5	4.6			2층에서 내려온 자리
+broceliande_3	출구	to_floor2	45.5	1.2	1.4	broceliande:2:from_floor3	북쪽 오솔길 → 숲 2층
+broceliande_3	웨이포인트	broceliande_3	50.5	8.5	1.1		브로셀리앙드 숲 3층 웨이포인트
+broceliande_3	정예	wolf_lord	45.5	56.5			늑대 군주 + 숲 늑대 3~4 — 요정의 문 앞 빈터 (메인 ② 숲의 경계)
+broceliande_3	출구	to_court	45.5	64.6	1.6	fairy_court:1:from_forest	남쪽 요정의 문 → 요정의 궁정 (A3-3)
+broceliande_3	무리	d1	40.5	20.5	3	무리=1 · 몬스터=werewolf	
+broceliande_3	무리	d2	22.5	18.5	3	무리=1 · 몬스터=fairy_archer	
+broceliande_3	무리	d3	26.5	20.5	3	무리=1 · 몬스터=tree_spirit	
+broceliande_3	무리	d4	47.5	30.5	3	무리=1	
+broceliande_3	무리	d5	70.5	26.5	3	무리=1 · 몬스터=werewolf	
+broceliande_3	무리	d6	75.5	30.5	3	무리=1 · 몬스터=werewolf	
+broceliande_3	무리	d7	20.5	44.5	3	무리=1 · 몬스터=tree_spirit	
+broceliande_3	무리	d8	42.5	42.5	3	무리=1	
+broceliande_3	무리	d9	36.5	52.5	3	무리=1 · 몬스터=werewolf	
+broceliande_3	무리	d10	56.5	52.5	3	무리=1 · 몬스터=werewolf	
+broceliande_3	빛	달빛	45.5	8.5			
+broceliande_3	빛	버섯	22.5	18.5			
+broceliande_3	빛	이끼	70.5	26.5			
+broceliande_3	빛	버섯	20.5	44.5			
+broceliande_3	빛	달빛	45.5	55.5			
+broceliande_3	빛	이끼	36.5	55.5			
+broceliande_3	빛	이끼	53.5	55.5			
+fairy_court_1	입구	from_forest	45.5	4.6			숲의 요정의 문에서 온 자리
+fairy_court_1	출구	to_forest	45.5	1.2	1.6	broceliande:3:from_court	북쪽 요정의 문 → 브로셀리앙드 숲 3층
+fairy_court_1	웨이포인트	fairy_court_1	50.5	9.5	1.1		요정의 궁정 1층 웨이포인트
+fairy_court_1	입구	from_floor2	45.5	61.5			2층에서 올라온 자리
+fairy_court_1	출구	to_floor2	45.5	64.6	1.4	fairy_court:2:from_floor1	남쪽 길 → 궁정 2층
+fairy_court_1	꽃	n1	40.5	17.5	0.9	짝=i1	호숫가 ↔ 섬 1
+fairy_court_1	꽃	i1	38.5	30.5	0.9	짝=n1	호숫가 ↔ 섬 1
+fairy_court_1	꽃	i1b	39.5	31.5	0.9	짝=i2	섬 1 ↔ 섬 2
+fairy_court_1	꽃	i2	54.5	37.5	0.9	짝=i1b	섬 1 ↔ 섬 2
+fairy_court_1	꽃	i2b	55.5	37.5	0.9	짝=s1	섬 2 ↔ 남쪽 호숫가
+fairy_court_1	꽃	s1	50.5	55.5	0.9	짝=i2b	섬 2 ↔ 남쪽 호숫가
+fairy_court_1	꽃	ne	74.5	22.5	0.9	짝=ne2	북동 빈터 ↔ 남동 호숫가
+fairy_court_1	꽃	ne2	58.5	46.5	0.9	짝=ne	북동 빈터 ↔ 남동 호숫가
+fairy_court_1	무리	d1	21.5	22.5	2	무리=1 · 몬스터=siren	
+fairy_court_1	무리	d2	16.5	33.5	2	무리=1 · 몬스터=siren	
+fairy_court_1	무리	d3	21.5	47.5	2	무리=1 · 몬스터=siren	
+fairy_court_1	무리	d4	60.5	45.5	2	무리=1 · 몬스터=siren	
+fairy_court_1	무리	d5	72.5	22.5	3	무리=1	
+fairy_court_1	무리	d6	30.5	52.5	3	무리=1	
+fairy_court_1	무리	d7	45.5	57.5	3	무리=1	
+fairy_court_1	무리	d8	38.5	30.5	1.5	무리=1 · 몬스터=fairy_archer	
+fairy_court_1	무리	d9	54.5	37.5	1.5	무리=1 · 몬스터=tree_spirit	
+fairy_court_1	무리	d10	40.5	11.5	3	무리=1	
+fairy_court_1	무리	d11	66.5	30.5	2	무리=1 · 몬스터=siren	
+fairy_court_1	빛	달빛	45.5	9.5			
+fairy_court_1	빛	달빛	22.5	24.5			
+fairy_court_1	빛	이끼	18.5	40.5			
+fairy_court_1	빛	달빛	45.5	57.5			
+fairy_court_1	빛	버섯	38.5	30.5			
+fairy_court_1	빛	버섯	54.5	37.5			
+fairy_court_1	빛	달빛	72.5	22.5			
+fairy_court_2	입구	from_floor1	45.5	4.6			1층에서 내려온 자리
+fairy_court_2	출구	to_floor1	45.5	1.2	1.4	fairy_court:1:from_floor2	북쪽 길 → 궁정 1층
+fairy_court_2	꽃	a1	34.5	15.5	0.9	짝=b1	정원 A ↔ 정원 B
+fairy_court_2	꽃	b1	20.5	24.5	0.9	짝=a1	정원 A ↔ 정원 B
+fairy_court_2	꽃	a2	57.5	15.5	0.9	짝=c1	정원 A ↔ 정원 C
+fairy_court_2	꽃	c1	70.5	24.5	0.9	짝=a2	정원 A ↔ 정원 C
+fairy_court_2	꽃	b2	20.5	37.5	0.9	짝=k1	정원 B ↔ 흑기사의 뜰
+fairy_court_2	꽃	k1	28.5	46.5	0.9	짝=b2	정원 B ↔ 흑기사의 뜰
+fairy_court_2	꽃	c2	70.5	37.5	0.9	짝=k2	정원 C ↔ 흑기사의 뜰
+fairy_court_2	꽃	k2	62.5	46.5	0.9	짝=c2	정원 C ↔ 흑기사의 뜰
+fairy_court_2	정예	black_knight	45.5	52.5			흑기사 + 요정 궁수 둘 — 옥좌 단 앞 뜰 (메인 ③ 앞)
+fairy_court_2	인물	fairy_queen	45.5	59.5		방향=북 · 나타남=black_knight	흑기사가 쓰러진 뒤 옥좌 단에 나타나는 요정 여왕 (메인 ③ 요정의 거래)
+fairy_court_2	소품	여왕의옥좌	45.5	61.2		변형=0	여왕의 옥좌
+fairy_court_2	출구	to_hall	45.5	64.6	1.6	melusine_hall::from_court	남쪽 달빛 문 → 멜뤼진의 달빛 홀 (A3-4)
+fairy_court_2	무리	d1	40.5	11.5	3	무리=1	
+fairy_court_2	무리	d2	52.5	12.5	3	무리=1 · 몬스터=fairy_archer	
+fairy_court_2	무리	d3	16.5	26.5	3	무리=1	
+fairy_court_2	무리	d4	28.5	36.5	3	무리=1 · 몬스터=tree_spirit	
+fairy_court_2	무리	d5	14.5	36.5	3	무리=1 · 몬스터=fairy_archer	
+fairy_court_2	무리	d6	60.5	26.5	3	무리=1	
+fairy_court_2	무리	d7	76.5	30.5	3	무리=1 · 몬스터=tree_spirit	
+fairy_court_2	무리	d8	66.5	36.5	3	무리=1 · 몬스터=fairy_archer	
+fairy_court_2	무리	d9	34.5	54.5	3	무리=1	
+fairy_court_2	무리	d10	58.5	54.5	3	무리=1	
+fairy_court_2	빛	달빛	45.5	8.5			
+fairy_court_2	빛	달빛	20.5	30.5			
+fairy_court_2	빛	달빛	70.5	30.5			
+fairy_court_2	빛	달빛	45.5	50.5			
+fairy_court_2	빛	버섯	40.5	60.5			
+fairy_court_2	빛	버섯	51.5	60.5			
+broceliande_3	입구	from_court	45.5	61.5			요정의 궁정에서 돌아온 자리
+melusine_hall	입구	from_court	32	3.5			궁정 2층 달빛 문에서 온 자리
+melusine_hall	출구	to_court	32	0.6	1.5	fairy_court:2:from_hall	북쪽 달빛 문 → 요정의 궁정 2층
+melusine_hall	웨이포인트	melusine_hall	30.5	7.5	1.1		멜뤼진의 달빛 홀 웨이포인트
+melusine_hall	정예	melusine	32.5	48.5			요정 여왕 멜뤼진 — 옥좌 앞 (메인 ④ 멜뤼진)
+melusine_hall	무리	g1	22.5	26.5	2.5	무리=1 · 몬스터=fairy_archer · 수=2 · 등급=일반	기둥 사이 요정 궁수 (75%에 셋 더)
+melusine_hall	소품	여왕의옥좌	32.5	50.5		변형=0	여왕의 옥좌
+melusine_hall	빛	달빛	32	32			
+melusine_hall	빛	달빛	32	16			
+melusine_hall	빛	버섯	22	42			
+melusine_hall	빛	버섯	42	42			
+melusine_hall	빛	이끼	20	20			
+melusine_hall	빛	이끼	44	20			
+fairy_court_2	입구	from_hall	45.5	61.5			달빛 홀에서 돌아온 자리
+paris_catacomb_1	입구	from_bordeaux	11.5	27.5			밤배에서 내려선 지하 선착장
+paris_catacomb_1	출구	to_bordeaux	7.5	22.5	1.2	bordeaux::from_paris	밤배 → 보르도 부두 (돌아가는 배)
+paris_catacomb_1	입구	from_below	67.5	26.5			2층에서 올라온 자리
+paris_catacomb_1	출구	to_floor2	71.4	26.5	1.6	paris_catacomb:2:from_above	아래로 → 카타콤 2층
+paris_catacomb_1	웨이포인트	paris_catacomb_1	12.5	30.5	1.1		파리 카타콤 1층 웨이포인트
+paris_catacomb_1	소품	배	3	26.5		변형=1	밤배 — 지하 강에 묶인 작은 배
+paris_catacomb_1	소품	묘지계단	71	26.5		변형=1	아래층으로 내려가는 돌계단
+paris_catacomb_1	무리	z1	27	12	3	무리=1	
+paris_catacomb_1	무리	z2	27	40	3	무리=1	
+paris_catacomb_1	무리	z3	46	24	3.5	무리=2	
+paris_catacomb_1	무리	z4	50	7	3	무리=1 · 몬스터=royal_musketeer · 수=2	
+paris_catacomb_1	무리	z5	64	44	3	무리=1	
+paris_catacomb_1	무리	z6	36	26	2.5	무리=1 · 몬스터=catacomb_wraith · 수=3~4	
+paris_catacomb_1	소품	유골	24	9.5		변형=0	쌓인 유골
+paris_catacomb_1	소품	유골	31	15		변형=1	쌓인 유골
+paris_catacomb_1	소품	해골더미	45	19.5		변형=0	해골 더미
+paris_catacomb_1	소품	해골더미	50	33		변형=1	해골 더미
+paris_catacomb_1	소품	석관	25	44		변형=0	석관
+paris_catacomb_1	소품	석관	29	44		변형=1	석관
+paris_catacomb_1	소품	촛대	13.5	22		변형=0	선착장 촛대
+paris_catacomb_1	빛	촛불	13.5	22			
+paris_catacomb_1	빛	촛불	27	9			
+paris_catacomb_1	빛	촛불	27	37			
+paris_catacomb_1	빛	촛불	46	19			
+paris_catacomb_1	빛	촛불	46	33			
+paris_catacomb_1	빛	촛불	49	5			
+paris_catacomb_1	빛	촛불	64	41			
+paris_catacomb_1	빛	횃불	68	23			
+paris_catacomb_1	빛	횃불	36	24.5			
+paris_catacomb_2	입구	from_above	8.5	6.5			1층에서 내려온 자리
+paris_catacomb_2	출구	to_floor1	4.4	4.4	1.4	paris_catacomb:1:from_below	위로 → 카타콤 1층
+paris_catacomb_2	소품	묘지계단_위	4.4	4.2		변형=0	
+paris_catacomb_2	입구	from_below	69.5	49.5			3층에서 올라온 자리
+paris_catacomb_2	출구	to_floor3	72.6	52.6	1.5	paris_catacomb:3:from_above	아래로 → 카타콤 3층
+paris_catacomb_2	소품	묘지계단	72.6	52.4		변형=1	
+paris_catacomb_2	무리	z1	19	22	3	무리=1	
+paris_catacomb_2	무리	z2	62	7	3	무리=1 · 몬스터=royal_musketeer · 수=2~3	
+paris_catacomb_2	무리	z3	62	29	3	무리=1	
+paris_catacomb_2	무리	z4	38	24	3	무리=1	
+paris_catacomb_2	무리	z5	38	34	3	무리=1 · 몬스터=catacomb_wraith · 수=4	
+paris_catacomb_2	무리	z6	37	50	3	무리=2	
+paris_catacomb_2	무리	z7	45	6	2.5	무리=1	
+paris_catacomb_2	소품	해골더미	38	29		변형=0	원형 홀 가운데의 해골 탑
+paris_catacomb_2	소품	유골	16	20		변형=0	
+paris_catacomb_2	소품	유골	58	5		변형=1	
+paris_catacomb_2	소품	석관	32	48		변형=0	
+paris_catacomb_2	소품	석관	42	48		변형=2	
+paris_catacomb_2	빛	촛불	38	27			
+paris_catacomb_2	빛	촛불	30	29			
+paris_catacomb_2	빛	촛불	46	29			
+paris_catacomb_2	빛	촛불	8	5			
+paris_catacomb_2	빛	촛불	19	19			
+paris_catacomb_2	빛	촛불	62	5			
+paris_catacomb_2	빛	촛불	37	47			
+paris_catacomb_2	빛	횃불	69	46			
+paris_catacomb_3	입구	from_above	8.5	6.5			2층에서 내려온 자리
+paris_catacomb_3	출구	to_floor2	5.4	4.4	1.4	paris_catacomb:2:from_below	위로 → 카타콤 2층
+paris_catacomb_3	소품	묘지계단_위	5.4	4.2		변형=0	
+paris_catacomb_3	정예	iron_mask	34.5	42.5			철가면의 총사대장 — 둥근 결투장 (서브 수도사의 편지 뒤의 히든 보스)
+paris_catacomb_3	무리	z1	34	13	3	무리=1 · 몬스터=royal_musketeer · 수=3	
+paris_catacomb_3	무리	z2	9	22	3	무리=1 · 몬스터=catacomb_wraith · 수=4	
+paris_catacomb_3	무리	z3	59	17	3	무리=1	
+paris_catacomb_3	무리	z4	34	20	2	무리=1	
+paris_catacomb_3	상자	mask_chest	62.5	15.5	1.2	드랍=catacomb_chest · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	총사대의 무기고 궤
+paris_catacomb_3	소품	해골더미	24	31		변형=0	
+paris_catacomb_3	소품	해골더미	44	31		변형=1	
+paris_catacomb_3	소품	유골	6	24		변형=0	
+paris_catacomb_3	소품	석관	58	20		변형=1	
+paris_catacomb_3	빛	화로	34	28.5			
+paris_catacomb_3	빛	화로	22.5	40			
+paris_catacomb_3	빛	화로	45.5	40			
+paris_catacomb_3	빛	화로	34	51.5			
+paris_catacomb_3	소품	화로	22.5	40		변형=0	
+paris_catacomb_3	소품	화로	45.5	40		변형=0	
+paris_catacomb_3	빛	촛불	34	11			
+paris_catacomb_3	빛	촛불	9	20			
+paris_catacomb_3	빛	촛불	58	15			
+paris_catacomb_3	빛	촛불	8	5			
