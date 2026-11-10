@@ -59,11 +59,41 @@ shore_cave_1	무리	z6	66.5	32.5	2.5	무리=1
 shore_cave_1	무리	z7	28.5	35.5	2	무리=1	
 shore_cave_1	무리	scouts	34.5	10.5	3.5	무리=1 · 몬스터=pirate_scout · 수=3~4	밀수꾼 창고를 지키는 해적 척후 (잠복)
 shore_cave_1	무리	scouts2	43.5	8	2	무리=1 · 몬스터=pirate_scout · 수=2	
-shore_cave_2	입구	from_above	8.5	30.5			1층에서 내려온 자리
+shore_cave_deep	입구	from_above	69.5	28.5			1층에서 내려온 자리
+shore_cave_deep	입구	from_below	10	26.5			3층에서 올라온 자리
+shore_cave_deep	출구	to_floor1	73.4	28.5	1.5	shore_cave:1:from_below	위로 → 해안 동굴 1층
+shore_cave_deep	출구	to_floor3	3.8	27	1.6	shore_cave:3:from_above	아래로 → 해안 동굴 3층
+shore_cave_deep	상자	deep_cave_chest	25.5	51.8	1.2	드랍=smuggler_stash · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	밀물에 떠밀려 온 밀수품 궤짝 (①)
+shore_cave_deep	소품	동굴계단_위	74	28.5			위층으로 오르는 바위 비탈
+shore_cave_deep	소품	동굴계단	3	27			아래층으로 내려가는 바위 비탈
+shore_cave_deep	소품	밀수품	29	52.2		변형=0	밀수꾼의 통 · 상자
+shore_cave_deep	소품	밀수품	23.2	49.6		변형=1	
+shore_cave_deep	빛	이끼	66.5	32			
+shore_cave_deep	빛	버섯	53.5	32			
+shore_cave_deep	빛	이끼	59.5	13.5			
+shore_cave_deep	빛	이끼	42.5	23			
+shore_cave_deep	빛	버섯	37.5	31.5			
+shore_cave_deep	빛	등불	44.5	46.5			
+shore_cave_deep	빛	등불	38.5	49.5			
+shore_cave_deep	빛	등불	25.5	48.2			
+shore_cave_deep	빛	이끼	23.5	14.5			
+shore_cave_deep	빛	버섯	18.5	32			
+shore_cave_deep	빛	이끼	8.5	29.5			
+shore_cave_deep	빛	버섯	5.5	23.5			
+shore_cave_deep	무리	z1	55.5	35.5	3	무리=1	
+shore_cave_deep	무리	z2	56.5	17.5	3	무리=1	
+shore_cave_deep	무리	z3	40.5	27.5	4	무리=1	
+shore_cave_deep	무리	z4	24.5	17.5	3	무리=1	
+shore_cave_deep	무리	z5	17.5	35.5	3	무리=1	
+shore_cave_deep	무리	z6	9.5	25.5	2.5	무리=1	
+shore_cave_deep	무리	z7	47.5	22.5	2	무리=1	
+shore_cave_deep	무리	scouts	41.5	47.5	3.5	무리=1	
+shore_cave_deep	무리	scouts2	32.5	50	2	무리=1	
+shore_cave_2	입구	from_above	8.5	30.5			2층에서 내려온 자리
 shore_cave_2	입구	from_town	71	15			리스본에서 들어온 자리 (뒤쪽 틈)
-shore_cave_2	출구	to_floor1	3.6	30	1.5	shore_cave:1:from_below	위로 → 해안 동굴 1층
+shore_cave_2	출구	to_floor2	3.6	30	1.5	shore_cave:2:from_below	위로 → 해안 동굴 2층
 shore_cave_2	출구	to_town	73	9.6	1.6	lisbon::from_cave	바깥으로 → 리스본
-shore_cave_2	웨이포인트	shore_cave_2	11	27	1.1		해안 동굴 2층 웨이포인트
+shore_cave_2	웨이포인트	shore_cave_2	11	27	1.1		해안 동굴 3층 웨이포인트
 shore_cave_2	정예	spider_queen	66.5	31.5			동굴 거미 여왕 + 박쥐 4~6
 shore_cave_2	소품	동굴계단_위	3	30			위층으로 오르는 바위 비탈
 shore_cave_2	소품	동굴틈	73.6	9			달빛이 새는 바위 틈 — 리스본으로
@@ -96,7 +126,7 @@ shore_cave_2	무리	z7	53.5	39.5	2	무리=1
 lisbon	입구	from_cave	2.5	27.5			동굴에서 나온 자리 (서쪽 문)
 lisbon	입구	from_sintra	33.5	54			신트라에서 돌아온 자리 (남쪽 문)
 lisbon	입구	dock	32.5	13.5			선착장 — 웨이포인트 · 다시 일어나는 자리
-lisbon	출구	to_cave	0.6	27.5	1.4	shore_cave:2:from_town	서쪽 문 → 해안 동굴 2층 (뒤쪽 틈)
+lisbon	출구	to_cave	0.6	27.5	1.4	shore_cave:3:from_town	서쪽 문 → 해안 동굴 3층 (뒤쪽 틈)
 lisbon	출구	to_sintra	33.5	57.2	1.6	sintra_hills::from_town	남쪽 문 → 신트라 언덕
 lisbon	출구	to_galleon	47.5	3.6	1.4	galleon::from_lisbon	산타 루치아 — 해적왕의 갤리온으로 (메인 ③ 뒤, M3-3)
 lisbon	입구	from_galleon	47.5	7.5			갤리온에서 돌아온 자리 (북쪽 부두)
@@ -108,6 +138,8 @@ lisbon	인물	pedro	30	11.8		방향=남동	늙은 선원 페드루 — 선착장
 lisbon	인물	isabel	27.2	25.6		방향=남	상인 이사벨 — 광장 노점
 lisbon	인물	manuel	55	25.6		방향=남서	대장장이 마누엘 — 동쪽 대장간
 lisbon	인물	luis	42	21		방향=남	문장 각인사 루이스 — 광장 북쪽
+lisbon	인물	joana	41	11.6		방향=남	현상금 사냥꾼 조아나 — 선착장 동쪽 현상금 게시판 (③)
+lisbon	인물	tiago	19.5	24.4		방향=남동	도박 상인 티아고 — 광장 서쪽 (③)
 lisbon	상자	stash	36.5	12.4	1.2	창고	창고 — 선착장 옆 큰 궤
 lisbon	상자	captains_chest	44.8	20.7	1.2	궤	선장의 궤 — 루이스 곁, 같은 문장석 3개 → 다음 번호 (M3-1)
 lisbon	소품	집	5.5	19.5		변형=0	흰 회벽 · 붉은 기와집
@@ -311,9 +343,9 @@ moorish_crypt_2	무리	z6	10	40	3	무리=1
 moorish_crypt_2	무리	z7	25	48.5	3	무리=1	
 moorish_crypt_2	무리	z8	46	48.5	3	무리=1	
 moorish_crypt_2	무리	z9	49	21	2	무리=1 · 몬스터=drowned	
-moorish_crypt_3	입구	from_above	8.5	27.5			2층에서 내려온 자리
-moorish_crypt_3	출구	to_floor2	3.6	27.5	1.5	moorish_crypt:2:from_below	위로 → 지하묘지 2층
-moorish_crypt_3	웨이포인트	moorish_crypt_3	10.5	23.5	1.1		무어인 지하묘지 3층 웨이포인트
+moorish_crypt_3	입구	from_above	8.5	27.5			3층에서 내려온 자리
+moorish_crypt_3	출구	to_floor3	3.6	27.5	1.5	moorish_crypt:3:from_below	위로 → 지하묘지 3층
+moorish_crypt_3	웨이포인트	moorish_crypt_3	10.5	23.5	1.1		무어인 지하묘지 4층 웨이포인트
 moorish_crypt_3	정예	one_eyed_joao	70.5	28.5			외눈 주앙 + 산적 3~4 — 밀약 문서를 가짐 (메인 ③)
 moorish_crypt_3	상자	joao_chest	64.5	12.6	1.2	드랍=smuggler_stash · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	외눈 주앙의 궤짝 — 밀수품 (잠기지 않음)
 moorish_crypt_3	소품	묘지계단_위	2.4	27.5		변형=0	위층으로 오르는 돌계단
@@ -368,6 +400,66 @@ moorish_crypt_2	빛	화로	70.4	25.8			계단 곁 화로 (출구 표시)
 moorish_crypt_2	빛	화로	70.4	30.2			계단 곁 화로 (출구 표시)
 moorish_crypt_2	빛	화로	4.6	35.4			계단 곁 화로 (출구 표시)
 moorish_crypt_2	빛	화로	4.6	39.6			계단 곁 화로 (출구 표시)
+moorish_crypt_ossuary	입구	from_above	66.5	25.5			2층에서 내려온 자리
+moorish_crypt_ossuary	입구	from_below	6.5	24.5			4층에서 올라온 자리
+moorish_crypt_ossuary	출구	to_floor2	70.2	25.5	1.5	moorish_crypt:2:from_below	위로 → 지하묘지 2층
+moorish_crypt_ossuary	출구	to_floor4	2.4	24.5	1.6	moorish_crypt:4:from_above	아래로 → 지하묘지 4층
+moorish_crypt_ossuary	소품	묘지계단_위	71.6	25.5		변형=0	2층으로 오르는 돌계단
+moorish_crypt_ossuary	소품	묘지계단	2	24.5		변형=1	아래층으로 내려가는 돌계단
+moorish_crypt_ossuary	소품	말굽아치	42	25.8		변형=0	말굽 아치 문
+moorish_crypt_ossuary	소품	말굽아치	16	25.4		변형=0	말굽 아치 문
+moorish_crypt_ossuary	소품	말굽아치	53.5	34.6		변형=1	말굽 아치 문
+moorish_crypt_ossuary	소품	말굽아치	32.5	16.6		변형=1	말굽 아치 문
+moorish_crypt_ossuary	소품	말굽아치	10.5	34.6		변형=1	말굽 아치 문
+moorish_crypt_ossuary	소품	말굽아치	10.5	45.6		변형=1	말굽 아치 문
+moorish_crypt_ossuary	소품	말굽아치	13.5	14.6		변형=1	말굽 아치 문
+moorish_crypt_ossuary	소품	석관	38	29.5		변형=0	석관
+moorish_crypt_ossuary	소품	석관	34	29.5		변형=1	석관
+moorish_crypt_ossuary	소품	석관	30	29.5		변형=2	석관
+moorish_crypt_ossuary	소품	석관	38	19.5		변형=1	석관
+moorish_crypt_ossuary	소품	석관	34	19.5		변형=2	석관
+moorish_crypt_ossuary	소품	석관	30	19.5		변형=0	석관
+moorish_crypt_ossuary	소품	유골	60.8	42.5		변형=0	뼈 무더기
+moorish_crypt_ossuary	소품	유골	46.5	37.4		변형=1	
+moorish_crypt_ossuary	소품	유골	23.5	6.4		변형=2	
+moorish_crypt_ossuary	소품	제단	13.5	49.4		변형=1	촛불 사당의 작은 제단 (벽감 · 타일)
+moorish_crypt_ossuary	빛	촛불	68.5	29.8			
+moorish_crypt_ossuary	빛	촛불	63.4	21.4			
+moorish_crypt_ossuary	빛	촛불	60.8	44.8			
+moorish_crypt_ossuary	빛	촛불	45.4	44.8			
+moorish_crypt_ossuary	빛	촛불	60.8	35.4			
+moorish_crypt_ossuary	빛	촛불	45.4	35.4			
+moorish_crypt_ossuary	빛	촛불	40.8	12.8			
+moorish_crypt_ossuary	빛	촛불	22.4	12.8			
+moorish_crypt_ossuary	빛	촛불	40.8	5.4			
+moorish_crypt_ossuary	빛	촛불	22.4	5.4			
+moorish_crypt_ossuary	빛	촛불	20.6	49.4			
+moorish_crypt_ossuary	빛	촛불	17	49.6			
+moorish_crypt_ossuary	빛	촛불	10	49.6			
+moorish_crypt_ossuary	빛	촛불	5.6	49.4			
+moorish_crypt_ossuary	빛	촛불	48.4	27.4			
+moorish_crypt_ossuary	빛	촛불	58.4	24.4			
+moorish_crypt_ossuary	빛	화로	40.6	31.6			
+moorish_crypt_ossuary	빛	화로	26.6	31.6			
+moorish_crypt_ossuary	빛	화로	40.6	17.6			
+moorish_crypt_ossuary	빛	화로	26.6	17.6			
+moorish_crypt_ossuary	빛	화로	14.6	33.6			
+moorish_crypt_ossuary	빛	화로	2.6	33.6			
+moorish_crypt_ossuary	빛	화로	14.6	15.6			
+moorish_crypt_ossuary	빛	화로	2.6	15.6			
+moorish_crypt_ossuary	빛	달빛	21.5	25.2			무너진 천장으로 드는 달빛
+moorish_crypt_ossuary	빛	달빛	70.4	25.5			계단 위 문으로 드는 달빛
+moorish_crypt_ossuary	무리	z1	53	41	3	무리=1	
+moorish_crypt_ossuary	무리	z2	48	26	2.5	무리=1	
+moorish_crypt_ossuary	무리	z3	34	25	4	무리=2	
+moorish_crypt_ossuary	무리	z4	37	9	3	무리=1	
+moorish_crypt_ossuary	무리	z5	27	10	3	무리=1	
+moorish_crypt_ossuary	무리	z6	9	30	3.5	무리=1	
+moorish_crypt_ossuary	무리	z7	9	20	3	무리=1	
+moorish_crypt_ossuary	무리	z8	15	48	3	무리=1 · 몬스터=moor_wraith	
+moorish_crypt_ossuary	무리	z9	19.5	25	1.5	무리=1 · 몬스터=cave_bat · 수=3~5	
+moorish_crypt_ossuary	빛	화로	3.4	26.6			계단 곁 화로 (출구 표시)
+moorish_crypt_ossuary	빛	화로	3.4	22.4			계단 곁 화로 (출구 표시)
 moorish_crypt_3	빛	화로	4.6	25.4			계단 곁 화로 (출구 표시)
 moorish_crypt_3	빛	화로	4.6	29.6			계단 곁 화로 (출구 표시)
 moorish_crypt_3	빛	화로	68.6	22.6			주앙의 자리 화로
@@ -695,9 +787,57 @@ andalusia_mine_2	빛	광산등	42	41
 andalusia_mine_2	빛	광산등	54	51			
 andalusia_mine_2	빛	광산등	68	49			
 andalusia_mine_2	빛	광산등	64	41			
-andalusia_mine_3	입구	from_above	6.5	28.5			2층에서 내려온 자리
-andalusia_mine_3	출구	to_floor2	2.6	28.5	1.5	andalusia_mine:2:from_below	기울어진 굴 → 광산 2층
-andalusia_mine_3	웨이포인트	andalusia_mine_3	10.5	24.5	1.1		안달루시아 광산 3층 웨이포인트
+andalusia_mine_deep	입구	from_above	69.5	27.5			2층에서 내려온 자리 (기울어진 굴)
+andalusia_mine_deep	입구	from_below	7.5	26.5			4층에서 올라온 자리 (승강기)
+andalusia_mine_deep	출구	to_floor2	73.4	27.5	1.5	andalusia_mine:2:from_below	기울어진 굴 → 광산 2층
+andalusia_mine_deep	출구	to_floor4	3.6	26.5	1.6	andalusia_mine:4:from_above	수직갱 승강기 → 광산 4층 (골렘 공장)
+andalusia_mine_deep	상자	mine_deep_chest	13.5	48.4	1.2	드랍=smuggler_stash · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	무너진 갱부 숙소의 궤짝 (①)
+andalusia_mine_deep	소품	굴입구	72.8	27.5		변형=0	
+andalusia_mine_deep	소품	승강기	3.2	26.5		변형=0	
+andalusia_mine_deep	무리	z1	52	28	2.5	무리=1	
+andalusia_mine_deep	무리	z2	49	45	3	무리=1	
+andalusia_mine_deep	무리	z3	40	28	2.5	무리=1	
+andalusia_mine_deep	무리	z4	32	12	3	무리=1 · 몬스터=desert_scorpion · 수=3~4	
+andalusia_mine_deep	무리	z5	21	44	3	무리=1	
+andalusia_mine_deep	무리	z6	24	28	2.5	무리=1	
+andalusia_mine_deep	무리	z7	68	10	2.5	무리=1 · 몬스터=desert_scorpion · 수=2~3	
+andalusia_mine_deep	무리	z8	10	29	3	무리=1 · 몬스터=miner_wraith · 수=4~5	
+andalusia_mine_deep	소품	광차	46	28.8		변형=0	
+andalusia_mine_deep	소품	광차	28	26.8		변형=1	
+andalusia_mine_deep	소품	광차	32	16		변형=0	
+andalusia_mine_deep	소품	광차	36	9		변형=2	
+andalusia_mine_deep	소품	광차	30	8		변형=1	
+andalusia_mine_deep	소품	광차	67	30		변형=0	
+andalusia_mine_deep	소품	광석더미	54	48		변형=0	
+andalusia_mine_deep	소품	광석더미	43	41		변형=1	
+andalusia_mine_deep	소품	광석더미	26	11		변형=0	
+andalusia_mine_deep	소품	광석더미	17	47		변형=0	
+andalusia_mine_deep	소품	광석더미	70	14		변형=1	
+andalusia_mine_deep	소품	갱부침상	27	48		변형=0	
+andalusia_mine_deep	소품	갱부침상	15	41		변형=1	
+andalusia_mine_deep	소품	갱부침상	24	40		변형=0	
+andalusia_mine_deep	소품	나무통	64	33.5		변형=0	
+andalusia_mine_deep	소품	나무통	38	6		변형=1	
+andalusia_mine_deep	소품	나무통	11	21		변형=0	
+andalusia_mine_deep	빛	광산등	71.4	30.5			
+andalusia_mine_deep	빛	광산등	71.4	24.5			
+andalusia_mine_deep	빛	광산등	63	34			
+andalusia_mine_deep	빛	광산등	56	30.4			
+andalusia_mine_deep	빛	광산등	42	30.4			
+andalusia_mine_deep	빛	광산등	28	30.4			
+andalusia_mine_deep	빛	광산등	18	25.6			
+andalusia_mine_deep	빛	광산등	49	50			
+andalusia_mine_deep	빛	광산등	44	38			
+andalusia_mine_deep	빛	광산등	32	17.5			
+andalusia_mine_deep	빛	광산등	24	7			
+andalusia_mine_deep	빛	광산등	21	48			
+andalusia_mine_deep	빛	광산등	14	34			
+andalusia_mine_deep	빛	광산등	6	31			
+andalusia_mine_deep	빛	광산등	6	23			
+andalusia_mine_deep	빛	광산등	66	7			
+andalusia_mine_3	입구	from_above	6.5	28.5			3층에서 내려온 자리
+andalusia_mine_3	출구	to_floor3	2.6	28.5	1.5	andalusia_mine:3:from_below	기울어진 굴 → 광산 3층
+andalusia_mine_3	웨이포인트	andalusia_mine_3	10.5	24.5	1.1		안달루시아 광산 4층 웨이포인트
 andalusia_mine_3	정예	iron_diego	66.5	28.5			철의 디에고 + 광석 골렘 2 — 골렘 공장의 감독관 (메인 ② 돌이 걷는다)
 andalusia_mine_3	무리	z1	22	28	2.5	무리=1	
 andalusia_mine_3	무리	z2	36	12	3	무리=1 · 몬스터=ore_golem · 수=1~2 · 등급=일반	
@@ -790,7 +930,7 @@ alhambra_1	빛	화로	72	34
 alhambra_2	입구	from_above	68.5	28.5			1층에서 내려온 자리
 alhambra_2	출구	to_floor1	72.4	28.5	1.6	alhambra:1:from_below	위로 → 알함브라 지하 1층
 alhambra_2	입구	from_below	10.5	48.5			3층에서 올라온 자리
-alhambra_2	출구	to_floor3	5.2	48.5	1.6	alhambra:3:from_above	아래로 → 알함브라 지하 3층 (왕의 홀)
+alhambra_2	출구	to_floor3	5.2	48.5	1.6	alhambra:3:from_above	아래로 → 알함브라 지하 3층 (물에 잠긴 저수조)
 alhambra_2	무리	z1	54	28	2.5	무리=1	
 alhambra_2	무리	z2	50	15	3	무리=1 · 몬스터=moor_wraith · 수=2~3	
 alhambra_2	무리	z3	60	10	2.5	무리=1	
@@ -833,9 +973,50 @@ alhambra_2	빛	촛불	32	39
 alhambra_2	빛	촛불	50	39			
 alhambra_2	빛	촛불	32	51			
 alhambra_2	빛	촛불	50	51			
-alhambra_3	입구	from_above	6.5	28.5			2층에서 내려온 자리
-alhambra_3	출구	to_floor2	2.6	28.5	1.5	alhambra:2:from_below	위로 → 알함브라 지하 2층
-alhambra_3	웨이포인트	alhambra_3	10.5	24.5	1.1		알함브라 지하 3층 웨이포인트
+alhambra_cistern	입구	from_above	69.5	27.5			2층에서 내려온 자리
+alhambra_cistern	입구	from_below	7.5	27.5			4층에서 올라온 자리
+alhambra_cistern	출구	to_floor2	73.4	27.5	1.5	alhambra:2:from_below	위로 → 알함브라 지하 2층
+alhambra_cistern	출구	to_floor4	3.6	27.5	1.6	alhambra:4:from_above	아래로 → 알함브라 지하 4층 (왕의 홀)
+alhambra_cistern	상자	cistern_chest	13.5	8.5	1.2	드랍=palace_chest · 덤=chest_staff|chest_shield|chest_flask|chest_baton|chest_wand	저수조 방의 상아 상자 (①)
+alhambra_cistern	소품	묘지계단_위	73.6	27.5		변형=0	
+alhambra_cistern	소품	묘지계단	3	27.5		변형=1	
+alhambra_cistern	무리	z1	54	28	2.5	무리=1	
+alhambra_cistern	무리	z2	48	46	3	무리=1	
+alhambra_cistern	무리	z3	35	40	3	무리=1	
+alhambra_cistern	무리	z4	36	28	2.5	무리=1 · 몬스터=inquisitor · 수=1~2	
+alhambra_cistern	무리	z5	46	12	3	무리=1	
+alhambra_cistern	무리	z6	20	13	3	무리=1	
+alhambra_cistern	무리	z7	24	28	2.5	무리=1	
+alhambra_cistern	무리	z8	10	31	3	무리=1 · 몬스터=moor_wraith · 수=2~3	
+alhambra_cistern	소품	사자분수	41.5	42.5		변형=0	
+alhambra_cistern	소품	말굽아치	56	27.6		변형=0	
+alhambra_cistern	소품	말굽아치	28	27.6		변형=0	
+alhambra_cistern	소품	말굽아치	43	34		변형=1	
+alhambra_cistern	소품	말굽아치	43	22		변형=1	
+alhambra_cistern	소품	말굽아치	20	22		변형=1	
+alhambra_cistern	소품	무카르나스	26	19		변형=0	
+alhambra_cistern	소품	무카르나스	14	19		변형=1	
+alhambra_cistern	소품	무카르나스	20	6.4		변형=2	
+alhambra_cistern	빛	촛불	71.4	30.5			
+alhambra_cistern	빛	촛불	71.4	24.5			
+alhambra_cistern	빛	촛불	64	33			
+alhambra_cistern	빛	촛불	58	30.4			
+alhambra_cistern	빛	촛불	46	30.4			
+alhambra_cistern	빛	촛불	34	30.4			
+alhambra_cistern	빛	촛불	22	30.4			
+alhambra_cistern	빛	화로	51	49			
+alhambra_cistern	빛	촛불	32	49			
+alhambra_cistern	빛	화로	51	37			
+alhambra_cistern	빛	촛불	32	37			
+alhambra_cistern	빛	화로	50	18			
+alhambra_cistern	빛	화로	36	18			
+alhambra_cistern	빛	촛불	27	16			
+alhambra_cistern	빛	촛불	13	16			
+alhambra_cistern	빛	화로	16	34			
+alhambra_cistern	빛	화로	4	22			
+alhambra_3	입구	from_above	6.5	28.5			3층에서 내려온 자리
+alhambra_3	출구	to_floor3	2.6	28.5	1.5	alhambra:3:from_below	위로 → 알함브라 지하 3층
+alhambra_3	웨이포인트	alhambra_3	10.5	24.5	1.1		알함브라 지하 4층 웨이포인트
 alhambra_3	정예	moorish_king	64.5	28.5			무어의 마지막 왕 — 왕의 홀 (메인 ③ 알함브라의 유언)
 alhambra_3	인물	king_ghost	66.5	28.5		방향=남서 · 나타남=moorish_king	왕이 쓰러진 뒤 나타나는 유령 — 에르난의 진영을 알려 줌
 alhambra_3	무리	z1	22	28	2.5	무리=1	
@@ -1273,6 +1454,8 @@ inquisition_3	빛	횃불	26.5	7.2
 seville	출구	to_inquisition	42.7	23.5	1.0	inquisition:1:from_seville	대성당 동쪽 벽의 철문 → 이단 심문소 지하 감옥 (심문소 열쇠, 히든 — A2-6)
 seville	입구	from_inquisition	45.2	24.6			심문소에서 올라온 자리 (대성당 철문 앞)
 seville	인물	fray_tomas	45.8	21.8		방향=남서	고해 신부 프라이 토마스 — 대성당 동쪽 철문 곁
+seville	인물	rodrigo	39.5	11.2		방향=남	알과실 로드리고 — 선착장 동쪽 현상금 게시판 (③)
+seville	인물	lucia	16.5	21.5		방향=남동	도박 상인 루시아 — 광장 서쪽 (③)
 seville	소품	심문소철문	42.0	23.6		변형=0	대성당 동쪽 벽의 낮은 철문 (쇠 띠 · 큰 자물쇠)
 bordeaux	입구	dock	24.5	10.2			선창 — 웨이포인트 · 다시 일어나는 자리 (Act 3)
 bordeaux	입구	from_seville	28	8.6			세비야에서 온 배가 닿는 부두
@@ -1286,6 +1469,10 @@ bordeaux	인물	lucien	44.5	24.4		방향=남서	대장장이 뤼시앵 — 광�
 bordeaux	인물	baptiste	16.4	34.5		방향=동	포도원 주인 바티스트 — 포도주 창고 앞
 bordeaux	인물	anselme	52.5	43.4		방향=남	수도원장 안셀름 — 수도원 앞
 bordeaux	인물	renard	35.6	45		방향=서	늑대 사냥꾼 르나르 — 남쪽 문 곁
+bordeaux	인물	adrien	37.5	24.2		방향=남	문장 각인사 아드리앵 — 광장 동쪽 (②)
+bordeaux	인물	mathieu	46.5	10.6		방향=남	헌병 마티외 — 선창 동쪽 현상금 게시판 (③)
+bordeaux	인물	celeste	12.5	22.5		방향=남동	도박 상인 셀레스트 — 광장 서쪽 (③)
+bordeaux	상자	captains_chest	35.8	24.6	1.2	궤	선장의 궤 — 아드리앵 곁 (② 레시피 다섯)
 bordeaux	상자	stash	34.6	9.8	1.2	창고	창고 — 선창의 큰 궤 (리스본 · 세비야 창고와 같은 짐)
 bordeaux	소품	배	28	3.4		변형=0	상선 생트 카트린 — 세비야로 가는 배
 bordeaux	소품	배	45.5	3.6		변형=1	작은 배
@@ -1409,8 +1596,60 @@ bordeaux_cellar_1	빛	촛불	56	38
 bordeaux_cellar_1	빛	촛불	72	38			
 bordeaux_cellar_1	빛	촛불	30	50			
 bordeaux_cellar_1	빛	촛불	60	50			
-bordeaux_cellar_2	입구	from_floor1	5	28.5			1층에서 내려온 자리
-bordeaux_cellar_2	출구	to_floor1	1.8	28.5	1.4	bordeaux_cellar:1:from_floor2	서쪽 계단 → 저장고 1층
+bordeaux_cellar_vault	입구	from_floor1	71	27.5			1층에서 내려온 자리
+bordeaux_cellar_vault	입구	from_floor3	4.5	27.5			3층에서 올라온 자리
+bordeaux_cellar_vault	출구	to_floor1	74.2	27.5	1.4	bordeaux_cellar:1:from_floor2	동쪽 계단 → 저장고 1층
+bordeaux_cellar_vault	출구	to_floor3	1.8	27.5	1.4	bordeaux_cellar:3:from_floor1	서쪽 계단 → 저장고 3층
+bordeaux_cellar_vault	무리	cask1	56.5	27.5	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_vault	무리	cask2	44.5	45.5	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_vault	무리	cask3	26	28.5	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_vault	무리	cask4	40.5	11	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_vault	무리	cask5	10.5	12	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
+bordeaux_cellar_vault	무리	c1	46	36	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_vault	무리	c2	36	22	3	무리=1	
+bordeaux_cellar_vault	무리	c3	48	18	3	무리=1 · 몬스터=witch	
+bordeaux_cellar_vault	무리	c4	46	49	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_vault	무리	c5	16	34	3	무리=1	
+bordeaux_cellar_vault	무리	c6	8	22	3	무리=1 · 몬스터=witch	
+bordeaux_cellar_vault	무리	c7	14	26	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_vault	무리	c8	32	7	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_vault	무리	c9	20	7	3	무리=1	
+bordeaux_cellar_vault	무리	c10	66	25	3	무리=1 · 몬스터=vampire_bat	
+bordeaux_cellar_vault	소품	나무통	70	33.5		변형=0	포도주 통
+bordeaux_cellar_vault	소품	나무통	64	22.5		변형=1	포도주 통
+bordeaux_cellar_vault	소품	나무통	50.5	40.5		변형=0	포도주 통
+bordeaux_cellar_vault	소품	나무통	33	40.5		변형=1	포도주 통
+bordeaux_cellar_vault	소품	나무통	50.5	14.5		변형=0	포도주 통
+bordeaux_cellar_vault	소품	나무통	33	14.5		변형=1	포도주 통
+bordeaux_cellar_vault	소품	나무통	53.5	51.5		변형=0	포도주 통
+bordeaux_cellar_vault	소품	나무통	36.5	45.5		변형=1	포도주 통
+bordeaux_cellar_vault	소품	나무통	19.5	37.5		변형=0	포도주 통
+bordeaux_cellar_vault	소품	나무통	4.5	18.5		변형=1	포도주 통
+bordeaux_cellar_vault	소품	포도주선반	49	8.5		변형=0	병 선반
+bordeaux_cellar_vault	소품	포도주선반	43	8.5		변형=0	병 선반
+bordeaux_cellar_vault	소품	포도주선반	36	8.5		변형=0	병 선반
+bordeaux_cellar_vault	소품	포도주선반	29	8.5		변형=0	병 선반
+bordeaux_cellar_vault	소품	포도주선반	22	8.5		변형=0	병 선반
+bordeaux_cellar_vault	소품	포도주선반	15	8.5		변형=0	병 선반
+bordeaux_cellar_vault	소품	포도주선반	49	4.5		변형=0	병 선반
+bordeaux_cellar_vault	소품	포도주선반	36	4.5		변형=0	병 선반
+bordeaux_cellar_vault	소품	포도주선반	22	4.5		변형=0	병 선반
+bordeaux_cellar_vault	빛	촛불	71	34			
+bordeaux_cellar_vault	빛	촛불	62	22			
+bordeaux_cellar_vault	빛	촛불	51	41			
+bordeaux_cellar_vault	빛	촛불	32	41			
+bordeaux_cellar_vault	빛	촛불	51	14			
+bordeaux_cellar_vault	빛	촛불	32	14			
+bordeaux_cellar_vault	빛	촛불	54	52			
+bordeaux_cellar_vault	빛	촛불	36	52			
+bordeaux_cellar_vault	빛	촛불	20	38			
+bordeaux_cellar_vault	빛	촛불	4	38			
+bordeaux_cellar_vault	빛	촛불	20	18			
+bordeaux_cellar_vault	빛	촛불	4	18			
+bordeaux_cellar_vault	빛	촛불	46	6			
+bordeaux_cellar_vault	빛	촛불	16	6			
+bordeaux_cellar_2	입구	from_floor1	5	28.5			2층에서 내려온 자리
+bordeaux_cellar_2	출구	to_floor2	1.8	28.5	1.4	bordeaux_cellar:2:from_floor3	서쪽 계단 → 저장고 2층
 bordeaux_cellar_2	무리	cask1	17	28.5	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
 bordeaux_cellar_2	무리	cask2	28.5	28	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
 bordeaux_cellar_2	무리	cask3	43	15.5	0.1	무리=1 · 몬스터=cursed_cask · 수=1~1 · 등급=일반	저주 받은 술통 (길목)
@@ -1500,9 +1739,32 @@ broceliande_2	빛	버섯	70.5	12.5
 broceliande_2	빛	버섯	74.5	19.5			
 broceliande_2	빛	달빛	73.5	46.5			
 broceliande_2	빛	이끼	45.5	60.5			
-broceliande_3	입구	from_floor2	45.5	4.6			2층에서 내려온 자리
-broceliande_3	출구	to_floor2	45.5	1.2	1.4	broceliande:2:from_floor3	북쪽 오솔길 → 숲 2층
-broceliande_3	웨이포인트	broceliande_3	50.5	8.5	1.1		브로셀리앙드 숲 3층 웨이포인트
+broceliande_mire	입구	from_floor2	44.5	4.6			2층에서 온 자리
+broceliande_mire	출구	to_floor2	44.5	1.2	1.4	broceliande:2:from_floor3	북쪽 오솔길 → 숲 2층
+broceliande_mire	입구	from_floor4	4.5	60.5			4층에서 올라온 자리
+broceliande_mire	출구	to_floor4	1.4	60.5	1.4	broceliande:4:from_floor2	서쪽 오솔길 → 숲 4층 (경계)
+broceliande_mire	무리	d1	73.5	27.5	3	무리=1 · 몬스터=tree_spirit	
+broceliande_mire	무리	d2	49.5	33.5	3	무리=1	
+broceliande_mire	무리	d3	37.5	34.5	3	무리=1 · 몬스터=werewolf	
+broceliande_mire	무리	d4	43.5	28.5	3	무리=1 · 몬스터=fairy_archer	
+broceliande_mire	무리	d5	59.5	53.5	3	무리=1	
+broceliande_mire	무리	d6	64.5	48.5	3	무리=1 · 몬스터=werewolf	
+broceliande_mire	무리	d7	17.5	26.5	3	무리=1 · 몬스터=fairy_archer	
+broceliande_mire	무리	d8	14.5	30.5	3	무리=1	
+broceliande_mire	무리	d9	19.5	56.5	3	무리=1 · 몬스터=tree_spirit	
+broceliande_mire	무리	d10	29.5	57.5	3	무리=1 · 몬스터=werewolf	
+broceliande_mire	무리	d11	55.5	13.5	3	무리=1	
+broceliande_mire	무리	d12	14.5	44.5	3	무리=1 · 몬스터=fairy_archer	
+broceliande_mire	빛	달빛	44.5	10.5			
+broceliande_mire	빛	버섯	73.5	27.5			
+broceliande_mire	빛	달빛	43.5	33.5			
+broceliande_mire	빛	이끼	59.5	53.5			
+broceliande_mire	빛	버섯	17.5	26.5			
+broceliande_mire	빛	달빛	21.5	56.5			
+broceliande_mire	빛	이끼	33.5	57.5			
+broceliande_3	입구	from_floor2	45.5	4.6			3층에서 내려온 자리
+broceliande_3	출구	to_floor3	45.5	1.2	1.4	broceliande:3:from_floor4	북쪽 오솔길 → 숲 3층
+broceliande_3	웨이포인트	broceliande_3	50.5	8.5	1.1		브로셀리앙드 숲 4층 웨이포인트
 broceliande_3	정예	wolf_lord	45.5	56.5			늑대 군주 + 숲 늑대 3~4 — 요정의 문 앞 빈터 (메인 ② 숲의 경계)
 broceliande_3	출구	to_court	45.5	64.6	1.6	fairy_court:1:from_forest	남쪽 요정의 문 → 요정의 궁정 (A3-3)
 broceliande_3	무리	d1	40.5	20.5	3	무리=1 · 몬스터=werewolf	
@@ -1523,7 +1785,7 @@ broceliande_3	빛	달빛	45.5	55.5
 broceliande_3	빛	이끼	36.5	55.5			
 broceliande_3	빛	이끼	53.5	55.5			
 fairy_court_1	입구	from_forest	45.5	4.6			숲의 요정의 문에서 온 자리
-fairy_court_1	출구	to_forest	45.5	1.2	1.6	broceliande:3:from_court	북쪽 요정의 문 → 브로셀리앙드 숲 3층
+fairy_court_1	출구	to_forest	45.5	1.2	1.6	broceliande:4:from_court	북쪽 요정의 문 → 브로셀리앙드 숲 4층
 fairy_court_1	웨이포인트	fairy_court_1	50.5	9.5	1.1		요정의 궁정 1층 웨이포인트
 fairy_court_1	입구	from_floor2	45.5	61.5			2층에서 올라온 자리
 fairy_court_1	출구	to_floor2	45.5	64.6	1.4	fairy_court:2:from_floor1	남쪽 길 → 궁정 2층
@@ -1675,3 +1937,14 @@ paris_catacomb_3	빛	촛불	34	11
 paris_catacomb_3	빛	촛불	9	20			
 paris_catacomb_3	빛	촛불	58	15			
 paris_catacomb_3	빛	촛불	8	5			
+sea_cadiz	입구	from_lisbon	32.5	12.5			리스본 타구스 강 어귀에서 나온 자리 (⑤)
+sea_cadiz	출구	to_lisbon	45	12	1.6	lisbon::from_seville	리스본 선착장에 배를 댐
+sea_cadiz	입구	from_seville	112	60			과달키비르 강 어귀에서 나온 자리
+sea_cadiz	출구	to_seville	116	55.5	1.6	seville::from_lisbon	세비야 부두에 배를 댐 (과달키비르 강을 거슬러)
+sea_biscay	입구	from_seville	118	86			과달키비르 강 어귀에서 나온 자리 (⑤)
+sea_biscay	출구	to_seville	124	81.5	1.6	seville::from_bordeaux	세비야 부두에 배를 댐
+sea_biscay	입구	from_bordeaux	116	16			지롱드 강 어귀에서 나온 자리
+sea_biscay	출구	to_bordeaux	125	16	1.6	bordeaux::from_seville	보르도 선창에 배를 댐 (가론 강을 거슬러)
+lisbon	인물	tiagu	25.5	12.2		방향=남	조선공 티아구 — 선착장 서쪽 (⑤ 배 강화)
+seville	인물	diego	24.5	11.4		방향=남	조선공 디에고 — 부두 서쪽 (⑤ 배 강화)
+bordeaux	인물	yves	21.5	10.8		방향=남	조선공 이브 — 선창 서쪽 (⑤ 배 강화)

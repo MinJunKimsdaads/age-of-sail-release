@@ -33,7 +33,8 @@ crypt_sigils	1	10	sigils_act1	1															무어인 지하묘지 문장석 (
 crypt_extra	-2	0	crypt_sigils	1															무어인 지하묘지 추가드랍: 문장석 1/11 (M3-2)
 boss_bullring	1	0	weapons	3	armors	3	jewelry	2											투우장 5웨이브 보상 (등급은 웨이브.txt 굴림)
 plains_charms	1	24	charm_small	1															카스티야 평원 부적(소) (1/25 — 지역 추가드랍, A2-2 [설계서 파밍 대상])
-plains_extra	-1	0	plains_charms	1															카스티야 평원 추가드랍: 부적(소) 1/25 (A2-2)
+tomes	1	19	logbook	1															L-4 항해일지(마도서) 1/20 — 항해사의 별지도 · 마녀의 거꾸로 쓴 주문서가 나올 베이스 (전에는 어디서도 안 나왔음)
+plains_extra	-2	0	plains_charms	1	tomes	1													카스티야 평원 추가드랍: 부적(소) 1/25 (A2-2) · L-4: 항해일지 1/20 (tomes)
 sigils_mine	1	0	sigil_oar	6	sigil_lantern	8	sigil_wave	6	sigil_bolt	4									문장석 3~6 (광산 — [설계서 던전 시트] 광산 3층 파밍 대상 "보석 · 문장석 3~6", 보석 = 문장석 3~6으로 — A2-3)
 structure	1	3	potions	2	gold	3	sigils_mine	3	armors	1									구조물 (광석 골렘 — 몸에 박힌 원석 = 문장석 3~6이 자주, A2-3)
 forge_core	-2	0	forge_loot	1	forge_loot	1													골렘 화로의 핵: 부술 때 늘 둘 (forge_loot 두 번 — 일반 등급 드랍 수 1과 상관없이, QA A2-3 #2)
@@ -59,7 +60,8 @@ shadow_loot	7	0	weapons	3	armors	3	jewelry	3	sigils_palace	2	gold	1							대심
 boss_shadow_all	-2	0	shadow_loot	1	abyss_key2	1													대심문관의 그림자 (A2-6): 보물 + 심연의 열쇠 ② 확정. 유니크 표 없음 → 가보 보정은 "어디서나" 유니크
 inquisition_chest	4	0	weapons	2	armors	3	jewelry	3	gold	3	potions	1	sigils_palace	1					심문소 압수품 궤 (A2-6)
 inquisition_rares	1	30	weapons	3	armors	4	jewelry	3											심문소 장비 1/31
-inquisition_extra	-2	0	inquisition_rares	1	alhambra_sigils	1													이단 심문소 추가드랍: 장비 1/31 · 문장석 4~8 1/11 (A2-6)
+inquisition_relics	1	12	staffs	2	charm_medium	1													L-4 심문소 덤: 지팡이 · 부적 (심문관의 촛대 · 감옥 열쇠꾸러미가 나올 베이스)
+inquisition_extra	-3	0	inquisition_rares	1	alhambra_sigils	1	inquisition_relics	1											이단 심문소 추가드랍: 장비 1/31 · 문장석 4~8 1/11 (A2-6) · L-4: 지팡이 · 부적 덤 (inquisition_relics)
 batons	1	0	bosun_whistle	2	captain_baton	1													지휘봉 (M-5 선장술): 갑판장 호각 2 (드랍레벨 3부터) · 선장의 지휘봉 1 (9부터). 상자의 덤(chest_baton)에서만 — 선장술을 처음 고르면 갑판장 호각을 받음. 유니크 바스쿠 다 가마의 지휘봉 · 검은 수염의 호각도 이 표에서
 chest_baton	1	4	batons	1															상자의 덤 지휘봉 1/5 (M-5 — 지도물체.txt 덤 넷째). 덤마다 떼어 낸 난수 — 원래 보물 · 앞의 덤 · 그 뒤의 판이 그대로
 wands	1	0	coral_wand	2	bone_wand	1													주술봉 (M-6 망령술): 산호 주술봉 2 (드랍레벨 3부터) · 익사자의 뼈 주술봉 1 (9부터). 상자의 덤(chest_wand)에서만 — 망령술을 처음 고르면 산호 주술봉을 받음. 유니크 산타 마리아의 종 · 심연의 장부도 이 표에서
@@ -67,13 +69,14 @@ chest_wand	1	4	wands	1															상자의 덤 주술봉 1/5 (M-6 — 지도
 vineyard_charms	1	15	charm_medium	1															보르도 포도원 부적(중) (1/16 — 지역 추가드랍, A3-0 [설계서 파밍 대상])
 vineyard_extra	-1	0	vineyard_charms	1															보르도 포도원 추가드랍: 부적(중) 1/16 (A3-0)
 cellar_potions	1	3	potions	1															보르도 저장고 물약 1/4 (물약 재료 — 지역 추가드랍, A3-1 [설계서 파밍 대상])
-cellar_extra	-1	0	cellar_potions	1															보르도 지하 저장고 추가드랍: 물약 1/4 (A3-1)
+cellar_extra	-2	0	cellar_potions	1	tomes	1													보르도 지하 저장고 추가드랍: 물약 1/4 (A3-1) · L-4: 항해일지 1/20 (tomes)
 forest_charms	1	21	charm_small	1	charm_medium	2													브로셀리앙드 숲 부적 (1/8 — 소 1 : 중 2, 지역 추가드랍, A3-2 [설계서 파밍 대상 "부적 (챔피언 많음)"])
 forest_extra	-1	0	forest_charms	1															브로셀리앙드 숲 추가드랍: 부적 1/8 (A3-2)
 elite_wolf_lord	-2	0	elite	1	forest_charms	1													늑대 군주: 정예 드랍 + 부적 굴림 (A3-2)
 court_jewels	1	9	ring	2	amulet	1													요정의 궁정 장신구 (1/10 — 반지 2 : 목걸이 1, 지역 추가드랍, A3-3 [설계서 파밍 대상 "유니크 장신구" — 유니크는 A3-7])
+knight_plate	1	4	hernan_gear	1															L-4 흑기사 덤: 판금 흉갑 1/5 (흑기사의 판금이 판금 흉갑에서 나옴 — 전에는 이 표에 판금 흉갑이 없어 나오지 않았음)
 court_extra	-1	0	court_jewels	1															요정의 궁정 추가드랍: 장신구 1/10 (A3-3)
-elite_black_knight	-2	0	elite	1	court_jewels	1													흑기사: 정예 드랍 + 장신구 굴림 (A3-3)
+elite_black_knight	-3	0	elite	1	court_jewels	1	knight_plate	1											흑기사: 정예 드랍 + 장신구 굴림 (A3-3) · L-4: 흑기사의 판금(판금 흉갑 유니크)이 나올 수 있게 판금 흉갑 1/5 (knight_plate)
 boss_melusine	7	0	weapons	3	armors	3	jewelry	2	gold	2									요정 여왕 멜뤼진: 장비 7번 굴림 (A3-4 — 유니크 표는 A3-7)
 boss_melusine_all	-2	0	boss_melusine	1	court_jewels	1													요정 여왕 멜뤼진: 보스 드랍 + 궁정 장신구 (A3-4)
 abyss_key3	1	0	abyss_key_3	1															심연의 열쇠 ③ (A3-6 — 철가면의 총사대장 확정)
@@ -82,3 +85,7 @@ boss_mask_all	-2	0	mask_loot	1	abyss_key3	1													철가면의 총사대�
 catacomb_chest	4	0	weapons	2	armors	3	jewelry	3	gold	3	potions	1	sigils_palace	1					총사대의 무기고 궤 (A3-6)
 catacomb_rares	1	30	weapons	3	armors	4	jewelry	3											카타콤 장비 1/31
 catacomb_extra	-2	0	catacomb_rares	1	forest_charms	1													파리 카타콤 추가드랍: 장비 1/31 · 부적 1/8 (A3-6)
+pirate_ship	1	2	gold	6	potions	2	weapons	1	jewelry	1	sigils_low	1							해적 배 (⑤): 금화 많음 · 물에 뜬 짐
+sea_monster	1	1	gold	5	potions	2	jewelry	2	sigils_low	1									바다뱀 (⑤): 금화 · 장신구 · 물약 (비늘은 sea.ts가 따로)
+wreck_cargo	2	1	gold	5	potions	3	weapons	2	armors	2	jewelry	1	sigils_low	1					난파선의 짐 (⑤ 조우 — 건지면 두 번 굴림)
+smuggler	2	1	gold	6	potions	2	jewelry	1	sigils_low	1									밀수꾼 (L-6): 보따리 — 금화가 많이, 두 번 뽑음

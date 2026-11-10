@@ -1,0 +1,29 @@
+아이디	이름	구간	대상	글
+log_fair_wind	항해일지 조각 — 순풍	잔잔	sw_fair_wind	장화 두 홈. 먼저 돛, 그다음 노 — 바람을 받고 저으면 발이 갑판 위를 미끄러진다.
+log_lighthouse	항해일지 조각 — 등대	잔잔	sw_lighthouse	모자에 홈 둘. 등불을 먼저 켜고 진주를 얹으면, 밤바다가 한 뼘 더 밝아진다.
+log_anchor_line	항해일지 조각 — 닻줄	잔잔	sw_anchor_line	방패 두 홈에 닻, 그리고 노. 닻줄을 감는 팔이 방패를 버티게 한다.
+log_first_voyage	항해일지 조각 — 첫 항해	잔잔	sw_first_voyage	첫 항해는 노를 젓는 것으로 시작해 돛을 올리는 것으로 끝났다. 칼에 두 홈을 내어 그 순서대로.
+log_coral_thorn	항해일지 조각 — 산호 가시	잔잔	sw_coral_thorn	산호 가시에 번개가 내리친 날, 그 칼날은 독과 불꽃을 함께 물었다. 무기에 홈 둘, 산호가 먼저.
+log_calm_sea	항해일지 조각 — 잔잔한 바다	잔잔	sw_calm_sea	파도가 진주를 굴리고 닻이 그것을 붙든다. 갑옷 세 홈, 바다가 잠잠해지는 순서로.
+log_shanty	항해일지 조각 — 뱃노래	잔잔	sw_shanty	노, 노, 돛 — 선원들이 박자를 맞추던 노래. 무기 세 홈에 그 박자대로 새기면 노래가 들린다.
+log_lamplighter	항해일지 조각 — 등불지기	잔잔	sw_lamplighter	등불지기는 불과 물과 번개를 모두 지켰다. 방패 세 홈에 등불 · 파도 · 번개.
+log_maestro	항해일지 조각 — 마에스트로	폭풍	sw_maestro	키를 잡고, 파도를 읽고, 모래시계로 박자를 잰다. 방패 셋이면 폭풍도 지휘할 수 있다.
+log_storm_hunter	항해일지 조각 — 폭풍 사냥꾼	폭풍	sw_storm_hunter	번개를 대포에 재워 돛바람에 실어 보낸다. 무기 세 홈.
+log_pirate_oath	항해일지 조각 — 해적의 맹세	폭풍	sw_pirate_oath	갈매기처럼 낚아채고, 노처럼 내리치고, 키처럼 놓지 않는다 — 해적의 맹세는 칼 세 홈에.
+log_far_eye	항해일지 조각 — 먼 바다의 눈	폭풍	sw_far_eye	해도를 펴고 육분의를 대고 진주로 빛을 모은다. 모자 셋이면 수평선 너머의 보물이 보인다.
+log_good_hand	항해일지 조각 — 선의의 손	폭풍	sw_good_hand	산호의 독도 갈매기의 부리도 모래시계 안에서는 약이 된다. 무기 세 홈, 약제사의 순서로.
+log_crew_chorus	항해일지 조각 — 선원의 합창	폭풍	sw_crew_chorus	선체가 울리고 키가 답하면, 노 둘이 따라 부른다. 갑옷 네 홈의 합창.
+log_drowned_song	항해일지 조각 — 익사자의 노래	폭풍	sw_drowned_song	유령선이 먼저 노래하고, 산호와 진주가 받고, 마지막에 노가 가라앉는다. 무기 네 홈.
+log_gunner_eye	항해일지 조각 — 사수의 눈	폭풍	sw_gunner_eye	바늘로 겨누고 대포로 쏘고 돛으로 거리를 재고 번개처럼 맞힌다. 무기 네 홈.
+log_black_tide	항해일지 조각 — 검은 조류	심연	sw_black_tide	크라켄이 폭풍을 부르고 대포가 울리면, 남십자 아래로 검은 조류가 흐른다. 무기 네 홈.
+log_ice_age	항해일지 조각 — 빙하기	심연	sw_ice_age	파도가 얼고 크라켄이 잠들고 해가 가려진 뒤, 육분의만이 별을 잰다. 무기 네 홈.
+log_admiral_majesty	항해일지 조각 — 제독의 위엄	심연	sw_admiral_majesty	북극성 아래 선체를 세우고 폭풍 속에서 키를 쥔다. 갑옷 네 홈의 위엄.
+log_fortress	항해일지 조각 — 요새	심연	sw_fortress	심연의 별을 주춧돌로, 닻과 대포와 폭풍을 성벽으로. 방패 네 홈의 요새.
+log_phoenix_ash	항해일지 조각 — 불사조의 재	심연	sw_phoenix_ash	등불이 세계수를 태우고 일식이 그 재를 덮으면, 갑옷 속에서 무언가 다시 일어난다.
+log_abyss_call	항해일지 조각 — 심연의 부름	심연	sw_abyss_call	유령선이 심연의 별을 지나 북극성으로 간다. 모자 세 홈으로 그 부름을 듣는다.
+log_broken_compass	항해일지 조각 — 부서진 나침반	심연	sw_broken_compass	북극성 · 남십자 · 일식 · 폭풍 · 심연성. 다섯 별을 한 칼에 새긴 자는 나침반 없이도 길을 안다.
+log_eight_stars	항해일지 조각 — 여덟 개의 별	심연	sw_eight_stars	세계수에서 시작해 심연성에서 끝나는 다섯 별 — 갑옷에 새기면 여덟 별이 함께 빛난다고 한다.
+log_rusty_key	항해일지 조각 — 녹슨 열쇠	잔잔	santa_maria	해안 동굴의 박쥐와 익사자가 가끔 녹슨 열쇠를 삼킨다. 그 열쇠는 리스본 서쪽 부두의 작은 배를 푼다 — 가라앉은 산타 마리아로.
+log_inquisition	항해일지 조각 — 철문	잔잔	inquisition	세비야 대성당 동쪽 벽의 철문은 고해 신부만이 연다. 심문소의 기록을 가져다주면 열쇠를 내어 줄지도.
+log_night_boat	항해일지 조각 — 밤배	잔잔	paris_catacomb	보르도 부두의 밤배는 수도원장의 편지를 전한 자만 태운다. 배는 파리의 납골당으로 간다.
+log_abyss_keys	항해일지 조각 — 세 개의 열쇠	잔잔	abyss_key	침몰선의 선장 · 그림자 심문관 · 철가면 — 셋이 하나씩 지닌 검푸른 열쇠가 모이면, 별이 닿지 않는 곳의 문이 열린다고 한다.

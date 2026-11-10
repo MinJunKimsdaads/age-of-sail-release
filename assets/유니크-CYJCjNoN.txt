@@ -1,0 +1,60 @@
+아이디	이름	베이스	요구레벨	드랍레벨	효과1	값1	효과2	값2	효과3	값3	효과4	값4	외형	외형효과	드랍	고유	설명
+u_blackbeard_fang	검은 수염의 이빨	cutlass	8	10	피해 %	60	타격 시 출혈 %	15	생명력 흡수 %	4			look_u_blackbeard_fang	fx_glow_red	boss_blackbeard	처치 시:저주 전염 · 상태=출혈 · 반경=4	검은 수염이 물어뜯은 자리는 피가 멎지 않았다.
+u_astrologer_eye	점성술사의 눈	leather_cap	10	8	모든 스킬 +	1	마법 발견 %	20	조명 반경 +	2			look_u_astrologer_eye	fx_glow_starlight	어디서나 (Act 1~2)	늘:별 읽기	렌즈 너머로 보면 바다 위의 별이 길을 일러 준다.
+u_drowned_chain	가라앉은 닻사슬	amulet	12	12	냉기 저항 %	40	생명력 +	35	냉기 피해 +	8			look_u_drowned_chain	fx_glow_starlight	boss_drowned_captain	위기:닻 내리기 · 쿨=20	물에 잠긴 사슬은 아직도 무언가를 끌어내리려 한다.
+u_hernan_ambition	에르난의 야심	plate_cuirass	16	18	방어력 %	150	힘 +	10	피해 감소 +	4	갑주 강화 (초)	6	look_u_hernan_ambition	fx_glow_gold	boss_hernan_all	정예 처치 시:강화 · 피해=20 · 지속=10	쓰러뜨린 장수가 많을수록 갑주는 더 무거워졌다.
+u_st_elmo_fire	성 엘모의 불	sailor_staff	6	6	폭풍술 스킬 +	1	번개 피해 +	6	마나 +	25	시전 속도 %	15	look_u_st_elmo_fire	fx_glow_stelmo	어디서나 (Act 1~2)	시전 시:연쇄 번개 · 확률=20 · 쿨=1	돛대 끝에 푸른 불이 앉으면 선원들은 기도했다.
+u_tempest_astrolabe	폭풍잡이 아스트롤라베	navigator_staff	13	13	피해 %	70	폭풍술 스킬 +	2	번개 저항 %	30	이동 속도 %	10	look_u_tempest_astrolabe	fx_glow_tempest	어디서나 (Act 1~2)	걸음:메아리 · 칸=20	바늘이 폭풍을 가리키면, 폭풍도 두 번 울린다.
+u_moon_tide	달의 밀물	navigator_staff	10	10	조류술 스킬 +	2	냉기 피해 +	8	마나 재생 +/초	2	냉기 저항 %	25	look_u_moon_tide	fx_glow_moontide	어디서나 (Act 1~2)	늘:밤의 힘 · 스킬=1 · 마스터리=tidecraft · 마나재생=100	달이 뜨면 지팡이 속 물이 차오른다.
+u_santiago_shield	산티아고의 방패	round_shield	9	9	수호술 스킬 +	1	막기 확률 %	15	모든 저항 %	15	근접 피해 반사 +	6	look_u_santiago_shield	fx_glow_santiago	어디서나 (Act 1~2)	막기 시:충격파 · 종류=신성 · 밀침=2 · 쿨=3	순례자의 조개가 새겨진 방패.
+u_santa_maria_deck	산타 마리아의 갑판	deck_shield	14	14	방어력 %	80	수호술 스킬 +	2	생명력 +	30	피해 감소 +	3	look_u_santa_maria_deck	fx_glow_santamaria	어디서나 (Act 1~2)	피격 시:불굴 · 확률=10 · 쿨=45 · 지속=2	기함의 갑판 널은 포탄도 버텼다.
+u_paracelsus	파라켈수스의 시약	apothecary_flask	7	7	연금술 스킬 +	1	독 피해(초당)	5	물약 효과 %	30			look_u_paracelsus	fx_glow_paracelsus	어디서나 (Act 1~2)	물약:물약 연금 · 종류=독	"모든 것은 독이다. 양이 정할 뿐."
+u_burning_lisbon	불타는 리스본	alembic_flask	14	14	연금술 스킬 +	2	화염 피해 +	8	함정 +	1	화염 저항 %	25	look_u_burning_lisbon	fx_glow_burninglisbon	어디서나 (Act 1~2)	처치 시:화약 폭발 · 죽음=화염	불타는 도시의 재가 아직 따뜻하다.
+u_vasco_baton	바스쿠 다 가마의 지휘봉	captain_baton	13	13	선장술 스킬 +	2	소환수 생명 %	25	마법 발견 %	15			look_u_vasco_baton	fx_glow_vasco	어디서나 (Act 1~2)	처치 시:금화 비 · 누가=소환수 · 수=2	인도 항로를 연 지휘봉 — 부하들도 몫을 챙겼다.
+u_blackbeard_whistle	검은 수염의 호각	bosun_whistle	8	8	선장술 스킬 +	1	소환수 피해 %	20	공격 속도 %	10			look_u_blackbeard_whistle	fx_glow_bbwhistle	어디서나 (Act 1~2)	무기 교체:순풍 · 대상=소환수 · 지속=5	이 호각이 울리면 갑판이 뛰는 발소리로 가득했다.
+u_santa_bell	산타 마리아의 종	coral_wand	8	8	망령술 스킬 +	1	소환수 피해 %	20	마나 +	20			look_u_santa_bell	fx_glow_santabell	어디서나 (Act 1~2)	처치 시:망자의 기상 · 확률=15	물속에서 울리는 종소리에 죽은 자가 대답한다.
+u_abyss_ledger	심연의 장부	bone_wand	14	14	망령술 스킬 +	2	저주 반경 +	1	처치 시 마나 +	3			look_u_abyss_ledger	fx_glow_ledger	어디서나 (Act 1~2)	처치 시:저주 전염 · 누가=아무나 · 상태=저주	심연의 빚은 이웃에게 넘어간다.
+u_gascon_rapier	가스코뉴의 레이피어	rapier	21	21	피해 %	120	공격 속도 %	20	검술 스킬 +	2	타격 시 출혈 %	10			어디서나 (Act 3 — 드랍레벨 21)	막기 시:반격 사격 · 회피=포함 · 무기=검 · 피해=80	가스코뉴 사람은 한 번 막으면 두 번 찌른다.
+u_wolf_lord_pelt	늑대 군주의 가죽	worn_cape	22	22	생명력 +	45	이동 속도 %	15	냉기 저항 %	25	생명력 흡수 %	3			elite_wolf_lord	늘:밤의 힘 · 이속=20 ; 늘:공포 · 쿨=30 · 반경=5 · 지속=3 · 이름=늑대 울음	아직도 달을 보면 털이 곤두선다.
+u_witch_lantern	마녀의 등불	navigator_staff	20	21	조류술 스킬 +	2	독 피해(초당)	10	시전 속도 %	15	마나 +	40			어디서나 (Act 3 — 드랍레벨 21)	늘:등불 · 조명=3	죽은 자는 이 빛을 견디지 못한다.
+u_vintage_alembic	백 년 묵은 증류기	alembic_flask	21	21	연금술 스킬 +	2	물약 효과 %	40	화염 피해 +	14	생명력 +	25			어디서나 (Act 3 — 드랍레벨 21)	물약:물약 연금 · 종류=회복	백 년을 졸인 약은 곁의 사람까지 낫게 한다.
+u_black_knight_plate	흑기사의 판금	plate_cuirass	25	25	방어력 %	130	피해 감소 +	6	받는 물리 피해 %	-8	수호술 스킬 +	1			elite_black_knight	늘:역류 · 값=30	받은 만큼 돌려주는 것이 흑기사의 예법.
+u_siren_song	사이렌의 노래	ring	24	24	모든 스킬 +	1	마나 흡수 %	4	냉기 피해 +	10	시전 속도 %	10			어디서나 (Act 3 — 드랍레벨 24)	타격 시:매혹 · 확률=8 · 지속=2	노래를 들은 자는 제 편을 잊는다.
+u_iron_mask_pistol	철가면의 단총	flintlock	27	27	사격 스킬 +	2	피해 %	100	공격 속도 %	20	치명타 확률 %	10			boss_mask_all	3번째 타격:관통 탄환	철가면의 세 번째 탄은 아무도 막지 못했다.
+u_melusine_tear	멜뤼진의 눈물	amulet	24	24	냉기 피해 +	40	냉기 저항 %	30	마나 +	40					boss_melusine_all	피격 시:서리 발자국 · 확률=15 · 지속=5 · 쿨=10	요정 여왕의 눈물은 땅에 닿으면 얼어붙는다.
+u_first_voyage	첫 항해의 단검	cutlass	3	3	피해 %	50	공격 속도 %	10							어디서나 (Act 1)	처치 시:순풍 · 지속=3	처음 바다에 나서는 소년의 허리에 차여 있던 칼.
+u_coast_lantern	해안 감시인의 등불	leather_cap	4	4	조명 반경 +	3	생명력 +	15							어디서나 (Act 1)	늘:등불 · 조명=3	해안 동굴을 지키던 감시인은 등불 하나로 밤을 버텼다.
+u_lucky_coin	행운의 은화	amulet	5	5	마법 발견 %	15	골드 획득 %	30							어디서나 (Act 1)	타격 시:행운의 주사위	앞면이면 이기고, 뒷면이면 다시 던진다.
+u_bandit_string	산적 두목의 석궁 끈	rope_belt	6	6	민첩 +	8	공격 속도 %	10							sintra_hills 정예	5번째 타격:추가 타격	두목은 다섯 번째 화살을 늘 아껴 두었다.
+u_parrot_hat	앵무새 키우는 선장의 모자	leather_cap	7	7	골드 획득 %	25	생명력 +	20							어디서나 (Act 1)	늘:앵무새	"금화! 금화!" — 모자 위의 새가 쉴 새 없이 떠든다.
+u_spider_gloves	거미 여왕의 실장갑	leather_gloves	6	6	공격 속도 %	15	독 피해(초당)	4							elite_spider_queen	타격 시:거미줄 · 확률=12 · 지속=2	여왕의 실로 짠 장갑은 손에 끈적하게 붙는다.
+u_moor_rosary	무어 묘지기의 묵주	ring	8	8	지능 +	6	마나 +	20							moorish_crypt	늘:언데드 사냥 · 값=40	묘지기는 알 하나마다 잠든 이의 이름을 외웠다.
+u_salt_boots	소금에 절은 장화	leather_boots	8	8	이동 속도 %	20	냉기 저항 %	20							어디서나 (Act 1)	늘:서리 발자국	바닷물이 마르지 않아 걸음마다 서리가 앉는다.
+u_galleon_scope	갤리온의 함포 조준경	flintlock	10	10	피해 %	80	사격 스킬 +	1							boss_blackbeard	늘:함포 지원 · 쿨=10	해적왕의 갤리온이 아직 어딘가에서 지원 사격을 한다.
+u_drowned_breath	익사자의 마지막 숨	sailor_clothes	11	11	생명력 +	40	냉기 저항 %	25							santa_maria	위기:불굴 · 지속=2 · 쿨=60 · 폭발=1	물에 잠기기 직전의 숨 한 모금이 옷에 남았다.
+u_matador_cape	투우사의 붉은 망토	worn_cape	12	12	회피 %	15	이동 속도 %	15							bullring	막기 시:거울 분신 · 회피=만 · 지속=3 · 쿨=10	황소는 늘 망토를 들이받는다. 사람은 그 옆에 있다.
+u_bull_shield	황소 뿔 방패	round_shield	13	13	막기 확률 %	20	힘 +	10							castile_plains	막기 시:충격파 · 돌진=1 · 밀침=3 · 쿨=4	방패에 박힌 뿔은 아직도 앞으로 나가려 한다.
+u_miner_belt	광부의 화약 허리띠	rope_belt	14	14	화염 피해 +	10	함정 +	1							andalusia_mine	물약:화약 폭발 · 자리=발밑 · 지연=2 · 피해=120	갱도를 뚫던 화약통이 허리띠마다 매달려 있다.
+u_diego_fist	철의 디에고의 망치손	leather_gloves	16	16	무기 피해 %	15	방어 무시 %	15							elite_diego	4번째 타격:충격파 · 기절=0.5 · 반경=2.5	감독관의 주먹은 바위를 쪼개고, 갱부의 등을 굽혔다.
+u_alhambra_mosaic	알함브라의 별 모자이크	amulet	15	15	모든 저항 %	12	마나 +	30	원소 피해 %	20					alhambra	타격 시:변덕	여덟 꼭지 별의 조각마다 다른 빛이 산다.
+u_last_king_blade	마지막 왕의 초승달검	navy_cutlass	17	17	피해 %	110	공격 속도 %	15							elite_king	치명타 시:초승달 베기 · 피해=80	마지막 왕은 이 칼로 그라나다의 문을 지켰다.
+u_conqueror_chain	정복자의 금 사슬	ring	17	17	골드 획득 %	60	마법 발견 %	30							hernan_camp	늘:탐욕 · 피해=15	금을 많이 두를수록 칼끝이 더 많이 찾아왔다.
+u_inquisitor_candle	심문관의 촛대	sailor_staff	18	18	폭풍술 스킬 +	1	조류술 스킬 +	1	시전 속도 %	15					inquisition	타격 시:표식 · 값=25 · 감소=10 · 지속=8	이 촛불 아래 선 자는 숨을 곳이 없었다.
+u_jail_keys	감옥 열쇠꾸러미	charm_medium	19	19	생명력 +	20	이동 속도 %	5							inquisition	늘:약탈	이단 심문소의 모든 자물쇠가 이 꾸러미 안에 있다.
+u_grand_ash	대심문관의 재	amulet	20	20	망령술 스킬 +	2	저주 반경 +	1							boss_shadow_all	처치 시:시체 폭발 · 상태=저주 · 누가=아무나 · 피해=40	화형대의 재는 저주를 기억한다.
+u_wine_cork	포도주 통 마개	charm_medium	18	18	생명력 재생 +/초	3	물약 효과 %	20							bordeaux_vineyard	물약:물약 연금 · 종류=회복	이 마개로 막은 통은 늘 한 잔이 남았다.
+u_werewolf_fang	늑대인간의 송곳니 목걸이	amulet	20	20	생명력 흡수 %	5	공격 속도 %	10							broceliande	늘:밤의 힘 · 피해=35	보름달이 뜨면 이빨이 목을 조인다.
+u_bloodthirst_rapier	피에 굶주린 결투검	duel_rapier	21	21	피해 %	90	공격 속도 %	30	생명 재생 없음	1					어디서나 (Act 3 — 드랍레벨 21)	늘:성장 · 단위=50 · 값=4 · 상한=10	결투마다 칼날에 금이 하나씩 늘었다. 칼은 아직 배가 고프다.
+u_rebel_horn	반역 총사의 화약 뿔	rope_belt	21	21	사격 스킬 +	1	공격 속도 %	10							bordeaux_vineyard	무기 교체:화약 폭발 · 다음=1 · 피해=100	반역자는 마지막 화약을 늘 뿔에 남겨 두었다.
+u_witch_grimoire	마녀의 거꾸로 쓴 주문서	logbook	22	22	모든 스킬 +	1	시전 속도 %	20	마나 소모 %	20					bordeaux_cellar	시전 시:메아리 · 확률=15	거꾸로 읽으면 주문이 두 번 울린다 — 값도 두 번 치른다.
+u_root_boots	나무 정령의 뿌리 장화	leather_boots	23	23	생명력 +	50	이동 속도 %	-10							broceliande	정지:뿌리 내림 · 값=30 · 재생=5	가만히 서 있으면 장화가 땅에 뿌리를 내린다.
+u_moon_gloves	요정 궁수의 달빛 장갑	leather_gloves	24	24	민첩 +	12	치명타 확률 %	8							fairy_court	치명타 시:투명 · 지속=4 · 쿨=12	달빛 아래에서는 손끝이 보이지 않는다.
+u_knight_helm	흑기사의 투구	tricorne	25	25	방어력 %	120	피해 감소 +	5							elite_black_knight	정예 처치 시:공포 · 지속=3 · 반경=6	투구의 틈으로 본 것은 모두 무릎을 꿇었다.
+u_catacomb_crown	카타콤 망자의 왕관	captain_hat	27	27	망령술 스킬 +	2	소환수 생명 %	30							paris_catacomb	처치 시:망자의 기상 · 확률=25 · 접사=1	수백만의 뼈가 이 왕관 아래 다시 줄을 선다.
+u_musketeer_cape	왕의 총사 망토	captain_cape	28	28	모든 저항 %	20	공격 속도 %	15							boss_mask_all	피격 시:반격 사격 · 확률=15	하나는 모두를 위해 — 총은 늘 망토 안에 있다.
+u_southern_cross	남십자성 나침반 지팡이	compass_staff	45	45	모든 스킬 +	2	시전 속도 %	20	마나 +	60					어디서나 (폭풍 — 드랍레벨 45)	시전 시:메아리 · 확률=25 ; 늘:별 읽기	남쪽 바다의 별자리를 가리키는 바늘 — 그 너머에 새 대륙이 있다.
+u_admiral_cannon	바다를 가른 제독의 대포	admiral_cannon	50	50	피해 %	150	사격 스킬 +	2							어디서나 (폭풍 — 드랍레벨 50)	늘:함포 지원 · 쿨=3 · 불=1	제독이 쏘면 바다가 갈라지고, 함대가 따라 쏜다.
+u_ghost_flag	유령선 선장의 깃발 망토	storm_cape	55	55	선장술 스킬 +	2	소환수 생명 %	30	모든 저항 %	20					어디서나 (폭풍 — 드랍레벨 55)	늘:유령 선원 · 수=2	가라앉은 배의 깃발 — 선원들은 아직 그 아래 모인다.
+u_abyss_anchor	심연의 닻	fortress_shield	62	65	막기 확률 %	15	방어력 %	150	받는 냉기 · 물 피해 %	-25					어디서나 (심연 — 드랍레벨 65)	막기 시:소용돌이 · 쿨=6	바닥에 닿은 적이 없는 닻.
+u_eternal_tide	영원한 밀물	sage_alembic	65	68	연금술 스킬 +	2	물약 효과 %	50	생명력 +	60					어디서나 (심연 — 드랍레벨 68)	물약:물약 각성 · 지속=10 ; 물약:물약 연금 · 종류=둘	마셔도 줄지 않는 약 — 밀물처럼 다시 차오른다.
+u_lost_continent	잃어버린 대륙의 금화	ring	68	70	모든 저항 %	15	생명력 +	40							어디서나 (심연 — 드랍레벨 70)	늘:탐욕 · 발견=120 · 피해=25 ; 처치 시:금화 비	지도에서 지워진 나라의 금화. 손에 쥔 자마다 바다에 삼켜졌다.
