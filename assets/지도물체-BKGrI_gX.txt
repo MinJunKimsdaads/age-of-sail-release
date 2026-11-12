@@ -1476,7 +1476,7 @@ bordeaux	상자	captains_chest	35.8	24.6	1.2	궤	선장의 궤 — 아드리앵 
 bordeaux	상자	stash	34.6	9.8	1.2	창고	창고 — 선창의 큰 궤 (리스본 · 세비야 창고와 같은 짐)
 bordeaux	소품	배	28	3.4		변형=0	상선 생트 카트린 — 세비야로 가는 배
 bordeaux	소품	배	45.5	3.6		변형=1	작은 배
-bordeaux	소품	배	12	3.2		변형=1	
+bordeaux	소품	배	15	3.4		변형=1	런던행 배 (A4-0)
 bordeaux	소품	창고궤	34.6	9.8			
 bordeaux	소품	보르도집	5.5	15		변형=2	흰 석회암 벽 · 푸른 슬레이트 지붕 · 덧창 (보르도 집)
 bordeaux	소품	보르도집	13.5	15		변형=1	흰 석회암 벽 · 푸른 슬레이트 지붕 · 덧창 (보르도 집)
@@ -1948,3 +1948,825 @@ sea_biscay	출구	to_bordeaux	125	16	1.6	bordeaux::from_seville	보르도 선창
 lisbon	인물	tiagu	25.5	12.2		방향=남	조선공 티아구 — 선착장 서쪽 (⑤ 배 강화)
 seville	인물	diego	24.5	11.4		방향=남	조선공 디에고 — 부두 서쪽 (⑤ 배 강화)
 bordeaux	인물	yves	21.5	10.8		방향=남	조선공 이브 — 선창 서쪽 (⑤ 배 강화)
+bordeaux	입구	from_london	12	8.6			런던에서 온 배가 닿는 부두 (A4-0)
+bordeaux	출구	to_london	12	2.4	1.4	london::from_bordeaux	런던행 배 — 런던으로 (4막, A4-0 — 메인 ④ 멜뤼진 뒤)
+london	입구	dock	33.5	41			선창 — 웨이포인트 · 다시 일어나는 자리 (Act 4)
+london	입구	from_bordeaux	33.5	46			보르도에서 온 배가 닿는 선창
+london	출구	to_bordeaux	33.5	49.2	1.4	bordeaux::from_london	배 — 보르도로 (A4-0)
+london	입구	from_marsh	68	33.5			습지에서 돌아온 자리 (동쪽 강둑 문)
+london	출구	to_marsh	70.6	33.5	1.6	thames_marsh::from_london	동쪽 강둑 문 → 템스 습지 (A4-0)
+london	웨이포인트	london_dock	29.5	40.8	1.1		런던 선창 웨이포인트
+london	인물	oldrich	36.5	41.2		방향=남	항구 관리인 올드리치 — 선창
+london	인물	agnes	26.5	21.6		방향=남	상인 애그니스 — 생선 시장 옆 가게
+london	인물	roland	19.5	35.6		방향=남	대장장이 롤런드 — 남쪽 대장간 앞
+london	인물	hubert	28.5	12.2		방향=남	문장 각인사 휴버트 — 북쪽 골목
+london	인물	godwin	44.5	39.4		방향=남	야경꾼 고드윈 — 선창 동쪽 현상금 게시판
+london	인물	kit	47.5	34.6		방향=남서	주사위꾼 킷 — 선술집 앞
+london	인물	ellis	18.5	39.4		방향=남	조선공 엘리스 — 선창 서쪽
+london	인물	dietrich	53.5	34.4		방향=남서	한자 상인 디트리히 — 강가 상관 앞
+london	인물	martin	40.5	39.4		방향=남	부두 조합장 마틴 — 선창
+london	인물	enoch	36.8	23.2		방향=서	이야기꾼 이녹 — 광장 가운데
+london	인물	oswald	54.5	14.5		방향=서	근위 부관 오즈월드 — 탑 쇠창살 문 앞
+london	인물	dorothea	11.5	23		방향=동	연금술사 도로시아 — 서쪽 골목
+london	상자	captains_chest	30.5	11.5	1.2	궤	선장의 궤 — 휴버트 곁
+london	상자	stash	38.5	41.2	1.2	창고	창고 — 선창의 큰 궤
+london	소품	창고궤	38.5	41.2			
+london	소품	배	61.5	47.8		변형=1	
+london	소품	런던탑	65	14.5			탑 — 흰 돌 성채 (쇠창살 문은 메인 ② 뒤 — A4-3)
+london	소품	런던다리	5	44			집이 올라앉은 큰 다리 (지나갈 수 없음 · 배경)
+london	소품	선술집	44.5	31			선술집 — 간판에 거품 이는 잔
+london	소품	대장간	18	32			롤런드의 대장간
+london	소품	노점	26.5	18.6			애그니스의 가게
+london	소품	생선좌판	51	16		변형=0	생선 시장
+london	소품	나무통	56	37.2		변형=0	
+london	소품	런던집	8	31.5		변형=2	목조 골조 · 흰 회벽 · 튀어나온 위층 (런던 집)
+london	빛	등불	66	36			
+thames_marsh	입구	from_london	4	8			런던 동쪽 강둑 문에서 온 자리
+thames_marsh	출구	to_london	0.8	8	1.6	london::from_marsh	서쪽 둑길 → 런던 (동쪽 강둑 문)
+thames_marsh	웨이포인트	marsh_causeway	9	12	1.1		습지 둑길 웨이포인트
+thames_marsh	소품	부두창고	48.5	3.5			부두 창고 — 지하 문 (부두 지하 — A4-1)
+thames_marsh	소품	등대	90.5	24			불 꺼진 등대 (서브 ③ — A4-5)
+thames_marsh	무리	m1	22	14	4	무리=1 · 몬스터=fog_wraith	
+thames_marsh	무리	m2	39.5	16.5	4	무리=1 · 몬스터=dock_hooker	
+thames_marsh	무리	m3	60	12	4	무리=1 · 몬스터=fog_wraith	
+thames_marsh	무리	m4	74	18	4	무리=1 · 몬스터=dock_hooker	
+thames_marsh	무리	m5	28	30	4	무리=1 · 몬스터=mudflat_drowned	
+thames_marsh	무리	m6	50	30	4	무리=1 · 몬스터=fog_wraith	
+thames_marsh	무리	m7	66	34	4	무리=1 · 몬스터=dock_hooker	
+thames_marsh	무리	m8	80	36	4	무리=1	
+thames_marsh	무리	m9	16	46	4	무리=1 · 몬스터=dock_hooker	
+thames_marsh	무리	m10	34	44	4	무리=1 · 몬스터=mudflat_drowned	
+thames_marsh	무리	m11	52	48	4	무리=1 · 몬스터=fog_wraith	
+thames_marsh	무리	m12	70	50	4	무리=1	
+thames_marsh	무리	m13	24	56	4	무리=1 · 몬스터=mudflat_drowned	
+thames_marsh	무리	m14	60	56	4	무리=1 · 몬스터=dock_hooker	
+thames_marsh	무리	m15	80	26	4	무리=1 · 몬스터=fog_wraith	
+thames_marsh	무리	m16	44	38	4	무리=1	
+thames_marsh	빛	등불	12	40			
+sea_channel	입구	from_bordeaux	8	87			지롱드 강 어귀에서 나온 자리 (A4-0)
+sea_channel	출구	to_bordeaux	1.5	89	1.6	bordeaux::from_london	보르도 선창에 배를 댐 (가론 강을 거슬러)
+sea_channel	입구	from_london	118	20			템스 강 어귀에서 나온 자리
+sea_channel	출구	to_london	126	19.5	1.6	london::from_bordeaux	런던 선창에 배를 댐 (템스를 거슬러)
+london_docks_1	입구	from_marsh	4.5	30.5			부두 창고 계단으로 내려온 자리
+london_docks_1	출구	to_marsh	2.8	30.5	1.4	thames_marsh::from_docks	서쪽 계단 → 위로
+london_docks_1	입구	from_floor2	74.5	31.5			아래층에서 올라온 자리
+london_docks_1	출구	to_floor2	76.8	31.5	1.4	london_docks:2:from_floor1	동쪽 계단 → 아래층
+london_docks_1	웨이포인트	london_docks_1	6.5	29.0	1.1		런던 부두 지하 1층 웨이포인트
+london_docks_1	무리	d1	13.5	11.0	3	무리=1 · 몬스터=fog_wraith	
+london_docks_1	무리	d2	19.7	44.5	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_1	무리	d3	24.3	44.5	3	무리=1 · 몬스터=dock_hooker	
+london_docks_1	무리	d4	27.5	6.5	3	무리=1	
+london_docks_1	무리	d5	35.5	26.5	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_1	무리	d6	36.3	38.5	3	무리=1 · 몬스터=dock_hooker	
+london_docks_1	무리	d7	40.7	38.5	3	무리=1 · 몬스터=fog_wraith	
+london_docks_1	무리	d8	42.5	50.5	3	무리=1	
+london_docks_1	무리	d9	45.0	13.0	3	무리=1 · 몬스터=dock_hooker	
+london_docks_1	무리	d10	49.0	13.0	3	무리=1 · 몬스터=fog_wraith	
+london_docks_1	무리	d11	52.5	32.5	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_1	무리	d12	60.0	47.0	3	무리=1	
+london_docks_1	무리	d13	65.0	47.0	3	무리=1 · 몬스터=fog_wraith	
+london_docks_1	무리	d14	63.0	7.5	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_1	무리	d15	68.0	7.5	3	무리=1 · 몬스터=dock_hooker	
+london_docks_1	무리	d16	66.7	31.5	3	무리=1	
+london_docks_1	무리	d17	72.3	31.5	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_1	빛	횃불	76	36			
+london_docks_1	소품	나무통	56.5	50.5		변형=0	
+london_docks_1	소품	밀수품	71.5	3.5		변형=1	
+london_docks_2	입구	from_floor1	4.5	30.5			위층에서 내려온 자리
+london_docks_2	출구	to_floor1	2.8	30.5	1.4	london_docks:1:from_floor2	서쪽 계단 → 위로
+london_docks_2	입구	from_floor3	74.5	25.5			아래층에서 올라온 자리
+london_docks_2	출구	to_floor3	76.8	25.5	1.4	london_docks:3:from_floor2	동쪽 계단 → 아래층
+london_docks_2	무리	d1	8.5	18.5	3	무리=1 · 몬스터=dock_hooker	
+london_docks_2	무리	d2	9.0	52.5	3	무리=1 · 몬스터=fog_wraith	
+london_docks_2	무리	d3	13.0	52.5	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_2	무리	d4	21.0	12.0	3	무리=1	
+london_docks_2	무리	d5	25.0	12.0	3	무리=1 · 몬스터=fog_wraith	
+london_docks_2	무리	d6	23.0	35.5	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_2	무리	d7	28.0	35.5	3	무리=1 · 몬스터=dock_hooker	
+london_docks_2	무리	d8	25.0	49.5	3	무리=1	
+london_docks_2	무리	d9	30.0	49.5	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_2	무리	d10	41.0	14.5	3	무리=1 · 몬스터=dock_hooker	
+london_docks_2	무리	d11	41.5	28.5	3	무리=1 · 몬스터=fog_wraith	
+london_docks_2	무리	d12	46.0	45.5	3	무리=1	
+london_docks_2	무리	d13	51.0	45.5	3	무리=1 · 몬스터=dock_hooker	
+london_docks_2	무리	d14	64.5	45.0	3	무리=1 · 몬스터=fog_wraith	
+london_docks_2	무리	d15	66.0	12.5	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_2	무리	d16	66.7	25.5	3	무리=1	
+london_docks_2	무리	d17	72.3	25.5	3	무리=1 · 몬스터=fog_wraith	
+london_docks_2	빛	횃불	76	30			
+london_docks_2	소품	나무통	62.5	14.5		변형=1	
+london_docks_2	소품	밀수품	69.5	10.5		변형=0	
+london_docks_3	입구	from_floor2	4.5	30.5			위층에서 내려온 자리
+london_docks_3	출구	to_floor2	2.8	30.5	1.4	london_docks:2:from_floor3	서쪽 계단 → 위로
+london_docks_3	입구	from_floor4	74.5	30.5			아래층에서 올라온 자리
+london_docks_3	출구	to_floor4	76.8	30.5	1.4	london_docks:4:from_floor3	동쪽 계단 → 아래층
+london_docks_3	무리	d1	9.5	15.5	3	무리=1 · 몬스터=dock_hooker	
+london_docks_3	무리	d2	18.5	48.5	3	무리=1 · 몬스터=fog_wraith	
+london_docks_3	무리	d3	28.0	37.0	3	무리=1 · 몬스터=thames_mudman	
+london_docks_3	무리	d4	29.0	7.5	3	무리=1	
+london_docks_3	무리	d5	34.0	7.5	3	무리=1 · 몬스터=fog_wraith	
+london_docks_3	무리	d6	30.7	25.0	3	무리=1 · 몬스터=thames_mudman	
+london_docks_3	무리	d7	35.3	25.0	3	무리=1 · 몬스터=dock_hooker	
+london_docks_3	무리	d8	45.5	42.5	3	무리=1	
+london_docks_3	무리	d9	47.5	21.5	3	무리=1 · 몬스터=thames_mudman	
+london_docks_3	무리	d10	57.0	6.5	3	무리=1 · 몬스터=dock_hooker	
+london_docks_3	무리	d11	60.5	53.0	3	무리=1 · 몬스터=fog_wraith	
+london_docks_3	무리	d12	73.0	15.0	3	무리=1	
+london_docks_3	무리	d13	66.7	30.5	3	무리=1 · 몬스터=dock_hooker	
+london_docks_3	무리	d14	72.3	30.5	3	무리=1 · 몬스터=fog_wraith	
+london_docks_3	빛	횃불	76	35			
+london_docks_3	소품	나무통	69.5	17.5		변형=0	
+london_docks_3	소품	밀수품	76.5	12.5		변형=1	
+london_docks_4	입구	from_floor3	4.5	30.5			위층에서 내려온 자리
+london_docks_4	출구	to_floor3	2.8	30.5	1.4	london_docks:3:from_floor4	서쪽 계단 → 위로
+london_docks_4	정예	fog_hook	69.5	24.5			안개 갈고리 + 부두 갈고리꾼 둘 — 갈고리의 소굴 (메인 ① 부두의 살인마)
+london_docks_4	무리	lair_mud	66.5	26.5	1	무리=1 · 몬스터=thames_mudman · 수=1~1 · 등급=일반	진흙꾼 하나 — 소굴 곁
+london_docks_4	소품	갈고리줄	76.5	18.8		변형=0	줄에 걸린 갈고리
+london_docks_4	웨이포인트	london_docks_4	6.5	29.0	1.1		런던 부두 지하 4층 웨이포인트
+london_docks_4	무리	d1	7.0	17.0	3	무리=1 · 몬스터=thames_mudman	
+london_docks_4	무리	d2	8.5	51.5	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_4	무리	d3	25.0	20.0	3	무리=1 · 몬스터=dock_hooker	
+london_docks_4	무리	d4	26.0	35.0	3	무리=1	
+london_docks_4	무리	d5	31.0	35.0	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_4	무리	d6	29.5	51.0	3	무리=1 · 몬스터=dock_hooker	
+london_docks_4	무리	d7	40.3	7.0	3	무리=1 · 몬스터=thames_mudman	
+london_docks_4	무리	d8	44.7	7.0	3	무리=1	
+london_docks_4	무리	d9	43.7	40.0	3	무리=1 · 몬스터=dock_hooker	
+london_docks_4	무리	d10	48.3	40.0	3	무리=1 · 몬스터=thames_mudman	
+london_docks_4	무리	d11	49.5	27.0	3	무리=1 · 몬스터=fog_smuggler	
+london_docks_4	무리	d12	65.0	10.5	3	무리=1	
+london_docks_4	무리	d13	68.0	51.0	3	무리=1 · 몬스터=thames_mudman	
+london_docks_4	빛	횃불	76	29			
+london_docks_4	소품	나무통	60.5	13.5		변형=1	
+london_docks_4	소품	밀수품	52.5	24.5		변형=1	
+thames_marsh	입구	from_docks	50.5	8.5			부두 지하에서 올라온 자리
+thames_marsh	출구	to_docks	50.5	6.2	1.4	london_docks:1:from_marsh	부두 창고 지하 문 → 런던 부두 지하 (A4-1)
+dartmoor_moor	입구	from_marsh	50	4.5			습지의 황야 길에서 온 자리
+dartmoor_moor	출구	to_marsh	50	1.0	1.6	thames_marsh::from_moor	북쪽 황야 길 → 템스 습지
+dartmoor_moor	입구	from_barrow	50	67			고분에서 나온 자리
+dartmoor_moor	출구	to_barrow	50	71.2	1.4	dartmoor_barrow:1:from_moor	남쪽 고분 입구 → 다트무어 고분 (A4-2)
+dartmoor_moor	웨이포인트	moor_stones	12	34	1.1		황야 선돌 웨이포인트
+dartmoor_moor	소품	고분입구	50	72.5			고분 입구 — 흙 둔덕 사이의 돌문
+dartmoor_moor	소품	선돌	18.6	30.5		변형=2	선돌 줄
+dartmoor_moor	소품	봉분	62	26		변형=1	봉분 — 돌을 쌓은 옛 무덤
+dartmoor_moor	무리	cairn1	31.5	16	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석 (둘레 6칸 돌무덤 망자가 일어남)
+dartmoor_moor	무리	dead1	29	17	3	무리=1 · 몬스터=cairn_dead	봉분 곁의 돌무덤 망자
+dartmoor_moor	무리	cairn2	79.5	32	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석 (둘레 6칸 돌무덤 망자가 일어남)
+dartmoor_moor	무리	dead2	76.5	32.5	3	무리=1 · 몬스터=cairn_dead	봉분 곁의 돌무덤 망자
+dartmoor_moor	무리	cairn3	21.5	66	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석 (둘레 6칸 돌무덤 망자가 일어남)
+dartmoor_moor	무리	dead3	19	67	3	무리=1 · 몬스터=cairn_dead	봉분 곁의 돌무덤 망자
+dartmoor_moor	무리	cairn4	73.5	68	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석 (둘레 6칸 돌무덤 망자가 일어남)
+dartmoor_moor	무리	dead4	71	69	3	무리=1 · 몬스터=cairn_dead	봉분 곁의 돌무덤 망자
+dartmoor_moor	무리	cairn5	63.5	28	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석 (둘레 6칸 돌무덤 망자가 일어남)
+dartmoor_moor	무리	dead5	61	29	3	무리=1 · 몬스터=cairn_dead	봉분 곁의 돌무덤 망자
+dartmoor_moor	무리	m1	40	10	4	무리=1 · 몬스터=moor_hound	
+dartmoor_moor	무리	m2	64	10	4	무리=1 · 몬스터=moor_pixie	
+dartmoor_moor	무리	m3	84	18	4	무리=1 · 몬스터=moor_hound	
+dartmoor_moor	무리	m4	14	18	4	무리=1 · 몬스터=moor_pixie	
+dartmoor_moor	무리	m5	32	30	4	무리=1 · 몬스터=moor_hound	
+dartmoor_moor	무리	m6	54.5	33.5	4	무리=1 · 몬스터=moor_pixie	
+dartmoor_moor	무리	m7	76	40	4	무리=1 · 몬스터=moor_hound	
+dartmoor_moor	무리	m8	17.5	47.5	4	무리=1 · 몬스터=moor_hound	
+dartmoor_moor	무리	m9	40	48	4	무리=1 · 몬스터=moor_pixie	
+dartmoor_moor	무리	m10	88	46	4	무리=1	
+dartmoor_moor	무리	m11	62	60	4	무리=1 · 몬스터=moor_hound	
+dartmoor_moor	무리	m12	34	66	4	무리=1 · 몬스터=moor_pixie	
+dartmoor_moor	무리	m13	84	66	4	무리=1	
+dartmoor_moor	무리	m14	24	42	4	무리=1	
+thames_marsh	입구	from_moor	8	66.5			황야에서 돌아온 자리
+thames_marsh	출구	to_moor	8	70.8	1.6	dartmoor_moor::from_marsh	남서쪽 황야 길 → 다트무어 황야 (A4-2 — 메인 ① 뒤)
+dartmoor_barrow_1	입구	from_moor	4.5	28.5			고분 입구로 내려온 자리
+dartmoor_barrow_1	출구	to_moor	2.8	28.5	1.4	dartmoor_moor::from_barrow	서쪽 → 위로
+dartmoor_barrow_1	웨이포인트	dartmoor_barrow_1	6.5	27.0	1.1		다트무어 고분 1층 웨이포인트
+dartmoor_barrow_1	입구	from_floor2	70.5	29.5			아래층에서 올라온 자리
+dartmoor_barrow_1	출구	to_floor2	72.8	29.5	1.4	dartmoor_barrow:2:from_floor1	동쪽 → 아래층
+dartmoor_barrow_1	무리	b1	10.5	42.5	3	무리=1 · 몬스터=moor_hound	
+dartmoor_barrow_1	무리	b2	18.0	9.5	3	무리=1 · 몬스터=moor_pixie	
+dartmoor_barrow_1	무리	b3	27.0	47.0	3	무리=1 · 몬스터=cairn_dead	
+dartmoor_barrow_1	무리	b4	32.0	6.5	3	무리=1	
+dartmoor_barrow_1	무리	b5	33.0	24.5	3	무리=1 · 몬스터=moor_pixie	
+dartmoor_barrow_1	무리	b6	47.5	38.5	3	무리=1 · 몬스터=cairn_dead	
+dartmoor_barrow_1	무리	b7	49.5	17.5	3	무리=1 · 몬스터=moor_hound	
+dartmoor_barrow_1	무리	b8	61.3	9.5	3	무리=1	
+dartmoor_barrow_1	무리	b9	65.7	9.5	3	무리=1 · 몬스터=cairn_dead	
+dartmoor_barrow_1	무리	b10	62.3	49.5	3	무리=1 · 몬스터=moor_hound	
+dartmoor_barrow_1	무리	b11	66.7	49.5	3	무리=1 · 몬스터=moor_pixie	
+dartmoor_barrow_1	무리	b12	63.3	29.5	3	무리=1	
+dartmoor_barrow_1	무리	b13	68.7	29.5	3	무리=1 · 몬스터=moor_hound	
+dartmoor_barrow_1	무리	stone1	13.5	39.5	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석
+dartmoor_barrow_1	무리	stone2	35.5	4.5	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석
+dartmoor_barrow_1	무리	stone3	51.5	15.5	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석
+dartmoor_barrow_1	빛	횃불	72	34			
+dartmoor_barrow_1	소품	뼈단지	58.5	12.5		변형=0	뼈 단지
+dartmoor_barrow_2	입구	from_floor1	4.5	28.5			위층에서 내려온 자리
+dartmoor_barrow_2	출구	to_floor1	2.8	28.5	1.4	dartmoor_barrow:1:from_floor2	서쪽 → 위로
+dartmoor_barrow_2	입구	from_floor3	70.5	29.5			아래층에서 올라온 자리
+dartmoor_barrow_2	출구	to_floor3	72.8	29.5	1.4	dartmoor_barrow:3:from_floor2	동쪽 → 아래층
+dartmoor_barrow_2	무리	b1	11.5	42.5	3	무리=1 · 몬스터=moor_pixie	
+dartmoor_barrow_2	무리	b2	10.7	9.5	3	무리=1 · 몬스터=moor_hound	
+dartmoor_barrow_2	무리	b3	15.3	9.5	3	무리=1 · 몬스터=cairn_dead	
+dartmoor_barrow_2	무리	b4	26.5	36.0	3	무리=1	
+dartmoor_barrow_2	무리	b5	35.3	21.5	3	무리=1 · 몬스터=moor_hound	
+dartmoor_barrow_2	무리	b6	39.7	21.5	3	무리=1 · 몬스터=cairn_dead	
+dartmoor_barrow_2	무리	b7	42.5	35.0	3	무리=1 · 몬스터=moor_pixie	
+dartmoor_barrow_2	무리	b8	50.0	47.5	3	무리=1	
+dartmoor_barrow_2	무리	b9	50.7	12.5	3	무리=1 · 몬스터=cairn_dead	
+dartmoor_barrow_2	무리	b10	54.3	12.5	3	무리=1 · 몬스터=moor_pixie	
+dartmoor_barrow_2	무리	b11	64.0	43.5	3	무리=1 · 몬스터=moor_hound	
+dartmoor_barrow_2	무리	b12	64.7	9.0	3	무리=1	
+dartmoor_barrow_2	무리	b13	68.3	9.0	3	무리=1 · 몬스터=moor_pixie	
+dartmoor_barrow_2	무리	b14	63.3	29.5	3	무리=1 · 몬스터=moor_hound	
+dartmoor_barrow_2	무리	b15	68.7	29.5	3	무리=1 · 몬스터=cairn_dead	
+dartmoor_barrow_2	무리	stone1	13.5	40.5	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석
+dartmoor_barrow_2	무리	stone2	41.5	18.5	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석
+dartmoor_barrow_2	무리	stone3	55.5	8.5	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석
+dartmoor_barrow_2	빛	횃불	72	34			
+dartmoor_barrow_2	소품	뼈단지	60.5	45.5		변형=0	뼈 단지
+dartmoor_barrow_3	입구	from_floor2	4.5	28.0			위층에서 내려온 자리
+dartmoor_barrow_3	출구	to_floor2	2.8	28.0	1.4	dartmoor_barrow:2:from_floor3	서쪽 → 위로
+dartmoor_barrow_3	정예	thorn_knight	64.0	23.5			꺾인 장미의 기사 + 이끼 해골 기사 둘 — 왕의 무덤방 (메인 ② 황야의 고분)
+dartmoor_barrow_3	소품	돌관	68.5	23.5			이름 없는 왕의 돌관 (꺾인 장미의 기사가 쓰러지면 열림)
+dartmoor_barrow_3	무리	b1	7.5	49.5	3	무리=1 · 몬스터=moss_knight	
+dartmoor_barrow_3	무리	b2	9.0	13.5	3	무리=1 · 몬스터=moor_pixie	
+dartmoor_barrow_3	무리	b3	22.0	6.0	3	무리=1 · 몬스터=cairn_dead	
+dartmoor_barrow_3	무리	b4	33.5	44.5	3	무리=1	
+dartmoor_barrow_3	무리	b5	35.5	27.5	3	무리=1 · 몬스터=moor_pixie	
+dartmoor_barrow_3	무리	b6	39.5	11.0	3	무리=1 · 몬스터=cairn_dead	
+dartmoor_barrow_3	무리	b7	50.0	25.5	3	무리=1 · 몬스터=moss_knight	
+dartmoor_barrow_3	무리	b8	53.0	39.0	3	무리=1	
+dartmoor_barrow_3	무리	b9	67.5	41.5	3	무리=1 · 몬스터=cairn_dead	
+dartmoor_barrow_3	무리	stone1	10.5	46.5	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석
+dartmoor_barrow_3	무리	stone2	37.5	42.5	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석
+dartmoor_barrow_3	무리	stone3	51.5	23.5	0.1	무리=1 · 몬스터=cairn_stone · 수=1~1 · 등급=일반	봉분 비석
+dartmoor_barrow_3	빛	횃불	72	28			
+dartmoor_barrow_3	소품	뼈단지	64.5	43.5		변형=1	뼈 단지
+london	소품	배	33.5	50.6		변형=0	보르도로 가는 배
+london	소품	배	14.5	48.6		변형=1	작은 배
+london	소품	생선좌판	40.5	17.5		변형=0	생선 시장
+london	소품	생선좌판	46.5	19.5		변형=1	생선 시장
+london	소품	나무통	22	41		변형=0	
+london	소품	나무통	43	41.4		변형=1	
+london	소품	런던집	8	7.5		변형=0	목조 골조 · 흰 회벽 · 튀어나온 위층 (런던 집)
+london	소품	런던집	18	7.5		변형=1	목조 골조 · 흰 회벽 · 튀어나온 위층 (런던 집)
+london	소품	런던집	28	7.5		변형=2	목조 골조 · 흰 회벽 · 튀어나온 위층 (런던 집)
+london	소품	런던집	42	7.5		변형=0	목조 골조 · 흰 회벽 · 튀어나온 위층 (런던 집)
+london	소품	런던집	51	7.5		변형=1	목조 골조 · 흰 회벽 · 튀어나온 위층 (런던 집)
+london	소품	런던집	8	17.5		변형=2	목조 골조 · 흰 회벽 · 튀어나온 위층 (런던 집)
+london	소품	런던집	18	17.5		변형=0	목조 골조 · 흰 회벽 · 튀어나온 위층 (런던 집)
+london	소품	런던집	28	17.5		변형=1	목조 골조 · 흰 회벽 · 튀어나온 위층 (런던 집)
+london	빛	등불	12	39			
+london	빛	등불	24	39			
+london	빛	등불	36	39			
+london	빛	등불	48	39			
+london	빛	등불	60	39			
+london	빛	등불	30	24			
+london	빛	등불	40	24			
+london	빛	등불	30	27			
+london	빛	등불	40	27			
+london	빛	등불	54	30			
+thames_marsh	빛	등불	14	10			
+thames_marsh	빛	등불	30	12			
+thames_marsh	빛	등불	16	26			
+thames_marsh	빛	등불	40	24			
+thames_marsh	빛	등불	56	30			
+thames_marsh	빛	등불	70	26			
+thames_marsh	빛	등불	84	25			
+london_docks_1	빛	횃불	3	26			
+london_docks_1	빛	횃불	14	34			
+london_docks_1	빛	횃불	10	7			
+london_docks_1	빛	횃불	16	14			
+london_docks_1	빛	횃불	16	41			
+london_docks_1	빛	횃불	27	47			
+london_docks_1	빛	횃불	24	4			
+london_docks_1	빛	횃불	30	8			
+london_docks_1	빛	횃불	31	24			
+london_docks_1	빛	횃불	39	28			
+london_docks_1	빛	횃불	33	35			
+london_docks_1	빛	횃불	43	41			
+london_docks_1	빛	횃불	38	47			
+london_docks_1	빛	횃불	46	53			
+london_docks_1	빛	횃불	42	9			
+london_docks_1	빛	횃불	51	16			
+london_docks_1	빛	횃불	49	29			
+london_docks_1	빛	횃불	55	35			
+london_docks_1	빛	횃불	56	43			
+london_docks_1	빛	횃불	68	50			
+london_docks_1	빛	횃불	59	3			
+london_docks_1	빛	횃불	71	11			
+london_docks_1	빛	횃불	62	26			
+london_docks_1	소품	나무통	10.5	14.5		변형=1	
+london_docks_1	소품	밀수품	16.5	7.5		변형=1	
+london_docks_1	소품	나무통	16.5	47.5		변형=0	
+london_docks_1	소품	밀수품	27.5	41.5		변형=0	
+london_docks_1	소품	나무통	31.5	28.5		변형=0	
+london_docks_1	소품	나무통	33.5	41.5		변형=1	
+london_docks_1	소품	나무통	38.5	53.5		변형=0	
+london_docks_1	소품	나무통	42.5	16.5		변형=1	
+london_docks_1	소품	밀수품	51.5	9.5		변형=1	
+london_docks_1	소품	나무통	49.5	35.5		변형=0	
+london_docks_1	소품	밀수품	68.5	43.5		변형=0	
+london_docks_2	빛	횃불	3	27			
+london_docks_2	빛	횃불	13	33			
+london_docks_2	빛	횃불	5	16			
+london_docks_2	빛	횃불	11	20			
+london_docks_2	빛	횃불	6	48			
+london_docks_2	빛	횃불	15	56			
+london_docks_2	빛	횃불	18	8			
+london_docks_2	빛	횃불	27	15			
+london_docks_2	빛	횃불	19	31			
+london_docks_2	빛	횃불	31	39			
+london_docks_2	빛	횃불	21	46			
+london_docks_2	빛	횃불	33	52			
+london_docks_2	빛	횃불	36	11			
+london_docks_2	빛	횃불	45	17			
+london_docks_2	빛	횃불	37	25			
+london_docks_2	빛	횃불	45	31			
+london_docks_2	빛	횃불	42	41			
+london_docks_2	빛	횃불	54	49			
+london_docks_2	빛	횃불	61	42			
+london_docks_2	빛	횃불	67	47			
+london_docks_2	빛	횃불	62	10			
+london_docks_2	빛	횃불	69	14			
+london_docks_2	빛	횃불	62	20			
+london_docks_2	소품	나무통	5.5	20.5		변형=1	
+london_docks_2	소품	나무통	6.5	56.5		변형=0	
+london_docks_2	소품	밀수품	15.5	48.5		변형=0	
+london_docks_2	소품	나무통	18.5	15.5		변형=0	
+london_docks_2	소품	나무통	19.5	39.5		변형=1	
+london_docks_2	소품	나무통	21.5	52.5		변형=0	
+london_docks_2	소품	밀수품	33.5	46.5		변형=0	
+london_docks_2	소품	밀수품	45.5	11.5		변형=0	
+london_docks_2	소품	밀수품	45.5	25.5		변형=0	
+london_docks_2	소품	나무통	42.5	49.5		변형=0	
+london_docks_2	소품	밀수품	54.5	41.5		변형=0	
+london_docks_2	소품	나무통	61.5	47.5		변형=1	
+london_docks_3	빛	횃불	3	26			
+london_docks_3	빛	횃불	9	34			
+london_docks_3	빛	횃불	4	13			
+london_docks_3	빛	횃불	14	17			
+london_docks_3	빛	횃불	14	46			
+london_docks_3	빛	횃불	22	50			
+london_docks_3	빛	횃불	24	33			
+london_docks_3	빛	횃불	31	40			
+london_docks_3	빛	횃불	25	3			
+london_docks_3	빛	횃불	37	11			
+london_docks_3	빛	횃불	27	22			
+london_docks_3	빛	횃불	38	27			
+london_docks_3	빛	횃불	42	40			
+london_docks_3	빛	횃불	48	44			
+london_docks_3	빛	횃불	44	17			
+london_docks_3	빛	횃불	50	25			
+london_docks_3	빛	횃불	52	4			
+london_docks_3	빛	횃불	61	8			
+london_docks_3	빛	횃불	56	50			
+london_docks_3	빛	횃불	64	55			
+london_docks_3	빛	횃불	69	12			
+london_docks_3	빛	횃불	76	17			
+london_docks_3	빛	횃불	62	25			
+london_docks_3	소품	나무통	4.5	17.5		변형=0	
+london_docks_3	소품	밀수품	14.5	13.5		변형=1	
+london_docks_3	소품	나무통	14.5	50.5		변형=1	
+london_docks_3	소품	나무통	24.5	40.5		변형=0	
+london_docks_3	소품	밀수품	31.5	33.5		변형=0	
+london_docks_3	소품	나무통	25.5	11.5		변형=0	
+london_docks_3	소품	나무통	27.5	27.5		변형=0	
+london_docks_3	소품	나무통	42.5	44.5		변형=1	
+london_docks_3	소품	나무통	44.5	25.5		변형=0	
+london_docks_3	소품	나무통	52.5	8.5		변형=1	
+london_docks_3	소품	밀수품	61.5	4.5		변형=0	
+london_docks_3	소품	밀수품	64.5	50.5		변형=0	
+london_docks_4	소품	갈고리줄	62.5	18.8		변형=0	줄에 걸린 갈고리
+london_docks_4	소품	갈고리줄	66.0	18.8		변형=1	줄에 걸린 갈고리
+london_docks_4	소품	갈고리줄	69.5	18.8		변형=0	줄에 걸린 갈고리
+london_docks_4	소품	갈고리줄	73.0	18.8		변형=1	줄에 걸린 갈고리
+london_docks_4	빛	횃불	3	26			
+london_docks_4	빛	횃불	9	34			
+london_docks_4	빛	횃불	3	14			
+london_docks_4	빛	횃불	10	19			
+london_docks_4	빛	횃불	5	49			
+london_docks_4	빛	횃불	11	53			
+london_docks_4	빛	횃불	21	16			
+london_docks_4	빛	횃불	28	23			
+london_docks_4	빛	횃불	22	32			
+london_docks_4	빛	횃불	34	37			
+london_docks_4	빛	횃불	24	48			
+london_docks_4	빛	횃불	34	53			
+london_docks_4	빛	횃불	37	3			
+london_docks_4	빛	횃불	47	10			
+london_docks_4	빛	횃불	40	37			
+london_docks_4	빛	횃불	51	42			
+london_docks_4	빛	횃불	46	24			
+london_docks_4	빛	횃불	52	29			
+london_docks_4	빛	횃불	60	7			
+london_docks_4	빛	횃불	69	13			
+london_docks_4	빛	횃불	63	48			
+london_docks_4	빛	횃불	72	53			
+london_docks_4	빛	횃불	62	19			
+london_docks_4	소품	나무통	3.5	19.5		변형=0	
+london_docks_4	소품	밀수품	11.5	49.5		변형=1	
+london_docks_4	소품	나무통	21.5	23.5		변형=0	
+london_docks_4	소품	밀수품	28.5	16.5		변형=1	
+london_docks_4	소품	나무통	22.5	37.5		변형=1	
+london_docks_4	소품	밀수품	34.5	32.5		변형=1	
+london_docks_4	소품	밀수품	47.5	3.5		변형=0	
+london_docks_4	소품	나무통	40.5	42.5		변형=0	
+london_docks_4	소품	밀수품	51.5	37.5		변형=1	
+london_docks_4	소품	나무통	46.5	29.5		변형=1	
+dartmoor_moor	소품	선돌	9.0	30.5		변형=0	선돌 줄
+dartmoor_moor	소품	선돌	10.6	30.9		변형=1	선돌 줄
+dartmoor_moor	소품	선돌	12.2	30.5		변형=2	선돌 줄
+dartmoor_moor	소품	선돌	13.8	30.9		변형=3	선돌 줄
+dartmoor_moor	소품	선돌	15.4	30.5		변형=0	선돌 줄
+dartmoor_moor	소품	선돌	17.0	30.9		변형=1	선돌 줄
+dartmoor_moor	소품	봉분	30	14		변형=1	봉분 — 돌을 쌓은 옛 무덤
+dartmoor_moor	소품	봉분	78	30		변형=0	봉분 — 돌을 쌓은 옛 무덤
+dartmoor_moor	소품	봉분	20	64		변형=1	봉분 — 돌을 쌓은 옛 무덤
+dartmoor_moor	소품	봉분	72	66		변형=0	봉분 — 돌을 쌓은 옛 무덤
+dartmoor_barrow_1	빛	횃불	3	26			
+dartmoor_barrow_1	빛	횃불	11	30			
+dartmoor_barrow_1	빛	횃불	6	39			
+dartmoor_barrow_1	빛	횃불	14	45			
+dartmoor_barrow_1	빛	횃불	15	5			
+dartmoor_barrow_1	빛	횃불	20	13			
+dartmoor_barrow_1	빛	횃불	23	43			
+dartmoor_barrow_1	빛	횃불	30	50			
+dartmoor_barrow_1	빛	횃불	27	4			
+dartmoor_barrow_1	빛	횃불	36	8			
+dartmoor_barrow_1	빛	횃불	28	21			
+dartmoor_barrow_1	빛	횃불	37	27			
+dartmoor_barrow_1	빛	횃불	44	34			
+dartmoor_barrow_1	빛	횃불	50	42			
+dartmoor_barrow_1	빛	횃불	46	15			
+dartmoor_barrow_1	빛	횃불	52	19			
+dartmoor_barrow_1	빛	횃불	58	6			
+dartmoor_barrow_1	빛	횃불	68	12			
+dartmoor_barrow_1	빛	횃불	59	46			
+dartmoor_barrow_1	빛	횃불	69	52			
+dartmoor_barrow_1	빛	횃불	59	24			
+dartmoor_barrow_1	소품	뼈단지	23.5	50.5		변형=1	뼈 단지
+dartmoor_barrow_1	소품	뼈단지	27.5	8.5		변형=0	뼈 단지
+dartmoor_barrow_1	소품	뼈단지	28.5	27.5		변형=0	뼈 단지
+dartmoor_barrow_1	소품	뼈단지	44.5	42.5		변형=0	뼈 단지
+dartmoor_barrow_1	소품	뼈단지	46.5	19.5		변형=0	뼈 단지
+dartmoor_barrow_2	빛	횃불	3	24			
+dartmoor_barrow_2	빛	횃불	11	32			
+dartmoor_barrow_2	빛	횃불	8	40			
+dartmoor_barrow_2	빛	횃불	14	44			
+dartmoor_barrow_2	빛	횃불	7	6			
+dartmoor_barrow_2	빛	횃불	18	12			
+dartmoor_barrow_2	빛	횃불	23	32			
+dartmoor_barrow_2	빛	횃불	29	39			
+dartmoor_barrow_2	빛	횃불	32	18			
+dartmoor_barrow_2	빛	횃불	42	24			
+dartmoor_barrow_2	빛	횃불	39	31			
+dartmoor_barrow_2	빛	횃불	45	38			
+dartmoor_barrow_2	빛	횃불	45	45			
+dartmoor_barrow_2	빛	횃불	54	49			
+dartmoor_barrow_2	빛	횃불	48	8			
+dartmoor_barrow_2	빛	횃불	56	16			
+dartmoor_barrow_2	빛	횃불	60	41			
+dartmoor_barrow_2	빛	횃불	67	45			
+dartmoor_barrow_2	빛	횃불	62	5			
+dartmoor_barrow_2	빛	횃불	70	12			
+dartmoor_barrow_2	빛	횃불	59	24			
+dartmoor_barrow_2	소품	뼈단지	8.5	44.5		변형=0	뼈 단지
+dartmoor_barrow_2	소품	뼈단지	7.5	12.5		변형=0	뼈 단지
+dartmoor_barrow_2	소품	뼈단지	23.5	39.5		변형=0	뼈 단지
+dartmoor_barrow_2	소품	뼈단지	32.5	24.5		변형=0	뼈 단지
+dartmoor_barrow_2	소품	뼈단지	39.5	38.5		변형=0	뼈 단지
+dartmoor_barrow_2	소품	뼈단지	48.5	16.5		변형=0	뼈 단지
+dartmoor_barrow_3	빛	횃불	3	24			
+dartmoor_barrow_3	빛	횃불	12	31			
+dartmoor_barrow_3	빛	횃불	3	46			
+dartmoor_barrow_3	빛	횃불	11	52			
+dartmoor_barrow_3	빛	횃불	6	9			
+dartmoor_barrow_3	빛	횃불	11	17			
+dartmoor_barrow_3	빛	횃불	17	3			
+dartmoor_barrow_3	빛	횃불	26	8			
+dartmoor_barrow_3	빛	횃불	28	42			
+dartmoor_barrow_3	빛	횃불	38	46			
+dartmoor_barrow_3	빛	횃불	30	25			
+dartmoor_barrow_3	빛	횃불	40	29			
+dartmoor_barrow_3	빛	횃불	34	8			
+dartmoor_barrow_3	빛	횃불	44	13			
+dartmoor_barrow_3	빛	횃불	47	23			
+dartmoor_barrow_3	빛	횃불	52	27			
+dartmoor_barrow_3	빛	횃불	50	35			
+dartmoor_barrow_3	빛	횃불	55	42			
+dartmoor_barrow_3	빛	횃불	64	39			
+dartmoor_barrow_3	빛	횃불	70	43			
+dartmoor_barrow_3	빛	횃불	59	18			
+dartmoor_barrow_3	소품	뼈단지	3.5	52.5		변형=0	뼈 단지
+dartmoor_barrow_3	소품	뼈단지	17.5	8.5		변형=1	뼈 단지
+dartmoor_barrow_3	소품	뼈단지	30.5	29.5		변형=0	뼈 단지
+dartmoor_barrow_3	소품	뼈단지	47.5	27.5		변형=0	뼈 단지
+tower_dungeon_1	입구	from_london	4.5	30.0			쇠창살 문 아래 계단으로 내려온 자리
+tower_dungeon_1	출구	to_london	2.8	30.0	1.4	london::from_tower	서쪽 계단 → 위로
+tower_dungeon_1	웨이포인트	tower_dungeon_1	6.5	28.5	1.1		왕의 탑 지하 감옥 1층 웨이포인트
+tower_dungeon_1	입구	from_floor2	74.5	35.0			아래층에서 올라온 자리
+tower_dungeon_1	출구	to_floor2	76.8	35.0	1.4	tower_dungeon:2:from_floor1	동쪽 계단 → 아래층
+tower_dungeon_1	무리	t1	9.5	17.5	3	무리=1 · 몬스터=wax_puppeteer	
+tower_dungeon_1	무리	t2	11.5	50.5	3	무리=1 · 몬스터=tower_archer	
+tower_dungeon_1	무리	t3	22.5	8.5	3	무리=1 · 몬스터=tower_raven	
+tower_dungeon_1	무리	t4	23.5	25.0	3	무리=1	
+tower_dungeon_1	무리	t5	32.0	53.5	3	무리=1 · 몬스터=wax_puppeteer	
+tower_dungeon_1	무리	t6	36.5	38.5	3	무리=1 · 몬스터=tower_archer	
+tower_dungeon_1	무리	t7	41.5	24.5	3	무리=1 · 몬스터=tower_raven	
+tower_dungeon_1	무리	t8	43.5	13.5	3	무리=1	
+tower_dungeon_1	무리	t9	52.0	46.5	3	무리=1 · 몬스터=wax_puppeteer	
+tower_dungeon_1	무리	t10	60.0	11.5	3	무리=1 · 몬스터=tower_archer	
+tower_dungeon_1	무리	t11	67.3	35.0	3	무리=1 · 몬스터=tower_raven	
+tower_dungeon_1	무리	t12	72.7	35.0	3	무리=1	
+tower_dungeon_2	입구	from_floor1	4.5	30.5			위층에서 내려온 자리
+tower_dungeon_2	출구	to_floor1	2.8	30.5	1.4	tower_dungeon:1:from_floor2	서쪽 계단 → 위로
+tower_dungeon_2	입구	from_floor3	74.5	25.0			아래층에서 올라온 자리
+tower_dungeon_2	출구	to_floor3	76.8	25.0	1.4	tower_dungeon:3:from_floor2	동쪽 계단 → 아래층
+tower_dungeon_2	무리	t1	19.5	17.0	3	무리=1 · 몬스터=tower_raven	
+tower_dungeon_2	무리	t2	30.0	47.0	3	무리=1 · 몬스터=royal_griffin · 수=1~2	안뜰로 내려온 그리핀
+tower_dungeon_2	무리	t3	37.0	14.0	3	무리=1 · 몬스터=tower_archer	
+tower_dungeon_2	무리	t4	35.7	30.5	3	무리=1	
+tower_dungeon_2	무리	t5	45.3	30.5	3	무리=1 · 몬스터=tower_raven	
+tower_dungeon_2	무리	t6	52.5	6.5	3	무리=1 · 몬스터=royal_griffin · 수=1~2	안뜰로 내려온 그리핀
+tower_dungeon_2	무리	t7	55.5	50.0	3	무리=1 · 몬스터=tower_archer	
+tower_dungeon_2	무리	t8	64.5	37.5	3	무리=1	
+tower_dungeon_2	무리	t9	68.0	25.0	3	무리=1 · 몬스터=tower_raven	
+tower_dungeon_2	무리	t10	73.0	25.0	3	무리=1 · 몬스터=royal_griffin · 수=1~2	안뜰로 내려온 그리핀
+tower_dungeon_2	무리	gr1	34	24	2	무리=1 · 몬스터=royal_griffin · 수=1~1	안뜰의 그리핀
+tower_dungeon_2	무리	gr2	46	36	2	무리=1 · 몬스터=royal_griffin · 수=1~1	안뜰의 그리핀
+tower_dungeon_2	무리	gr3	40	30	2	무리=1 · 몬스터=royal_griffin · 수=1~1	안뜰의 그리핀
+tower_dungeon_3	입구	from_floor2	4.5	30.0			위층에서 내려온 자리
+tower_dungeon_3	출구	to_floor2	2.8	30.0	1.4	tower_dungeon:2:from_floor3	서쪽 계단 → 위로
+tower_dungeon_3	인물	blackthorn	70.0	32.0		방향=서	용 사육관 에드릭 블랙손 경 — 사육관의 방 (대사만, 싸우지 않음)
+tower_dungeon_3	상자	keeper_desk	72.0	34.0	1.2	드랍=keeper_desk	사육관의 책상 — 사슬 장부 (메인 ③)
+tower_dungeon_3	무리	t1	13.7	7.5	3	무리=1 · 몬스터=wax_puppeteer	
+tower_dungeon_3	무리	t2	18.3	7.5	3	무리=1 · 몬스터=tower_archer	
+tower_dungeon_3	무리	t3	14.7	42.0	3	무리=1 · 몬스터=tower_raven	
+tower_dungeon_3	무리	t4	19.3	42.0	3	무리=1	
+tower_dungeon_3	무리	t5	33.5	53.5	3	무리=1 · 몬스터=wax_puppeteer	
+tower_dungeon_3	무리	t6	34.0	24.5	3	무리=1 · 몬스터=tower_archer	
+tower_dungeon_3	무리	t7	36.0	37.0	3	무리=1 · 몬스터=tower_raven	
+tower_dungeon_3	무리	t8	39.3	12.5	3	무리=1	
+tower_dungeon_3	무리	t9	43.7	12.5	3	무리=1 · 몬스터=wax_puppeteer	
+tower_dungeon_3	무리	t10	49.7	46.0	3	무리=1 · 몬스터=tower_archer	
+tower_dungeon_3	무리	t11	53.3	46.0	3	무리=1 · 몬스터=tower_raven	
+tower_dungeon_3	무리	t12	57.5	6.0	3	무리=1	
+tower_dungeon_3	무리	t13	70.5	52.0	3	무리=1 · 몬스터=wax_puppeteer	
+tower_dungeon_3	무리	t14	68.7	20.5	3	무리=1 · 몬스터=tower_archer	
+tower_dungeon_3	무리	t15	73.3	20.5	3	무리=1 · 몬스터=tower_raven	
+london	입구	from_tower	55.5	12			탑 지하에서 올라온 자리 (쇠창살 문 앞)
+london	출구	to_tower	59.5	12	1.4	tower_dungeon:1:from_london	탑 쇠창살 문 → 왕의 탑 지하 감옥 (A4-3 — 메인 ② 뒤)
+tower_dungeon_1	빛	횃불	3	27			
+tower_dungeon_1	빛	횃불	11	32			
+tower_dungeon_1	빛	횃불	6	14			
+tower_dungeon_1	빛	횃불	12	20			
+tower_dungeon_1	빛	횃불	8	48			
+tower_dungeon_1	빛	횃불	14	52			
+tower_dungeon_1	빛	횃불	18	6			
+tower_dungeon_1	빛	횃불	26	10			
+tower_dungeon_1	빛	횃불	20	21			
+tower_dungeon_1	빛	횃불	26	28			
+tower_dungeon_1	빛	횃불	27	50			
+tower_dungeon_1	빛	횃불	36	56			
+tower_dungeon_1	빛	횃불	32	35			
+tower_dungeon_1	빛	횃불	40	41			
+tower_dungeon_1	빛	횃불	37	22			
+tower_dungeon_1	빛	횃불	45	26			
+tower_dungeon_1	빛	횃불	38	11			
+tower_dungeon_1	빛	횃불	48	15			
+tower_dungeon_1	빛	횃불	48	44			
+tower_dungeon_1	빛	횃불	55	48			
+tower_dungeon_1	빛	횃불	55	9			
+tower_dungeon_1	빛	횃불	64	13			
+tower_dungeon_1	빛	횃불	63	30			
+tower_dungeon_1	빛	횃불	76	39			
+tower_dungeon_1	소품	철창	6.5	14.2		변형=0	감방 쇠창살
+tower_dungeon_1	소품	철창	8.5	48.2		변형=0	감방 쇠창살
+tower_dungeon_1	소품	쇠사슬	14.5	52.5			
+tower_dungeon_1	소품	쇠사슬	26.5	28.5			
+tower_dungeon_1	소품	철창	27.5	50.2		변형=1	감방 쇠창살
+tower_dungeon_1	소품	쇠사슬	36.5	56.5			
+tower_dungeon_1	소품	철창	32.5	35.2		변형=1	감방 쇠창살
+tower_dungeon_1	소품	철창	37.5	22.2		변형=1	감방 쇠창살
+tower_dungeon_1	소품	쇠사슬	45.5	26.5			
+tower_dungeon_1	소품	쇠사슬	48.5	15.5			
+tower_dungeon_1	소품	철창	55.5	9.2		변형=1	감방 쇠창살
+tower_dungeon_2	빛	달빛	30	20			하늘이 트인 안뜰
+tower_dungeon_2	빛	달빛	50	20			하늘이 트인 안뜰
+tower_dungeon_2	빛	달빛	30	40			하늘이 트인 안뜰
+tower_dungeon_2	빛	달빛	50	40			하늘이 트인 안뜰
+tower_dungeon_2	빛	달빛	40	30			하늘이 트인 안뜰
+tower_dungeon_2	빛	횃불	3	28			
+tower_dungeon_2	빛	횃불	13	32			
+tower_dungeon_2	빛	횃불	16	13			
+tower_dungeon_2	빛	횃불	22	20			
+tower_dungeon_2	빛	횃불	25	44			
+tower_dungeon_2	빛	횃불	34	49			
+tower_dungeon_2	빛	횃불	33	11			
+tower_dungeon_2	빛	횃불	40	16			
+tower_dungeon_2	빛	횃불	27	17			
+tower_dungeon_2	빛	횃불	53	43			
+tower_dungeon_2	빛	횃불	49	4			
+tower_dungeon_2	빛	횃불	55	8			
+tower_dungeon_2	빛	횃불	52	47			
+tower_dungeon_2	빛	횃불	58	52			
+tower_dungeon_2	빛	횃불	61	35			
+tower_dungeon_2	빛	횃불	67	39			
+tower_dungeon_2	빛	횃불	64	20			
+tower_dungeon_2	빛	횃불	76	29			
+tower_dungeon_2	소품	철창	16.5	13.2		변형=1	감방 쇠창살
+tower_dungeon_2	소품	철창	25.5	44.2		변형=1	감방 쇠창살
+tower_dungeon_2	소품	철창	27.5	17.2		변형=0	감방 쇠창살
+tower_dungeon_2	소품	쇠사슬	53.5	43.5			
+tower_dungeon_2	소품	쇠사슬	55.5	8.5			
+tower_dungeon_2	소품	철창	61.5	35.2		변형=0	감방 쇠창살
+tower_dungeon_3	소품	사육관책상	72.0	34.0			사육관의 책상 · 쇠사슬 · 장부
+tower_dungeon_3	빛	횃불	3	27			
+tower_dungeon_3	빛	횃불	10	32			
+tower_dungeon_3	빛	횃불	10	4			
+tower_dungeon_3	빛	횃불	21	10			
+tower_dungeon_3	빛	횃불	11	38			
+tower_dungeon_3	빛	횃불	22	45			
+tower_dungeon_3	빛	횃불	30	50			
+tower_dungeon_3	빛	횃불	36	56			
+tower_dungeon_3	빛	횃불	29	22			
+tower_dungeon_3	빛	횃불	38	26			
+tower_dungeon_3	빛	횃불	32	33			
+tower_dungeon_3	빛	횃불	39	40			
+tower_dungeon_3	빛	횃불	36	9			
+tower_dungeon_3	빛	횃불	46	15			
+tower_dungeon_3	빛	횃불	47	42			
+tower_dungeon_3	빛	횃불	55	49			
+tower_dungeon_3	빛	횃불	53	3			
+tower_dungeon_3	빛	횃불	61	8			
+tower_dungeon_3	빛	횃불	66	49			
+tower_dungeon_3	빛	횃불	74	54			
+tower_dungeon_3	빛	횃불	65	17			
+tower_dungeon_3	빛	횃불	76	23			
+tower_dungeon_3	빛	횃불	63	29			
+tower_dungeon_3	빛	횃불	76	38			
+tower_dungeon_3	소품	철창	10.5	4.2		변형=1	감방 쇠창살
+tower_dungeon_3	소품	쇠사슬	21.5	10.5			
+tower_dungeon_3	소품	철창	11.5	38.2		변형=1	감방 쇠창살
+tower_dungeon_3	소품	철창	30.5	50.2		변형=1	감방 쇠창살
+tower_dungeon_3	소품	쇠사슬	36.5	56.5			
+tower_dungeon_3	소품	철창	29.5	22.2		변형=1	감방 쇠창살
+tower_dungeon_3	소품	쇠사슬	38.5	26.5			
+tower_dungeon_3	소품	쇠사슬	39.5	40.5			
+tower_dungeon_3	소품	철창	36.5	9.2		변형=0	감방 쇠창살
+tower_dungeon_3	소품	쇠사슬	46.5	15.5			
+tower_dungeon_3	소품	철창	66.5	49.2		변형=1	감방 쇠창살
+tower_dungeon_3	소품	철창	65.5	17.2		변형=0	감방 쇠창살
+tower_dungeon_3	소품	쇠사슬	76.5	23.5			
+chain_cave	입구	from_tower	6	30			탑 3층 쇠문으로 내려온 자리
+chain_cave	출구	to_tower	2.6	30	1.4	tower_dungeon:3:from_cave	서쪽 쇠문 → 탑 지하 감옥 3층
+chain_cave	웨이포인트	chain_cave	9.5	28.5	1.1		사슬 굴 입구 웨이포인트
+chain_cave	정예	mist_scale	36	30			왕실 드래곤 안개 비늘 — 사슬 기둥 넷에 묶임 (메인 ④ 왕실 드래곤)
+chain_cave	무리	guards	18	30	2	무리=1 · 몬스터=tower_guard · 수=3~3 · 등급=일반	굴 입구를 지키는 탑 근위병 무리
+tower_dungeon_3	입구	from_cave	75.5	34.5			사슬 굴에서 올라온 자리
+tower_dungeon_3	출구	to_cave	77.6	34.5	1.4	chain_cave::from_tower	동쪽 끝 쇠문 → 사슬 굴 (A4-4 — 메인 ③ 뒤)
+chain_cave	소품	사슬기둥	28	30		변형=1	사슬 기둥 1 — 이끼 낀 왕검으로 사슬을 다시 걸 수 있음 (Q9)
+chain_cave	소품	사슬기둥	44	30		변형=0	사슬 기둥 2 — 이끼 낀 왕검으로 사슬을 다시 걸 수 있음 (Q9)
+chain_cave	소품	사슬기둥	36	22		변형=1	사슬 기둥 3 — 이끼 낀 왕검으로 사슬을 다시 걸 수 있음 (Q9)
+chain_cave	소품	사슬기둥	36	38		변형=0	사슬 기둥 4 — 이끼 낀 왕검으로 사슬을 다시 걸 수 있음 (Q9)
+chain_cave	빛	횃불	58.0	30.0			
+chain_cave	빛	횃불	51.6	44.8			
+chain_cave	빛	횃불	36.0	51.0			
+chain_cave	빛	횃불	20.4	44.8			
+chain_cave	빛	횃불	14.0	30.0			
+chain_cave	빛	횃불	20.4	15.2			
+chain_cave	빛	횃불	36.0	9.0			
+chain_cave	빛	횃불	51.6	15.2			
+chain_cave	빛	달빛	36	30			무너진 천장의 달빛 — 가운데 용이 어둠에 묻히지 않게 (A4 QA)
+tower_dungeon_3	소품	심문소철문	77.8	34.5			사슬 굴로 내려가는 쇠문
+thames_marsh	호위	ambrose	13.5	15.5		퀘스트=a4_side3	습지 서쪽 둑길 — 등대로 돌아가고 싶은 앰브로즈 (A4-5 호위: 다가가면 따라옴)
+thames_marsh	도착	lighthouse	87.5	24.5	3.5	퀘스트=a4_side3	동쪽 끝 등대 — 앰브로즈를 여기까지 데려오면 끝 (A4-5)
+glacier_cave_1	입구	from_sea	4.5	28.5			배에서 내려선 피오르 굴 입구
+glacier_cave_1	출구	to_sea	2.8	28.5	1.4	london::from_glacier_cave	배 → 북해 건너 런던으로
+glacier_cave_1	웨이포인트	glacier_cave_1	6.5	27.0	1.1		북해 빙하 동굴 1층 웨이포인트
+glacier_cave_1	입구	from_london	4.5	29.5			런던에서 곧장 온 자리 (빠른 항해)
+glacier_cave_1	입구	from_floor2	70.5	23.5			아래층에서 올라온 자리
+glacier_cave_1	출구	to_floor2	72.8	23.5	1.4	glacier_cave:2:from_floor1	동쪽 → 아래층
+glacier_cave_1	무리	g1	9.0	40.5	3	무리=1 · 몬스터=frozen_drowned	
+glacier_cave_1	무리	g2	21.5	13.5	2	무리=1 · 몬스터=frost_dead · 수=3~3	서리 망자 전사 셋 — 방패벽
+glacier_cave_1	무리	g3	25.5	31.0	3	무리=1 · 몬스터=frost_wolf	
+glacier_cave_1	무리	g4	26.5	43.0	3	무리=1	
+glacier_cave_1	무리	g5	39.0	47.5	2	무리=1 · 몬스터=frost_dead · 수=3~3	서리 망자 전사 셋 — 방패벽
+glacier_cave_1	무리	g6	43.0	47.5	3	무리=1 · 몬스터=frost_wolf	
+glacier_cave_1	무리	g7	38.7	29.5	3	무리=1 · 몬스터=frozen_drowned	
+glacier_cave_1	무리	g8	43.3	29.5	3	무리=1	
+glacier_cave_1	무리	g9	40.7	16.0	3	무리=1 · 몬스터=frost_wolf	
+glacier_cave_1	무리	g10	45.3	16.0	3	무리=1 · 몬스터=frozen_drowned	
+glacier_cave_1	무리	g11	57.5	45.0	2	무리=1 · 몬스터=frost_dead · 수=3~3	서리 망자 전사 셋 — 방패벽
+glacier_cave_1	무리	g12	58.0	7.5	3	무리=1	
+glacier_cave_1	무리	g13	62.0	7.5	3	무리=1 · 몬스터=frozen_drowned	
+glacier_cave_1	무리	g14	63.3	23.5	2	무리=1 · 몬스터=frost_dead · 수=3~3	서리 망자 전사 셋 — 방패벽
+glacier_cave_1	무리	g15	68.7	23.5	3	무리=1 · 몬스터=frost_wolf	
+glacier_cave_2	입구	from_floor1	4.5	28.5			위층에서 내려온 자리
+glacier_cave_2	출구	to_floor1	2.8	28.5	1.4	glacier_cave:1:from_floor2	서쪽 → 위로
+glacier_cave_2	입구	from_floor3	70.5	24.5			아래층에서 올라온 자리
+glacier_cave_2	출구	to_floor3	72.8	24.5	1.4	glacier_cave:3:from_floor2	동쪽 → 아래층
+glacier_cave_2	무리	g1	12.0	46.5	3	무리=1 · 몬스터=frost_wolf	
+glacier_cave_2	무리	g2	15.0	13.5	3	무리=1 · 몬스터=frozen_drowned	
+glacier_cave_2	무리	g3	19.0	13.5	2	무리=1 · 몬스터=frost_dead · 수=3~3	서리 망자 전사 셋 — 방패벽
+glacier_cave_2	무리	g4	21.5	27.5	3	무리=1	
+glacier_cave_2	무리	g5	25.0	48.5	3	무리=1 · 몬스터=frozen_drowned	
+glacier_cave_2	무리	g6	29.0	48.5	2	무리=1 · 몬스터=frost_dead · 수=3~3	서리 망자 전사 셋 — 방패벽
+glacier_cave_2	무리	g7	38.3	18.5	3	무리=1 · 몬스터=frost_wolf	
+glacier_cave_2	무리	g8	42.7	18.5	3	무리=1	
+glacier_cave_2	무리	g9	41.5	33.5	2	무리=1 · 몬스터=frost_dead · 수=3~3	서리 망자 전사 셋 — 방패벽
+glacier_cave_2	무리	g10	53.3	39.5	3	무리=1 · 몬스터=frost_wolf	
+glacier_cave_2	무리	g11	56.7	39.5	3	무리=1 · 몬스터=frozen_drowned	
+glacier_cave_2	무리	g12	53.7	8.5	3	무리=1	
+glacier_cave_2	무리	g13	57.3	8.5	3	무리=1 · 몬스터=frost_wolf	
+glacier_cave_2	무리	g14	67.5	41.5	3	무리=1 · 몬스터=frozen_drowned	
+glacier_cave_2	무리	g15	63.3	24.5	2	무리=1 · 몬스터=frost_dead · 수=3~3	서리 망자 전사 셋 — 방패벽
+glacier_cave_2	무리	g16	68.7	24.5	3	무리=1	
+glacier_cave_3	입구	from_floor2	4.5	28.5			위층에서 내려온 자리
+glacier_cave_3	출구	to_floor2	2.8	28.5	1.4	glacier_cave:2:from_floor3	서쪽 → 위로
+glacier_cave_3	정예	halvard	66.0	33.5			서리 이빨 할바르드 — 얼음 왕좌 (심연의 열쇠 ④)
+glacier_cave_3	무리	g1	9.5	41.5	3	무리=1 · 몬스터=frozen_drowned	
+glacier_cave_3	무리	g2	18.0	14.0	3	무리=1 · 몬스터=frost_wolf	
+glacier_cave_3	무리	g3	22.0	14.0	2	무리=1 · 몬스터=frost_dead · 수=3~3	서리 망자 전사 셋 — 방패벽
+glacier_cave_3	무리	g4	27.3	49.5	3	무리=1	
+glacier_cave_3	무리	g5	31.7	49.5	3	무리=1 · 몬스터=frost_wolf	
+glacier_cave_3	무리	g6	33.5	37.5	2	무리=1 · 몬스터=frost_dead · 수=3~3	서리 망자 전사 셋 — 방패벽
+glacier_cave_3	무리	g7	35.0	21.5	3	무리=1 · 몬스터=frozen_drowned	
+glacier_cave_3	무리	g8	35.0	6.0	3	무리=1	
+glacier_cave_3	무리	g9	49.7	7.5	2	무리=1 · 몬스터=frost_dead · 수=3~3	서리 망자 전사 셋 — 방패벽
+glacier_cave_3	무리	g10	54.3	7.5	3	무리=1 · 몬스터=frozen_drowned	
+glacier_cave_3	무리	g11	54.5	46.5	3	무리=1 · 몬스터=frost_wolf	
+glacier_cave_3	무리	g12	68.5	6.5	3	무리=1	
+glacier_cave_1	빛	달빛	3	26			얼음에 비친 빛
+glacier_cave_1	빛	달빛	10	30			얼음에 비친 빛
+glacier_cave_1	빛	달빛	4	37			얼음에 비친 빛
+glacier_cave_1	빛	달빛	13	43			얼음에 비친 빛
+glacier_cave_1	빛	달빛	18	10			얼음에 비친 빛
+glacier_cave_1	빛	달빛	24	18			얼음에 비친 빛
+glacier_cave_1	빛	달빛	21	28			얼음에 비친 빛
+glacier_cave_1	빛	달빛	29	33			얼음에 비친 빛
+glacier_cave_1	빛	달빛	22	40			얼음에 비친 빛
+glacier_cave_1	빛	달빛	30	45			얼음에 비친 빛
+glacier_cave_1	빛	달빛	36	43			얼음에 비친 빛
+glacier_cave_1	빛	달빛	45	51			얼음에 비친 빛
+glacier_cave_1	빛	달빛	35	26			얼음에 비친 빛
+glacier_cave_1	빛	달빛	46	32			얼음에 비친 빛
+glacier_cave_1	빛	달빛	37	12			얼음에 비친 빛
+glacier_cave_1	빛	달빛	48	19			얼음에 비친 빛
+glacier_cave_1	빛	달빛	53	42			얼음에 비친 빛
+glacier_cave_1	빛	달빛	61	47			얼음에 비친 빛
+glacier_cave_1	빛	달빛	55	3			얼음에 비친 빛
+glacier_cave_1	빛	달빛	64	11			얼음에 비친 빛
+glacier_cave_1	빛	달빛	59	18			얼음에 비친 빛
+glacier_cave_1	빛	달빛	72	28			얼음에 비친 빛
+glacier_cave_2	소품	얼어붙은배	40.5	17.5			얼음에 갇힌 옛 약탈선
+glacier_cave_2	빛	달빛	3	26			얼음에 비친 빛
+glacier_cave_2	빛	달빛	11	30			얼음에 비친 빛
+glacier_cave_2	빛	달빛	8	43			얼음에 비친 빛
+glacier_cave_2	빛	달빛	15	49			얼음에 비친 빛
+glacier_cave_2	빛	달빛	12	9			얼음에 비친 빛
+glacier_cave_2	빛	달빛	21	17			얼음에 비친 빛
+glacier_cave_2	빛	달빛	18	23			얼음에 비친 빛
+glacier_cave_2	빛	달빛	24	31			얼음에 비친 빛
+glacier_cave_2	빛	달빛	22	44			얼음에 비친 빛
+glacier_cave_2	빛	달빛	31	52			얼음에 비친 빛
+glacier_cave_2	빛	달빛	35	15			얼음에 비친 빛
+glacier_cave_2	빛	달빛	45	21			얼음에 비친 빛
+glacier_cave_2	빛	달빛	37	31			얼음에 비친 빛
+glacier_cave_2	빛	달빛	45	36			얼음에 비친 빛
+glacier_cave_2	빛	달빛	51	35			얼음에 비친 빛
+glacier_cave_2	빛	달빛	58	43			얼음에 비친 빛
+glacier_cave_2	빛	달빛	51	4			얼음에 비친 빛
+glacier_cave_2	빛	달빛	59	12			얼음에 비친 빛
+glacier_cave_2	빛	달빛	64	39			얼음에 비친 빛
+glacier_cave_2	빛	달빛	70	43			얼음에 비친 빛
+glacier_cave_2	빛	달빛	59	19			얼음에 비친 빛
+glacier_cave_2	빛	달빛	72	29			얼음에 비친 빛
+glacier_cave_3	소품	얼음왕좌	71.5	33.5			얼음 왕좌
+glacier_cave_3	빛	달빛	3	25			얼음에 비친 빛
+glacier_cave_3	빛	달빛	9	31			얼음에 비친 빛
+glacier_cave_3	빛	달빛	4	39			얼음에 비친 빛
+glacier_cave_3	빛	달빛	14	44			얼음에 비친 빛
+glacier_cave_3	빛	달빛	15	10			얼음에 비친 빛
+glacier_cave_3	빛	달빛	24	17			얼음에 비친 빛
+glacier_cave_3	빛	달빛	24	46			얼음에 비친 빛
+glacier_cave_3	빛	달빛	34	52			얼음에 비친 빛
+glacier_cave_3	빛	달빛	29	35			얼음에 비친 빛
+glacier_cave_3	빛	달빛	37	39			얼음에 비친 빛
+glacier_cave_3	빛	달빛	30	19			얼음에 비친 빛
+glacier_cave_3	빛	달빛	39	23			얼음에 비친 빛
+glacier_cave_3	빛	달빛	31	3			얼음에 비친 빛
+glacier_cave_3	빛	달빛	38	8			얼음에 비친 빛
+glacier_cave_3	빛	달빛	46	3			얼음에 비친 빛
+glacier_cave_3	빛	달빛	57	11			얼음에 비친 빛
+glacier_cave_3	빛	달빛	51	44			얼음에 비친 빛
+glacier_cave_3	빛	달빛	57	49			얼음에 비친 빛
+glacier_cave_3	빛	달빛	65	3			얼음에 비친 빛
+glacier_cave_3	빛	달빛	71	9			얼음에 비친 빛
+glacier_cave_3	빛	달빛	59	28			얼음에 비친 빛
+glacier_cave_3	빛	달빛	72	38			얼음에 비친 빛
+sea_north	입구	from_london	40	86			템스 강 어귀에서 나온 자리 (A4-6)
+sea_north	출구	to_london	38	90	1.6	london::from_glacier_cave	런던 선창에 배를 댐 (템스를 거슬러)
+sea_north	입구	from_glacier_cave	116	7			피오르에서 나온 자리
+sea_north	출구	to_glacier_cave	125	6.5	1.6	glacier_cave:1:from_sea	피오르 끝 얼음 굴에 배를 댐 → 북해 빙하 동굴
+london	출구	to_north	31.5	49.2	1.4	glacier_cave:1:from_london	배 — 북해로 (북해 해도가 있어야, A4-6)
+london	입구	from_glacier_cave	31.5	46			북해에서 돌아온 배가 닿는 선창

@@ -1,0 +1,273 @@
+파일	원본	묶음	링크	저작자	라이선스	바꾼점
+sound/step_sand_1.ogg	fantozzi_footsteps/x/Fantozzi-footsteps/ogg/Fantozzi-SandL1.ogg	Fantozzi's Footsteps (Grass/Sand & Stone)	https://opengameart.org/content/fantozzis-footsteps-grasssand-stone	Fantozzi (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/step_sand_2.ogg	fantozzi_footsteps/x/Fantozzi-footsteps/ogg/Fantozzi-SandR1.ogg	Fantozzi's Footsteps (Grass/Sand & Stone)	https://opengameart.org/content/fantozzis-footsteps-grasssand-stone	Fantozzi (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/step_sand_3.ogg	fantozzi_footsteps/x/Fantozzi-footsteps/ogg/Fantozzi-SandL3.ogg	Fantozzi's Footsteps (Grass/Sand & Stone)	https://opengameart.org/content/fantozzis-footsteps-grasssand-stone	Fantozzi (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/step_sand_4.ogg	fantozzi_footsteps/x/Fantozzi-footsteps/ogg/Fantozzi-SandR3.ogg	Fantozzi's Footsteps (Grass/Sand & Stone)	https://opengameart.org/content/fantozzis-footsteps-grasssand-stone	Fantozzi (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/step_stone_1.ogg	fantozzi_footsteps/x/Fantozzi-footsteps/ogg/Fantozzi-StoneL1.ogg	Fantozzi's Footsteps (Grass/Sand & Stone)	https://opengameart.org/content/fantozzis-footsteps-grasssand-stone	Fantozzi (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/step_stone_2.ogg	fantozzi_footsteps/x/Fantozzi-footsteps/ogg/Fantozzi-StoneR2.ogg	Fantozzi's Footsteps (Grass/Sand & Stone)	https://opengameart.org/content/fantozzis-footsteps-grasssand-stone	Fantozzi (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/step_stone_3.ogg	fantozzi_footsteps/x/Fantozzi-footsteps/ogg/Fantozzi-StoneL2.ogg	Fantozzi's Footsteps (Grass/Sand & Stone)	https://opengameart.org/content/fantozzis-footsteps-grasssand-stone	Fantozzi (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/step_stone_4.ogg	fantozzi_footsteps/x/Fantozzi-footsteps/ogg/Fantozzi-StoneR3.ogg	Fantozzi's Footsteps (Grass/Sand & Stone)	https://opengameart.org/content/fantozzis-footsteps-grasssand-stone	Fantozzi (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/step_wood_1.ogg	kenney_rpg_audio/x/OGG/footstep00.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/step_wood_2.ogg	kenney_rpg_audio/x/OGG/footstep01.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/step_wood_3.ogg	kenney_rpg_audio/x/OGG/footstep03.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/step_wood_4.ogg	kenney_rpg_audio/x/OGG/footstep07.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/swing_light_1.ogg	artisticdude_swishes/x/swishes/swish-1.wav	Swishes Sound Pack	https://opengameart.org/content/swishes-sound-pack	artisticdude	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/swing_light_2.ogg	artisticdude_swishes/x/swishes/swish-2.wav	Swishes Sound Pack	https://opengameart.org/content/swishes-sound-pack	artisticdude	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/swing_light_3.ogg	artisticdude_swishes/x/swishes/swish-5.wav	Swishes Sound Pack	https://opengameart.org/content/swishes-sound-pack	artisticdude	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/swing_light_4.ogg	artisticdude_swishes/x/swishes/swish-10.wav	Swishes Sound Pack	https://opengameart.org/content/swishes-sound-pack	artisticdude	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/swing_heavy_1.ogg	artisticdude_swishes/x/swishes/swish-7.wav	Swishes Sound Pack	https://opengameart.org/content/swishes-sound-pack	artisticdude	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/swing_heavy_2.ogg	artisticdude_swishes/x/swishes/swish-9.wav	Swishes Sound Pack	https://opengameart.org/content/swishes-sound-pack	artisticdude	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/swing_heavy_3.ogg	artisticdude_swishes/x/swishes/swish-3.wav	Swishes Sound Pack	https://opengameart.org/content/swishes-sound-pack	artisticdude	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/hit_flesh_1.ogg	kenney_impact/x/Audio/impactPunch_medium_000.ogg	Impact Sounds	https://kenney.nl/assets/impact-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/hit_flesh_2.ogg	kenney_impact/x/Audio/impactPunch_medium_001.ogg	Impact Sounds	https://kenney.nl/assets/impact-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/hit_flesh_3.ogg	kenney_impact/x/Audio/impactPunch_medium_002.ogg	Impact Sounds	https://kenney.nl/assets/impact-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/hit_flesh_4.ogg	kenney_impact/x/Audio/impactPunch_medium_003.ogg	Impact Sounds	https://kenney.nl/assets/impact-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/hit_heavy_1.ogg	kenney_impact/x/Audio/impactPunch_heavy_000.ogg	Impact Sounds	https://kenney.nl/assets/impact-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/hit_heavy_2.ogg	kenney_impact/x/Audio/impactPunch_heavy_001.ogg	Impact Sounds	https://kenney.nl/assets/impact-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/hit_metal_1.ogg	starninjas_sword/x/sword_clash.1.ogg	20 Sword Sound Effects (Attacks and Clashes)	https://opengameart.org/content/20-sword-sound-effects-attacks-and-clashes	StarNinjas	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/hit_metal_2.ogg	starninjas_sword/x/sword_clash.4.ogg	20 Sword Sound Effects (Attacks and Clashes)	https://opengameart.org/content/20-sword-sound-effects-attacks-and-clashes	StarNinjas	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/hit_metal_3.ogg	starninjas_sword/x/sword_clash.7.ogg	20 Sword Sound Effects (Attacks and Clashes)	https://opengameart.org/content/20-sword-sound-effects-attacks-and-clashes	StarNinjas	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/block_1.ogg	kenney_impact/x/Audio/impactPlate_medium_000.ogg	Impact Sounds	https://kenney.nl/assets/impact-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/block_2.ogg	kenney_impact/x/Audio/impactPlate_medium_001.ogg	Impact Sounds	https://kenney.nl/assets/impact-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/block_3.ogg	kenney_impact/x/Audio/impactPlate_medium_002.ogg	Impact Sounds	https://kenney.nl/assets/impact-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/hit_wood_1.ogg	kenney_impact/x/Audio/impactWood_medium_000.ogg	Impact Sounds	https://kenney.nl/assets/impact-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/hit_wood_2.ogg	kenney_impact/x/Audio/impactWood_medium_001.ogg	Impact Sounds	https://kenney.nl/assets/impact-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/beast_bite.ogg	remaxim_melee/x/melee sounds/animal melee sound.wav	3 Melee sounds	https://opengameart.org/content/3-melee-sounds	remaxim	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_human_vocal_1.ogg	rubberduck_creature/x/grunt_02.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_human_vocal_2.ogg	rubberduck_creature/x/grunt_04.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_human_hurt_1.ogg	rubberduck_creature/x/hurt_01.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_human_hurt_2.ogg	rubberduck_creature/x/hurt_02.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_human_hurt_3.ogg	rubberduck_creature/x/hurt_03.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_human_death_1.ogg	rubberduck_creature/x/grunt_01.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_human_death_2.ogg	rubberduck_creature/x/monster_05.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_beast_vocal_1.ogg	rubberduck_creature/x/troll_01.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_beast_vocal_2.ogg	rubberduck_creature/x/troll_03.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_beast_hurt_1.ogg	rubberduck_creature/x/roar_01.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_beast_hurt_2.ogg	rubberduck_creature/x/roar_03.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_beast_death_1.ogg	rubberduck_creature/x/monster_06.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_bat_vocal_1.ogg	rubberduck_creature/x/cute_07.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_bat_vocal_2.ogg	rubberduck_creature/x/misc_03.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_bat_hurt_1.ogg	rubberduck_creature/x/misc_02.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_bat_hurt_2.ogg	rubberduck_creature/x/weird_04.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_bat_death_1.ogg	rubberduck_creature/x/weird_03.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_drowned_vocal_1.ogg	rubberduck_creature/x/breath.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_drowned_vocal_2.ogg	rubberduck_creature/x/burble_01.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_drowned_hurt_1.ogg	rubberduck_creature/x/cough_01.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_drowned_hurt_2.ogg	rubberduck_creature/x/cough_02.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_drowned_death_1.ogg	rubberduck_creature/x/burble_02.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_wraith_vocal_1.ogg	lib_qubodup_ghostmoans/x/qubodup-GhostMoans/wav/qubodup-GhostMoan05.wav	Ghost Monster Voice Moaning & Growling (CC0 sounds library 모음의 항목)	https://opengameart.org/content/ghost-monster-voice-moaning-growling	qubodup	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_wraith_vocal_2.ogg	lib_qubodup_ghostmoans/x/qubodup-GhostMoans/wav/qubodup-GhostMoan01.wav	Ghost Monster Voice Moaning & Growling (CC0 sounds library 모음의 항목)	https://opengameart.org/content/ghost-monster-voice-moaning-growling	qubodup	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_wraith_hurt_1.ogg	lib_qubodup_ghostmoans/x/qubodup-GhostMoans/wav/qubodup-GhostMoan04.wav	Ghost Monster Voice Moaning & Growling (CC0 sounds library 모음의 항목)	https://opengameart.org/content/ghost-monster-voice-moaning-growling	qubodup	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_wraith_death_1.ogg	lib_qubodup_ghostmoans/x/qubodup-GhostMoans/wav/qubodup-GhostMoan03.wav	Ghost Monster Voice Moaning & Growling (CC0 sounds library 모음의 항목)	https://opengameart.org/content/ghost-monster-voice-moaning-growling	qubodup	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_spider_vocal_1.ogg	rubberduck_creature/x/bug_01.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_spider_vocal_2.ogg	rubberduck_creature/x/bug_04.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_spider_hurt_1.ogg	rubberduck_creature/x/bug_03.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/mon_spider_death_1.ogg	rubberduck_creature/x/bug_02.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/boss_roar_1.ogg	rubberduck_creature/x/roar_02.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/boss_roar_2.ogg	rubberduck_creature/x/monster_04.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/boss_roar_3.ogg	rubberduck_creature/x/monster_07.ogg	80 CC0 creature SFX	https://opengameart.org/content/80-cc0-creature-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_click_1.ogg	kenney_ui_sfx/x/click1.wav	51 UI sound effects (buttons, switches and clicks)	https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_click_2.ogg	kenney_ui_sfx/x/click3.wav	51 UI sound effects (buttons, switches and clicks)	https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_hover.ogg	kenney_ui_sfx/x/rollover2.wav	51 UI sound effects (buttons, switches and clicks)	https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_open.ogg	kenney_interface/x/Audio/open_001.ogg	Interface Sounds	https://kenney.nl/assets/interface-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_close.ogg	kenney_interface/x/Audio/close_001.ogg	Interface Sounds	https://kenney.nl/assets/interface-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_book.ogg	kenney_rpg_audio/x/OGG/bookOpen.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_page.ogg	kenney_rpg_audio/x/OGG/bookFlip1.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_equip_1.ogg	kenney_rpg_audio/x/OGG/handleSmallLeather.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_equip_2.ogg	kenney_rpg_audio/x/OGG/beltHandle1.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_equip_metal.ogg	kenney_rpg_audio/x/OGG/metalLatch.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_blade.ogg	kenney_rpg_audio/x/OGG/drawKnife1.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_socket.ogg	kenney_interface/x/Audio/glass_002.ogg	Interface Sounds	https://kenney.nl/assets/interface-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_switch.ogg	kenney_ui_sfx/x/switch7.wav	51 UI sound effects (buttons, switches and clicks)	https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_drop.ogg	kenney_interface/x/Audio/drop_002.ogg	Interface Sounds	https://kenney.nl/assets/interface-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_pickup.ogg	kenney_rpg_audio/x/OGG/cloth2.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_error.ogg	kenney_interface/x/Audio/error_004.ogg	Interface Sounds	https://kenney.nl/assets/interface-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ui_confirm.ogg	kenney_interface/x/Audio/confirmation_002.ogg	Interface Sounds	https://kenney.nl/assets/interface-sounds	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/gold_1.ogg	kenney_rpg_audio/x/OGG/handleCoins.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/gold_2.ogg	kenney_rpg_audio/x/OGG/handleCoins2.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/potion_open.ogg	lib_qubodup_bottle/x/qubodup-bottle-and-drink-sounds/bottle-open-03.flac	Liquid Bottle Drink Set (CC0 sounds library 모음의 항목)	https://opengameart.org/content/liquid-bottle-drink-set	qubodup	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/potion_swallow_1.ogg	lib_qubodup_bottle/x/qubodup-bottle-and-drink-sounds/swallow-01.flac	Liquid Bottle Drink Set (CC0 sounds library 모음의 항목)	https://opengameart.org/content/liquid-bottle-drink-set	qubodup	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/potion_swallow_2.ogg	lib_qubodup_bottle/x/qubodup-bottle-and-drink-sounds/swallow-03.flac	Liquid Bottle Drink Set (CC0 sounds library 모음의 항목)	https://opengameart.org/content/liquid-bottle-drink-set	qubodup	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/chest_open.ogg	kenney_rpg_audio/x/OGG/doorOpen_2.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/door_open.ogg	kenney_rpg_audio/x/OGG/doorOpen_1.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/creak_1.ogg	kenney_rpg_audio/x/OGG/creak1.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/creak_2.ogg	kenney_rpg_audio/x/OGG/creak2.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/creak_3.ogg	kenney_rpg_audio/x/OGG/creak3.ogg	50 RPG sound effects	https://opengameart.org/content/50-rpg-sound-effects	Kenney (kenney.nl)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/splash_1.ogg	lib_ezwa_splash/x/ezwa-water_splash/water_splash-01.flac	6 Short water splashes (CC0 sounds library 모음의 항목)	https://opengameart.org/content/6-short-water-splashes	ezwa (자르고 올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/splash_2.ogg	lib_ezwa_splash/x/ezwa-water_splash/water_splash-04.flac	6 Short water splashes (CC0 sounds library 모음의 항목)	https://opengameart.org/content/6-short-water-splashes	ezwa (자르고 올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/wave_1.ogg	transitking_waves/wave_01_cc0-11505__transitking__wavesound.flac	Water Waves	https://opengameart.org/content/water-waves	transitking (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/wave_2.ogg	transitking_waves/wave_02_cc0-11505__transitking__wavesound.flac	Water Waves	https://opengameart.org/content/water-waves	transitking (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/wave_3.ogg	transitking_waves/wave_03_cc0-11505__transitking__wavesound.flac	Water Waves	https://opengameart.org/content/water-waves	transitking (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/wave_4.ogg	transitking_waves/wave_04_cc0-11505__transitking__wavesound.flac	Water Waves	https://opengameart.org/content/water-waves	transitking (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/gun_powder_1.ogg	kurt_gunshots/Black Powder.wav	Gunshots (Black Powder.wav만)	https://opengameart.org/content/gunshots	kurt	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/gun_powder_2.ogg	kurt_gunshots/Black Powder.wav	Gunshots (Black Powder.wav만)	https://opengameart.org/content/gunshots	kurt	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/gun_powder_3.ogg	kurt_gunshots/Black Powder.wav	Gunshots (Black Powder.wav만)	https://opengameart.org/content/gunshots	kurt	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/gun_click.ogg	pauliuw_reload/gun_reload_lock_or_click_sound.mp3	Gun reload, lock or click sound	https://opengameart.org/content/gun-reload-lock-or-click-sound	pauliuw	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/cannon_near_1.ogg	thimras_battle_sea/cannon_fire_1.ogg	Battle at sea	https://opengameart.org/content/battle-at-sea	Thimras	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/cannon_near_2.ogg	rubberduck_bang/x/cannon_02.ogg	25 CC0 bang / firework SFX	https://opengameart.org/content/25-cc0-bang-firework-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/cannon_far.ogg	pauliuw_far_explosion/explosion_somewhere_far.mp3	Explosion somewhere far	https://opengameart.org/content/explosion-somewhere-far	pauliuw	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/explosion_1.ogg	rubberduck_bang/x/bang_01.ogg	25 CC0 bang / firework SFX	https://opengameart.org/content/25-cc0-bang-firework-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/explosion_2.ogg	rubberduck_bang/x/bang_06.ogg	25 CC0 bang / firework SFX	https://opengameart.org/content/25-cc0-bang-firework-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/explosion_3.ogg	rubberduck_bang/x/bang_03.ogg	25 CC0 bang / firework SFX	https://opengameart.org/content/25-cc0-bang-firework-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/explosion_wall.ogg	thimras_battle_sea/cannon_hit_wall_no_splash.ogg	Battle at sea	https://opengameart.org/content/battle-at-sea	Thimras	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/wreck_crash.ogg	thimras_battle_sea/ship_destroyed_short.ogg	Battle at sea	https://opengameart.org/content/battle-at-sea	Thimras	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/golem_step_1.ogg	hc_mech_stomp/stomp.flac	Mech Stomp/Step sound	https://opengameart.org/content/mech-stomp-step-sound	hc	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/golem_step_2.ogg	rubberduck_breaking/x/bfh1_rock_falling_02.ogg	75 CC0 breaking / falling / hit sfx	https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/golem_grind_1.ogg	themightyglider_boulder/move_boulder_0.ogg	Moving Boulder	https://opengameart.org/content/moving-boulder	themightyglider	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/golem_death_1.ogg	rubberduck_breaking/x/bfh1_rock_breaking_01.ogg	75 CC0 breaking / falling / hit sfx	https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/golem_death_2.ogg	rubberduck_breaking/x/bfh1_rock_falling_03.ogg	75 CC0 breaking / falling / hit sfx	https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/rock_fall_1.ogg	rubberduck_breaking/x/bfh1_rock_falling_01.ogg	75 CC0 breaking / falling / hit sfx	https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/rock_fall_2.ogg	rubberduck_breaking/x/bfh1_rock_falling_09.ogg	75 CC0 breaking / falling / hit sfx	https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/bull_moo_1.ogg	bsb_cow/2382.ogg	Cow Moos #1~#6 (OGG)	https://bigsoundbank.com/cow-moos-s0546.html	Joseph Sardin (BigSoundBank)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/bull_moo_2.ogg	bsb_cow/2383.ogg	Cow Moos #1~#6 (OGG)	https://bigsoundbank.com/cow-moos-s0546.html	Joseph Sardin (BigSoundBank)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/bull_moo_3.ogg	bsb_cow/2384.ogg	Cow Moos #1~#6 (OGG)	https://bigsoundbank.com/cow-moos-s0546.html	Joseph Sardin (BigSoundBank)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/bull_moo_4.ogg	bsb_cow/2385.ogg	Cow Moos #1~#6 (OGG)	https://bigsoundbank.com/cow-moos-s0546.html	Joseph Sardin (BigSoundBank)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/bull_moo_5.ogg	bsb_cow/0546.ogg	Cow Moos #1~#6 (OGG)	https://bigsoundbank.com/cow-moos-s0546.html	Joseph Sardin (BigSoundBank)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/bull_gallop.ogg	ezduzziteh_trot/Trot.ogg	Horse Trotting	https://opengameart.org/content/horse-trotting	EZduzziteh	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/pick_1.ogg	jordan_mining/mining_1.ogg	Mining sample	https://opengameart.org/content/mining-sample	jordan4ibanez	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/pick_2.ogg	jordan_mining/mining_1.ogg	Mining sample	https://opengameart.org/content/mining-sample	jordan4ibanez	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/pick_3.ogg	jordan_mining/mining_1.ogg	Mining sample	https://opengameart.org/content/mining-sample	jordan4ibanez	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/cave_in.ogg	starninjas_cavein/cave_in_-_starninjas_0.ogg	Cave In	https://opengameart.org/content/cave-in	StarNinjas	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/quake.ogg	mieki_quake/shake.flac	Earthquake and Open sesame (shake.flac)	https://opengameart.org/content/earthquake-and-open-sesame	mieki256	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/fire_burst_1.ogg	rubberduck_rpg/x/spell_fire_03.ogg	80 CC0 RPG SFX	https://opengameart.org/content/80-cc0-rpg-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/fire_burst_2.ogg	rubberduck_rpg/x/spell_fire_04.ogg	80 CC0 RPG SFX	https://opengameart.org/content/80-cc0-rpg-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/chain_1.ogg	rubberduck_rpg/x/chain_01.ogg	80 CC0 RPG SFX	https://opengameart.org/content/80-cc0-rpg-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/chain_2.ogg	rubberduck_rpg/x/chain_02.ogg	80 CC0 RPG SFX	https://opengameart.org/content/80-cc0-rpg-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/chain_3.ogg	rubberduck_rpg/x/chain_03.ogg	80 CC0 RPG SFX	https://opengameart.org/content/80-cc0-rpg-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/iron_door.ogg	themightyglider_iron_door/iron_door_0.ogg	Iron Door	https://opengameart.org/content/iron-door	themightyglider	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/metal_slam.ogg	rubberduck_metal_wood/x/metal_slam_01.ogg	100 CC0 metal and wood SFX	https://opengameart.org/content/100-cc0-metal-and-wood-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/keys.ogg	rubberduck_metal_wood/x/keys_02.ogg	100 CC0 metal and wood SFX	https://opengameart.org/content/100-cc0-metal-and-wood-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/crowd_cheer.ogg	starninjas_crowd/crowd_shouting_0.ogg	Crowd Shouting/Speaking Ambience	https://opengameart.org/content/crowd-shoutingspeaking-ambience	StarNinjas	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/gun_flint_1.ogg	commons/Flintstone.ogg	Flintstone.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Flintstone.ogg	hokuspokus	Public domain	잘라 씀 · 음량 맞춤
+sound/gun_flint_2.ogg	commons/Flintstone.ogg	Flintstone.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Flintstone.ogg	hokuspokus	Public domain	잘라 씀 · 음량 맞춤
+sound/gun_flint_3.ogg	commons/Flintstone.ogg	Flintstone.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Flintstone.ogg	hokuspokus	Public domain	잘라 씀 · 음량 맞춤
+sound/golem_grind_2.ogg	commons/Grinding_and_tapping_ro.ogg	Grinding and tapping ro.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Grinding_and_tapping_ro.ogg	stilgar	Public domain	잘라 씀 · 음량 맞춤
+sound/golem_grind_3.ogg	commons/Grinding_and_tapping_ro.ogg	Grinding and tapping ro.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Grinding_and_tapping_ro.ogg	stilgar	Public domain	잘라 씀 · 음량 맞춤
+sound/church_bell.ogg	commons/Volteo_campanas_alfafar.ogg	Volteo campanas alfafar.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Volteo_campanas_alfafar.ogg	MdeVicente	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/stake_fire.ogg	commons/Dry_grass_burning_in_open_fireplace.ogg	Dry grass burning in open fireplace.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Dry_grass_burning_in_open_fireplace.ogg	ezwa	Public domain	잘라 씀 · 음량 맞춤
+sound/crowd_yell.ogg	commons/Street_parade_carnival_people_yelling_kamelle_kamelle.ogg	Street parade carnival people yelling kamelle kamelle.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Street_parade_carnival_people_yelling_kamelle_kamelle.ogg	stephan	Public domain	잘라 씀 · 음량 맞춤
+sound/crowd_applause.ogg	commons/Slow_starting_applause.ogg	Slow starting applause.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Slow_starting_applause.ogg	stephan	Public domain	잘라 씀 · 음량 맞춤
+sound/thunder_rec_1.ogg	mastery/S1/Storm_thunderbolts.ogg	Storm thunderbolts.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Storm_thunderbolts.ogg	stephan	Public domain	잘라 씀 · 음량 맞춤
+sound/thunder_rec_2.ogg	mastery/S1/Storm_thunderbolts.ogg	Storm thunderbolts.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Storm_thunderbolts.ogg	stephan	Public domain	잘라 씀 · 음량 맞춤
+sound/thunder_rec_3.ogg	mastery/S1/Storm_thunderbolts.ogg	Storm thunderbolts.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Storm_thunderbolts.ogg	stephan	Public domain	잘라 씀 · 음량 맞춤
+sound/thunder_rec_4.ogg	mastery/S2/x/sfx100v2_thunder_01.ogg	100 CC0 SFX #2	https://opengameart.org/content/100-cc0-sfx-2	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/storm_buzz.ogg	mastery/S3/Aggressive_electric_buzzing.ogg	Aggressive electric buzzing.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Aggressive_electric_buzzing.ogg	stephan	Public domain	잘라 씀 · 음량 맞춤
+sound/wind_howl_1.ogg	mastery/S4/Howling_wind.ogg	Howling wind.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Howling_wind.ogg	Tvabutzku1234	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/wind_howl_2.ogg	mastery/S4/Howling_wind.ogg	Howling wind.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Howling_wind.ogg	Tvabutzku1234	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/elec_spell_1.ogg	mastery/S5/electricspell.ogg	Spell sounds	https://opengameart.org/content/spell-sounds	Augmentality (Brandon Morris), 올린 이 HaelDB	CC0 1.0 (OGA-BY 3.0 · CC0 복수 라이선스 — CC0로 씀)	잘라 씀 · 음량 맞춤
+sound/elec_spell_2.ogg	mastery/S5/electricspell2.ogg	Spell sounds	https://opengameart.org/content/spell-sounds	Augmentality (Brandon Morris), 올린 이 HaelDB	CC0 1.0 (OGA-BY 3.0 · CC0 복수 라이선스 — CC0로 씀)	잘라 씀 · 음량 맞춤
+sound/air_gust_1.ogg	mastery/S2/x/sfx100v2_air_01.ogg	100 CC0 SFX #2	https://opengameart.org/content/100-cc0-sfx-2	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/air_gust_2.ogg	mastery/S2/x/sfx100v2_air_02.ogg	100 CC0 SFX #2	https://opengameart.org/content/100-cc0-sfx-2	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ice_shatter_1.ogg	mastery/T1/x/IceShatters/LedasLuzta.ogg	Ice breaking/shattering	https://opengameart.org/content/ice-breakingshattering	IgnasD	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ice_shatter_2.ogg	mastery/T1/x/IceShatters/LedasLuzta2.ogg	Ice breaking/shattering	https://opengameart.org/content/ice-breakingshattering	IgnasD	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ice_shatter_3.ogg	mastery/T1/x/IceShatters/LedasLuzta4.ogg	Ice breaking/shattering	https://opengameart.org/content/ice-breakingshattering	IgnasD	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ice_shatter_4.ogg	mastery/T1/x/IceShatters/LedasLuzta5.ogg	Ice breaking/shattering	https://opengameart.org/content/ice-breakingshattering	IgnasD	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ice_cast_1.ogg	mastery/T2/x/coldsnap.wav	Ice spells	https://opengameart.org/content/ice-spells	bart	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ice_cast_2.ogg	mastery/T2/x/ice.wav	Ice spells	https://opengameart.org/content/ice-spells	bart	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ice_freeze.ogg	mastery/T3/freeze.wav	Freeze Spell	https://opengameart.org/content/freeze-spell-0	artisticdude	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ice_crackle.ogg	mastery/T4/Bones_breaking_wood_fire_ice_crackling.ogg	Bones breaking wood fire ice crackling.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Bones_breaking_wood_fire_ice_crackling.ogg	stephan	Public domain	잘라 씀 · 음량 맞춤
+sound/surf_1.ogg	mastery/T5/wave_01_cc0-18363__jasinski__alkaibeach.flac	Beach Ocean Waves	https://opengameart.org/content/beach-ocean-waves	jasinski (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/surf_2.ogg	mastery/T5/wave_02_cc0-18363__jasinski__alkaibeach.flac	Beach Ocean Waves	https://opengameart.org/content/beach-ocean-waves	jasinski (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/surf_3.ogg	mastery/T5/wave_03_cc0-18363__jasinski__alkaibeach.flac	Beach Ocean Waves	https://opengameart.org/content/beach-ocean-waves	jasinski (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/surf_4.ogg	mastery/T5/wave_04_cc0-18363__jasinski__alkaibeach.flac	Beach Ocean Waves	https://opengameart.org/content/beach-ocean-waves	jasinski (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/big_wave.ogg	mastery/T6/Ocean_Waves_on_a_Tropical_Beach.ogg	Ocean Waves on a Tropical Beach.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Ocean_Waves_on_a_Tropical_Beach.ogg	Jarrod stanley	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/singing_bowl.ogg	mastery/G1/SingingBowl1.ogg	SingingBowl1.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:SingingBowl1.ogg	BambooBeast	Public domain	잘라 씀 · 음량 맞춤
+sound/barrier_pad.ogg	mastery/G2/Energy_barrier_pad.ogg	Energy barrier pad.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Energy_barrier_pad.ogg	stephan	Public domain	잘라 씀 · 음량 맞춤
+sound/grunt_1.ogg	mastery/G3/Male_grunts_jumps.ogg	Male grunts jumps.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Male_grunts_jumps.ogg	stilgar	Public domain	잘라 씀 · 음량 맞춤
+sound/grunt_2.ogg	mastery/G3/Male_grunts_jumps.ogg	Male grunts jumps.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Male_grunts_jumps.ogg	stilgar	Public domain	잘라 씀 · 음량 맞춤
+sound/grunt_3.ogg	mastery/G3/Male_grunts_jumps.ogg	Male grunts jumps.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Male_grunts_jumps.ogg	stilgar	Public domain	잘라 씀 · 음량 맞춤
+sound/fire_whoosh.ogg	mastery/A1/Pressurized_fire.ogg	Pressurized fire.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Pressurized_fire.ogg	gregoryweir	Public domain	잘라 씀 · 음량 맞춤
+sound/steam_hiss_1.ogg	mastery/A2/Hurricane_Vent_(Norris_Geyser_Basin,_Yellowstone_National_Park)_Sound.mp3	Hurricane Vent (Norris Geyser Basin, Yellowstone National Park) Sound.mp3 (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Hurricane_Vent_(Norris_Geyser_Basin,_Yellowstone_National_Park)_Sound.mp3	Peter Comley / 미국 국립공원관리청 (NPS)	Public domain (미국 연방 저작물)	잘라 씀 · 음량 맞춤
+sound/steam_hiss_2.ogg	mastery/A2/Hurricane_Vent_(Norris_Geyser_Basin,_Yellowstone_National_Park)_Sound.mp3	Hurricane Vent (Norris Geyser Basin, Yellowstone National Park) Sound.mp3 (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Hurricane_Vent_(Norris_Geyser_Basin,_Yellowstone_National_Park)_Sound.mp3	Peter Comley / 미국 국립공원관리청 (NPS)	Public domain (미국 연방 저작물)	잘라 씀 · 음량 맞춤
+sound/gas_puff.ogg	mastery/S2/x/sfx100v2_air_03.ogg	100 CC0 SFX #2	https://opengameart.org/content/100-cc0-sfx-2	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/acid_sizzle_1.ogg	rubberduck_rpg/x/creature_slime_01.ogg	80 CC0 RPG SFX	https://opengameart.org/content/80-cc0-rpg-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/acid_sizzle_2.ogg	rubberduck_rpg/x/creature_slime_02.ogg	80 CC0 RPG SFX	https://opengameart.org/content/80-cc0-rpg-sfx	rubberduck	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ship_bell.ogg	mastery/C4/Bell-ring.flac	Bell-ring.flac (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Bell-ring.flac	qubodup	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/wet_splat_1.ogg	mastery/N3/x/impsplat/impactsplat01.mp3.flac	8 wet squish, slurp impacts	https://opengameart.org/content/8-wet-squish-slurp-impacts	Independent.nu (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/wet_splat_2.ogg	mastery/N3/x/impsplat/impactsplat02.mp3.flac	8 wet squish, slurp impacts	https://opengameart.org/content/8-wet-squish-slurp-impacts	Independent.nu (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/wet_splat_3.ogg	mastery/N3/x/impsplat/impactsplat04.mp3.flac	8 wet squish, slurp impacts	https://opengameart.org/content/8-wet-squish-slurp-impacts	Independent.nu (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/wet_splat_4.ogg	mastery/N3/x/impsplat/impactsplat06.mp3.flac	8 wet squish, slurp impacts	https://opengameart.org/content/8-wet-squish-slurp-impacts	Independent.nu (올린 이 qubodup)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ghost_breath.ogg	mastery/N4/ghostbreath.flac	Ghost breath	https://opengameart.org/content/ghost-breath	qubodup	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/ghost_rec.ogg	mastery/N5/ghost.wav	Ghost	https://opengameart.org/content/ghost	Ogrebane	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/acid_sizzle_3.ogg	commons2/Water_vaporizing_on_hot_stones.ogg	Water vaporizing on hot stones.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Water_vaporizing_on_hot_stones.ogg	natalie (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/acid_sizzle_4.ogg	commons2/Water_vaporizing_on_hot_stones.ogg	Water vaporizing on hot stones.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Water_vaporizing_on_hot_stones.ogg	natalie (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/acid_sizzle_5.ogg	commons2/Zzrrrp_sizzle.ogg	Zzrrrp sizzle.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Zzrrrp_sizzle.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/gas_puff_2.ogg	commons2/Air_duster_short.ogg	Air duster short.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Air_duster_short.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/gas_puff_3.ogg	commons2/Air_duster_short.ogg	Air duster short.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Air_duster_short.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/explosion_big_2.ogg	commons2/Explosions-LS100150.ogg	Explosions-LS100150.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Explosions-LS100150.ogg	Fg2	Public domain	잘라 씀 · 음량 맞춤
+sound/bosun_whistle_1.ogg	commons2/Pipegeneralcall.ogg	Pipegeneralcall.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Pipegeneralcall.ogg	Seloloving	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/bosun_whistle_2.ogg	commons2/Pipeaboard.ogg	Pipeaboard.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Pipeaboard.ogg	미 국방부 (올린 이 Gonzosft)	Public domain	잘라 씀 · 음량 맞춤
+sound/bosun_call_1.ogg	commons2/Pipegeneralcall.ogg	Pipegeneralcall.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Pipegeneralcall.ogg	Seloloving	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/bosun_call_2.ogg	commons2/Pipeaboard.ogg	Pipeaboard.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Pipeaboard.ogg	미 국방부 (올린 이 Gonzosft)	Public domain	잘라 씀 · 음량 맞춤
+sound/crew_hurray.ogg	commons2/Hurray.ogg	Hurray.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Hurray.ogg	starlite (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/mon_drowned_vocal_3.ogg	commons2/Slimy_gurgling_and_retc.ogg	Slimy gurgling and retc.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Slimy_gurgling_and_retc.ogg	stilgar (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/mon_drowned_vocal_4.ogg	commons2/Slimy_gurgling_and_retc.ogg	Slimy gurgling and retc.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Slimy_gurgling_and_retc.ogg	stilgar (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/bubble_rise.ogg	commons2/Water_bubbles_chortling.ogg	Water bubbles chortling.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Water_bubbles_chortling.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/whoom.ogg	commons2/Whoom_bass.ogg	Whoom bass.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Whoom_bass.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/wolf_howl_1.ogg	commons2/Wolf_howls.ogg	Wolf howls.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg	미 어류 · 야생동물국 (올린 이 Duk)	Public domain	잘라 씀 · 음량 맞춤
+sound/wolf_howl_2.ogg	commons2/Wolf_howls.ogg	Wolf howls.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg	미 어류 · 야생동물국 (올린 이 Duk)	Public domain	잘라 씀 · 음량 맞춤
+sound/wolf_howl_3.ogg	commons2/Wolf_howls.ogg	Wolf howls.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg	미 어류 · 야생동물국 (올린 이 Duk)	Public domain	잘라 씀 · 음량 맞춤
+sound/wolf_pack.ogg	commons2/Rallying.ogg	Rallying.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Rallying.ogg	Retron (올린 이 Magnus Manske 봇)	Public domain	잘라 씀 · 음량 맞춤
+sound/werewolf_howl_1.ogg	commons2/Man_howls_like_wolf.ogg	Man howls like wolf.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Man_howls_like_wolf.ogg	stilgar (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/werewolf_howl_2.ogg	commons2/Man_howls_like_wolf.ogg	Man howls like wolf.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Man_howls_like_wolf.ogg	stilgar (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/bird_song_1.ogg	commons2/Turdus_merula_2.ogg	Turdus merula 2.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Turdus_merula_2.ogg	Mysid	Public domain	잘라 씀 · 음량 맞춤
+sound/bird_song_2.ogg	commons2/Turdus_merula_2.ogg	Turdus merula 2.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Turdus_merula_2.ogg	Mysid	Public domain	잘라 씀 · 음량 맞춤
+sound/bird_song_3.ogg	commons2/Turdus_merula_2.ogg	Turdus merula 2.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Turdus_merula_2.ogg	Mysid	Public domain	잘라 씀 · 음량 맞춤
+sound/bird_song_4.ogg	commons2/Common_blackbird_singing_denoised.flac	Common blackbird singing denoised.flac (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Common_blackbird_singing_denoised.flac	tinga (올린 이 Drummyfish)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/abbey_bell.ogg	commons2/Saint_gervais_saint_pro_-_Paris.oga	Saint gervais saint pro - Paris.oga (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Saint_gervais_saint_pro_-_Paris.oga	aldor (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/small_bell_1.ogg	commons2/Striking_a_bell_15cm_large.ogg	Striking a bell 15cm large.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Striking_a_bell_15cm_large.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/small_bell_2.ogg	commons2/Striking_a_bell_15cm_large.ogg	Striking a bell 15cm large.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Striking_a_bell_15cm_large.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/gun_musket_1.ogg	commons2/Gunshots_8.ogg	Gunshots 8.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Gunshots_8.ogg	aradlaw (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/gun_musket_2.ogg	commons2/Gunshots_8.ogg	Gunshots 8.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Gunshots_8.ogg	aradlaw (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/witch_shriek.ogg	commons2/Nick121087_-_Demonic_Woman_Scream_(cc0)_(freesound).mp3	Nick121087 - Demonic Woman Scream (cc0) (freesound).mp3 (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Nick121087_-_Demonic_Woman_Scream_(cc0)_(freesound).mp3	nick121087 (올린 이 ComputerHotline)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/fairy_chime_1.ogg	commons2/Windchime.ogg	Windchime.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Windchime.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/fairy_chime_2.ogg	commons2/Windchime.ogg	Windchime.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Windchime.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/fairy_chime_3.ogg	commons2/Windchime.ogg	Windchime.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Windchime.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/koshi_chime_1.ogg	commons2/Windglockenspiel.Koshi.ogg	Windglockenspiel.Koshi.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Windglockenspiel.Koshi.ogg	Membeth	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/koshi_chime_2.ogg	commons2/Windglockenspiel.Koshi.ogg	Windglockenspiel.Koshi.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Windglockenspiel.Koshi.ogg	Membeth	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/jingle_1.ogg	commons2/Soothing_jingling_little_bells_ambience.ogg	Soothing jingling little bells ambience.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Soothing_jingling_little_bells_ambience.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/jingle_2.ogg	commons2/Soothing_jingling_little_bells_ambience.ogg	Soothing jingling little bells ambience.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Soothing_jingling_little_bells_ambience.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/jingle_3.ogg	commons2/Soothing_jingling_little_bells_ambience.ogg	Soothing jingling little bells ambience.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Soothing_jingling_little_bells_ambience.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/siren_song_1.ogg	commons2/Woman_humming_a_nondescript_tune.wav	Woman humming a nondescript tune.wav (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Woman_humming_a_nondescript_tune.wav	PSsoundproject (올린 이 Mx. Granger)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/siren_song_2.ogg	commons2/Woman_humming_a_nondescript_tune.wav	Woman humming a nondescript tune.wav (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Woman_humming_a_nondescript_tune.wav	PSsoundproject (올린 이 Mx. Granger)	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/dragon_roar_1.ogg	commons2/Yellowstone_sound_library_-_Grizzly_Bears_Roar_-_001.mp3	Yellowstone sound library - Grizzly Bears Roar - 001.mp3 (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Yellowstone_sound_library_-_Grizzly_Bears_Roar_-_001.mp3	미 국립공원청 · MSU (올린 이 Thesupermat)	Public domain	잘라 씀 · 음량 맞춤
+sound/dragon_roar_2.ogg	commons2/Yellowstone_sound_library_-_Grizzly_Bears_Roar_-_001.mp3	Yellowstone sound library - Grizzly Bears Roar - 001.mp3 (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Yellowstone_sound_library_-_Grizzly_Bears_Roar_-_001.mp3	미 국립공원청 · MSU (올린 이 Thesupermat)	Public domain	잘라 씀 · 음량 맞춤
+sound/gator_bellow_1.ogg	commons2/Alligatorbellow1.ogg	Alligatorbellow1.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Alligatorbellow1.ogg	Borisblue	Public domain	잘라 씀 · 음량 맞춤
+sound/gator_bellow_2.ogg	commons2/Alligatorbellow1.ogg	Alligatorbellow1.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Alligatorbellow1.ogg	Borisblue	Public domain	잘라 씀 · 음량 맞춤
+sound/monster_growl_1.ogg	commons2/Monster_growls.ogg	Monster growls.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Monster_growls.ogg	stilgar (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/monster_growl_2.ogg	commons2/Monster_growls.ogg	Monster growls.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Monster_growls.ogg	stilgar (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/monster_growl_3.ogg	commons2/Monster_growls.ogg	Monster growls.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Monster_growls.ogg	stilgar (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/raven_caw_1.ogg	commons2/Common_Raven_Grand_Teton_National_Park.ogg	Common Raven Grand Teton National Park.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Common_Raven_Grand_Teton_National_Park.ogg	미 국립공원청 (올린 이 Innotata)	Public domain	잘라 씀 · 음량 맞춤
+sound/raven_caw_2.ogg	commons2/Common_Raven_Grand_Teton_National_Park.ogg	Common Raven Grand Teton National Park.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Common_Raven_Grand_Teton_National_Park.ogg	미 국립공원청 (올린 이 Innotata)	Public domain	잘라 씀 · 음량 맞춤
+sound/raven_caw_3.ogg	commons2/Common_Raven_Grand_Teton_National_Park.ogg	Common Raven Grand Teton National Park.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Common_Raven_Grand_Teton_National_Park.ogg	미 국립공원청 (올린 이 Innotata)	Public domain	잘라 씀 · 음량 맞춤
+sound/raven_far_1.ogg	commons2/Common_Raven.ogg	Common Raven.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Common_Raven.ogg	G. McGrane (올린 이 Badgermcgrane)	Public domain	잘라 씀 · 음량 맞춤
+sound/raven_far_2.ogg	commons2/Common_Raven.ogg	Common Raven.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Common_Raven.ogg	G. McGrane (올린 이 Badgermcgrane)	Public domain	잘라 씀 · 음량 맞춤
+sound/tower_bell.ogg	commons2/Cathedralofthedowns.ogg	Cathedralofthedowns.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Cathedralofthedowns.ogg	acclivity (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/gull_1.ogg	commons2/Gull_1.ogg	Gull 1.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Gull_1.ogg	avphillips (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/gull_2.ogg	commons2/Gull_1.ogg	Gull 1.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Gull_1.ogg	avphillips (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/gull_3.ogg	commons2/Gull_1.ogg	Gull 1.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Gull_1.ogg	avphillips (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/gull_4.ogg	commons2/Gull_2.ogg	Gull 2.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Gull_2.ogg	avphillips (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/mud_bubble_1.ogg	commons2/Yellowstone_sound_library_-_Artist_Paint_Pots_-_001.mp3	Yellowstone sound library - Artist Paint Pots - 001.mp3 (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Yellowstone_sound_library_-_Artist_Paint_Pots_-_001.mp3	미 국립공원청 · MSU (올린 이 Thesupermat)	Public domain	잘라 씀 · 음량 맞춤
+sound/mud_bubble_2.ogg	commons2/Yellowstone_sound_library_-_Artist_Paint_Pots_-_001.mp3	Yellowstone sound library - Artist Paint Pots - 001.mp3 (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Yellowstone_sound_library_-_Artist_Paint_Pots_-_001.mp3	미 국립공원청 · MSU (올린 이 Thesupermat)	Public domain	잘라 씀 · 음량 맞춤
+sound/mud_bubble_3.ogg	commons2/Yellowstone_sound_library_-_Artist_Paint_Pots_-_001.mp3	Yellowstone sound library - Artist Paint Pots - 001.mp3 (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Yellowstone_sound_library_-_Artist_Paint_Pots_-_001.mp3	미 국립공원청 · MSU (올린 이 Thesupermat)	Public domain	잘라 씀 · 음량 맞춤
+sound/hound_howl.ogg	commons2/Jem_howls.ogg	Jem howls.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Jem_howls.ogg	amethysta (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/ice_crackle_2.ogg	mastery/T4/Bones_breaking_wood_fire_ice_crackling.ogg	Bones breaking wood fire ice crackling.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Bones_breaking_wood_fire_ice_crackling.ogg	stephan	Public domain	잘라 씀 · 음량 맞춤
+sound/ice_crackle_3.ogg	mastery/T4/Bones_breaking_wood_fire_ice_crackling.ogg	Bones breaking wood fire ice crackling.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Bones_breaking_wood_fire_ice_crackling.ogg	stephan	Public domain	잘라 씀 · 음량 맞춤
+sound/parrot_squawk_1.ogg	commons2/Parrots_perroquets.ogg	Parrots perroquets.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Parrots_perroquets.ogg	aldor (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/parrot_squawk_2.ogg	commons2/Parrots_perroquets.ogg	Parrots perroquets.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Parrots_perroquets.ogg	aldor (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/parrot_squawk_3.ogg	commons2/Parrots_perroquets.ogg	Parrots perroquets.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Parrots_perroquets.ogg	aldor (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/ice_chime_1.ogg	commons2/Chiming_pottery_02.ogg	Chiming pottery 02.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Chiming_pottery_02.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/ice_chime_2.ogg	commons2/Chiming_pottery_02.ogg	Chiming pottery 02.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Chiming_pottery_02.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/amb_sea.ogg	randommind_sea/VistulaShort_0.mp3	Sea and river wave sounds (VistulaShort)	https://opengameart.org/content/sea-and-river-wave-sounds	RandomMind	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/amb_dungeon.ogg	jaggedstone_dungeon/dungeon_ambient_1_0.ogg	Loopable Dungeon Ambience	https://opengameart.org/content/loopable-dungeon-ambience	JaggedStone	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/amb_rain.ogg	ylmir_rain/x/1.ogg	Rain (loopable)	https://opengameart.org/content/rain-loopable	Ylmir	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/amb_wind.ogg	sketchman3_wind/wind%20woosh%20loop.ogg	wind whoosh loop	https://opengameart.org/content/wind-whoosh-loop	SketchMan3	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/amb_drips.ogg	independent_drip/atmosbasement.mp3_.flac	Dripping water loop	https://opengameart.org/content/dripping-water-loop	Independent.nu	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/amb_fire.ogg	antum_fire/fire-1_0.ogg	Fire Crackling	https://opengameart.org/content/fire-crackling	AntumDeluge	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/amb_mill.ogg	commons/Stone_age_mill.ogg	Stone age mill.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Stone_age_mill.ogg	hokuspokus	Public domain	잘라 씀 · 음량 맞춤
+sound/amb_stake_fire.ogg	commons/Dry_grass_burning_in_open_fireplace.ogg	Dry grass burning in open fireplace.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Dry_grass_burning_in_open_fireplace.ogg	ezwa	Public domain	잘라 씀 · 음량 맞춤
+sound/amb_crowd.ogg	commons_crowd/Festival_concert_people_crowd.ogg	Festival concert people crowd (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Festival_concert_people_crowd.ogg	stephan	Public domain	잘라 씀 · 음량 맞춤
+sound/amb_night_birds.ogg	commons2/Nachtigall.ogg	Nachtigall.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Nachtigall.ogg	Membeth	CC0 1.0	잘라 씀 · 음량 맞춤
+sound/amb_river.ogg	commons2/Shallow_small_river_with_stony_riverbed.ogg	Shallow small river with stony riverbed.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Shallow_small_river_with_stony_riverbed.ogg	stephan (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/amb_storm_rain.ogg	commons2/Rain_and_thunder_(1).ogg	Rain and thunder (1).ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Rain_and_thunder_(1).ogg	ezwa (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤
+sound/amb_wharf.ogg	commons2/Boat_by_a_wharf_1.ogg	Boat by a wharf 1.ogg (Wikimedia Commons)	https://commons.wikimedia.org/wiki/File:Boat_by_a_wharf_1.ogg	ezwa (올린 이 Fæ)	Public domain	잘라 씀 · 음량 맞춤

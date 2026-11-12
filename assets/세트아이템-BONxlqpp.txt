@@ -1,0 +1,30 @@
+아이디	이름	세트	베이스	요구레벨	드랍레벨	효과1	값1	효과2	값2	효과3	값3	외형	드랍	고유	설명
+s_conq_morion	정복자의 모리온	conqueror_armor	leather_cap	15	14	방어력 +	18	생명력 +	20			look_s_conq_morion	boss_hernan_all, elite_diego, andalusia_mine, hernan_camp		
+s_conq_breastplate	정복자의 흉갑	conqueror_armor	chainmail	16	14	방어력 %	60	힘 +	5	피해 감소 +	2	look_s_conq_breastplate	boss_hernan_all, elite_diego, andalusia_mine, hernan_camp		
+s_conq_gauntlets	정복자의 건틀릿	conqueror_armor	leather_gloves	15	14	방어력 +	10	공격 속도 %	10			look_s_conq_gauntlets	boss_hernan_all, elite_diego, andalusia_mine, hernan_camp		
+s_inq_cape	심문관의 검은 망토	inquisitor_robe	worn_cape	15	14	화염 저항 %	15	마나 +	20			look_s_inq_cape	elite_king, alhambra		
+s_inq_gloves	심문관의 장갑	inquisitor_robe	leather_gloves	15	14	화염 피해 +	6	공격 속도 %	5			look_s_inq_gloves	elite_king, alhambra		
+s_inq_rosary	심문관의 묵주	inquisitor_robe	amulet	16	14	생명력 +	15	화염 저항 %	10	마나 재생 +/초	1	look_s_inq_rosary	elite_king, alhambra		
+s_musk_hat	총사의 깃털 모자	musketeer_oath	leather_cap	24	24	방어력 +	30	민첩 +	10				boss_mask_all, paris_catacomb, fairy_court		
+s_musk_cassock	총사의 카사크	musketeer_oath	chainmail	25	24	방어력 %	80	생명력 +	30	모든 저항 %	10		boss_mask_all, paris_catacomb, fairy_court		
+s_musk_musket	총사의 머스킷	musketeer_oath	musket	26	24	피해 %	60	명중률 +	120	사격 스킬 +	1		boss_mask_all, paris_catacomb, fairy_court		
+s_nav_tricorn	항해사의 삼각모	navigator_tools	leather_cap	9	9	방어력 +	12	마나 +	20						바람의 방향을 재는 깃이 달린 모자.
+s_nav_starchart	항해사의 별지도	navigator_tools	logbook	10	10	폭풍술 스킬 +	1	마나 재생 +/초	1						별의 자리를 한 장에 옮긴 지도.
+s_nav_hourglass	항해사의 모래시계	navigator_tools	charm_small	9	9	시전 속도 %	5	마나 +	10						모래가 떨어지는 동안 바다는 기다려 준다.
+s_nav_gloves	항해사의 장갑	navigator_tools	leather_gloves	10	10	지능 +	6	조류술 스킬 +	1						밧줄과 육분의를 함께 쥐던 장갑.
+s_bos_whistle	갑판장의 호각	boatswain_kit	silver_whistle	14	14	선장술 스킬 +	1	소환수 피해 %	15						이 소리에 선원들은 잠에서도 일어났다.
+s_bos_vest	갑판장의 가죽 조끼	boatswain_kit	chainmail	15	14	방어력 %	50	생명력 +	25						쇠고리를 덧댄 두꺼운 가죽 조끼.
+s_bos_belt	갑판장의 밧줄 허리띠	boatswain_kit	rope_belt	14	14	수호술 스킬 +	1	소환수 생명 %	15						돛줄을 꼬아 만든 허리띠.
+s_priv_cutlass	사략선원의 칼	privateer_loot	navy_cutlass	19	18	피해 %	70	타격 시 출혈 %	10						해군의 칼을 빼앗아 이름을 새로 새겼다.
+s_priv_pistol	사략선원의 권총	privateer_loot	double_pistol	20	18	피해 %	70	치명타 확률 %	5						총열 둘 — 하나는 적에게, 하나는 배신자에게.
+s_priv_goldtooth	사략선원의 금니	privateer_loot	ring	18	18	골드 획득 %	25	생명력 흡수 %	3						약탈한 금으로 해 넣은 이.
+s_priv_letter	사략선원의 허가장	privateer_loot	charm_medium	19	18	공격 속도 %	5	마법 발견 %	10						왕의 도장이 찍힌 해적질 허가장.
+s_choir_staff	성가대의 해골 지팡이	choir_of_dead	black_coral_wand	22	22	망령술 스킬 +	1	소환수 피해 %	20						해골이 노래하는 지팡이.
+s_choir_shroud	성가대의 수의	choir_of_dead	sailor_clothes	23	22	방어력 %	60	독 저항 %	25						노래하던 망자들이 입던 수의.
+s_choir_censer	성가대의 향로	choir_of_dead	royal_flask	24	22	연금술 스킬 +	1	독 피해(초당)	8						향 대신 독이 피어오르는 향로.
+s_tower_cuirass	파수꾼의 흉갑	tower_watch	plate_cuirass	30	29	방어력 %	90	생명력 +	40				tower_dungeon, chain_cave		
+s_tower_shield	파수꾼의 방패	tower_watch	deck_shield	30	29	막기 확률 %	10	모든 저항 %	10				tower_dungeon, chain_cave		
+s_tower_gloves	파수꾼의 장갑	tower_watch	leather_gloves	29	29	방어력 +	40	공격 속도 %	10				tower_dungeon, chain_cave		
+s_doro_flask	도로시아의 플라스크	dorothea_tools	apothecary_flask	30	29	연금술 스킬 +	1	물약 효과 %	20				thames_marsh, dartmoor_barrow		
+s_doro_gloves	도로시아의 그을린 장갑	dorothea_tools	leather_gloves	29	29	화염 저항 %	20	독 피해(초당)	8				thames_marsh, dartmoor_barrow		
+s_doro_charm	도로시아의 시약 부적	dorothea_tools	charm_small	31	29	선장술 스킬 +	1	소환수 생명 %	15				thames_marsh, dartmoor_barrow		

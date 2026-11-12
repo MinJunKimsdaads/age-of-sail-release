@@ -89,3 +89,22 @@ pirate_ship	1	2	gold	6	potions	2	weapons	1	jewelry	1	sigils_low	1							해적 �
 sea_monster	1	1	gold	5	potions	2	jewelry	2	sigils_low	1									바다뱀 (⑤): 금화 · 장신구 · 물약 (비늘은 sea.ts가 따로)
 wreck_cargo	2	1	gold	5	potions	3	weapons	2	armors	2	jewelry	1	sigils_low	1					난파선의 짐 (⑤ 조우 — 건지면 두 번 굴림)
 smuggler	2	1	gold	6	potions	2	jewelry	1	sigils_low	1									밀수꾼 (L-6): 보따리 — 금화가 많이, 두 번 뽑음
+docks_extra	-2	0	smuggler	1	a4_oar	1													런던 부두 지하 추가드랍: 밀수꾼 보따리 1/10 꼴 (A4-1 — 금화 많이)
+elite_fog_hook	-3	0	elite	1	smuggler	1	a4_axe	1											안개 갈고리: 정예 드랍 + 밀수 보따리 (A4-1 — 유니크는 A4-7)
+moor_extra	-1	0	sigils_low	1															다트무어 황야 추가드랍: 문장석 1/10 꼴 (A4-2)
+barrow_extra	-2	0	jewelry	1	a4_flask	1													다트무어 고분 추가드랍: 장신구 1/10 꼴 (A4-2 — 옛 무덤의 부장품)
+elite_thorn_knight	-2	0	elite	1															꺾인 장미의 기사: 정예 드랍 (이끼 낀 왕검은 퀘스트 떨굼 (A4-2 — 메인 ②)
+tower_extra	-2	0	armors	1	a4_watch	1													왕의 탑 지하 감옥 추가드랍: 방어구 1/10 꼴 (A4-3 — 세트는 A4-7)
+keeper_desk	-2	0	chain_ledger_drop	1	a4_tome	1													사육관의 책상 (A4-3): 사슬 장부
+chain_ledger_drop	1	0	chain_ledger	1															사슬 장부 (메인 ③ 퀘스트 물건)
+boss_mist_scale	7	0	weapons	3	armors	3	jewelry	2	gold	2									왕실 드래곤 안개 비늘: 장비 7번 굴림 (A4-4 — 유니크는 A4-7)
+boss_mist_scale_all	-2	0	boss_mist_scale	1	jewelry	1													안개 비늘: 보스 드랍 + 장신구 (A4-4)
+glacier_extra	-2	0	sigils_palace	1															북해 빙하 동굴 추가드랍: 문장석 1/10 꼴 (A4-6)
+halvard_loot	7	0	weapons	3	armors	3	jewelry	3	sigils_palace	2	gold	1							서리 이빨 할바르드의 보물 (A4-6 — 7번 굴림)
+abyss_key4	1	0	abyss_key_4	1															심연의 열쇠 ④ (A4-6 — 할바르드 확정)
+boss_halvard_all	-3	0	halvard_loot	1	abyss_key4	1	a4_axe	1											서리 이빨 할바르드 (A4-6): 보물 + 심연의 열쇠 ④ 확정
+a4_axe	1	4	boarding_axe	1															보딩 액스 1/5 (A4-7 — 유니크 안개 갈고리 · 서리 이빨의 베이스)
+a4_tome	1	2	logbook	1															항해일지 1/3 (A4-7 — 유니크 블랙손의 사슬 장부의 베이스)
+a4_oar	1	60	sailor_staff	1															선원의 지팡이 1/61 — 지역 추가드랍(일반 몬스터마다) (A4-7 — 유니크 템스 뱃사공의 노의 베이스)
+a4_watch	1	60	plate_cuirass	1	deck_shield	1													판금 흉갑 · 갑판 방패 2/62 — 지역 추가드랍(일반 몬스터마다) (A4-7 — 세트 흰 탑의 파수꾼의 베이스)
+a4_flask	1	60	apothecary_flask	1															약제사 플라스크 1/61 — 지역 추가드랍(일반 몬스터마다) (A4-7 — 세트 연금술사 도로시아의 도구의 베이스)
