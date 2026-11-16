@@ -28,3 +28,6 @@ s_tower_gloves	파수꾼의 장갑	tower_watch	leather_gloves	29	29	방어력 +	
 s_doro_flask	도로시아의 플라스크	dorothea_tools	apothecary_flask	30	29	연금술 스킬 +	1	물약 효과 %	20				thames_marsh, dartmoor_barrow		
 s_doro_gloves	도로시아의 그을린 장갑	dorothea_tools	leather_gloves	29	29	화염 저항 %	20	독 피해(초당)	8				thames_marsh, dartmoor_barrow		
 s_doro_charm	도로시아의 시약 부적	dorothea_tools	charm_small	31	29	선장술 스킬 +	1	소환수 생명 %	15				thames_marsh, dartmoor_barrow		
+s_water_belt	조합의 물지게 띠	water_guild	rope_belt	36	36	생명력 +	40	물약 효과 %	15				cistern, bottle_chamber		
+s_water_boots	조합의 장화	water_guild	leather_boots	36	36	이동 속도 %	15	냉기 저항 %	15				cistern, bottle_chamber		
+s_water_hood	조합의 두건	water_guild	leather_cap	36	36	마나 +	40	방어력 %	40				cistern, bottle_chamber		

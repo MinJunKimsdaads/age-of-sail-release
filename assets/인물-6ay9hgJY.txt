@@ -46,3 +46,15 @@ oswald	근위 부관 오즈월드	근위 부관	london	look_npc_guard_officer	�
 dorothea	연금술사 도로시아	연금술사	london	look_npc_alchemist	서브 연금술사의 실험 (A4-5)
 ambrose	등대지기 앰브로즈	등대지기	thames_marsh	look_npc_lightkeeper	서브 안개 속의 등대 — 호위 (A4-5): 습지 서쪽 둑길에서 동쪽 끝 등대까지
 blackthorn	에드릭 블랙손 경	용 사육관	tower_dungeon	look_npc_blackthorn	악역 — 탑 3층 사육관의 방 · 사슬 굴에서 대사만 (싸우지 않음, A4-3 · A4-4)
+hyuma	물장수 조합장 휘마	조합장	istanbul	look_npc_hyuma	메인 ② 수조의 비밀 · ④ 대장과 지니 (A5-2 · A5-4) — 분수와 우물을 돌보는 조합의 어른
+nikos	서기 니코스	문장 각인사	istanbul	look_npc_nikos	메인 ① 바자르의 소문 (A5-1) · 문장석 각인 · 선장의 궤 — 항구 세관의 서기, 봉인과 장부를 읽는 사람
+shehnaz	이야기꾼 셰흐나즈	이야기꾼	istanbul	look_npc_shehnaz	메인 ③ 모래에 잠긴 유적 (A5-3) — 찻집의 이야기꾼
+davud	구리 대장장이 다부드	대장장이	istanbul	look_npc_davud	수리 (A5-0) — 구리 망치 소리의 주인
+miriam	향신료 상인 미리암	상인	istanbul	look_npc_miriam	물약 · 재료 사고팔기 · 서브 향신료 길 (A5-5) — 몇 해 전 세비야에서 건너온 집안
+artin	포목 상인 아르틴	상인	istanbul	look_npc_artin	무기 · 방어구 사고팔기 (A5-0) — 비단 · 가죽
+damiano	해도 상인 다미아노	해도관	istanbul	look_npc_damiano	실타래 해도 (A5-5 서브 신탁의 실타래) — 건너편 상관에서 온 베네치아 사람
+yakup	선창 감독 야쿠프	조선공	istanbul	look_npc_yakup	배 강화 · 판자 · 밧줄 · 돛천 팔기 · 서브 사슬 상인 (A5-5) — 금각만 선창의 목수 우두머리
+eleni	여관 주인 엘레니	선착장	istanbul	look_npc_eleni	선원 여관 — 창고 · 해도 맡기기 (뱃사람들의 배편을 주선) (A5-0)
+kerim	야경 등지기 케림	현상금	istanbul	look_npc_kerim	이스탄불 현상금 게시판 — 밤마다 등을 켜는 사람 (A5-0)
+paolo	주사위꾼 파올로	도박 상인	istanbul	look_npc_paolo	이스탄불 도박 상인 — 떠돌이 선원 (A5-0)
+blackthorn_caged	갇힌 블랙손 경	죄수	grand_bazaar	look_npc_blackthorn_caged	메인 ① 바자르의 소문 — 말라코의 우리에 갇힌 블랙손 (쓸모가 다해 버려짐, 싸우지 않음 · A5-1)

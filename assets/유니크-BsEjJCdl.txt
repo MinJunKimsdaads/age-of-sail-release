@@ -68,3 +68,12 @@ u_mist_scale_shield	안개 비늘 방패	hull_shield	34	34	막기 확률 %	20	�
 u_stormstar_echo	폭풍별의 메아리	amulet	34	34	번개 피해 +	45	폭풍술 스킬 +	1	마나 +	40					boss_mist_scale_all	시전 시:메아리 · 확률=15 · 쿨=6	폭풍별 조각이 박혀 있던 고리. 조각은 나침반으로 갔지만 울림은 남았다.
 u_halvard_helm	할바르드의 뿔 투구	captain_hat	36	36	힘 +	20	냉기 저항 %	30	방어력 %	70					boss_halvard_all	위기:시간의 모래 · 쿨=30	금빛 테를 두른 뿔 투구. 위태로울 때 둘레의 시간이 얼어붙는다.
 u_frost_fang	서리 이빨	boarding_axe	36	36	피해 %	150	냉기 피해 +	30	공격 속도 %	10					boss_halvard_all	처치 시:서리 발자국 · 지속=5	얼음 왕좌의 주인이 쥐던 날. 쓰러뜨린 자리마다 서리가 핀다.
+u_malako_flail	말라코의 사슬 추	navy_cutlass	37	37	피해 %	130	공격 속도 %	10	힘 +	15					elite_malako	타격 시:닻 내리기 · 확률=10 · 쿨=8	사슬 상인이 휘두르던 쇠사슬 추. 맞은 것들이 사슬에 감겨 끌려온다.
+u_lamplighter_lamp	등지기의 등불	charm_medium	35	35	조명 반경 +	3	모든 저항 %	10							golden_horn_quay, grand_bazaar	늘:등불 · 조명=3	야경 등지기가 밤마다 들고 다니던 작은 등. 죽은 것들은 이 빛을 싫어한다.
+u_bazaar_scale	바자르 저울	ring	36	36	골드 획득 %	60	마법 발견 %	20							grand_bazaar	처치 시:금화 비	저울 접시 모양의 구리 반지. 무게를 달 때마다 금화 소리가 난다.
+u_cistern_mirror	수조의 물거울	hull_shield	38	38	막기 확률 %	18	냉기 저항 %	35	방어력 %	50					cistern	막기 시:소용돌이 · 확률=20 · 쿨=6	수조 바닥에서 건진 방패. 물결 무늬가 살아 있는 것처럼 돈다.
+u_desert_eye_quill	사막의 눈 깃	double_pistol	40	40	피해 %	125	공격 속도 %	15							elite_desert_eye	처치 시:순풍 · 지속=4	사막의 눈의 꽁지깃을 총열에 묶었다. 한 발을 맞히면 다음 발이 가볍다.
+u_karasu_seal	카라수의 훔친 봉인	ring	41	41	모든 스킬 +	1	마법 발견 %	30	받는 물리 피해 %	10					boss_karasu_all	늘:탐욕	궁정에서 도둑맞았던 봉인 반지. 힘은 크지만 훔친 것에는 값이 붙는다 — 낀 사람은 더 아프게 맞는다.
+u_desertstar_whim	사막별의 변덕	astrologer_staff	41	41	원소 피해 %	40	시전 속도 %	20	마나 +	50					boss_karasu_all	타격 시:변덕	사막별 조각이 병마개였던 시절의 버릇이 남은 지팡이. 불일지 얼음일지 번개일지는 그날의 바람이 정한다.
+u_minotaur_horn	미노타우로스의 뿔	boarding_axe	43	43	피해 %	170	힘 +	25							boss_minotaur_all	위기:불굴 · 지속=2 · 쿨=60	미궁의 왕의 뿔로 자루를 댄 두 날 도끼. 쓰러질 듯한 순간에 한 번 더 버틴다.
+u_dock_whistle	선창 감독의 호루라기	silver_whistle	36	36	선장술 스킬 +	2	소환수 생명 %	30							golden_horn_quay, grand_bazaar	늘:유령 선원 · 수=1	금각만 선창에서 대대로 물려 쓰던 은 호루라기. 불면 옛 일꾼 하나가 일하러 나온다 (Q15 — 선장술).
