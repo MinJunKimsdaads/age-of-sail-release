@@ -697,3 +697,7 @@
 조합장화_땅	item_s_water_boots_ground.png	1	1	0	0	10		
 조합두건	item_s_water_hood.png	1	1	0	0	10		
 조합두건_땅	item_s_water_hood_ground.png	1	1	0	0	10		
+큰부적	item_charm_large.png	1	1	0	0	10		
+큰부적_땅	item_charm_large_ground.png	1	1	0	0	10		
+망각의럼	item_oblivion_rum.png	1	1	0	0	10		
+망각의럼_땅	item_oblivion_rum_ground.png	1	1	0	0	10		

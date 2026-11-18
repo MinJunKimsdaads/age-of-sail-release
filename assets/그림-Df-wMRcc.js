@@ -2439,4 +2439,13 @@ fx_reef	px_fx_reef.png	6	1	54	35	5			1	빛
 묻힌문	px_buried_gate.png	1	1	83	88	1			1	세계
 묻힌기둥	px_buried_pillar.png	3	1	40	69	1			1	세계
 청동기둥	px_bronze_pillar.png	1	1	16	75	1			1	세계
+큰부적	px_item_charm_large.png	1	1	9	32	1			1	조작판
+큰부적_땅	px_item_charm_large_ground.png	1	1	4	6	1			1	세계
+망각의럼	px_item_oblivion_rum.png	1	1	6	12	1			1	조작판
+망각의럼_땅	px_item_oblivion_rum_ground.png	1	1	6	6	1			1	세계
+교역_소금	px_item_trade_salt.png	1	1	9	12	1			1	조작판
+교역_올리브유	px_item_trade_oil.png	1	1	7	12	1			1	조작판
+교역_포도주	px_item_trade_wine.png	1	1	11	10	1			1	조작판
+교역_양모	px_item_trade_wool.png	1	1	12	11	1			1	조작판
+교역_향신료	px_item_trade_spice.png	1	1	11	7	1			1	조작판
 `;export{t as default};

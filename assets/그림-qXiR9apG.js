@@ -1339,4 +1339,13 @@ fx_reef	hr_fx_reef.png	6	1	210	160	5
 모래회오리정령_서기	hr_sand_whirl_idle.png	8	8	52	116	8		
 모래회오리정령_걷기	hr_sand_whirl_walk.png	8	8	66	116	12		
 물장수조합	hr_water_guild.png	1	1	450	431	1		
+큰부적	hr_item_charm_large.png	1	1	37	147	1		
+큰부적_땅	hr_item_charm_large_ground.png	1	1	18	18	1		
+망각의럼	hr_item_oblivion_rum.png	1	1	25	51	1		
+망각의럼_땅	hr_item_oblivion_rum_ground.png	1	1	19	17	1		
+교역_올리브유	hr_item_trade_oil.png	1	1	32	51	1		
+교역_소금	hr_item_trade_salt.png	1	1	40	51	1		
+교역_향신료	hr_item_trade_spice.png	1	1	51	31	1		
+교역_포도주	hr_item_trade_wine.png	1	1	51	45	1		
+교역_양모	hr_item_trade_wool.png	1	1	51	47	1		
 `;export{t as default};
