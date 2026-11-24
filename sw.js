@@ -1,7 +1,7 @@
 /* 부서진 나침반 서비스 워커 — 빌드가 만든 파일 (app/src/pwa/sw.ts). 고치지 말 것 */
-const VERSION = "7929ad9d049b";
+const VERSION = "7f04b2d8325d";
 const CACHE = "aos-shell-" + VERSION;
-const SHELL = ["apple-touch-icon.png","assets/basis_transcoder-VXdx5NbI.wasm","assets/basis_transcoder-o4Hde_L7.js","assets/compare-CW13BPXg.js","assets/hero3d-DMTdW2Sn.js","assets/index-9bbCUEU1.js","assets/index-Cw-Xw_Ul.css","assets/그림-BkW4QF6H.js","assets/그림-TfpIiVd1.js","assets/바닥색-DNsUiOOp.js","assets/아틀라스-CiMaROps.js","assets/주인공빛-CaCtOaq_.js","assets/주인공층-CUwyYTvz.js","assets/커서-CvlpvDTL.js","assets/커서-D7PicCp9.js","assets/효과색-CQgDNGL5.js","icon-192.png","icon-512.png","icon-maskable-192.png","icon-maskable-512.png","icon.ico","index.html","manifest.webmanifest"];
+const SHELL = ["apple-touch-icon.png","assets/basis_transcoder-VXdx5NbI.wasm","assets/basis_transcoder-o4Hde_L7.js","assets/compare-BCSHpIJI.js","assets/hero3d-Dr0JiPrP.js","assets/index-DlPm0xpT.js","assets/index-UM1dXB6o.css","assets/그림-C0pZqCpc.js","assets/그림-DgOM4-pm.js","assets/바닥색-DNsUiOOp.js","assets/아틀라스-CiMaROps.js","assets/주인공빛-CaCtOaq_.js","assets/주인공층-CUwyYTvz.js","assets/초상-DYfBt5OO.js","assets/커서-CvlpvDTL.js","assets/커서-D7PicCp9.js","assets/효과색-CQgDNGL5.js","icon-192.png","icon-512.png","icon-maskable-192.png","icon-maskable-512.png","icon.ico","index.html","manifest.webmanifest"];
 const SHELL_SET = new Set(SHELL);
 const scopePath = () => new URL(self.registration.scope).pathname;
 
