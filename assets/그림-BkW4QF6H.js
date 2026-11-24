@@ -2448,4 +2448,10 @@ fx_reef	px_fx_reef.png	6	1	54	35	5			1	빛
 교역_포도주	px_item_trade_wine.png	1	1	11	10	1			1	조작판
 교역_양모	px_item_trade_wool.png	1	1	12	11	1			1	조작판
 교역_향신료	px_item_trade_spice.png	1	1	11	7	1			1	조작판
+원정선1	px_item_exp_ship_1.png	1	1	12	12	1			1	조작판
+원정선2	px_item_exp_ship_2.png	1	1	11	12	1			1	조작판
+원정선3	px_item_exp_ship_3.png	1	1	11	12	1			1	조작판
+출구문양	px_portal_base.png	4	1	32	19	1			1	세계
+출구바늘	px_portal_needle.png	16	1	16	11	1			1	세계
+출구등	px_portal_post.png	5	1	8	40	1			1	세계
 `;export{t as default};

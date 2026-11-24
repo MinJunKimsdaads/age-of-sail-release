@@ -1348,4 +1348,10 @@ fx_reef	hr_fx_reef.png	6	1	210	160	5
 교역_향신료	hr_item_trade_spice.png	1	1	51	31	1		
 교역_포도주	hr_item_trade_wine.png	1	1	51	45	1		
 교역_양모	hr_item_trade_wool.png	1	1	51	47	1		
+원정선1	hr_item_exp_ship_1.png	1	1	51	54	1		
+원정선2	hr_item_exp_ship_2.png	1	1	49	54	1		
+원정선3	hr_item_exp_ship_3.png	1	1	49	54	1		
+출구문양	hr_portal_base.png	4	1	94	56	1		
+출구바늘	hr_portal_needle.png	16	1	48	34	1		
+출구등	hr_portal_post.png	5	1	22	121	1		
 `;export{t as default};
